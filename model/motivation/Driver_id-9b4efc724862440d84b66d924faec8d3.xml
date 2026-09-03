@@ -1,0 +1,15 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Experiencia 100% digital"
+    id="id-9b4efc724862440d84b66d924faec8d3"
+    documentation="El cliente espera resolver todo desde el celular, al instante y sin fricción.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="DR_DIG"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Driver>

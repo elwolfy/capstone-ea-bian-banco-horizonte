@@ -1,0 +1,15 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contabilidad y cumplimiento no cuadran"
+    id="id-848a3a83aa434bcbb5d406544e405ab9"
+    documentation="Reportes reconstruidos por separado (H-07).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="AS_CUMP"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Assessment>

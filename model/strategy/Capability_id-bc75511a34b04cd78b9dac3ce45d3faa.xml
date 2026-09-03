@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Originacion de Credito"
+    id="id-bc75511a34b04cd78b9dac3ce45d3faa"
+    documentation="DESCRIPCION&#xA;Captura y estructura la solicitud y la oferta de credito.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de evaluacion crediticia SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M3_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Captura y estructura la solicitud y la oferta de credito."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product, Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="Reglamento de evaluacion crediticia SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

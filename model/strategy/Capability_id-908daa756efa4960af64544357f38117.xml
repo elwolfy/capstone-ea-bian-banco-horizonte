@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pagos Inmediatos Interbancarios"
+    id="id-908daa756efa4960af64544357f38117"
+    documentation="DESCRIPCION&#xA;Transferencias inmediatas interoperables.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Instruction, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Interoperabilidad BCRP; CCE (Yape/Plin)&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M5_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Transferencias inmediatas interoperables."/>
+  <properties
+      key="Objetos de negocio"
+      value="Instruction, Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Interoperabilidad BCRP; CCE (Yape/Plin)"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de APIs y Open Finance"
+    id="id-44384d8897a24e1695145f9bf30df5c4"
+    documentation="DESCRIPCION&#xA;Publica y gobierna APIs hacia el ecosistema.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Interoperabilidad BCRP; vision Open Banking; ISO 20022&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E4_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Publica y gobierna APIs hacia el ecosistema."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product"/>
+  <properties
+      key="Sustento normativo"
+      value="Interoperabilidad BCRP; vision Open Banking; ISO 20022"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

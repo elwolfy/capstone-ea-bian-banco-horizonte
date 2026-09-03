@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PA-02: Estándares abiertos del sector (BIAN)"
+    id="id-8024d90a2e904e02a61e8239df48095a"
+    documentation="Enunciado: se adoptan estándares abiertos de la industria, en particular BIAN. Fundamento: interoperabilidad y lenguaje común probados. Implicancia: dominios y APIs alineados a BIAN.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PA02"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

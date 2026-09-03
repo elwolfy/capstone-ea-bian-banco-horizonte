@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Marco legal SBS (Ley 26702)"
+    id="id-f7b4aafc18af44edbd78282aace4ae80"
+    documentation="La actividad está delimitada por la Ley General del Sistema Financiero.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="CN_MARCO"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Constraint>

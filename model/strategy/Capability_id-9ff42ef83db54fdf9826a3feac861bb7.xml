@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Seguridad y Ciberseguridad"
+    id="id-9ff42ef83db54fdf9826a3feac861bb7"
+    documentation="DESCRIPCION&#xA;Protege la informacion, los activos digitales y la continuidad del negocio.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;-&#xA;&#xA;SUSTENTO NORMATIVO&#xA;DL 1531; seguridad de la informacion SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H3"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="H3"/>
+  <properties
+      key="Descripcion"
+      value="Protege la informacion, los activos digitales y la continuidad del negocio."/>
+  <properties
+      key="Objetos de negocio"
+      value="-"/>
+  <properties
+      key="Sustento normativo"
+      value="DL 1531; seguridad de la informacion SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

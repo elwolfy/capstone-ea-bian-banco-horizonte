@@ -1,0 +1,15 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Eficiencia y time-to-market"
+    id="id-aab3af1cfdfa40d497ae0fac67e50db1"
+    documentation="Reducir costos y lanzar productos y cambios con rapidez.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="DR_EFI"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Driver>

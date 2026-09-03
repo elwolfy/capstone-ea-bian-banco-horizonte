@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion Financiera y Contable"
+    id="id-f7fbc2a907cc49eeb794005261031db6"
+    documentation="DESCRIPCION&#xA;Registra la contabilidad, la reporteria y administra la tesoreria.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Manual de Contabilidad SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H1"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="H1"/>
+  <properties
+      key="Descripcion"
+      value="Registra la contabilidad, la reporteria y administra la tesoreria."/>
+  <properties
+      key="Objetos de negocio"
+      value="Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Manual de Contabilidad SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

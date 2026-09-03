@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de la Relacion con el Cliente (CRM)"
+    id="id-ca5a70206cd7440eb39459f2442ec39a"
+    documentation="DESCRIPCION&#xA;Administra el vinculo comercial y el ciclo de vida del cliente.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Proteccion al consumidor SBS/Indecopi&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M1_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Administra el vinculo comercial y el ciclo de vida del cliente."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party"/>
+  <properties
+      key="Sustento normativo"
+      value="Proteccion al consumidor SBS/Indecopi"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

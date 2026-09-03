@@ -1,0 +1,15 @@
+<archimate:Stakeholder
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gerencia de TI / Sistemas"
+    id="id-9fb5fed0775945e8949a0a53a0f3e371"
+    documentation="Responsable de la plataforma tecnológica y de habilitar la transformación digital.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="SH_TI"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Stakeholder>

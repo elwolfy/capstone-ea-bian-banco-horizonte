@@ -1,0 +1,18 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Franja Estrategica"
+    id="id-1a3ec6eaf3f04ca8b5d394a2f9e334a6"
+    documentation="Franja de capacidades Estrategica (BIZBOK: Directing / Strategic). Agrupa las capacidades de negocio de este tipo para Banco Horizonte.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="BAND_E"/>
+  <properties
+      key="BIZBOK"
+      value="BIZBOK: Directing / Strategic"/>
+  <properties
+      key="Nivel"
+      value="Franja"/>
+</archimate:Grouping>

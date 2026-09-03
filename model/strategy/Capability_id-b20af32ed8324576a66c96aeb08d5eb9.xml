@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Ejecucion de Pagos y Desembolso"
+    id="id-b20af32ed8324576a66c96aeb08d5eb9"
+    documentation="DESCRIPCION&#xA;Ejecuta pagos y desembolsos segun el arreglo.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Instruction, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de sistemas de pago BCRP&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M5_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Ejecuta pagos y desembolsos segun el arreglo."/>
+  <properties
+      key="Objetos de negocio"
+      value="Instruction, Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Reglamento de sistemas de pago BCRP"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

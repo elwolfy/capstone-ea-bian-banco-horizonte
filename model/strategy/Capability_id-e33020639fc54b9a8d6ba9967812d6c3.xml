@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reporteria Regulatoria y Financiera"
+    id="id-e33020639fc54b9a8d6ba9967812d6c3"
+    documentation="DESCRIPCION&#xA;Elabora reportes financieros y regulatorios.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reportes SBS; ISO 20022&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H1_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Elabora reportes financieros y regulatorios."/>
+  <properties
+      key="Objetos de negocio"
+      value="Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Reportes SBS; ISO 20022"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

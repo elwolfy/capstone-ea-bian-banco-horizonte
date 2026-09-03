@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compromiso con la inclusión"
+    id="id-ab642d0f7c1a4f9abf181b37787c06df"
+    documentation="Trabajamos para que más personas accedan al sistema financiero.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="VAL_INC"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

@@ -1,0 +1,15 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Obsolescencia del core bancario"
+    id="id-f34b63a0b96c41e7a17a86a189573916"
+    documentation="El core monolítico limita la evolución y encarece el cambio.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="DR_CORE"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Driver>

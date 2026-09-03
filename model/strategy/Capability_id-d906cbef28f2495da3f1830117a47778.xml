@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Alianzas y Ecosistema"
+    id="id-d906cbef28f2495da3f1830117a47778"
+    documentation="DESCRIPCION&#xA;Gobierna alianzas con comercios, corresponsales y futuros partners de Open Finance.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Interoperabilidad BCRP; vision Open Finance&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E1_4"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Gobierna alianzas con comercios, corresponsales y futuros partners de Open Finance."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party"/>
+  <properties
+      key="Sustento normativo"
+      value="Interoperabilidad BCRP; vision Open Finance"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cumplimiento Ley 26702 (SBS)"
+    id="id-0598d017c89c459c9ecf6f2b4893b4dc"
+    documentation="La operación debe cumplir la Ley General del Sistema Financiero.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="RQ_26702"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Requirement>

@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PD-02: Privacidad por diseño"
+    id="id-1a8e4fe70ac54c57983b9909672ade15"
+    documentation="Enunciado: la privacidad se incorpora desde el diseño. Fundamento: Ley 29733 y confianza. Implicancia: minimización y protección de datos por defecto.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PD02"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

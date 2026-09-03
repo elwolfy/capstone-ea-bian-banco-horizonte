@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Experiencia y Servicio al Cliente"
+    id="id-39f2057a36fe4c059a2c972efaba7317"
+    documentation="DESCRIPCION&#xA;Atiende consultas, reclamos y soporte omnicanal.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de atencion al usuario SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M1_4"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Atiende consultas, reclamos y soporte omnicanal."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party"/>
+  <properties
+      key="Sustento normativo"
+      value="Reglamento de atencion al usuario SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

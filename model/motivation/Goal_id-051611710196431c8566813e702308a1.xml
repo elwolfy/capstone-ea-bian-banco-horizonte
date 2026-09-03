@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H5: Modelo operativo ágil"
+    id="id-051611710196431c8566813e702308a1"
+    documentation="Formas de trabajo que permiten evolucionar con rapidez.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="HAB5"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

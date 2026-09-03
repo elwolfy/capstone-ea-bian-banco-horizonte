@@ -1,0 +1,14 @@
+<archimate:InfluenceRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-56f249e8e7434f50ba148d5ef11a058f">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <source
+      xsi:type="archimate:Driver"
+      href="Driver_id-d2ba63e99cc040b183b18d479e587092.xml#id-d2ba63e99cc040b183b18d479e587092"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_id-469816ec8dcd441fae8836559317822d.xml#id-469816ec8dcd441fae8836559317822d"/>
+</archimate:InfluenceRelationship>

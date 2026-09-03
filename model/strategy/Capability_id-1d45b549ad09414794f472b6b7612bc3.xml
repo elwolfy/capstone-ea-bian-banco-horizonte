@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Arquitectura Empresarial"
+    id="id-1d45b549ad09414794f472b6b7612bc3"
+    documentation="DESCRIPCION&#xA;Gobierna arquitectura de negocio, datos, aplicaciones y tecnologia.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;-&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Gobierno de TI (COBIT)&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H2_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Gobierna arquitectura de negocio, datos, aplicaciones y tecnologia."/>
+  <properties
+      key="Objetos de negocio"
+      value="-"/>
+  <properties
+      key="Sustento normativo"
+      value="Gobierno de TI (COBIT)"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

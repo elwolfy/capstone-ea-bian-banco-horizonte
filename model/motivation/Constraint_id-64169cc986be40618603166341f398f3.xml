@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Objeto social: personas, empresas y pymes"
+    id="id-64169cc986be40618603166341f398f3"
+    documentation="El negocio se circunscribe a su objeto social autorizado.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="CN_OBJ"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Constraint>

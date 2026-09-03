@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Innovación con propósito"
+    id="id-da0d11218e6a4b6a939d235085e816cf"
+    documentation="Innovamos para incluir y mejorar la vida financiera de las personas.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="VAL_INN"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

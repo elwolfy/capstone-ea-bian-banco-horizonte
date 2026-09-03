@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Diseno y Configuracion de Productos (Condiciones)"
+    id="id-6ecc84197e1249b3a5e53e9a886254fe"
+    documentation="DESCRIPCION&#xA;Define productos y sus paquetes de condiciones (Arrangement).&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Transparencia y tasas SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M2_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Define productos y sus paquetes de condiciones (Arrangement)."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product, Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="Transparencia y tasas SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

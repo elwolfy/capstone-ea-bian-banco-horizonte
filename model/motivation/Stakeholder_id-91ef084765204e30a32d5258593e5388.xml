@@ -1,0 +1,15 @@
+<archimate:Stakeholder
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UIF"
+    id="id-91ef084765204e30a32d5258593e5388"
+    documentation="Exige prevención del lavado de activos (PLAFT).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="SH_UIF"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Stakeholder>

@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gobierno, Riesgo y Cumplimiento"
+    id="id-2668fd9d7d6f446cae4b45c9b6569d5c"
+    documentation="DESCRIPCION&#xA;Asegura el cumplimiento regulatorio, la prevencion de delitos financieros y la proteccion de datos.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS; UIF; Ley 29733&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E3"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="E3"/>
+  <properties
+      key="Descripcion"
+      value="Asegura el cumplimiento regulatorio, la prevencion de delitos financieros y la proteccion de datos."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party, Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="SBS; UIF; Ley 29733"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

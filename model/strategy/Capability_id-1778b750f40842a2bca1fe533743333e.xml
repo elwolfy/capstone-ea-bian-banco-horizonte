@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Innovacion y Transformacion Digital"
+    id="id-1778b750f40842a2bca1fe533743333e"
+    documentation="DESCRIPCION&#xA;Impulsa la consolidacion de la banca digital y nuevos modelos de negocio.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley 29985 (dinero electronico); DL 1531&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E4"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="E4"/>
+  <properties
+      key="Descripcion"
+      value="Impulsa la consolidacion de la banca digital y nuevos modelos de negocio."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product"/>
+  <properties
+      key="Sustento normativo"
+      value="Ley 29985 (dinero electronico); DL 1531"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Productos y Acuerdos"
+    id="id-774ad0cbbefd4655a20ae2ec69700e68"
+    documentation="DESCRIPCION&#xA;Disena productos, define condiciones (arreglos) y administra los acuerdos.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product, Agreement, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de transparencia SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M2"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="M2"/>
+  <properties
+      key="Descripcion"
+      value="Disena productos, define condiciones (arreglos) y administra los acuerdos."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product, Agreement, Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="Reglamento de transparencia SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

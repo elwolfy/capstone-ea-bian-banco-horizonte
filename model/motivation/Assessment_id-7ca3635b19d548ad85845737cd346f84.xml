@@ -1,0 +1,15 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Datos dispersos, sin fuente única"
+    id="id-7ca3635b19d548ad85845737cd346f84"
+    documentation="Información duplicada, no explotable para analítica/IA (H-02, H-11).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="AS_DAT"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Assessment>

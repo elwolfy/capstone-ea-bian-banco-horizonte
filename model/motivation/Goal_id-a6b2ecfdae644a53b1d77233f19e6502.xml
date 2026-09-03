@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H4: Gobernanza y cumplimiento"
+    id="id-a6b2ecfdae644a53b1d77233f19e6502"
+    documentation="Gobierno, cumplimiento y seguridad como base de confianza.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="HAB4"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

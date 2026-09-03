@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion Legal y Societaria"
+    id="id-74fd25f9e534432683d0af1792f270c7"
+    documentation="DESCRIPCION&#xA;Asegura el cumplimiento legal y societario.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;-&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley General de Sociedades&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H4_4"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Asegura el cumplimiento legal y societario."/>
+  <properties
+      key="Objetos de negocio"
+      value="-"/>
+  <properties
+      key="Sustento normativo"
+      value="Ley General de Sociedades"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

@@ -1,0 +1,15 @@
+<archimate:Stakeholder
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Clientes (personas, empresas y pymes)"
+    id="id-85220eb55eb94c77ab913e73c986dcb6"
+    documentation="Base histórica de crédito y ahorro; exigen rapidez, autoservicio y disponibilidad.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="SH_CLI"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Stakeholder>

@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Riesgo de Mercado y Liquidez"
+    id="id-74f86f3aa4a64d228f58138bed41ef0b"
+    documentation="DESCRIPCION&#xA;Gestiona liquidez, tasas y encaje legal.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Encaje legal BCRP; SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E2_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Gestiona liquidez, tasas y encaje legal."/>
+  <properties
+      key="Objetos de negocio"
+      value="Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Encaje legal BCRP; SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

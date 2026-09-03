@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="P2: Profundizar la inclusión financiera"
+    id="id-44f9c3c89106443a9006303f85204ca1"
+    documentation="Incorporar a no bancarizados y ampliar el acceso a crédito y ahorro.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PIL2"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

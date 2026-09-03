@@ -1,0 +1,15 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Presión regulatoria y de datos"
+    id="id-aab2638f6ba44f98b0a80d81453f8e7e"
+    documentation="Cumplimiento continuo (SBS, BCRP, UIF) y protección de datos como condición de operación.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="DR_REG"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Driver>

@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Plataformas y Core Bancario"
+    id="id-f80acc7c969a462480e1780c3ad81cd3"
+    documentation="DESCRIPCION&#xA;Administra el core y las plataformas de servicio.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;-&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Gestion de riesgo tecnologico SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H2_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Administra el core y las plataformas de servicio."/>
+  <properties
+      key="Objetos de negocio"
+      value="-"/>
+  <properties
+      key="Sustento normativo"
+      value="Gestion de riesgo tecnologico SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

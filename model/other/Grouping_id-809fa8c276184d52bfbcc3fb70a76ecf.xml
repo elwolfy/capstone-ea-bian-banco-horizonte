@@ -1,0 +1,18 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Franja Habilitadora"
+    id="id-809fa8c276184d52bfbcc3fb70a76ecf"
+    documentation="Franja de capacidades Habilitadora (BIZBOK: Supporting / Enabling). Agrupa las capacidades de negocio de este tipo para Banco Horizonte.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="BAND_H"/>
+  <properties
+      key="BIZBOK"
+      value="BIZBOK: Supporting / Enabling"/>
+  <properties
+      key="Nivel"
+      value="Franja"/>
+</archimate:Grouping>

@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Protección de datos (Ley 29733)"
+    id="id-dd19247bbe3548dd846ae75112f92663"
+    documentation="Cumplir la Ley de Protección de Datos Personales.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="RQ_29733"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Requirement>

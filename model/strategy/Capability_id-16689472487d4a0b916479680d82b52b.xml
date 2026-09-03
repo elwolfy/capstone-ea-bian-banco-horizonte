@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Valor Almacenado / Billetera"
+    id="id-16689472487d4a0b916479680d82b52b"
+    documentation="DESCRIPCION&#xA;Cuenta de valor almacenado (dinero electronico) para billetera digital.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Account&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley 29985 de Dinero Electronico&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M4_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Cuenta de valor almacenado (dinero electronico) para billetera digital."/>
+  <properties
+      key="Objetos de negocio"
+      value="Account"/>
+  <properties
+      key="Sustento normativo"
+      value="Ley 29985 de Dinero Electronico"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

@@ -1,0 +1,15 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Baja agilidad de productos"
+    id="id-fe79be421064499fb1ad9999f1ad1495"
+    documentation="Crear o cambiar un producto toma meses (H-05).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="AS_PROD"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Assessment>

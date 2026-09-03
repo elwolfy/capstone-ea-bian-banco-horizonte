@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H3: Datos y analítica (IA)"
+    id="id-cabda98f4c7a49faae836cd115cbc23e"
+    documentation="Datos únicos y gobernados que habilitan analítica e IA.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="HAB3"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

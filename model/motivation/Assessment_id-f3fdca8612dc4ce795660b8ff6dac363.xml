@@ -1,0 +1,15 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Core monolítico rígido y costoso"
+    id="id-f3fdca8612dc4ce795660b8ff6dac363"
+    documentation="Cambios caros y riesgosos; integraciones punto a punto (H-08, H-12).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="AS_CORE"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Assessment>

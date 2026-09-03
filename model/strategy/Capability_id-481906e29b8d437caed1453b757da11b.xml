@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Registro y Onboarding de Clientes (KYC)"
+    id="id-481906e29b8d437caed1453b757da11b"
+    documentation="DESCRIPCION&#xA;Alta e identificacion del cliente (digital y presencial).&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;KYC SBS; UIF; Ley 29733&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M1_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Alta e identificacion del cliente (digital y presencial)."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party"/>
+  <properties
+      key="Sustento normativo"
+      value="KYC SBS; UIF; Ley 29733"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

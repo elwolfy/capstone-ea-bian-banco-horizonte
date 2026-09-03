@@ -1,0 +1,15 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Competencia de fintechs"
+    id="id-a04075f4f39d4580a71cf5e5682dd242"
+    documentation="Actores digitales capturan clientes con onboarding en minutos y costos bajos.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="DR_FIN"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Driver>

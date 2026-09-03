@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Canales digitales de extremo a extremo"
+    id="id-8e5b1421dc19451390d734b25d8e9d01"
+    documentation="App y banca web deben permitir operar por completo, no solo consultar.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="RQ_CAN"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Requirement>

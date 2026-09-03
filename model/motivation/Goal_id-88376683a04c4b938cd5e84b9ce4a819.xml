@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="P3: Conocer y acompañar al cliente"
+    id="id-88376683a04c4b938cd5e84b9ce4a819"
+    documentation="Personalizar el servicio con base en datos y cercanía.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PIL3"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

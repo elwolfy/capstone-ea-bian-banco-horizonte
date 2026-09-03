@@ -1,0 +1,15 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Banca digital incompleta"
+    id="id-9a3382cb7781445d87ab622f2fe710b7"
+    documentation="Los canales permiten consultar pero no operar de extremo a extremo (H-03, H-10).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="AS_BD"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Assessment>

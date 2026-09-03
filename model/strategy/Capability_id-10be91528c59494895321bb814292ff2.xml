@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Portafolio de Negocios y Productos"
+    id="id-10be91528c59494895321bb814292ff2"
+    documentation="DESCRIPCION&#xA;Administra la cartera de negocios y productos.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de productos SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E1_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Administra la cartera de negocios y productos."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product"/>
+  <properties
+      key="Sustento normativo"
+      value="Reglamento de productos SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Provisiones"
+    id="id-9536a348d47040fda16b1ca360c7200e"
+    documentation="DESCRIPCION&#xA;Constituye provisiones por riesgo de credito.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Provisiones dinamicas SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E3_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Constituye provisiones por riesgo de credito."/>
+  <properties
+      key="Objetos de negocio"
+      value="Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="Provisiones dinamicas SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

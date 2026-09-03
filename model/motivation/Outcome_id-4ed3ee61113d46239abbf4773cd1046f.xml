@@ -1,0 +1,15 @@
+<archimate:Outcome
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="≥ 70% de operaciones por canales digitales (2027)"
+    id="id-4ed3ee61113d46239abbf4773cd1046f"
+    documentation="Indicador: % de operaciones vía canales digitales. Meta: ≥70%. Plazo: 2027. Mide la consolidación de la banca digital.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="OU1"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Outcome>

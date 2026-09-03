@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Tecnologia y Arquitectura"
+    id="id-c9034e17bc964be8b404951e003962cb"
+    documentation="DESCRIPCION&#xA;Gobierna la plataforma tecnologica, la arquitectura, la integracion y los datos.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;(todos)&#xA;&#xA;SUSTENTO NORMATIVO&#xA;COBIT; DL 1531&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H2"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="H2"/>
+  <properties
+      key="Descripcion"
+      value="Gobierna la plataforma tecnologica, la arquitectura, la integracion y los datos."/>
+  <properties
+      key="Objetos de negocio"
+      value="(todos)"/>
+  <properties
+      key="Sustento normativo"
+      value="COBIT; DL 1531"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

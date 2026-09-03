@@ -1,0 +1,15 @@
+<archimate:Outcome
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Lanzar/ajustar productos en ≤ 2 semanas"
+    id="id-8f5d2938a77843adbea268dde3c90b1d"
+    documentation="Indicador: lead time de cambios de producto. Meta: ≤2 semanas. Plazo: 2027. Mide la agilidad de productos.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="OU5"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Outcome>

@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Identidad y Autenticacion de Clientes"
+    id="id-6bd5b74a058e4e548d4dcf593a14f1ca"
+    documentation="DESCRIPCION&#xA;Verifica identidad y autentica al cliente en canales y APIs.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;DL 1531; seguridad de la informacion SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M1_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Verifica identidad y autentica al cliente en canales y APIs."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party"/>
+  <properties
+      key="Sustento normativo"
+      value="DL 1531; seguridad de la informacion SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

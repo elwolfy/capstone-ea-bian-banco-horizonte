@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Tarifas y Precios"
+    id="id-4e438f9211fc470eb0c5b8348c876d2f"
+    documentation="DESCRIPCION&#xA;Establece comisiones, tasas y precios por producto.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Transparencia de comisiones SBS/Indecopi&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M2_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Establece comisiones, tasas y precios por producto."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product"/>
+  <properties
+      key="Sustento normativo"
+      value="Transparencia de comisiones SBS/Indecopi"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

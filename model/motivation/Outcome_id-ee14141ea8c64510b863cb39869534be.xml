@@ -1,0 +1,15 @@
+<archimate:Outcome
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tiempo de aprobación de crédito ≤ 24 horas"
+    id="id-ee14141ea8c64510b863cb39869534be"
+    documentation="Indicador: tiempo desde la solicitud hasta la aprobación del crédito. Meta: ≤24 h. Plazo: 2027. Mide la agilidad del crédito.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="OU3"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Outcome>

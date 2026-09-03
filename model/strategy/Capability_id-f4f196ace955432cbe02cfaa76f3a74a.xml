@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contabilidad y Registro Financiero (Ledger)"
+    id="id-f4f196ace955432cbe02cfaa76f3a74a"
+    documentation="DESCRIPCION&#xA;Registra las transacciones y mantiene el libro mayor.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Manual de Contabilidad SBS; PCGE&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H1_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Registra las transacciones y mantiene el libro mayor."/>
+  <properties
+      key="Objetos de negocio"
+      value="Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Manual de Contabilidad SBS; PCGE"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

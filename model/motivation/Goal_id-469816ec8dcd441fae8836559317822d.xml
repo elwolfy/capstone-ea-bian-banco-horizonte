@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Aspiración: banco digital líder en inclusión y experiencia"
+    id="id-469816ec8dcd441fae8836559317822d"
+    documentation="Norte estratégico: ser referente en banca digital simple e inclusiva en Perú, proyectándose a la región.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="G_ASP"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

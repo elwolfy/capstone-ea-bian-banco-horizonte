@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="P1: Consolidar la banca digital"
+    id="id-3fc6757611b646b2bffae1a4c1f845ae"
+    documentation="Experiencia 100% digital de extremo a extremo en app y banca web.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PIL1"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

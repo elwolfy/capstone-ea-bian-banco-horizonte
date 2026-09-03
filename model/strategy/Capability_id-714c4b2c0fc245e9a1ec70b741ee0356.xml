@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pagos con Referencia en Retail (ComproPago)"
+    id="id-714c4b2c0fc245e9a1ec70b741ee0356"
+    documentation="DESCRIPCION&#xA;Cobro/pago en efectivo por referencia en red retail (inclusion de no bancarizados).&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Instruction, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de cajeros corresponsales SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M5_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Cobro/pago en efectivo por referencia en red retail (inclusion de no bancarizados)."/>
+  <properties
+      key="Objetos de negocio"
+      value="Instruction, Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Reglamento de cajeros corresponsales SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

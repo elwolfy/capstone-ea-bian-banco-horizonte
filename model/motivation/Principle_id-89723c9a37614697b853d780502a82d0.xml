@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PT-02: Adopción de tecnologías digitales"
+    id="id-89723c9a37614697b853d780502a82d0"
+    documentation="Enunciado: la arquitectura adopta tecnologías digitales habilitadoras -nube (cloud), móvil, redes sociales, IoT e IA- cuando aporten valor. Fundamento: son las palancas de la banca digital, la inclusión y la eficiencia; evitan el rezago tecnológico. Implicancia: plataforma cloud-ready y móvil-first; casos de uso de IA/IoT/redes sociales evaluados con gobierno de datos, seguridad y cumplimiento.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PT02"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

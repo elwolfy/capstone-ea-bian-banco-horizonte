@@ -1,0 +1,15 @@
+<archimate:Stakeholder
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BCRP"
+    id="id-53768b3aff4a4974b452288346aaf159"
+    documentation="Encaje e interoperabilidad de pagos inmediatos (Yape/Plin).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="SH_BCRP"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Stakeholder>

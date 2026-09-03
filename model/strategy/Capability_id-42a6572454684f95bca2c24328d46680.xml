@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Depositos a Plazo"
+    id="id-42a6572454684f95bca2c24328d46680"
+    documentation="DESCRIPCION&#xA;Constitucion y gestion de depositos a plazo.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Account, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS; Fondo de Seguro de Depositos&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M4_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Constitucion y gestion de depositos a plazo."/>
+  <properties
+      key="Objetos de negocio"
+      value="Account, Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="SBS; Fondo de Seguro de Depositos"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

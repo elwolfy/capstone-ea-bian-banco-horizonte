@@ -1,0 +1,18 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Franja Misional"
+    id="id-8da927962af74ee38dfa4cae1cc41957"
+    documentation="Franja de capacidades Misional (BIZBOK: Core / Customer-facing). Agrupa las capacidades de negocio de este tipo para Banco Horizonte.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="BAND_M"/>
+  <properties
+      key="BIZBOK"
+      value="BIZBOK: Core / Customer-facing"/>
+  <properties
+      key="Nivel"
+      value="Franja"/>
+</archimate:Grouping>

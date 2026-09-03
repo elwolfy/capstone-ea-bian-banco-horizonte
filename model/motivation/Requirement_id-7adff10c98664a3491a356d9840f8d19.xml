@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Renovación del core bancario"
+    id="id-7adff10c98664a3491a356d9840f8d19"
+    documentation="El core debe modernizarse a un modelo modular y evolucionable.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="RQ_CORE"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Requirement>

@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PA-03: API-first"
+    id="id-cbcd3ee0ee224afd89d2e49422c940c4"
+    documentation="Enunciado: las capacidades se exponen y consumen por APIs con contrato. Fundamento: integración ágil y ecosistemas. Implicancia: contratos versionados; sin integración punto a punto.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PA03"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

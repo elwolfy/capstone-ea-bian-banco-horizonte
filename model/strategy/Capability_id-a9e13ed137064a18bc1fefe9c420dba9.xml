@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Captacion y Depositos"
+    id="id-a9e13ed137064a18bc1fefe9c420dba9"
+    documentation="DESCRIPCION&#xA;Capta ahorro y administra cuentas de deposito y valor almacenado.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Account, Product, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS; FSD; Ley 29985&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M4"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="M4"/>
+  <properties
+      key="Descripcion"
+      value="Capta ahorro y administra cuentas de deposito y valor almacenado."/>
+  <properties
+      key="Objetos de negocio"
+      value="Account, Product, Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="SBS; FSD; Ley 29985"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

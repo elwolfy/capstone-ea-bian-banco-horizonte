@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Estrategia y Expansion"
+    id="id-005dc7e5770d4a12ab068e98206f5860"
+    documentation="DESCRIPCION&#xA;Gobierna la estrategia de crecimiento y la VISION de expansion a Mexico y Brasil como banco digital, condicionada a consolidar antes la banca digital en Peru.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS (PE). Vision de largo plazo: CNBV/Ley Fintech (MX), BCB/Open Finance (BR)&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E1_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Gobierna la estrategia de crecimiento y la VISION de expansion a Mexico y Brasil como banco digital, condicionada a consolidar antes la banca digital en Peru."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party"/>
+  <properties
+      key="Sustento normativo"
+      value="SBS (PE). Vision de largo plazo: CNBV/Ley Fintech (MX), BCB/Open Finance (BR)"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

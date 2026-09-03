@@ -1,0 +1,15 @@
+<archimate:Stakeholder
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Directorio y Alta Dirección"
+    id="id-7ead11cbcc8a4932bfbaea752bf3c5cd"
+    documentation="Define la estrategia y prioriza inversiones; busca crecer y modernizar sin perder la solidez de 40 años.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="SH_DIR"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Stakeholder>

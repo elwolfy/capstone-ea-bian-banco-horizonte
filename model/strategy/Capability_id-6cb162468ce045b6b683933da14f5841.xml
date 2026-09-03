@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Evaluacion y Decision (Scoring)"
+    id="id-6cb162468ce045b6b683933da14f5841"
+    documentation="DESCRIPCION&#xA;Evalua capacidad de pago y decide el otorgamiento.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Riesgo de credito SBS; Central de Riesgos&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M3_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Evalua capacidad de pago y decide el otorgamiento."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party, Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="Riesgo de credito SBS; Central de Riesgos"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

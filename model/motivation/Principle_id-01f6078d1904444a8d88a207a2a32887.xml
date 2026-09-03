@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PD-01: Datos como activo estratégico"
+    id="id-01f6078d1904444a8d88a207a2a32887"
+    documentation="Enunciado: los datos se gestionan como activo, con dueño y calidad. Fundamento: habilitan analítica e IA. Implicancia: gobierno de datos y fuente única de verdad.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PD01"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

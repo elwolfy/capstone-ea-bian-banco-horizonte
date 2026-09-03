@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Canales y Distribucion"
+    id="id-4caa7fc950754c6b9bf18850e54e9593"
+    documentation="DESCRIPCION&#xA;Distribuye productos y servicios por canales fisicos, digitales y de terceros.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Cajeros corresponsales SBS; canales&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M6"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="M6"/>
+  <properties
+      key="Descripcion"
+      value="Distribuye productos y servicios por canales fisicos, digitales y de terceros."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party, Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Cajeros corresponsales SBS; canales"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

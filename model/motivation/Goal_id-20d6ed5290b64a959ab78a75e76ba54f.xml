@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="P4: Operación moderna y eficiente"
+    id="id-20d6ed5290b64a959ab78a75e76ba54f"
+    documentation="Modernizar el core y los procesos para operar ágil y a menor costo.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PIL4"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

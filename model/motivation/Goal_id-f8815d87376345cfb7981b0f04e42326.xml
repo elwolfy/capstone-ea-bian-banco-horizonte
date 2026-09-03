@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H1: Innovación y transformación digital"
+    id="id-f8815d87376345cfb7981b0f04e42326"
+    documentation="Capacidad de crear y lanzar nuevos productos y experiencias digitales.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="HAB1"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

@@ -1,0 +1,15 @@
+<archimate:Outcome
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="100% de operaciones de agentes en tiempo real"
+    id="id-451a9332fe2c4e41b4386a54e114e01a"
+    documentation="Indicador: % de operaciones en agentes reflejadas al instante. Meta: 100%. Plazo: 2027.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="OU4"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Outcome>

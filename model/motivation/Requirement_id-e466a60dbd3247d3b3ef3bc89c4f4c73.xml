@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gobierno de datos (fuente única)"
+    id="id-e466a60dbd3247d3b3ef3bc89c4f4c73"
+    documentation="Debe existir una fuente única y gobernada de datos.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="RQ_GD"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Requirement>

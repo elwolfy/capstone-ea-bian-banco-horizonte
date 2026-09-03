@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Riesgos"
+    id="id-fe448d13cda64c7c834c0d3d13f36955"
+    documentation="DESCRIPCION&#xA;Identifica, mide y controla los riesgos financieros y no financieros.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Arrangement, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Basilea III; SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E2"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="E2"/>
+  <properties
+      key="Descripcion"
+      value="Identifica, mide y controla los riesgos financieros y no financieros."/>
+  <properties
+      key="Objetos de negocio"
+      value="Arrangement, Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Basilea III; SBS"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

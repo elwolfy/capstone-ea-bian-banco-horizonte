@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Migración sin big-bang"
+    id="id-00c1794be77140a48b77fec4470df9ea"
+    documentation="La modernización debe hacerse por partes, sin interrumpir la operación.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="CN_MIG"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Constraint>

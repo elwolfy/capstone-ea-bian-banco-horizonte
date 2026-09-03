@@ -1,0 +1,15 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Procesos lentos: onboarding y crédito"
+    id="id-8610ca971b774ece96ec12fd4a1060a1"
+    documentation="Vinculación y crédito con demasiados pasos y tiempos (H-01, H-06).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="AS_PROC"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Assessment>

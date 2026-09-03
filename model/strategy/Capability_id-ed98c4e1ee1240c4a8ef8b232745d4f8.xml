@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion del Centro de Innovacion (Horizonte Labs)"
+    id="id-ed98c4e1ee1240c4a8ef8b232745d4f8"
+    documentation="DESCRIPCION&#xA;Concibe, prototipa y lanza productos digitales.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Marco de innovacion interno&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E4_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Concibe, prototipa y lanza productos digitales."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product"/>
+  <properties
+      key="Sustento normativo"
+      value="Marco de innovacion interno"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

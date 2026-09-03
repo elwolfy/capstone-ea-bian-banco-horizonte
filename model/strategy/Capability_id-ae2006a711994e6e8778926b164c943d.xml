@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Originacion y Gestion de Credito"
+    id="id-ae2006a711994e6e8778926b164c943d"
+    documentation="DESCRIPCION&#xA;Origina, evalua, otorga y administra creditos en su ciclo de vida.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product, Arrangement, Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Basilea III; SBS credito&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M3"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="M3"/>
+  <properties
+      key="Descripcion"
+      value="Origina, evalua, otorga y administra creditos en su ciclo de vida."/>
+  <properties
+      key="Objetos de negocio"
+      value="Product, Arrangement, Party"/>
+  <properties
+      key="Sustento normativo"
+      value="Basilea III; SBS credito"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Prevencion de Lavado de Activos (PLAFT)"
+    id="id-78899452e20e4f68926cde033339c22c"
+    documentation="DESCRIPCION&#xA;Detecta y previene lavado de activos y financiamiento del terrorismo.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;UIF; Ley 27693; normas SBS PLAFT&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E3_2"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Detecta y previene lavado de activos y financiamiento del terrorismo."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party, Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="UIF; Ley 27693; normas SBS PLAFT"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

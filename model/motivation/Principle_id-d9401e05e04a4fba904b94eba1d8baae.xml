@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01: Primacía del cliente"
+    id="id-d9401e05e04a4fba904b94eba1d8baae"
+    documentation="Enunciado: las decisiones de arquitectura priorizan el valor al cliente. Fundamento: sostiene la propuesta digital e inclusiva. Implicancia: se evalúa el impacto en la experiencia en cada iniciativa.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PN01"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

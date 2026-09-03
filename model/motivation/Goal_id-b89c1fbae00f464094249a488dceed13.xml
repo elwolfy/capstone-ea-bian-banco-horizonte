@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H6: Gestión integral de riesgo"
+    id="id-b89c1fbae00f464094249a488dceed13"
+    documentation="Gestión del riesgo de crédito, operacional y tecnológico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="HAB6"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion de Datos e Informacion (BOM)"
+    id="id-fb2e5eaebf0c4324b213640d3368596d"
+    documentation="DESCRIPCION&#xA;Gobierna el modelo de datos empresarial y su calidad.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;(todos)&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley 29733; gobierno de datos&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H2_4"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Gobierna el modelo de datos empresarial y su calidad."/>
+  <properties
+      key="Objetos de negocio"
+      value="(todos)"/>
+  <properties
+      key="Sustento normativo"
+      value="Ley 29733; gobierno de datos"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Digital"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

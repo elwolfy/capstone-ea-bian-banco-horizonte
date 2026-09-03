@@ -1,0 +1,15 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H2: Tecnología e integración (API-first)"
+    id="id-379e6dc45df64f6f875ac236d5e7b7bb"
+    documentation="Plataforma modular e integrada por APIs que sostiene la banca digital.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="HAB2"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Goal>

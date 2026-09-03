@@ -1,0 +1,15 @@
+<archimate:Stakeholder
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Clientes no bancarizados"
+    id="id-137527cdd4db43079c1447ec0ea32176"
+    documentation="Operan con efectivo; oportunidad de inclusión vía pago y cobro en puntos físicos.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="SH_NB"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Stakeholder>

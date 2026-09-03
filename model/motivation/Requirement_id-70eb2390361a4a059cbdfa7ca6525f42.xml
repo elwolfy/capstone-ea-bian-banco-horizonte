@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pagos inmediatos e interoperables"
+    id="id-70eb2390361a4a059cbdfa7ca6525f42"
+    documentation="Los pagos deben ser inmediatos e interoperables (BCRP).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="RQ_PAGOS"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Requirement>

@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02: AE habilitadora de la inclusión"
+    id="id-9254090c828d4c06941559243a94afe6"
+    documentation="Enunciado: la arquitectura habilita el acceso de no bancarizados y nativos digitales. Fundamento: es misión del banco. Implicancia: soluciones simples y de bajo costo.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PN02"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

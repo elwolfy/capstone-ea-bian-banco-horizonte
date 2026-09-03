@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PT-01: Seguridad por diseño"
+    id="id-445b8ac1f46e4bf18a75fee179a5f6bf"
+    documentation="Enunciado: la seguridad se incorpora desde el diseño. Fundamento: proteger activos y cumplir (DL 1531). Implicancia: controles y auditabilidad por defecto.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PT01"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

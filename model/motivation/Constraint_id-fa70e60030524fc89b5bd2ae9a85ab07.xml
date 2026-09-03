@@ -1,0 +1,15 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Apetito de riesgo"
+    id="id-fa70e60030524fc89b5bd2ae9a85ab07"
+    documentation="Las iniciativas deben respetar el apetito de riesgo (mora/provisiones objetivo).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="CN_RIESGO"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Constraint>

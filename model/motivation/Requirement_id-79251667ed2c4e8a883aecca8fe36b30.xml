@@ -1,0 +1,15 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Dinero electrónico (Ley 29985)"
+    id="id-79251667ed2c4e8a883aecca8fe36b30"
+    documentation="La billetera y el valor almacenado deben cumplir el marco de dinero electrónico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="RQ_29985"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Requirement>

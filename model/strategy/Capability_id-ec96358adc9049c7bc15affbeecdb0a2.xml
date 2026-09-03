@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestion Estrategica y de Negocio"
+    id="id-ec96358adc9049c7bc15affbeecdb0a2"
+    documentation="DESCRIPCION&#xA;Define la direccion del banco, su portafolio y su proyeccion de crecimiento.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party, Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS Ley 26702; gobierno corporativo&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_E1"/>
+  <properties
+      key="Nivel"
+      value="1"/>
+  <properties
+      key="Codigo"
+      value="E1"/>
+  <properties
+      key="Descripcion"
+      value="Define la direccion del banco, su portafolio y su proyeccion de crecimiento."/>
+  <properties
+      key="Objetos de negocio"
+      value="Party, Product"/>
+  <properties
+      key="Sustento normativo"
+      value="SBS Ley 26702; gobierno corporativo"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

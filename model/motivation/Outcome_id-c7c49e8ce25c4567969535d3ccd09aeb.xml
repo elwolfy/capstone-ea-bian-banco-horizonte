@@ -1,0 +1,15 @@
+<archimate:Outcome
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fuente única de datos en dominios core"
+    id="id-c7c49e8ce25c4567969535d3ccd09aeb"
+    documentation="Indicador: % de dominios core con fuente única de verdad. Meta: 100%. Plazo: 2028. Base para IA.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="OU6"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Outcome>

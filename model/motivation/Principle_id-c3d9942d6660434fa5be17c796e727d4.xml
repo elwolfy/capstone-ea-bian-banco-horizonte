@@ -1,0 +1,15 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PA-01: Modularidad y bajo acoplamiento"
+    id="id-c3d9942d6660434fa5be17c796e727d4"
+    documentation="Enunciado: componentes bien delimitados y débilmente acoplados. Fundamento: cambiar una parte sin afectar el todo. Implicancia: fronteras claras y reutilización.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaMotivacional"/>
+  <properties
+      key="cps:key"
+      value="PA01"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Principle>

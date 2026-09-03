@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Tesoreria, Encaje y Reservas"
+    id="id-1aa27f6d310c40228149d9747196bbee"
+    documentation="DESCRIPCION&#xA;Gestiona liquidez, encaje legal y reservas.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Encaje legal BCRP&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_H1_3"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Gestiona liquidez, encaje legal y reservas."/>
+  <properties
+      key="Objetos de negocio"
+      value="Transaction"/>
+  <properties
+      key="Sustento normativo"
+      value="Encaje legal BCRP"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>

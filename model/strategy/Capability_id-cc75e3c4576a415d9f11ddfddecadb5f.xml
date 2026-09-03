@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cuentas de Ahorro"
+    id="id-cc75e3c4576a415d9f11ddfddecadb5f"
+    documentation="DESCRIPCION&#xA;Apertura y operacion de cuentas de ahorro.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Account, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS; Fondo de Seguro de Depositos&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <properties
+      key="cps:key"
+      value="CAP_M4_1"/>
+  <properties
+      key="Nivel"
+      value="2"/>
+  <properties
+      key="Descripcion"
+      value="Apertura y operacion de cuentas de ahorro."/>
+  <properties
+      key="Objetos de negocio"
+      value="Account, Arrangement"/>
+  <properties
+      key="Sustento normativo"
+      value="SBS; Fondo de Seguro de Depositos"/>
+  <properties
+      key="Cobertura"
+      value="Peru"/>
+  <properties
+      key="Tipo"
+      value="Tradicional"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+</archimate:Capability>
