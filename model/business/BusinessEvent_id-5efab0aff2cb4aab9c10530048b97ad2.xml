@@ -1,0 +1,18 @@
+<archimate:BusinessEvent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contacto de cliente recibido"
+    id="id-5efab0aff2cb4aab9c10530048b97ad2"
+    documentation="Evento que dispara el proceso PN-08.&#xA;&#xA;[SUPUESTO] didactico derivado del relato del caso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="EVT_PN-08"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:BusinessEvent>

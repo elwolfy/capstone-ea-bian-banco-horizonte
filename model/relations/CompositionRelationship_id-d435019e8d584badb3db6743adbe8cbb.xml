@@ -1,0 +1,14 @@
+<archimate:CompositionRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-d435019e8d584badb3db6743adbe8cbb">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaCapacidades"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-a41da5b637d64cc390df53e7fc99c11b.xml#id-a41da5b637d64cc390df53e7fc99c11b"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-74fd25f9e534432683d0af1792f270c7.xml#id-74fd25f9e534432683d0af1792f270c7"/>
+</archimate:CompositionRelationship>

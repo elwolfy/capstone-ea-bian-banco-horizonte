@@ -1,0 +1,18 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gestor de producto"
+    id="id-80274c6ad73c416397857cae30ad125e"
+    documentation="Define productos, condiciones y tarifario. [SUPUESTO]&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ROLE_RL-PRO"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:BusinessRole>

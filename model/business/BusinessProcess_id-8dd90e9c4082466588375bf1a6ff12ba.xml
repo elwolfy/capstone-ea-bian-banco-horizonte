@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10 · Cierre contable y reporteria regulatoria"
+    id="id-8dd90e9c4082466588375bf1a6ff12ba"
+    documentation="PROCESO PN-10 - Cierre contable y reporteria regulatoria&#xA;&#xA;TIPO: Soporte   ESTADO: AS-IS   ORIGEN: [DERIVADO H-07 / O-07]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Core bancario; plataforma de agentes; switch; PLAFT; datawarehouse&#xA;I - Entrada: Movimientos del dia; saldos; alertas; parametros contables&#xA;P - Proceso: 9 actividades (6 manuales)&#xA;O - Salida: Estados financieros; reportes regulatorios (SBS); reportes PLAFT (UIF)&#xA;C - Cliente: Alta direccion; SBS; UIF; auditoria&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Manual de Contabilidad (SBS); reportes SBS; UIF; ISO 20022&#xA;&#xA;DISPARADOR&#xA;Cierre del dia / cierre del periodo&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_H1, CAP_E3&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-10"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-10"/>
+  <properties
+      key="Tipo"
+      value="Soporte"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="9"/>
+  <properties
+      key="Actividades manuales"
+      value="6"/>
+  <properties
+      key="Disparador"
+      value="Cierre del dia / cierre del periodo"/>
+  <properties
+      key="Controles"
+      value="Manual de Contabilidad (SBS); reportes SBS; UIF; ISO 20022"/>
+  <properties
+      key="SIPOC-S"
+      value="Core bancario; plataforma de agentes; switch; PLAFT; datawarehouse"/>
+  <properties
+      key="SIPOC-I"
+      value="Movimientos del dia; saldos; alertas; parametros contables"/>
+  <properties
+      key="SIPOC-O"
+      value="Estados financieros; reportes regulatorios (SBS); reportes PLAFT (UIF)"/>
+  <properties
+      key="SIPOC-C"
+      value="Alta direccion; SBS; UIF; auditoria"/>
+</archimate:BusinessProcess>

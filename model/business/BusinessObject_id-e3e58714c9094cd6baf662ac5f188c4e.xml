@@ -1,0 +1,27 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Orden de pago"
+    id="id-e3e58714c9094cd6baf662ac5f188c4e"
+    documentation="Instruccion dada por una parte para ejecutar una operacion. Objeto BOM Core: Instruction.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DUPLICACION DE DATOS (M2) ---&#xA;DUENIOS (aplicaciones que mantienen copia propia): 4&#xA;APP-01, APP-06, APP-07, APP-09&#xA;HALLAZGO ASOCIADO: H-02&#xA;En BIAN, este objeto deberia tener UN solo duenio: el Service Domain responsable de su Control Record.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="OBJ_BO-ORD"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Duenios"
+      value="4"/>
+  <properties
+      key="Aplicaciones que lo mantienen"
+      value="APP-01, APP-06, APP-07, APP-09"/>
+  <properties
+      key="Hallazgo"
+      value="H-02"/>
+</archimate:BusinessObject>

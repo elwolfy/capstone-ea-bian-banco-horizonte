@@ -1,0 +1,21 @@
+<archimate:Resource
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Talento y equipos"
+    id="id-0d8624504a7e45ea87ac5a5a3ebeeef4"
+    documentation="QUE ES&#xA;Las personas del banco: negocio, tecnologia, riesgos y cumplimiento, con su conocimiento del dominio bancario.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Ninguna capacidad se desarrolla sin equipos que la operen y evolucionen. Es tambien el recurso donde se juega la adopcion cultural del cambio, que suele ser el mayor desafio de una transformacion digital.&#xA;&#xA;EJEMPLO&#xA;La modernizacion gradual exige equipos que dominen a la vez el core heredado y el nuevo modelo por bloques.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Key Resources del Business Model Canvas.&#xA;&#xA;FUENTES&#xA;BIZBOK (capability enablement)  ·  buscar 'change management core banking transformation'">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="R_TAL"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:Resource>

@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-480f896ddda54cb8aca0f35f42c2afdf">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <source
+      xsi:type="archimate:CourseOfAction"
+      href="CourseOfAction_id-8791006866fa4ca8842948a32c31606f.xml#id-8791006866fa4ca8842948a32c31606f"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-a9e13ed137064a18bc1fefe9c420dba9.xml#id-a9e13ed137064a18bc1fefe9c420dba9"/>
+</archimate:AssociationRelationship>

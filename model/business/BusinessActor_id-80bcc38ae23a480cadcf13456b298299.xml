@@ -1,0 +1,18 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cliente"
+    id="id-80bcc38ae23a480cadcf13456b298299"
+    documentation="Persona o empresa que recibe los productos y servicios del banco. Actor externo.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ROLE_RL-CLI"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:BusinessActor>

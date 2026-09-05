@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Red de Corresponsalia / Agentes"
     id="id-d05b2b6f887b4731b553282aae9081b9"
-    documentation="DESCRIPCION&#xA;Operacion a traves de agentes y comercios retail.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Instruction, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de cajeros corresponsales SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+    documentation="DESCRIPCION&#xA;Operacion a traves de agentes y comercios retail.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Instruction, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de cajeros corresponsales SBS&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad tradicional&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;Las operaciones en agentes se concilian al dia siguiente y no en tiempo real, lo que genera descuadres y reclamos. Ademas, esta red es el soporte fisico del pago en efectivo para no bancarizados, por lo que debe operar en linea.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-04, O-08  ·  Hallazgos: H-04, H-09  ·  Curso de accion: CA-03">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Tradicional"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="Las operaciones en agentes se concilian al dia siguiente y no en tiempo real, lo que genera descuadres y reclamos. Ademas, esta red es el soporte fisico del pago en efectivo para no bancarizados, por lo que debe operar en linea."/>
+  <properties
+      key="Oportunidades"
+      value="O-04, O-08"/>
+  <properties
+      key="Hallazgos"
+      value="H-04, H-09"/>
+  <properties
+      key="Curso de accion"
+      value="CA-03"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

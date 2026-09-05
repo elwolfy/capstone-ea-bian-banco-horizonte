@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Tiempo de aprobación de crédito ≤ 24 horas"
     id="id-ee14141ea8c64510b863cb39869534be"
-    documentation="Indicador: tiempo desde la solicitud hasta la aprobación del crédito. Meta: ≤24 h. Plazo: 2027. Mide la agilidad del crédito.">
+    documentation="Indicador: tiempo desde la solicitud hasta la aprobación del crédito. Meta: ≤24 h. Plazo: 2027. Mide la agilidad del crédito.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Mide la agilidad del credito. Lo produce la capacidad de Originacion y Gestion de Credito, desarrollada por CA-05.&#xA;Trazabilidad: H-06 · O-06 · pilar P4.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Outcome>

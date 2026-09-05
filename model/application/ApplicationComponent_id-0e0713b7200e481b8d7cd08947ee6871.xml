@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-09 · Plataforma de Agentes"
+    id="id-0e0713b7200e481b8d7cd08947ee6871"
+    documentation="APLICACION APP-09 - Plataforma de Agentes&#xA;&#xA;CAPA: Canal&#xA;TECNOLOGIA: Cliente-servidor + BATCH NOCTURNO&#xA;ANIO: 2012&#xA;SOPORTE: SOPORTE EXTENDIDO&#xA;DEUDA TECNICA: Alta&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-05,11&#xA;&#xA;Opera la red de corresponsales: captura la operacion en el punto de atencion y la transmite al core.&#xA;&#xA;DEUDA TECNICA (ALTA)&#xA;CIERRE Y TRANSMISION POR LOTES NOCTURNO: no hay proceso en linea contra el core -> causa unica de H-04. Cada nuevo comercio exige integracion especifica -> H-08.&#xA;&#xA;TRAZABILIDAD&#xA;H-04, H-08 -> O-04 -> CA-03 -> capacidad M6.2 Red de Corresponsalia.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Alta&#xA;OBSOLESCENCIA / SOPORTE: SOPORTE EXTENDIDO&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-05,11">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-09"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-09"/>
+  <properties
+      key="Capa"
+      value="Canal"/>
+  <properties
+      key="Tecnologia"
+      value="Cliente-servidor + BATCH NOCTURNO"/>
+  <properties
+      key="Anio"
+      value="2012"/>
+  <properties
+      key="Soporte"
+      value="SOPORTE EXTENDIDO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Alta"/>
+  <properties
+      key="Criticidad"
+      value="Critica"/>
+  <properties
+      key="Procesos"
+      value="PN-05,11"/>
+</archimate:ApplicationComponent>

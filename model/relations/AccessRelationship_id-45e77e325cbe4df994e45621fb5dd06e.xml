@@ -1,0 +1,16 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="mantiene"
+    id="id-45e77e325cbe4df994e45621fb5dd06e"
+    documentation="La aplicacion APP-05 MANTIENE una copia propia de Cliente. Contribuye a la duplicacion de datos (H-02).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-10db118824f84ea4b4a5b34214a94020.xml#id-10db118824f84ea4b4a5b34214a94020"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-915df982e8e3410d81670a17a4c5ab9f.xml#id-915df982e8e3410d81670a17a4c5ab9f"/>
+</archimate:AccessRelationship>

@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-08 · Atencion de consultas y reclamos"
+    id="id-65bb57e84ba54b5b94fd1c6c866ab630"
+    documentation="PROCESO PN-08 - Atencion de consultas y reclamos&#xA;&#xA;TIPO: Misional   ESTADO: AS-IS   ORIGEN: [CASO secciones 4 y 6]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Cliente; areas operativas&#xA;I - Entrada: Consulta o reclamo por cualquier canal&#xA;P - Proceso: 7 actividades (2 manuales)&#xA;O - Salida: Caso resuelto y comunicado; reporte de reclamos al regulador&#xA;C - Cliente: Cliente final; SBS&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Reglamento de atencion al usuario (SBS)&#xA;&#xA;DISPARADOR&#xA;Contacto de cliente recibido&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M1, CAP_M6&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-08"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-08"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="7"/>
+  <properties
+      key="Actividades manuales"
+      value="2"/>
+  <properties
+      key="Disparador"
+      value="Contacto de cliente recibido"/>
+  <properties
+      key="Controles"
+      value="Reglamento de atencion al usuario (SBS)"/>
+  <properties
+      key="SIPOC-S"
+      value="Cliente; areas operativas"/>
+  <properties
+      key="SIPOC-I"
+      value="Consulta o reclamo por cualquier canal"/>
+  <properties
+      key="SIPOC-O"
+      value="Caso resuelto y comunicado; reporte de reclamos al regulador"/>
+  <properties
+      key="SIPOC-C"
+      value="Cliente final; SBS"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-12 · Reporteria Regulatoria"
+    id="id-1d410453a6574038a1c2a8713c07c850"
+    documentation="APLICACION APP-12 - Reporteria Regulatoria&#xA;&#xA;CAPA: Back office&#xA;TECNOLOGIA: MS Access + Excel + macros&#xA;ANIO: sin registro&#xA;SOPORTE: NO GOBERNADA&#xA;DEUDA TECNICA: Muy alta&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-08,09,10&#xA;&#xA;Donde realmente se arman los reportes regulatorios y buena parte del cierre: extracciones, tablas dinamicas, macros y consolidacion a mano.&#xA;&#xA;DEUDA TECNICA (MUY ALTA)&#xA;NO es una aplicacion gobernada: sin control de versiones, sin trazabilidad de cambios, sin respaldo formal, con el conocimiento concentrado en pocas personas. Es el PUNTO UNICO DE FALLA del cumplimiento.&#xA;&#xA;NOTA PARA CLASE&#xA;Ilustra que 'automatizado' no es lo mismo que 'gobernado'. Un Excel critico es deuda tecnica aunque nadie lo llame sistema.&#xA;&#xA;TRAZABILIDAD&#xA;H-07 -> O-07 -> CA-06 -> capacidades H1.1, H1.2, E3.1.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Muy alta&#xA;OBSOLESCENCIA / SOPORTE: NO GOBERNADA&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-08,09,10">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-12"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-12"/>
+  <properties
+      key="Capa"
+      value="Back office"/>
+  <properties
+      key="Tecnologia"
+      value="MS Access + Excel + macros"/>
+  <properties
+      key="Anio"
+      value="s/f"/>
+  <properties
+      key="Soporte"
+      value="NO GOBERNADA"/>
+  <properties
+      key="Deuda tecnica"
+      value="Muy alta"/>
+  <properties
+      key="Criticidad"
+      value="Critica"/>
+  <properties
+      key="Procesos"
+      value="PN-08,09,10"/>
+</archimate:ApplicationComponent>

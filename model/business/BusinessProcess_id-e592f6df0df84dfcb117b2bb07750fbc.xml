@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01 · Vinculacion de clientes (onboarding)"
+    id="id-e592f6df0df84dfcb117b2bb07750fbc"
+    documentation="PROCESO PN-01 - Vinculacion de clientes (onboarding)&#xA;&#xA;TIPO: Misional   ESTADO: AS-IS   ORIGEN: [CASO seccion 7]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Cliente; entidad de validacion documental; UIF (listas restrictivas)&#xA;I - Entrada: Solicitud de vinculacion; documento de identidad; datos de contacto&#xA;P - Proceso: 8 actividades (2 manuales)&#xA;O - Salida: Cliente registrado y habilitado para operar; expediente de vinculacion&#xA;C - Cliente: Cliente final; areas comerciales; cumplimiento&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;KYC (SBS); PLAFT (UIF, Ley 27693); Proteccion de datos (Ley 29733)&#xA;&#xA;DISPARADOR&#xA;Solicitud de vinculacion recibida&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M1, CAP_M6&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-01"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-01"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="8"/>
+  <properties
+      key="Actividades manuales"
+      value="2"/>
+  <properties
+      key="Disparador"
+      value="Solicitud de vinculacion recibida"/>
+  <properties
+      key="Controles"
+      value="KYC (SBS); PLAFT (UIF, Ley 27693); Proteccion de datos (Ley 29733)"/>
+  <properties
+      key="SIPOC-S"
+      value="Cliente; entidad de validacion documental; UIF (listas restrictivas)"/>
+  <properties
+      key="SIPOC-I"
+      value="Solicitud de vinculacion; documento de identidad; datos de contacto"/>
+  <properties
+      key="SIPOC-O"
+      value="Cliente registrado y habilitado para operar; expediente de vinculacion"/>
+  <properties
+      key="SIPOC-C"
+      value="Cliente final; areas comerciales; cumplimiento"/>
+</archimate:BusinessProcess>

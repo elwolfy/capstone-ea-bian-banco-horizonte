@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-01 · Digitalizar el onboarding de extremo a extremo"
+    id="id-fe4e406d9131495da55ec07173102734"
+    documentation="QUE ES&#xA;Curso de accion para que un cliente pueda vincularse y activar su cuenta de forma 100% digital, sin repetir informacion ya entregada.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;El onboarding es la primera experiencia del cliente y hoy es un embudo: demasiados pasos, a veces presencial. Se ataca combinando identidad digital y validacion automatizada con una vista unica del cliente, de modo que el dato se pida una sola vez.&#xA;&#xA;EJEMPLO&#xA;Los neobancos de la region abren una cuenta en minutos desde el celular; ese es el estandar contra el que el cliente compara al banco.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidades O-01, O-02. Atiende los hallazgos H-01 (demasiado tiempo y pasos) y H-02 (dato disperso, se pide repetido). Sirve al pilar P1 (consolidar la banca digital).&#xA;&#xA;FUENTES&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte  ·  KYC/PLAFT (UIF, SBS)  ·  buscar 'digital onboarding eKYC banking'">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_ONB"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

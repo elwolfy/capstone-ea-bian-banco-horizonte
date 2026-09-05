@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-06 · Pago y cobro en efectivo por referencia"
+    id="id-67f62d10ece24d0f90e9ec21950757f3"
+    documentation="PROCESO PN-06 - Pago y cobro en efectivo por referencia&#xA;&#xA;TIPO: Misional   ESTADO: TO-BE   ORIGEN: [CASO seccion 7 - aspiracional]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Persona sin cuenta; empresa emisora del cobro; comercio aliado&#xA;I - Entrada: Referencia de pago; efectivo&#xA;P - Proceso: 7 actividades (2 manuales)&#xA;O - Salida: Pago confirmado en linea; notificacion al beneficiario; liquidacion al comercio&#xA;C - Cliente: Persona no bancarizada; empresa beneficiaria; comercio aliado&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Cajeros corresponsales (SBS); PLAFT para operaciones sin cuenta (UIF)&#xA;&#xA;DISPARADOR&#xA;Referencia de pago generada&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M5, CAP_M6, CAP_E1&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-06"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-06"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="TO-BE"/>
+  <properties
+      key="Actividades"
+      value="7"/>
+  <properties
+      key="Actividades manuales"
+      value="2"/>
+  <properties
+      key="Disparador"
+      value="Referencia de pago generada"/>
+  <properties
+      key="Controles"
+      value="Cajeros corresponsales (SBS); PLAFT para operaciones sin cuenta (UIF)"/>
+  <properties
+      key="SIPOC-S"
+      value="Persona sin cuenta; empresa emisora del cobro; comercio aliado"/>
+  <properties
+      key="SIPOC-I"
+      value="Referencia de pago; efectivo"/>
+  <properties
+      key="SIPOC-O"
+      value="Pago confirmado en linea; notificacion al beneficiario; liquidacion al comercio"/>
+  <properties
+      key="SIPOC-C"
+      value="Persona no bancarizada; empresa beneficiaria; comercio aliado"/>
+</archimate:BusinessProcess>

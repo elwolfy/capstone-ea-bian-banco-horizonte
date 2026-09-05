@@ -1,0 +1,25 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ETL BATCH · NOCTURNA"
+    id="id-6123b4ea8f3a400c8c650cbda293abd8"
+    documentation="Integracion APP-11 -> APP-14&#xA;Mecanismo: ETL BATCH&#xA;Frecuencia: NOCTURNA&#xA;Observacion: (H-11)&#xA;&#xA;[SUPUESTO] didactico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <properties
+      key="Mecanismo"
+      value="ETL BATCH"/>
+  <properties
+      key="Frecuencia"
+      value="NOCTURNA"/>
+  <properties
+      key="Observacion"
+      value="(H-11)"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-d1cac5ed3e104c9c865d7e5d76becca5.xml#id-d1cac5ed3e104c9c865d7e5d76becca5"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-cc26e0a735044f17abfbfb6753db547e.xml#id-cc26e0a735044f17abfbfb6753db547e"/>
+</archimate:FlowRelationship>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="H3: Datos y analítica (IA)"
     id="id-cabda98f4c7a49faae836cd115cbc23e"
-    documentation="Datos únicos y gobernados que habilitan analítica e IA.">
+    documentation="Datos únicos y gobernados que habilitan analítica e IA.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Habilitador que recibe el resultado OU6 (fuente unica de datos) y es impulsado por CA-06.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Goal>

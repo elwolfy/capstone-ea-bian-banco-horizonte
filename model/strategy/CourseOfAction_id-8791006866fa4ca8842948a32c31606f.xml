@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-07 · Incluir al no bancarizado y conquistar al nativo digital"
+    id="id-8791006866fa4ca8842948a32c31606f"
+    documentation="QUE ES&#xA;Curso de accion del doble foco de innovacion: una solucion de pago y cobro en efectivo por referencia para quien no tiene cuenta, y una billetera 100% digital para el nativo digital.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es el curso de accion que materializa la mision de inclusion y, a la vez, construye la base de la ambicion de largo plazo. Opera apoyandose en la red de comercios para el efectivo y en dinero electronico para la billetera.&#xA;&#xA;EJEMPLO&#xA;Referencias de modelo: ComproPago (pago en efectivo por referencia en retail, Mexico) y SPIN de OXXO (billetera para nativos digitales).&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidades O-08 y O-09. Atiende los hallazgos H-09 (no bancarizados sin mecanismo simple) y H-10. Sirve al pilar P2 (profundizar la inclusion financiera). O-09 es ademas la base de la expansion futura a Mexico y Brasil.&#xA;&#xA;FUENTES&#xA;Ley N 29985 (dinero electronico)  ·  buscar 'ComproPago', 'SPIN OXXO'  ·  Findex Banco Mundial (inclusion financiera): https://www.worldbank.org/en/publication/globalfindex">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_INCL"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

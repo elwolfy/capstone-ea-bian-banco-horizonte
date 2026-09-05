@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-03 · Apertura y operacion de cuentas de ahorro"
+    id="id-1cc21c55600e4a628083c18018b848c9"
+    documentation="PROCESO PN-03 - Apertura y operacion de cuentas de ahorro&#xA;&#xA;TIPO: Misional   ESTADO: AS-IS   ORIGEN: [CASO seccion 7]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Cliente; gestion de producto&#xA;I - Entrada: Solicitud de apertura; cliente vinculado; producto y condiciones&#xA;P - Proceso: 7 actividades (0 manuales)&#xA;O - Salida: Cuenta abierta y operativa; contrato; movimientos registrados&#xA;C - Cliente: Cliente final; contabilidad&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Fondo de Seguro de Depositos; transparencia (SBS)&#xA;&#xA;DISPARADOR&#xA;Solicitud de apertura de cuenta&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M4, CAP_M2, CAP_M5&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-03"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-03"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="7"/>
+  <properties
+      key="Actividades manuales"
+      value="0"/>
+  <properties
+      key="Disparador"
+      value="Solicitud de apertura de cuenta"/>
+  <properties
+      key="Controles"
+      value="Fondo de Seguro de Depositos; transparencia (SBS)"/>
+  <properties
+      key="SIPOC-S"
+      value="Cliente; gestion de producto"/>
+  <properties
+      key="SIPOC-I"
+      value="Solicitud de apertura; cliente vinculado; producto y condiciones"/>
+  <properties
+      key="SIPOC-O"
+      value="Cuenta abierta y operativa; contrato; movimientos registrados"/>
+  <properties
+      key="SIPOC-C"
+      value="Cliente final; contabilidad"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,22 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Middleware propietario · En linea"
+    id="id-cb1d2d9e13c1453594b7a9b1008b6747"
+    documentation="Integracion APP-08 -> APP-01&#xA;Mecanismo: Middleware propietario&#xA;Frecuencia: En linea&#xA;&#xA;[SUPUESTO] didactico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <properties
+      key="Mecanismo"
+      value="Middleware propietario"/>
+  <properties
+      key="Frecuencia"
+      value="En linea"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-e03b71f674cf48f994ad1638d73454c9.xml#id-e03b71f674cf48f994ad1638d73454c9"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-124a9e19ed94439ba7ba0519c71f529e.xml#id-124a9e19ed94439ba7ba0519c71f529e"/>
+</archimate:FlowRelationship>

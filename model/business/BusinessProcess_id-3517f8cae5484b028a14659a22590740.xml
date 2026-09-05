@@ -1,0 +1,33 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="5. Resolucion o derivacion"
+    id="id-3517f8cae5484b028a14659a22590740"
+    documentation="ACTIVIDAD 5 del proceso PN-08 - Atencion de consultas y reclamos&#xA;&#xA;TIPO DE EJECUCION: HIBRIDA&#xA;ROL RESPONSABLE: Asesor de contact center&#xA;SISTEMAS QUE LA AUTOMATIZAN: APP-04 CRM Comercial&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Experiencia y Servicio al Cliente (CAP_M1_4)  -- realizada por el proceso PN-08&#xA;OBJETOS DE NEGOCIO: -&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Experiencia y Servicio al Cliente' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-08_5"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-08"/>
+  <properties
+      key="Secuencia"
+      value="5"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="HIBRIDA"/>
+  <properties
+      key="Sistemas"
+      value="APP-04"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_M1_4"/>
+</archimate:BusinessProcess>

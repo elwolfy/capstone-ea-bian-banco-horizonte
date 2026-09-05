@@ -1,0 +1,27 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reporte regulatorio"
+    id="id-0d9308caebb5466f8cec73777efda76e"
+    documentation="Informacion remitida al supervisor (SBS/UIF).&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DUPLICACION DE DATOS (M2) ---&#xA;DUENIOS (aplicaciones que mantienen copia propia): 2&#xA;APP-12, APP-13&#xA;HALLAZGO ASOCIADO: H-07&#xA;En BIAN, este objeto deberia tener UN solo duenio: el Service Domain responsable de su Control Record.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="OBJ_BO-REP"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Duenios"
+      value="2"/>
+  <properties
+      key="Aplicaciones que lo mantienen"
+      value="APP-12, APP-13"/>
+  <properties
+      key="Hallazgo"
+      value="H-07"/>
+</archimate:BusinessObject>

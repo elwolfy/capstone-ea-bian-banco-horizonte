@@ -1,0 +1,27 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cuenta"
+    id="id-49e26816574a4031b80cd8846eb9a987"
+    documentation="Registro que mantiene el saldo y los movimientos de un producto. Objeto BOM Core: Account.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DUPLICACION DE DATOS (M2) ---&#xA;DUENIOS (aplicaciones que mantienen copia propia): 3&#xA;APP-01, APP-09, APP-14&#xA;HALLAZGO ASOCIADO: H-02&#xA;En BIAN, este objeto deberia tener UN solo duenio: el Service Domain responsable de su Control Record.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="OBJ_BO-CTA"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Duenios"
+      value="3"/>
+  <properties
+      key="Aplicaciones que lo mantienen"
+      value="APP-01, APP-09, APP-14"/>
+  <properties
+      key="Hallazgo"
+      value="H-02"/>
+</archimate:BusinessObject>

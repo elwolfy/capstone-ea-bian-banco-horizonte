@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Integracion y APIs"
     id="id-4785efd1371f4bd0a4bb8a255b0998d1"
-    documentation="DESCRIPCION&#xA;Gestiona la integracion y las Semantic APIs.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;-&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Interoperabilidad BCRP; ISO 20022&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Gestiona la integracion y las Semantic APIs.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;-&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Interoperabilidad BCRP; ISO 20022&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;Las integraciones punto a punto se rompen con cada cambio y encarecen cada nuevo canal o alianza. Debe migrarse a integracion por contratos de servicio estandarizados, base de la interoperabilidad y del Open Finance.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-11  ·  Hallazgos: H-08  ·  Curso de accion: CA-08">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="Las integraciones punto a punto se rompen con cada cambio y encarecen cada nuevo canal o alianza. Debe migrarse a integracion por contratos de servicio estandarizados, base de la interoperabilidad y del Open Finance."/>
+  <properties
+      key="Oportunidades"
+      value="O-11"/>
+  <properties
+      key="Hallazgos"
+      value="H-08"/>
+  <properties
+      key="Curso de accion"
+      value="CA-08"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

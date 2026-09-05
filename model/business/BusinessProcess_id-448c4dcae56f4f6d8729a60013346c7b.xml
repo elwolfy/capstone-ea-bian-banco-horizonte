@@ -1,0 +1,36 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="2. Extraccion de datos del core y satelites"
+    id="id-448c4dcae56f4f6d8729a60013346c7b"
+    documentation="ACTIVIDAD 2 del proceso PN-10 - Cierre contable y reporteria regulatoria&#xA;&#xA;TIPO DE EJECUCION: MANUAL&#xA;ROL RESPONSABLE: Analista contable&#xA;SISTEMAS QUE LA AUTOMATIZAN: NINGUNO - se ejecuta de forma manual&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Contabilidad y Registro Financiero (Ledger) (CAP_H1_1)  -- realizada por el proceso PN-10&#xA;OBJETOS DE NEGOCIO: Transaccion&#xA;&#xA;DOLOR ASOCIADO&#xA;Hallazgos: H-07, H-11&#xA;&#xA;NOTA&#xA;Actividad sin soporte de sistema. El trabajo manual es fuente de error, demora y dependencia de personas.&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Contabilidad y Registro Financiero (Ledger)' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-10_2"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-10"/>
+  <properties
+      key="Secuencia"
+      value="2"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="MANUAL"/>
+  <properties
+      key="Sistemas"
+      value="NINGUNO (manual)"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_H1_1"/>
+  <properties
+      key="Hallazgos"
+      value="H-07, H-11"/>
+</archimate:BusinessProcess>

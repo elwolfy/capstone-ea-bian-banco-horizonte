@@ -1,0 +1,27 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cliente"
+    id="id-915df982e8e3410d81670a17a4c5ab9f"
+    documentation="Persona u organizacion con la que el banco mantiene una relacion. Objeto BOM Core: Party.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DUPLICACION DE DATOS (M2) ---&#xA;DUENIOS (aplicaciones que mantienen copia propia): 5&#xA;APP-01, APP-04, APP-05, APP-13, APP-14&#xA;HALLAZGO ASOCIADO: H-02&#xA;En BIAN, este objeto deberia tener UN solo duenio: el Service Domain responsable de su Control Record.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="OBJ_BO-CLI"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Duenios"
+      value="5"/>
+  <properties
+      key="Aplicaciones que lo mantienen"
+      value="APP-01, APP-04, APP-05, APP-13, APP-14"/>
+  <properties
+      key="Hallazgo"
+      value="H-02"/>
+</archimate:BusinessObject>

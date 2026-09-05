@@ -1,0 +1,22 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Servicio propietario · En linea"
+    id="id-9d9e614c69a64ab581f3f00f80d66a43"
+    documentation="Integracion APP-05 -> APP-01&#xA;Mecanismo: Servicio propietario&#xA;Frecuencia: En linea&#xA;&#xA;[SUPUESTO] didactico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <properties
+      key="Mecanismo"
+      value="Servicio propietario"/>
+  <properties
+      key="Frecuencia"
+      value="En linea"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-10db118824f84ea4b4a5b34214a94020.xml#id-10db118824f84ea4b4a5b34214a94020"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-124a9e19ed94439ba7ba0519c71f529e.xml#id-124a9e19ed94439ba7ba0519c71f529e"/>
+</archimate:FlowRelationship>

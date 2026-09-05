@@ -1,0 +1,21 @@
+<archimate:Resource
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Licencia bancaria (SBS)"
+    id="id-6c3dadcf5038421fa78ddf97209721e4"
+    documentation="QUE ES&#xA;La autorizacion de funcionamiento otorgada por la Superintendencia de Banca, Seguros y AFP para operar como empresa del sistema financiero.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es el recurso habilitante de base: sin licencia el banco no puede captar depositos del publico ni colocar creditos. Condiciona el apetito de riesgo, los requerimientos de capital y el perimetro de productos; toda iniciativa estrategica se ejecuta dentro de ese marco.&#xA;&#xA;EJEMPLO&#xA;La captacion de ahorros y los depositos a plazo del Banco Horizonte solo son posibles bajo esta licencia, con cobertura del Fondo de Seguro de Depositos.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Marco regulatorio (Peru): Ley N 26702; Basilea III y provisiones dinamicas.&#xA;&#xA;FUENTES&#xA;SBS: https://www.sbs.gob.pe  ·  Ley 26702 (Ley General del Sistema Financiero)  ·  BIS Basilea III: https://www.bis.org/bcbs/basel3.htm">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="R_LIC"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:Resource>

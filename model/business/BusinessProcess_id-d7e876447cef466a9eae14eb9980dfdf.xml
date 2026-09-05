@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-09 · Lanzamiento y modificacion de productos"
+    id="id-d7e876447cef466a9eae14eb9980dfdf"
+    documentation="PROCESO PN-09 - Lanzamiento y modificacion de productos&#xA;&#xA;TIPO: Gestion   ESTADO: AS-IS   ORIGEN: [DERIVADO H-05 / O-05]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Gestion de producto; riesgos; cumplimiento; TI&#xA;I - Entrada: Propuesta comercial; condiciones (tasas, comisiones, plazos)&#xA;P - Proceso: 7 actividades (3 manuales)&#xA;O - Salida: Producto disponible en los canales; tarifario actualizado&#xA;C - Cliente: Areas comerciales; cliente final; SBS&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Transparencia de informacion (SBS/Indecopi); reglamento de productos&#xA;&#xA;DISPARADOR&#xA;Propuesta de producto aprobada&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M2, CAP_E4&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-09"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-09"/>
+  <properties
+      key="Tipo"
+      value="Gestion"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="7"/>
+  <properties
+      key="Actividades manuales"
+      value="3"/>
+  <properties
+      key="Disparador"
+      value="Propuesta de producto aprobada"/>
+  <properties
+      key="Controles"
+      value="Transparencia de informacion (SBS/Indecopi); reglamento de productos"/>
+  <properties
+      key="SIPOC-S"
+      value="Gestion de producto; riesgos; cumplimiento; TI"/>
+  <properties
+      key="SIPOC-I"
+      value="Propuesta comercial; condiciones (tasas, comisiones, plazos)"/>
+  <properties
+      key="SIPOC-O"
+      value="Producto disponible en los canales; tarifario actualizado"/>
+  <properties
+      key="SIPOC-C"
+      value="Areas comerciales; cliente final; SBS"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11 · Incorporacion y habilitacion de comercios y agentes"
+    id="id-4ef09b0e223c44dab9dc9144153abf78"
+    documentation="PROCESO PN-11 - Incorporacion y habilitacion de comercios y agentes&#xA;&#xA;TIPO: Soporte   ESTADO: AS-IS   ORIGEN: [DERIVADO H-08 / O-08]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Comercio candidato; areas de riesgo, cumplimiento y TI&#xA;I - Entrada: Solicitud de afiliacion; documentacion del comercio&#xA;P - Proceso: 6 actividades (3 manuales)&#xA;O - Salida: Comercio afiliado, integrado y operativo como punto de atencion&#xA;C - Cliente: Comercio aliado; red de canales; clientes de la zona&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Reglamento de cajeros corresponsales (SBS); PLAFT&#xA;&#xA;DISPARADOR&#xA;Solicitud de afiliacion de comercio&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_E1, CAP_M6&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-11"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-11"/>
+  <properties
+      key="Tipo"
+      value="Soporte"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="6"/>
+  <properties
+      key="Actividades manuales"
+      value="3"/>
+  <properties
+      key="Disparador"
+      value="Solicitud de afiliacion de comercio"/>
+  <properties
+      key="Controles"
+      value="Reglamento de cajeros corresponsales (SBS); PLAFT"/>
+  <properties
+      key="SIPOC-S"
+      value="Comercio candidato; areas de riesgo, cumplimiento y TI"/>
+  <properties
+      key="SIPOC-I"
+      value="Solicitud de afiliacion; documentacion del comercio"/>
+  <properties
+      key="SIPOC-O"
+      value="Comercio afiliado, integrado y operativo como punto de atencion"/>
+  <properties
+      key="SIPOC-C"
+      value="Comercio aliado; red de canales; clientes de la zona"/>
+</archimate:BusinessProcess>

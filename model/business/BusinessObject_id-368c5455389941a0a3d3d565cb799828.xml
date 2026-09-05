@@ -1,0 +1,27 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transaccion"
+    id="id-368c5455389941a0a3d3d565cb799828"
+    documentation="Evento economico ejecutado y registrado. Objeto BOM Core: Transaction.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DUPLICACION DE DATOS (M2) ---&#xA;DUENIOS (aplicaciones que mantienen copia propia): 5&#xA;APP-01, APP-09, APP-11, APP-12, APP-14&#xA;HALLAZGO ASOCIADO: H-07&#xA;En BIAN, este objeto deberia tener UN solo duenio: el Service Domain responsable de su Control Record.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="OBJ_BO-TRX"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Duenios"
+      value="5"/>
+  <properties
+      key="Aplicaciones que lo mantienen"
+      value="APP-01, APP-09, APP-11, APP-12, APP-14"/>
+  <properties
+      key="Hallazgo"
+      value="H-07"/>
+</archimate:BusinessObject>

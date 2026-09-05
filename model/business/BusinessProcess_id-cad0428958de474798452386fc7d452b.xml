@@ -1,0 +1,36 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1. Recepcion de la orden"
+    id="id-cad0428958de474798452386fc7d452b"
+    documentation="ACTIVIDAD 1 del proceso PN-04 - Ejecucion de pagos y transferencias&#xA;&#xA;TIPO DE EJECUCION: AUTOMATIZADA&#xA;ROL RESPONSABLE: Cliente&#xA;SISTEMAS QUE LA AUTOMATIZAN: APP-06 Banca por Internet | APP-07 App Movil&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Canales Digitales (Web / Movil) (CAP_M6_1)  -- realizada por el proceso PN-04&#xA;OBJETOS DE NEGOCIO: Orden de pago&#xA;&#xA;DOLOR ASOCIADO&#xA;Hallazgos: H-03&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Canales Digitales (Web / Movil)' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-04_1"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-04"/>
+  <properties
+      key="Secuencia"
+      value="1"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="AUTOMATIZADA"/>
+  <properties
+      key="Sistemas"
+      value="APP-06, APP-07"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_M6_1"/>
+  <properties
+      key="Hallazgos"
+      value="H-03"/>
+</archimate:BusinessProcess>

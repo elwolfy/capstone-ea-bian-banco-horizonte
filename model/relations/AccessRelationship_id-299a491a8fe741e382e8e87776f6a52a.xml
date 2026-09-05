@@ -1,0 +1,16 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="mantiene"
+    id="id-299a491a8fe741e382e8e87776f6a52a"
+    documentation="La aplicacion APP-01 MANTIENE una copia propia de Orden de pago. Contribuye a la duplicacion de datos (H-02).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-124a9e19ed94439ba7ba0519c71f529e.xml#id-124a9e19ed94439ba7ba0519c71f529e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e3e58714c9094cd6baf662ac5f188c4e.xml#id-e3e58714c9094cd6baf662ac5f188c4e"/>
+</archimate:AccessRelationship>

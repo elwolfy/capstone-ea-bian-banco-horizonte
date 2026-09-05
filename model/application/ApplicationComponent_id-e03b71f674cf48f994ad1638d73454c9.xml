@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-08 · Switch Transaccional"
+    id="id-e03b71f674cf48f994ad1638d73454c9"
+    documentation="APLICACION APP-08 - Switch Transaccional&#xA;&#xA;CAPA: Middleware&#xA;TECNOLOGIA: Middleware propietario&#xA;ANIO: 2007&#xA;SOPORTE: SOPORTE EXTENDIDO&#xA;DEUDA TECNICA: Media&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-03&#xA;&#xA;Enruta operaciones de tarjetas y ATM.&#xA;&#xA;TRAZABILIDAD&#xA;Capacidad M5.4 Gestion de Tarjetas.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Media&#xA;OBSOLESCENCIA / SOPORTE: SOPORTE EXTENDIDO&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-03">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-08"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-08"/>
+  <properties
+      key="Capa"
+      value="Middleware"/>
+  <properties
+      key="Tecnologia"
+      value="Middleware propietario"/>
+  <properties
+      key="Anio"
+      value="2007"/>
+  <properties
+      key="Soporte"
+      value="SOPORTE EXTENDIDO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Media"/>
+  <properties
+      key="Criticidad"
+      value="Critica"/>
+  <properties
+      key="Procesos"
+      value="PN-03"/>
+</archimate:ApplicationComponent>

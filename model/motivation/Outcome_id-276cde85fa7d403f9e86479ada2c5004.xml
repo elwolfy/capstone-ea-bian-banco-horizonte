@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Onboarding digital ≤ 10 minutos"
     id="id-276cde85fa7d403f9e86479ada2c5004"
-    documentation="Indicador: tiempo medio de alta de cliente. Meta: ≤10 min. Plazo: 2026. Mide la agilidad de la vinculación.">
+    documentation="Indicador: tiempo medio de alta de cliente. Meta: ≤10 min. Plazo: 2026. Mide la agilidad de la vinculación.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Mide la agilidad de la vinculacion. Lo produce la capacidad de Gestion de Clientes, desarrollada por CA-01.&#xA;Trazabilidad: H-01, H-02 · O-01, O-02 · pilar P1.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Outcome>

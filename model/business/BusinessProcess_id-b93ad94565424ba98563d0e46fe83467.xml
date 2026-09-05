@@ -1,0 +1,33 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7. Formalizacion del contrato"
+    id="id-b93ad94565424ba98563d0e46fe83467"
+    documentation="ACTIVIDAD 7 del proceso PN-02 - Originacion y otorgamiento de credito&#xA;&#xA;TIPO DE EJECUCION: HIBRIDA&#xA;ROL RESPONSABLE: Asesor de agencia&#xA;SISTEMAS QUE LA AUTOMATIZAN: APP-02 Modulo de Creditos&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Gestion de Acuerdos y Contratos (CAP_M2_2)  -- realizada por el proceso PN-02&#xA;OBJETOS DE NEGOCIO: Contrato&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Gestion de Acuerdos y Contratos' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-02_7"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-02"/>
+  <properties
+      key="Secuencia"
+      value="7"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="HIBRIDA"/>
+  <properties
+      key="Sistemas"
+      value="APP-02"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_M2_2"/>
+</archimate:BusinessProcess>

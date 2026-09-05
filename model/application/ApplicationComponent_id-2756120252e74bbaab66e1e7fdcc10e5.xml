@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-07 · App Movil"
+    id="id-2756120252e74bbaab66e1e7fdcc10e5"
+    documentation="APLICACION APP-07 - App Movil&#xA;&#xA;CAPA: Canal&#xA;TECNOLOGIA: Hibrida (Cordova)&#xA;ANIO: 2019&#xA;SOPORTE: FRAMEWORK EN DESUSO&#xA;DEUDA TECNICA: Alta&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-01,04,09&#xA;&#xA;Canal movil: consultas y transferencias. Alcance transaccional incompleto.&#xA;&#xA;DEUDA TECNICA (ALTA)&#xA;Framework hibrido en desuso; integracion punto a punto con el core.&#xA;&#xA;TRAZABILIDAD&#xA;H-03, H-10 -> O-03 -> CA-02 -> capacidad M6.1 Canales Digitales.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Alta&#xA;OBSOLESCENCIA / SOPORTE: FRAMEWORK EN DESUSO&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-01,04,09">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-07"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-07"/>
+  <properties
+      key="Capa"
+      value="Canal"/>
+  <properties
+      key="Tecnologia"
+      value="Hibrida (Cordova)"/>
+  <properties
+      key="Anio"
+      value="2019"/>
+  <properties
+      key="Soporte"
+      value="FRAMEWORK EN DESUSO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Alta"/>
+  <properties
+      key="Criticidad"
+      value="Critica"/>
+  <properties
+      key="Procesos"
+      value="PN-01,04,09"/>
+</archimate:ApplicationComponent>

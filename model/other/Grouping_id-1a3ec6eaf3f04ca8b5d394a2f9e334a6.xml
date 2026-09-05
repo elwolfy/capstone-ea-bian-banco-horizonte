@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Franja Estrategica"
     id="id-1a3ec6eaf3f04ca8b5d394a2f9e334a6"
-    documentation="Franja de capacidades Estrategica (BIZBOK: Directing / Strategic). Agrupa las capacidades de negocio de este tipo para Banco Horizonte.">
+    documentation="Franja de capacidades Estrategica (BIZBOK: Directing / Strategic). Agrupa las capacidades de negocio de este tipo para Banco Horizonte.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>

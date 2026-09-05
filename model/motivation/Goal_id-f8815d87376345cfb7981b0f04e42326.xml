@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="H1: Innovación y transformación digital"
     id="id-f8815d87376345cfb7981b0f04e42326"
-    documentation="Capacidad de crear y lanzar nuevos productos y experiencias digitales.">
+    documentation="Capacidad de crear y lanzar nuevos productos y experiencias digitales.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Habilitador que recibe el resultado OU5 (agilidad de producto) y es impulsado por CA-04.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Goal>

@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-10 · Pasarela de Pagos Inmediatos"
+    id="id-5cc47d92735e4c618c828495453d2211"
+    documentation="APLICACION APP-10 - Pasarela de Pagos Inmediatos&#xA;&#xA;CAPA: Integracion&#xA;TECNOLOGIA: Interfaz CCE / ISO 20022&#xA;ANIO: 2021&#xA;SOPORTE: SOPORTADO&#xA;DEUDA TECNICA: Baja&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-04&#xA;&#xA;Conecta al banco con la camara de compensacion para pagos inmediatos interoperables.&#xA;&#xA;NOTA&#xA;UNICA integracion del parque construida sobre un estandar de industria (ISO 20022). Es la referencia de como deberian ser las demas.&#xA;&#xA;TRAZABILIDAD&#xA;Capacidad M5.2 Pagos Inmediatos Interbancarios.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Baja&#xA;OBSOLESCENCIA / SOPORTE: SOPORTADO&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-04">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-10"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-10"/>
+  <properties
+      key="Capa"
+      value="Integracion"/>
+  <properties
+      key="Tecnologia"
+      value="Interfaz CCE / ISO 20022"/>
+  <properties
+      key="Anio"
+      value="2021"/>
+  <properties
+      key="Soporte"
+      value="SOPORTADO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Baja"/>
+  <properties
+      key="Criticidad"
+      value="Critica"/>
+  <properties
+      key="Procesos"
+      value="PN-04"/>
+</archimate:ApplicationComponent>

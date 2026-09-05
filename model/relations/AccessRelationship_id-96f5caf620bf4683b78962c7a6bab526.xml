@@ -1,0 +1,16 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="mantiene"
+    id="id-96f5caf620bf4683b78962c7a6bab526"
+    documentation="La aplicacion APP-02 MANTIENE una copia propia de Contrato. Contribuye a la duplicacion de datos.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-d3e02050a94d4b90bd26648319d3b733.xml#id-d3e02050a94d4b90bd26648319d3b733"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0b4f7db642a24791a75edec766982611.xml#id-0b4f7db642a24791a75edec766982611"/>
+</archimate:AccessRelationship>

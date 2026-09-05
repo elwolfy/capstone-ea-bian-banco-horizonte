@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-01 · SIGEB · Core Bancario"
+    id="id-124a9e19ed94439ba7ba0519c71f529e"
+    documentation="APLICACION APP-01 - SIGEB · Core Bancario&#xA;&#xA;CAPA: Core&#xA;TECNOLOGIA: COBOL / CICS · mainframe&#xA;ANIO: 1998&#xA;SOPORTE: SIN SOPORTE&#xA;DEUDA TECNICA: Alta&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-01,02,03,04,05,07,09,10&#xA;&#xA;Sistema central del banco: clientes, cuentas, depositos, creditos y contabilidad de origen. Interviene en 9 de 11 procesos.&#xA;&#xA;DEUDA TECNICA (ALTA)&#xA;Logica de negocio y condiciones de producto EMBEBIDAS EN CODIGO -> causa directa de H-05. Escasez de personal COBOL. Sin capa de servicios: integracion por archivos y accesos directos a base de datos.&#xA;&#xA;OBSOLESCENCIA&#xA;Plataforma mainframe sin soporte del fabricante; cada cambio exige regresion completa -> H-12.&#xA;&#xA;TRAZABILIDAD&#xA;H-05, H-08, H-11, H-12 -> O-11 -> CA-08 -> capacidad H2.2 Plataformas y Core Bancario.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Alta&#xA;OBSOLESCENCIA / SOPORTE: SIN SOPORTE&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-01,02,03,04,05,07,09,10">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-01"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-01"/>
+  <properties
+      key="Capa"
+      value="Core"/>
+  <properties
+      key="Tecnologia"
+      value="COBOL / CICS · mainframe"/>
+  <properties
+      key="Anio"
+      value="1998"/>
+  <properties
+      key="Soporte"
+      value="SIN SOPORTE"/>
+  <properties
+      key="Deuda tecnica"
+      value="Alta"/>
+  <properties
+      key="Criticidad"
+      value="Critica"/>
+  <properties
+      key="Procesos"
+      value="PN-01,02,03,04,05,07,09,10"/>
+</archimate:ApplicationComponent>

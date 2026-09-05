@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Operaciones Centrales / Back Office"
     id="id-1937a566cb824150b4262a5c622e8728"
-    documentation="DESCRIPCION&#xA;Procesa operaciones centralizadas de respaldo.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Riesgo operacional SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+    documentation="DESCRIPCION&#xA;Procesa operaciones centralizadas de respaldo.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Riesgo operacional SBS&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad tradicional&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: SE MANTIENE">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -30,4 +30,19 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Tradicional"/>
+  <properties
+      key="Estado"
+      value="SE MANTIENE"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="SE MANTIENE"/>
 </archimate:Capability>

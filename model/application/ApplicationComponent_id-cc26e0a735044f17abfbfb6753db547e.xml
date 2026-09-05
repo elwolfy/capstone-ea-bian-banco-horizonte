@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-14 · Datawarehouse"
+    id="id-cc26e0a735044f17abfbfb6753db547e"
+    documentation="APLICACION APP-14 - Datawarehouse&#xA;&#xA;CAPA: Analitica&#xA;TECNOLOGIA: ETL batch nocturno · Oracle&#xA;ANIO: 2010&#xA;SOPORTE: SOPORTE EXTENDIDO&#xA;DEUDA TECNICA: Alta&#xA;CRITICIDAD: Media&#xA;PROCESOS QUE AUTOMATIZA: PN-10&#xA;&#xA;Consolida informacion para reportes gerenciales.&#xA;&#xA;DEUDA TECNICA (ALTA)&#xA;Carga por LOTES NOCTURNOS; modelo no disenado para analitica avanzada ni IA -> H-11. La extraccion final hacia reporteria es MANUAL.&#xA;&#xA;TRAZABILIDAD&#xA;H-11 -> O-10 -> CA-06 -> capacidad H2.4 Gestion de Datos e Informacion (BOM).&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Alta&#xA;OBSOLESCENCIA / SOPORTE: SOPORTE EXTENDIDO&#xA;CRITICIDAD: Media&#xA;PROCESOS QUE AUTOMATIZA: PN-10">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-14"/>
+  <properties
+      key="Codigo"
+      value="APP-14"/>
+  <properties
+      key="Capa"
+      value="Analitica"/>
+  <properties
+      key="Tecnologia"
+      value="ETL batch nocturno · Oracle"/>
+  <properties
+      key="Anio"
+      value="2010"/>
+  <properties
+      key="Soporte"
+      value="SOPORTE EXTENDIDO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Alta"/>
+  <properties
+      key="Criticidad"
+      value="Media"/>
+  <properties
+      key="Procesos"
+      value="PN-10"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:ApplicationComponent>

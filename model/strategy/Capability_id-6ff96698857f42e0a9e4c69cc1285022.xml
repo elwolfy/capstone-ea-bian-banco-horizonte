@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Canales Digitales (Web / Movil)"
     id="id-6ff96698857f42e0a9e4c69cc1285022"
-    documentation="DESCRIPCION&#xA;Banca por internet y app movil (banca digital en consolidacion).&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;DL 1531; seguridad de la informacion SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Banca por internet y app movil.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;DL 1531; seguridad de la informacion SBS&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;Es la brecha central del caso: la app y la web permiten consultar pero no operar la mayoria de transacciones, lo que obliga al cliente a ir a la agencia y aleja al nativo digital. Debe habilitarse la operacion de extremo a extremo.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-03  ·  Hallazgos: H-03, H-10  ·  Curso de accion: CA-02">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -14,7 +14,7 @@
       value="2"/>
   <properties
       key="Descripcion"
-      value="Banca por internet y app movil (banca digital en consolidacion)."/>
+      value="Banca por internet y app movil."/>
   <properties
       key="Objetos de negocio"
       value="Party, Transaction"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="Es la brecha central del caso: la app y la web permiten consultar pero no operar la mayoria de transacciones, lo que obliga al cliente a ir a la agencia y aleja al nativo digital. Debe habilitarse la operacion de extremo a extremo."/>
+  <properties
+      key="Oportunidades"
+      value="O-03"/>
+  <properties
+      key="Hallazgos"
+      value="H-03, H-10"/>
+  <properties
+      key="Curso de accion"
+      value="CA-02"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

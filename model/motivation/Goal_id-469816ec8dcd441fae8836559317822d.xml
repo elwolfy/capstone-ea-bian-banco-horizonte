@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Aspiración: banco digital líder en inclusión y experiencia"
     id="id-469816ec8dcd441fae8836559317822d"
-    documentation="Norte estratégico: ser referente en banca digital simple e inclusiva en Perú, proyectándose a la región.">
+    documentation="Norte estratégico: ser referente en banca digital simple e inclusiva en Perú, proyectándose a la región.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Norte estrategico del caso. Los cuatro pilares contribuyen a esta aspiracion; la expansion a Mexico y Brasil es una ambicion de largo plazo condicionada a consolidar antes la banca digital en Peru.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Goal>

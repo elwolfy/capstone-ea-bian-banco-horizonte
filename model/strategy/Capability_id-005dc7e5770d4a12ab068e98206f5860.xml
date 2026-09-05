@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gestion de Estrategia y Expansion"
     id="id-005dc7e5770d4a12ab068e98206f5860"
-    documentation="DESCRIPCION&#xA;Gobierna la estrategia de crecimiento y la VISION de expansion a Mexico y Brasil como banco digital, condicionada a consolidar antes la banca digital en Peru.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS (PE). Vision de largo plazo: CNBV/Ley Fintech (MX), BCB/Open Finance (BR)&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+    documentation="DESCRIPCION&#xA;Gobierna la estrategia de crecimiento y la VISION de expansion a Mexico y Brasil como banco digital, condicionada a consolidar antes la banca digital en Peru.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;SBS (PE). Vision de largo plazo: CNBV/Ley Fintech (MX), BCB/Open Finance (BR)&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad tradicional&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: SE MANTIENE">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -30,4 +30,19 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Tradicional"/>
+  <properties
+      key="Estado"
+      value="SE MANTIENE"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="SE MANTIENE"/>
 </archimate:Capability>

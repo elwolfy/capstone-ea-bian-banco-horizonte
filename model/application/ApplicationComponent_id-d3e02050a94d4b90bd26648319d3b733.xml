@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-02 · Modulo de Creditos"
+    id="id-d3e02050a94d4b90bd26648319d3b733"
+    documentation="APLICACION APP-02 - Modulo de Creditos&#xA;&#xA;CAPA: Core&#xA;TECNOLOGIA: COBOL · mainframe&#xA;ANIO: 1998&#xA;SOPORTE: SIN SOPORTE&#xA;DEUDA TECNICA: Alta&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-02,07,09&#xA;&#xA;Submodulo del core para originacion y administracion de creditos.&#xA;&#xA;DEUDA TECNICA (ALTA)&#xA;Condiciones de credito embebidas en codigo; cambiar una tasa es un ciclo de desarrollo (H-05).&#xA;&#xA;TRAZABILIDAD&#xA;H-05, H-06 -> O-05, O-06 -> CA-04, CA-05.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Alta&#xA;OBSOLESCENCIA / SOPORTE: SIN SOPORTE&#xA;CRITICIDAD: Critica&#xA;PROCESOS QUE AUTOMATIZA: PN-02,07,09">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-02"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-02"/>
+  <properties
+      key="Capa"
+      value="Core"/>
+  <properties
+      key="Tecnologia"
+      value="COBOL · mainframe"/>
+  <properties
+      key="Anio"
+      value="1998"/>
+  <properties
+      key="Soporte"
+      value="SIN SOPORTE"/>
+  <properties
+      key="Deuda tecnica"
+      value="Alta"/>
+  <properties
+      key="Criticidad"
+      value="Critica"/>
+  <properties
+      key="Procesos"
+      value="PN-02,07,09"/>
+</archimate:ApplicationComponent>

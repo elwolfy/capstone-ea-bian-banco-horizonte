@@ -1,0 +1,33 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="4. Clasificacion del deudor y provision"
+    id="id-f5c9b978ce104f338b0e17d874b87647"
+    documentation="ACTIVIDAD 4 del proceso PN-07 - Administracion y cobranza del credito&#xA;&#xA;TIPO DE EJECUCION: HIBRIDA&#xA;ROL RESPONSABLE: Analista de credito&#xA;SISTEMAS QUE LA AUTOMATIZAN: APP-01 SIGEB - Core Bancario | APP-11 Contabilidad / ERP&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Gestion de Provisiones (CAP_E3_3)  -- realizada por el proceso PN-07&#xA;OBJETOS DE NEGOCIO: Credito (arreglo)&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Gestion de Provisiones' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-07_4"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-07"/>
+  <properties
+      key="Secuencia"
+      value="4"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="HIBRIDA"/>
+  <properties
+      key="Sistemas"
+      value="APP-01, APP-11"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_E3_3"/>
+</archimate:BusinessProcess>

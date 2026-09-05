@@ -1,0 +1,36 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1. Recepcion de la solicitud"
+    id="id-9402d3bf01c64c94b7c17b3c416dc04c"
+    documentation="ACTIVIDAD 1 del proceso PN-01 - Vinculacion de clientes (onboarding)&#xA;&#xA;TIPO DE EJECUCION: HIBRIDA&#xA;ROL RESPONSABLE: Asesor de agencia&#xA;SISTEMAS QUE LA AUTOMATIZAN: APP-05 Portal de Vinculacion (Onboarding)&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Registro y Onboarding de Clientes (KYC) (CAP_M1_1)  -- realizada por el proceso PN-01&#xA;OBJETOS DE NEGOCIO: Cliente&#xA;&#xA;DOLOR ASOCIADO&#xA;Hallazgos: H-01&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Registro y Onboarding de Clientes (KYC)' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-01_1"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-01"/>
+  <properties
+      key="Secuencia"
+      value="1"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="HIBRIDA"/>
+  <properties
+      key="Sistemas"
+      value="APP-05"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_M1_1"/>
+  <properties
+      key="Hallazgos"
+      value="H-01"/>
+</archimate:BusinessProcess>

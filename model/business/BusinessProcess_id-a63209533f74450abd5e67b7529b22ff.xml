@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02 · Originacion y otorgamiento de credito"
+    id="id-a63209533f74450abd5e67b7529b22ff"
+    documentation="PROCESO PN-02 - Originacion y otorgamiento de credito&#xA;&#xA;TIPO: Misional   ESTADO: AS-IS   ORIGEN: [CASO seccion 7]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Cliente; central de riesgos; areas de riesgo y producto&#xA;I - Entrada: Solicitud de credito; documentacion de ingresos; historial crediticio&#xA;P - Proceso: 9 actividades (2 manuales)&#xA;O - Salida: Credito aprobado y desembolsado; contrato formalizado; asiento contable&#xA;C - Cliente: Cliente final; riesgos; contabilidad&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Evaluacion crediticia (SBS); Basilea III; transparencia de tasas (SBS/Indecopi)&#xA;&#xA;DISPARADOR&#xA;Solicitud de credito recibida&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M3, CAP_M2, CAP_M5&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-02"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-02"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="9"/>
+  <properties
+      key="Actividades manuales"
+      value="2"/>
+  <properties
+      key="Disparador"
+      value="Solicitud de credito recibida"/>
+  <properties
+      key="Controles"
+      value="Evaluacion crediticia (SBS); Basilea III; transparencia de tasas (SBS/Indecopi)"/>
+  <properties
+      key="SIPOC-S"
+      value="Cliente; central de riesgos; areas de riesgo y producto"/>
+  <properties
+      key="SIPOC-I"
+      value="Solicitud de credito; documentacion de ingresos; historial crediticio"/>
+  <properties
+      key="SIPOC-O"
+      value="Credito aprobado y desembolsado; contrato formalizado; asiento contable"/>
+  <properties
+      key="SIPOC-C"
+      value="Cliente final; riesgos; contabilidad"/>
+</archimate:BusinessProcess>

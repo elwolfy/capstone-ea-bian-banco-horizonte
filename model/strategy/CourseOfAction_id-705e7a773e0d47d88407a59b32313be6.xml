@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-03 · Llevar pagos y corresponsalia a tiempo real"
+    id="id-705e7a773e0d47d88407a59b32313be6"
+    documentation="QUE ES&#xA;Curso de accion para que las operaciones -incluidas las de la red de agentes- se reflejen al instante y no por conciliacion nocturna.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;El procesamiento por lotes rompe la promesa de inmediatez y genera descuadres y reclamos. Se resuelve migrando de batch a procesamiento en tiempo real y adoptando la interoperabilidad de pagos inmediatos.&#xA;&#xA;EJEMPLO&#xA;La interoperabilidad dispuesta por el BCRP hace que hoy Yape y Plin se transfieran entre si al instante; el cliente ya no acepta esperar al dia siguiente.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidad O-04. Atiende el hallazgo H-04 (operaciones de agentes se liquidan al dia siguiente). Sirve al pilar P4 (operacion moderna y eficiente).&#xA;&#xA;FUENTES&#xA;BCRP interoperabilidad de pagos: https://www.bcrp.gob.pe  ·  ISO 20022: https://www.iso20022.org">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_RT"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

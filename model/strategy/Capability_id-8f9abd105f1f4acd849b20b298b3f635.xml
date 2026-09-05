@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gestion de Clientes"
     id="id-8f9abd105f1f4acd849b20b298b3f635"
-    documentation="DESCRIPCION&#xA;Registra, identifica y gestiona la relacion integral con el cliente.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;KYC SBS; UIF&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+    documentation="DESCRIPCION&#xA;Registra, identifica y gestiona la relacion integral con el cliente.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;KYC SBS; UIF&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad tradicional&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR (parcial) - 3 de 4 subcapacidades&#xA;&#xA;SUBCAPACIDADES A DESARROLLAR&#xA;  - Registro y Onboarding de Clientes (KYC)  (O-01, O-02 / H-01, H-02 / CA-01)&#xA;  - Identidad y Autenticacion de Clientes  (O-01, O-03 / H-01, H-03 / CA-01)&#xA;  - Gestion de la Relacion con el Cliente (CRM)  (O-02 / H-02 / CA-06)">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -33,4 +33,25 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Caracter"
+      value="Tradicional"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR (parcial) - 3 de 4 subcapacidades"/>
+  <properties
+      key="Subcapacidades a desarrollar"
+      value="3 de 4"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR (parcial) - 3 de 4 subcapacidades"/>
 </archimate:Capability>

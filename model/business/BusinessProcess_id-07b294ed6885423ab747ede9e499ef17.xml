@@ -1,0 +1,36 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="3. Especificacion funcional de condiciones"
+    id="id-07b294ed6885423ab747ede9e499ef17"
+    documentation="ACTIVIDAD 3 del proceso PN-09 - Lanzamiento y modificacion de productos&#xA;&#xA;TIPO DE EJECUCION: MANUAL&#xA;ROL RESPONSABLE: Gestor de producto&#xA;SISTEMAS QUE LA AUTOMATIZAN: NINGUNO - se ejecuta de forma manual&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Diseno y Configuracion de Productos (CAP_M2_1)  -- realizada por el proceso PN-09&#xA;OBJETOS DE NEGOCIO: Producto&#xA;&#xA;DOLOR ASOCIADO&#xA;Hallazgos: H-05&#xA;&#xA;NOTA&#xA;Actividad sin soporte de sistema. El trabajo manual es fuente de error, demora y dependencia de personas.&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Diseno y Configuracion de Productos' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-09_3"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-09"/>
+  <properties
+      key="Secuencia"
+      value="3"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="MANUAL"/>
+  <properties
+      key="Sistemas"
+      value="NINGUNO (manual)"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_M2_1"/>
+  <properties
+      key="Hallazgos"
+      value="H-05"/>
+</archimate:BusinessProcess>

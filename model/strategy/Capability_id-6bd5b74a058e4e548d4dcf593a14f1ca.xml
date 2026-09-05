@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Identidad y Autenticacion de Clientes"
     id="id-6bd5b74a058e4e548d4dcf593a14f1ca"
-    documentation="DESCRIPCION&#xA;Verifica identidad y autentica al cliente en canales y APIs.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;DL 1531; seguridad de la informacion SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Verifica identidad y autentica al cliente en canales y APIs.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;DL 1531; seguridad de la informacion SBS&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;Sin identidad digital confiable no hay onboarding remoto ni operacion transaccional en la app. Es la capacidad que habilita simultaneamente la vinculacion digital y que el cliente opere de extremo a extremo sin presencia fisica.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-01, O-03  ·  Hallazgos: H-01, H-03  ·  Curso de accion: CA-01">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="Sin identidad digital confiable no hay onboarding remoto ni operacion transaccional en la app. Es la capacidad que habilita simultaneamente la vinculacion digital y que el cliente opere de extremo a extremo sin presencia fisica."/>
+  <properties
+      key="Oportunidades"
+      value="O-01, O-03"/>
+  <properties
+      key="Hallazgos"
+      value="H-01, H-03"/>
+  <properties
+      key="Curso de accion"
+      value="CA-01"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

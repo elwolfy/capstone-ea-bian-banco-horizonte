@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-07 · Administracion y cobranza del credito"
+    id="id-f4cd7b5b548f4998a3b9cb232ff8921e"
+    documentation="PROCESO PN-07 - Administracion y cobranza del credito&#xA;&#xA;TIPO: Misional   ESTADO: AS-IS   ORIGEN: [CASO seccion 6]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Credito desembolsado; cliente; areas de riesgo&#xA;I - Entrada: Cronograma de cuotas; pagos recibidos; situacion de mora&#xA;P - Proceso: 6 actividades (1 manuales)&#xA;O - Salida: Cuotas cobradas; cartera clasificada; provisiones constituidas&#xA;C - Cliente: Cliente final; riesgos; contabilidad; SBS&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Provisiones dinamicas (SBS); Basilea III&#xA;&#xA;DISPARADOR&#xA;Vencimiento de cuota&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M3, CAP_E2&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-07"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-07"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="6"/>
+  <properties
+      key="Actividades manuales"
+      value="1"/>
+  <properties
+      key="Disparador"
+      value="Vencimiento de cuota"/>
+  <properties
+      key="Controles"
+      value="Provisiones dinamicas (SBS); Basilea III"/>
+  <properties
+      key="SIPOC-S"
+      value="Credito desembolsado; cliente; areas de riesgo"/>
+  <properties
+      key="SIPOC-I"
+      value="Cronograma de cuotas; pagos recibidos; situacion de mora"/>
+  <properties
+      key="SIPOC-O"
+      value="Cuotas cobradas; cartera clasificada; provisiones constituidas"/>
+  <properties
+      key="SIPOC-C"
+      value="Cliente final; riesgos; contabilidad; SBS"/>
+</archimate:BusinessProcess>

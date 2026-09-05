@@ -1,0 +1,21 @@
+<archimate:Resource
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Informacion de clientes y operaciones"
+    id="id-0574650a38bc42bc85e433377f8f9453"
+    documentation="QUE ES&#xA;El acervo de datos de clientes, contratos y transacciones que el banco acumula en su operacion.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es el insumo de la personalizacion, del scoring crediticio y de la analitica. Su valor depende de la calidad y del gobierno: hoy esta disperso y duplicado, por lo que no es explotable de forma confiable para analitica ni IA.&#xA;&#xA;EJEMPLO&#xA;Al cliente se le pide la misma informacion varias veces porque el dato vive en multiples sistemas sin fuente unica (H-02).&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Hallazgos H-02, H-07, H-11; oportunidades O-02, O-07, O-10.&#xA;&#xA;FUENTES&#xA;Ley N 29733 de Proteccion de Datos Personales  ·  DAMA-DMBOK (gobierno de datos)  ·  BIAN BOM First Edition">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="R_DATA"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:Resource>

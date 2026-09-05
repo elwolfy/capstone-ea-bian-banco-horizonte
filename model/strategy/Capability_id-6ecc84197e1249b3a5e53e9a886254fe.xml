@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Diseno y Configuracion de Productos (Condiciones)"
     id="id-6ecc84197e1249b3a5e53e9a886254fe"
-    documentation="DESCRIPCION&#xA;Define productos y sus paquetes de condiciones (Arrangement).&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Transparencia y tasas SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+    documentation="DESCRIPCION&#xA;Define productos y sus paquetes de condiciones (Arrangement).&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product, Arrangement&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Transparencia y tasas SBS&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad tradicional&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;Crear o modificar un producto toma meses porque las condiciones estan embebidas en el codigo del core. Debe pasar a un catalogo configurable por parametros, de modo que lanzar o ajustar un producto sea cuestion de dias; es ventaja competitiva directa frente a las fintech.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-05  ·  Hallazgos: H-05  ·  Curso de accion: CA-04">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Tradicional"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="Crear o modificar un producto toma meses porque las condiciones estan embebidas en el codigo del core. Debe pasar a un catalogo configurable por parametros, de modo que lanzar o ajustar un producto sea cuestion de dias; es ventaja competitiva directa frente a las fintech."/>
+  <properties
+      key="Oportunidades"
+      value="O-05"/>
+  <properties
+      key="Hallazgos"
+      value="H-05"/>
+  <properties
+      key="Curso de accion"
+      value="CA-04"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

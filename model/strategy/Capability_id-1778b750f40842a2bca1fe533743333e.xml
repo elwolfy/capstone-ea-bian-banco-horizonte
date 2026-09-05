@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Innovacion y Transformacion Digital"
     id="id-1778b750f40842a2bca1fe533743333e"
-    documentation="DESCRIPCION&#xA;Impulsa la consolidacion de la banca digital y nuevos modelos de negocio.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley 29985 (dinero electronico); DL 1531&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Impulsa la consolidacion de la banca digital y nuevos modelos de negocio.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Product&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley 29985 (dinero electronico); DL 1531&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR (parcial) - 2 de 3 subcapacidades&#xA;&#xA;SUBCAPACIDADES A DESARROLLAR&#xA;  - Nuevos Modelos de Negocio (BaaS / Embedded)  (O-09 / H-10 / CA-07)&#xA;  - Gestion de APIs y Open Finance  (O-03, O-11 / H-08 / CA-08)">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -33,4 +33,25 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR (parcial) - 2 de 3 subcapacidades"/>
+  <properties
+      key="Subcapacidades a desarrollar"
+      value="2 de 3"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR (parcial) - 2 de 3 subcapacidades"/>
 </archimate:Capability>

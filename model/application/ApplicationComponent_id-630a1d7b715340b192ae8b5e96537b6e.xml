@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-13 · Monitoreo PLAFT"
+    id="id-630a1d7b715340b192ae8b5e96537b6e"
+    documentation="APLICACION APP-13 - Monitoreo PLAFT&#xA;&#xA;CAPA: Cumplimiento&#xA;TECNOLOGIA: Paquete · Windows Server&#xA;ANIO: 2013&#xA;SOPORTE: SOPORTE EXTENDIDO&#xA;DEUDA TECNICA: Media&#xA;CRITICIDAD: Alta&#xA;PROCESOS QUE AUTOMATIZA: PN-01,04,10,11&#xA;&#xA;Genera alertas y reportes de prevencion de lavado de activos.&#xA;&#xA;DEUDA TECNICA (MEDIA)&#xA;Mantiene copia propia del cliente para el perfilamiento -> contribuye a H-02.&#xA;&#xA;TRAZABILIDAD&#xA;Capacidad E3.2 PLAFT.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Media&#xA;OBSOLESCENCIA / SOPORTE: SOPORTE EXTENDIDO&#xA;CRITICIDAD: Alta&#xA;PROCESOS QUE AUTOMATIZA: PN-01,04,10,11">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-13"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-13"/>
+  <properties
+      key="Capa"
+      value="Cumplimiento"/>
+  <properties
+      key="Tecnologia"
+      value="Paquete · Windows Server"/>
+  <properties
+      key="Anio"
+      value="2013"/>
+  <properties
+      key="Soporte"
+      value="SOPORTE EXTENDIDO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Media"/>
+  <properties
+      key="Criticidad"
+      value="Alta"/>
+  <properties
+      key="Procesos"
+      value="PN-01,04,10,11"/>
+</archimate:ApplicationComponent>

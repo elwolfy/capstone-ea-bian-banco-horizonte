@@ -1,0 +1,25 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ISO 20022 · En linea"
+    id="id-6aa53e6780374166ae7521e315703152"
+    documentation="Integracion APP-10 -> APP-01&#xA;Mecanismo: ISO 20022&#xA;Frecuencia: En linea&#xA;Observacion: Unica integracion con estandar de industria&#xA;&#xA;[SUPUESTO] didactico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <properties
+      key="Mecanismo"
+      value="ISO 20022"/>
+  <properties
+      key="Frecuencia"
+      value="En linea"/>
+  <properties
+      key="Observacion"
+      value="Unica integracion con estandar de industria"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-5cc47d92735e4c618c828495453d2211.xml#id-5cc47d92735e4c618c828495453d2211"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-124a9e19ed94439ba7ba0519c71f529e.xml#id-124a9e19ed94439ba7ba0519c71f529e"/>
+</archimate:FlowRelationship>

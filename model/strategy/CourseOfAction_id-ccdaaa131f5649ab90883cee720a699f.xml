@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-05 · Acelerar y estandarizar la evaluacion crediticia"
+    id="id-ccdaaa131f5649ab90883cee720a699f"
+    documentation="QUE ES&#xA;Curso de accion para que la evaluacion y decision de credito sea rapida, consistente y trazable.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Hoy la evaluacion es lenta e inconsistente, lo que cuesta colocaciones y deteriora la experiencia. Se ataca estandarizando el scoring, automatizando la decision dentro del apetito de riesgo y apoyandose en datos confiables.&#xA;&#xA;EJEMPLO&#xA;El scoring con fuentes alternativas de datos permite decidir en minutos manteniendo el control del riesgo; requiere, eso si, datos gobernados.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidad O-06. Atiende el hallazgo H-06 (evaluacion lenta e inconsistente). Sirve al pilar P4 y depende de CA-06 (base unica del dato).&#xA;&#xA;FUENTES&#xA;Central de Riesgos SBS  ·  Basilea III (riesgo de credito): https://www.bis.org/bcbs/basel3.htm  ·  buscar 'credit decisioning automation scoring'">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_CRED"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

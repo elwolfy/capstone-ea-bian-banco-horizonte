@@ -1,0 +1,16 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="mantiene"
+    id="id-6fecccb322d442a5bcc94d530f36198d"
+    documentation="La aplicacion APP-13 MANTIENE una copia propia de Reporte regulatorio. Contribuye a la duplicacion de datos (H-07).">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-630a1d7b715340b192ae8b5e96537b6e.xml#id-630a1d7b715340b192ae8b5e96537b6e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0d9308caebb5466f8cec73777efda76e.xml#id-0d9308caebb5466f8cec73777efda76e"/>
+</archimate:AccessRelationship>

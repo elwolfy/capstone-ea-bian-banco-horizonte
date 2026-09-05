@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-03 · Motor de Scoring Crediticio"
+    id="id-d7f36e6576014ab1bba0604760c5fa25"
+    documentation="APLICACION APP-03 - Motor de Scoring Crediticio&#xA;&#xA;CAPA: Analitica&#xA;TECNOLOGIA: Motor propietario · Windows Server&#xA;ANIO: 2009&#xA;SOPORTE: SOPORTE EXTENDIDO&#xA;DEUDA TECNICA: Media&#xA;CRITICIDAD: Alta&#xA;PROCESOS QUE AUTOMATIZA: PN-02&#xA;&#xA;Evalua capacidad de pago y consulta central de riesgos. Automatiza parcialmente la decision: el resto es manual (H-06).&#xA;&#xA;TRAZABILIDAD&#xA;H-06 -> O-06 -> CA-05 -> capacidad M3.2 Evaluacion y Decision.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Media&#xA;OBSOLESCENCIA / SOPORTE: SOPORTE EXTENDIDO&#xA;CRITICIDAD: Alta&#xA;PROCESOS QUE AUTOMATIZA: PN-02">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-03"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-03"/>
+  <properties
+      key="Capa"
+      value="Analitica"/>
+  <properties
+      key="Tecnologia"
+      value="Motor propietario · Windows Server"/>
+  <properties
+      key="Anio"
+      value="2009"/>
+  <properties
+      key="Soporte"
+      value="SOPORTE EXTENDIDO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Media"/>
+  <properties
+      key="Criticidad"
+      value="Alta"/>
+  <properties
+      key="Procesos"
+      value="PN-02"/>
+</archimate:ApplicationComponent>

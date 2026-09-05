@@ -1,0 +1,14 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-554e5a0274114a71b132970ab9cbffbb">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <source
+      xsi:type="archimate:BusinessEvent"
+      href="BusinessEvent_id-724c9c0b974b47f2847c734ecdc362ed.xml#id-724c9c0b974b47f2847c734ecdc362ed"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-bd906808c8ab41a689b296f970afe545.xml#id-bd906808c8ab41a689b296f970afe545"/>
+</archimate:TriggeringRelationship>

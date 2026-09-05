@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Lanzar/ajustar productos en ≤ 2 semanas"
     id="id-8f5d2938a77843adbea268dde3c90b1d"
-    documentation="Indicador: lead time de cambios de producto. Meta: ≤2 semanas. Plazo: 2027. Mide la agilidad de productos.">
+    documentation="Indicador: lead time de cambios de producto. Meta: ≤2 semanas. Plazo: 2027. Mide la agilidad de productos.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Mide la agilidad de producto. Lo produce la capacidad de Innovacion y Transformacion Digital, desarrollada por CA-04.&#xA;Trazabilidad: H-05 · O-05 · habilitador de innovacion.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Outcome>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Valor Almacenado / Billetera"
     id="id-16689472487d4a0b916479680d82b52b"
-    documentation="DESCRIPCION&#xA;Cuenta de valor almacenado (dinero electronico) para billetera digital.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Account&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley 29985 de Dinero Electronico&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Cuenta de valor almacenado (dinero electronico) para billetera digital.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Account&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Ley 29985 de Dinero Electronico&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;El segmento nativo digital espera una experiencia 100% movil que hoy el banco no ofrece. La cuenta de valor almacenado bajo el marco de dinero electronico es la pieza que habilita la billetera y, con ella, la base de la ambicion de expansion regional.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-09  ·  Hallazgos: H-10  ·  Curso de accion: CA-07">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="El segmento nativo digital espera una experiencia 100% movil que hoy el banco no ofrece. La cuenta de valor almacenado bajo el marco de dinero electronico es la pieza que habilita la billetera y, con ella, la base de la ambicion de expansion regional."/>
+  <properties
+      key="Oportunidades"
+      value="O-09"/>
+  <properties
+      key="Hallazgos"
+      value="H-10"/>
+  <properties
+      key="Curso de accion"
+      value="CA-07"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

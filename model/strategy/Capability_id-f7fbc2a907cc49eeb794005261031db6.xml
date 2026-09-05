@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gestion Financiera y Contable"
     id="id-f7fbc2a907cc49eeb794005261031db6"
-    documentation="DESCRIPCION&#xA;Registra la contabilidad, la reporteria y administra la tesoreria.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Manual de Contabilidad SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad tradicional">
+    documentation="DESCRIPCION&#xA;Registra la contabilidad, la reporteria y administra la tesoreria.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Manual de Contabilidad SBS&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad tradicional&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR (parcial) - 2 de 3 subcapacidades&#xA;&#xA;SUBCAPACIDADES A DESARROLLAR&#xA;  - Contabilidad y Registro Financiero (Ledger)  (O-07 / H-07 / CA-06)&#xA;  - Reporteria Regulatoria y Financiera  (O-07 / H-07 / CA-06)">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -33,4 +33,22 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Tradicional"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR (parcial) - 2 de 3 subcapacidades"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Subcapacidades a desarrollar"
+      value="2 de 3"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR (parcial) - 2 de 3 subcapacidades"/>
 </archimate:Capability>

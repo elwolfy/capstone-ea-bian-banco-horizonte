@@ -1,0 +1,21 @@
+<archimate:Resource
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Linea de innovacion (Horizonte Labs)"
+    id="id-90862fe16a004a298974a7dfb16706f2"
+    documentation="QUE ES&#xA;La unidad y el presupuesto dedicados a concebir, prototipar y lanzar productos digitales.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es el recurso que sostiene el doble foco de innovacion del banco: incluir al no bancarizado y conquistar al nativo digital. Habilita la capacidad de innovacion y transformacion digital.&#xA;&#xA;EJEMPLO&#xA;Desde esta linea se impulsan la solucion de pago en efectivo por referencia (modelo ComproPago) y la billetera para nativos digitales (modelo SPIN).&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Linea de innovacion (doble foco); oportunidades O-08, O-09.&#xA;&#xA;FUENTES&#xA;Ley N 29985 (dinero electronico)  ·  buscar 'ComproPago' y 'SPIN OXXO' como referencias de modelo">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="R_INN"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:Resource>

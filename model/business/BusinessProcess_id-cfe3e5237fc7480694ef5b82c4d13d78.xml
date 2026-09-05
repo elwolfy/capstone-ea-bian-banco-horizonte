@@ -1,0 +1,36 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="2. Identificacion y autenticacion del cliente"
+    id="id-cfe3e5237fc7480694ef5b82c4d13d78"
+    documentation="ACTIVIDAD 2 del proceso PN-08 - Atencion de consultas y reclamos&#xA;&#xA;TIPO DE EJECUCION: HIBRIDA&#xA;ROL RESPONSABLE: Asesor de contact center&#xA;SISTEMAS QUE LA AUTOMATIZAN: APP-04 CRM Comercial&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Identidad y Autenticacion de Clientes (CAP_M1_2)  -- realizada por el proceso PN-08&#xA;OBJETOS DE NEGOCIO: Cliente&#xA;&#xA;DOLOR ASOCIADO&#xA;Hallazgos: H-02&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Identidad y Autenticacion de Clientes' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-08_2"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-08"/>
+  <properties
+      key="Secuencia"
+      value="2"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="HIBRIDA"/>
+  <properties
+      key="Sistemas"
+      value="APP-04"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_M1_2"/>
+  <properties
+      key="Hallazgos"
+      value="H-02"/>
+</archimate:BusinessProcess>

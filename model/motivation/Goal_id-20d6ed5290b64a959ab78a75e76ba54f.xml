@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="P4: Operación moderna y eficiente"
     id="id-20d6ed5290b64a959ab78a75e76ba54f"
-    documentation="Modernizar el core y los procesos para operar ágil y a menor costo.">
+    documentation="Modernizar el core y los procesos para operar ágil y a menor costo.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Pilar de eficiencia y time-to-market. Recibe los resultados OU3 y OU4, y lo empujan CA-03, CA-05 y CA-08.&#xA;Trazabilidad: H-04, H-06, H-12 · O-04, O-06, O-11.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Goal>

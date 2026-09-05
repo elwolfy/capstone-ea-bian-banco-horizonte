@@ -1,0 +1,36 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="4. Confirmacion en linea del pago"
+    id="id-f952a16393be4ba39bfd21d6e0ec666a"
+    documentation="ACTIVIDAD 4 del proceso PN-06 - Pago y cobro en efectivo por referencia&#xA;&#xA;TIPO DE EJECUCION: AUTOMATIZADA&#xA;ROL RESPONSABLE: (sistema, sin intervencion humana)&#xA;SISTEMAS QUE LA AUTOMATIZAN: NINGUNO - se ejecuta de forma manual&#xA;CAPACIDAD L2 A LA QUE CONTRIBUYE: Pagos con Referencia en Retail (ComproPago) (CAP_M5_3)  -- realizada por el proceso PN-06&#xA;OBJETOS DE NEGOCIO: Transaccion&#xA;&#xA;DOLOR ASOCIADO&#xA;Hallazgos: H-09&#xA;&#xA;EN LOS MODULOS 3-4 (metamodelo BIAN)&#xA;La capacidad L2 'Pagos con Referencia en Retail (ComproPago)' sera SERVIDA por uno o mas Service Domains de BIAN, y esta ACTIVIDAD pasara a USAR esos Service Domains. Hoy la actividad solo esta compuesta en el proceso; el enlace definitivo actividad -> Service Domain se establece en el Modulo 3.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] didactico consistente con los hallazgos del assessment.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="ACT_PN-06_4"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Proceso"
+      value="PN-06"/>
+  <properties
+      key="Secuencia"
+      value="4"/>
+  <properties
+      key="Tipo de ejecucion"
+      value="AUTOMATIZADA"/>
+  <properties
+      key="Sistemas"
+      value="NINGUNO (manual)"/>
+  <properties
+      key="Capacidad L2"
+      value="CAP_M5_3"/>
+  <properties
+      key="Hallazgos"
+      value="H-09"/>
+</archimate:BusinessProcess>

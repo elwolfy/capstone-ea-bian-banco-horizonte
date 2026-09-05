@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Pagos con Referencia en Retail (ComproPago)"
     id="id-714c4b2c0fc245e9a1ec70b741ee0356"
-    documentation="DESCRIPCION&#xA;Cobro/pago en efectivo por referencia en red retail (inclusion de no bancarizados).&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Instruction, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de cajeros corresponsales SBS&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Cobro y pago en efectivo por referencia en red retail, sin necesidad de cuenta.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Instruction, Transaction&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Reglamento de cajeros corresponsales SBS&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;Es una capacidad NUEVA: hoy el no bancarizado no tiene un mecanismo simple para pagar o cobrar en efectivo con el banco. Es la pieza que materializa la mision de inclusion y abre la relacion con un segmento que opera solo en efectivo.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-08  ·  Hallazgos: H-09  ·  Curso de accion: CA-07">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -14,7 +14,7 @@
       value="2"/>
   <properties
       key="Descripcion"
-      value="Cobro/pago en efectivo por referencia en red retail (inclusion de no bancarizados)."/>
+      value="Cobro y pago en efectivo por referencia en red retail, sin necesidad de cuenta."/>
   <properties
       key="Objetos de negocio"
       value="Instruction, Transaction"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="Es una capacidad NUEVA: hoy el no bancarizado no tiene un mecanismo simple para pagar o cobrar en efectivo con el banco. Es la pieza que materializa la mision de inclusion y abre la relacion con un segmento que opera solo en efectivo."/>
+  <properties
+      key="Oportunidades"
+      value="O-08"/>
+  <properties
+      key="Hallazgos"
+      value="H-09"/>
+  <properties
+      key="Curso de accion"
+      value="CA-07"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

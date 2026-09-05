@@ -1,0 +1,42 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-04 · CRM Comercial"
+    id="id-781696f0b0ea483689f924818422f0bc"
+    documentation="APLICACION APP-04 - CRM Comercial&#xA;&#xA;CAPA: Front&#xA;TECNOLOGIA: Cliente-servidor .NET / SQL Server&#xA;ANIO: 2011&#xA;SOPORTE: SOPORTE EXTENDIDO&#xA;DEUDA TECNICA: Media&#xA;CRITICIDAD: Alta&#xA;PROCESOS QUE AUTOMATIZA: PN-01,07,08,11&#xA;&#xA;Gestiona el vinculo comercial y los casos de atencion.&#xA;&#xA;DEUDA TECNICA (MEDIA)&#xA;Mantiene COPIA PROPIA del cliente, alimentada por archivo diario desde el core y completada manualmente -> evidencia de H-02.&#xA;&#xA;TRAZABILIDAD&#xA;H-02 -> O-02 -> CA-06 -> capacidad M1.3 CRM.&#xA;&#xA;NOTA DE ORIGEN&#xA;[SUPUESTO] El caso de negocio no nombra sistemas. Este inventario es construccion didactica consistente con los hallazgos H-01..H-12.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- DEUDA TECNICA Y OBSOLESCENCIA (M2) ---&#xA;DEUDA TECNICA: Media&#xA;OBSOLESCENCIA / SOPORTE: SOPORTE EXTENDIDO&#xA;CRITICIDAD: Alta&#xA;PROCESOS QUE AUTOMATIZA: PN-01,07,08,11">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="APP_APP-04"/>
+  <properties
+      key="Origen"
+      value="[SUPUESTO] didactico"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="APP-04"/>
+  <properties
+      key="Capa"
+      value="Front"/>
+  <properties
+      key="Tecnologia"
+      value="Cliente-servidor .NET / SQL Server"/>
+  <properties
+      key="Anio"
+      value="2011"/>
+  <properties
+      key="Soporte"
+      value="SOPORTE EXTENDIDO"/>
+  <properties
+      key="Deuda tecnica"
+      value="Media"/>
+  <properties
+      key="Criticidad"
+      value="Alta"/>
+  <properties
+      key="Procesos"
+      value="PN-01,07,08,11"/>
+</archimate:ApplicationComponent>

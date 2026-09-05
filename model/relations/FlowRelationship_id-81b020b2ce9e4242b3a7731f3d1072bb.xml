@@ -1,0 +1,25 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="EXTRACCION MANUAL · Por periodo"
+    id="id-81b020b2ce9e4242b3a7731f3d1072bb"
+    documentation="Integracion APP-14 -> APP-12&#xA;Mecanismo: EXTRACCION MANUAL&#xA;Frecuencia: Por periodo&#xA;Observacion: SIN INTEGRACION: lo hace una persona (H-07)&#xA;&#xA;[SUPUESTO] didactico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <properties
+      key="Mecanismo"
+      value="EXTRACCION MANUAL"/>
+  <properties
+      key="Frecuencia"
+      value="Por periodo"/>
+  <properties
+      key="Observacion"
+      value="SIN INTEGRACION: lo hace una persona (H-07)"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-cc26e0a735044f17abfbfb6753db547e.xml#id-cc26e0a735044f17abfbfb6753db547e"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-1d410453a6574038a1c2a8713c07c850.xml#id-1d410453a6574038a1c2a8713c07c850"/>
+</archimate:FlowRelationship>

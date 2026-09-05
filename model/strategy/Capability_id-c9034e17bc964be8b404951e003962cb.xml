@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gestion de Tecnologia y Arquitectura"
     id="id-c9034e17bc964be8b404951e003962cb"
-    documentation="DESCRIPCION&#xA;Gobierna la plataforma tecnologica, la arquitectura, la integracion y los datos.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;(todos)&#xA;&#xA;SUSTENTO NORMATIVO&#xA;COBIT; DL 1531&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Gobierna la plataforma tecnologica, la arquitectura, la integracion y los datos.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;(todos)&#xA;&#xA;SUSTENTO NORMATIVO&#xA;COBIT; DL 1531&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR (parcial) - 4 de 4 subcapacidades&#xA;&#xA;SUBCAPACIDADES A DESARROLLAR&#xA;  - Arquitectura Empresarial  (O-11 / H-12 / CA-08)&#xA;  - Plataformas y Core Bancario  (O-11 / H-05, H-12 / CA-08)&#xA;  - Integracion y APIs  (O-11 / H-08 / CA-08)&#xA;  - Gestion de Datos e Informacion (BOM)  (O-02, O-07, O-10 / H-02, H-07, H-11 / CA-06)">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -33,4 +33,25 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR (parcial) - 4 de 4 subcapacidades"/>
+  <properties
+      key="Subcapacidades a desarrollar"
+      value="4 de 4"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR (parcial) - 4 de 4 subcapacidades"/>
 </archimate:Capability>

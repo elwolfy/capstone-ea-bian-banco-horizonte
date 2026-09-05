@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Fuente única de datos en dominios core"
     id="id-c7c49e8ce25c4567969535d3ccd09aeb"
-    documentation="Indicador: % de dominios core con fuente única de verdad. Meta: 100%. Plazo: 2028. Base para IA.">
+    documentation="Indicador: % de dominios core con fuente única de verdad. Meta: 100%. Plazo: 2028. Base para IA.&#xA;&#xA;--- VISTA ESTRATEGICA (Capstone CD-03) ---&#xA;Mide el gobierno del dato y es la precondicion de la analitica y la IA. Lo produce la capacidad de Tecnologia y Arquitectura, desarrollada por CA-06.&#xA;Trazabilidad: H-02, H-07, H-11 · O-02, O-07, O-10 · habilitador de datos.&#xA;Caso de negocio: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaMotivacional"/>
@@ -12,4 +12,10 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista estrategica"
+      value="Si"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
 </archimate:Outcome>

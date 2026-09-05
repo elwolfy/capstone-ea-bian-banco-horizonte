@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-04 · Ejecucion de pagos y transferencias"
+    id="id-5dd4ef55f5624aef9978fbb0d1245732"
+    documentation="PROCESO PN-04 - Ejecucion de pagos y transferencias&#xA;&#xA;TIPO: Misional   ESTADO: AS-IS   ORIGEN: [CASO seccion 7]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Cliente; camara de compensacion (BCRP)&#xA;I - Entrada: Orden de pago o transferencia; datos del beneficiario&#xA;P - Proceso: 7 actividades (0 manuales)&#xA;O - Salida: Pago ejecutado; confirmacion al cliente; asiento contable&#xA;C - Cliente: Cliente final; beneficiario; contabilidad&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Sistemas de pago (BCRP); interoperabilidad; PLAFT (UIF)&#xA;&#xA;DISPARADOR&#xA;Orden de pago recibida&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M5, CAP_H1&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-04"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-04"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="7"/>
+  <properties
+      key="Actividades manuales"
+      value="0"/>
+  <properties
+      key="Disparador"
+      value="Orden de pago recibida"/>
+  <properties
+      key="Controles"
+      value="Sistemas de pago (BCRP); interoperabilidad; PLAFT (UIF)"/>
+  <properties
+      key="SIPOC-S"
+      value="Cliente; camara de compensacion (BCRP)"/>
+  <properties
+      key="SIPOC-I"
+      value="Orden de pago o transferencia; datos del beneficiario"/>
+  <properties
+      key="SIPOC-O"
+      value="Pago ejecutado; confirmacion al cliente; asiento contable"/>
+  <properties
+      key="SIPOC-C"
+      value="Cliente final; beneficiario; contabilidad"/>
+</archimate:BusinessProcess>

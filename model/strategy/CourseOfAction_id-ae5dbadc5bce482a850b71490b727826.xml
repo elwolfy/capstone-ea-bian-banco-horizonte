@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-08 · Modernizar la tecnologia adoptando BIAN"
+    id="id-ae5dbadc5bce482a850b71490b727826"
+    documentation="QUE ES&#xA;Curso de accion para descomponer el core monolitico en bloques modulares, usando BIAN como arquitectura de referencia y sin big-bang.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es el habilitador de todos los demas cursos de accion: mientras el cambio tecnologico sea caro y riesgoso, ninguna otra iniciativa avanza a la velocidad requerida. El mecanismo es adoptar el lenguaje comun de la industria (Service Domains, BOM, Semantic APIs) para migrar por partes, reemplazando o contratando un bloque a la vez.&#xA;&#xA;EJEMPLO&#xA;Sustituir unicamente el motor de pagos sin detener el banco: eso es lo que habilita una arquitectura de bajo acoplamiento ('coreless banking').&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidad O-11. Atiende los hallazgos H-08 (integraciones costosas y fragiles) y H-12 (cambio caro y riesgoso). Sirve al pilar P4 y sostiene a los demas cursos de accion.&#xA;&#xA;FUENTES&#xA;BIAN: https://www.bian.org  ·  BIAN Service Landscape: https://bian.org/servicelandscape  ·  BIAN 2nd Ed. Cap. 1 y 2  ·  buscar 'coreless banking'">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_BIAN"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

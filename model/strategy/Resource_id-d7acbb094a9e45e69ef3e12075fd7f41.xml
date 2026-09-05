@@ -1,0 +1,21 @@
+<archimate:Resource
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Red de agencias y corresponsales"
+    id="id-d7acbb094a9e45e69ef3e12075fd7f41"
+    documentation="QUE ES&#xA;La infraestructura de atencion presencial: oficinas propias y la red de cajeros corresponsales y comercios aliados.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es el recurso que da alcance territorial y cercania, especialmente en el segmento no bancarizado que opera en efectivo. Habilita la capacidad de canales y es el punto fisico donde se materializa el pago y cobro en efectivo.&#xA;&#xA;EJEMPLO&#xA;Los agentes de retail permiten deposito, retiro y pago; hoy, sin embargo, se concilian al dia siguiente y no en tiempo real (hallazgo H-04).&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Canales del Business Model Canvas; hallazgo H-04; oportunidad O-04.&#xA;&#xA;FUENTES&#xA;Reglamento de cajeros corresponsales (SBS): https://www.sbs.gob.pe  ·  buscar 'corresponsales no bancarios Peru'">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="R_RED"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:Resource>

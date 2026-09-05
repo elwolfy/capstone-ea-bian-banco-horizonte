@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-02 · Completar la banca digital transaccional"
+    id="id-1d209586e8064c8cac57d2fa05abac9e"
+    documentation="QUE ES&#xA;Curso de accion para que la app y la banca web permitan OPERAR de extremo a extremo, no solo consultar.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es la brecha central del caso: los canales digitales existen pero estan incompletos, lo que obliga al cliente a ir a la agencia y frena al segmento nativo digital. Se cierra habilitando por servicio las operaciones que hoy solo existen en canales presenciales.&#xA;&#xA;EJEMPLO&#xA;Que un cliente pueda solicitar, aprobar y recibir el desembolso de un credito sin pisar una agencia.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidad O-03. Atiende los hallazgos H-03 (app/web solo consulta) y H-10 (nativos digitales esperan experiencia 100% digital). Sirve al pilar P1.&#xA;&#xA;FUENTES&#xA;Caso de negocio (docs/Caso-de-Negocio-Banco-Horizonte.md)  ·  buscar 'digital banking end-to-end transactional capability'">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_DIG"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

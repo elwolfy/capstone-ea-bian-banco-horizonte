@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-04 · Industrializar el catalogo de productos"
+    id="id-2e2e870f6ec24476b9756bb74702837b"
+    documentation="QUE ES&#xA;Curso de accion para poder crear y ajustar productos por configuracion, en dias, en lugar de por desarrollo, en meses.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;El time-to-market de producto es una ventaja competitiva directa frente a las fintech. Se logra separando las condiciones del producto (parametros) de la logica del sistema, con un catalogo configurable.&#xA;&#xA;EJEMPLO&#xA;Los cores modulares de nueva generacion (Thought Machine, Mambu, Temenos) se apoyan justamente en productos definidos por configuracion.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidad O-05. Atiende el hallazgo H-05 (lanzar o modificar un producto toma meses). Sirve al pilar P4 y al habilitador de innovacion.&#xA;&#xA;FUENTES&#xA;buscar 'product configuration engine core banking'  ·  Mambu / Thought Machine (documentacion publica de producto)">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_PROD"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

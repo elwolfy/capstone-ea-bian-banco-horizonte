@@ -1,0 +1,25 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ARCHIVO PLANO · Diaria"
+    id="id-fec0a616018544649a1ece74fb85b898"
+    documentation="Integracion APP-08 -> APP-11&#xA;Mecanismo: ARCHIVO PLANO&#xA;Frecuencia: Diaria&#xA;Observacion: (H-07)&#xA;&#xA;[SUPUESTO] didactico.">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/Aplicaciones"/>
+  <properties
+      key="Mecanismo"
+      value="ARCHIVO PLANO"/>
+  <properties
+      key="Frecuencia"
+      value="Diaria"/>
+  <properties
+      key="Observacion"
+      value="(H-07)"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-e03b71f674cf48f994ad1638d73454c9.xml#id-e03b71f674cf48f994ad1638d73454c9"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-d1cac5ed3e104c9c865d7e5d76becca5.xml#id-d1cac5ed3e104c9c865d7e5d76becca5"/>
+</archimate:FlowRelationship>

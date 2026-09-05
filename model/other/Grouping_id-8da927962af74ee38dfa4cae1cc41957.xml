@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Franja Misional"
     id="id-8da927962af74ee38dfa4cae1cc41957"
-    documentation="Franja de capacidades Misional (BIZBOK: Core / Customer-facing). Agrupa las capacidades de negocio de este tipo para Banco Horizonte.">
+    documentation="Franja de capacidades Misional (BIZBOK: Core / Customer-facing). Agrupa las capacidades de negocio de este tipo para Banco Horizonte.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>

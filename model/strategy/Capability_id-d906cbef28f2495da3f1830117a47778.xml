@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gestion de Alianzas y Ecosistema"
     id="id-d906cbef28f2495da3f1830117a47778"
-    documentation="DESCRIPCION&#xA;Gobierna alianzas con comercios, corresponsales y futuros partners de Open Finance.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Interoperabilidad BCRP; vision Open Finance&#xA;&#xA;COBERTURA: Peru&#xA;TIPO: Capacidad digital / de innovacion">
+    documentation="DESCRIPCION&#xA;Gobierna alianzas con comercios, corresponsales y partners de Open Finance.&#xA;&#xA;OBJETO(S) DE NEGOCIO (BOM Core)&#xA;Party&#xA;&#xA;SUSTENTO NORMATIVO&#xA;Interoperabilidad BCRP; vision Open Finance&#xA;&#xA;COBERTURA: Peru&#xA;CARACTER: capacidad digital / de innovacion&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;&#xA;--- VENTANA ESTRATEGICA 2026-2028 (Capstone CD-03) ---&#xA;ESTADO: A DESARROLLAR&#xA;&#xA;POR QUE SE DEBE DESARROLLAR&#xA;La solucion de pago y cobro en efectivo para no bancarizados se apoya en una red de comercios aliados que hoy no esta gobernada como capacidad. Sin capacidad de gestionar alianzas y liquidacion con terceros, el modelo tipo ComproPago no escala; ademas es la base del futuro ecosistema Open Finance.&#xA;&#xA;TRAZABILIDAD&#xA;Oportunidades: O-08, O-09  ·  Hallazgos: H-08, H-09  ·  Curso de accion: CA-07">
   <properties
       key="cps:generated-by"
       value="Horizonte/M1/VistaCapacidades"/>
@@ -14,7 +14,7 @@
       value="2"/>
   <properties
       key="Descripcion"
-      value="Gobierna alianzas con comercios, corresponsales y futuros partners de Open Finance."/>
+      value="Gobierna alianzas con comercios, corresponsales y partners de Open Finance."/>
   <properties
       key="Objetos de negocio"
       value="Party"/>
@@ -30,4 +30,31 @@
   <properties
       key="Origen"
       value="Caso Banco Horizonte"/>
+  <properties
+      key="Caracter"
+      value="Digital"/>
+  <properties
+      key="Estado"
+      value="A DESARROLLAR"/>
+  <properties
+      key="Justificacion"
+      value="La solucion de pago y cobro en efectivo para no bancarizados se apoya en una red de comercios aliados que hoy no esta gobernada como capacidad. Sin capacidad de gestionar alianzas y liquidacion con terceros, el modelo tipo ComproPago no escala; ademas es la base del futuro ecosistema Open Finance."/>
+  <properties
+      key="Oportunidades"
+      value="O-08, O-09"/>
+  <properties
+      key="Hallazgos"
+      value="H-08, H-09"/>
+  <properties
+      key="Curso de accion"
+      value="CA-07"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Ventana estrategica"
+      value="2026-2028"/>
+  <properties
+      key="Estado en la ventana"
+      value="A DESARROLLAR"/>
 </archimate:Capability>

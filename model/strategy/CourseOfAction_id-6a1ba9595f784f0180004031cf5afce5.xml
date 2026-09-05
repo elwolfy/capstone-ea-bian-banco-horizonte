@@ -1,0 +1,21 @@
+<archimate:CourseOfAction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CA-06 · Establecer una base unica y confiable del dato"
+    id="id-6a1ba9595f784f0180004031cf5afce5"
+    documentation="QUE ES&#xA;Curso de accion para constituir una fuente unica de verdad por dominio, gobernada, que sirva a la operacion, a la contabilidad, al cumplimiento y a la analitica.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es el curso de accion transversal: sin dato unico no hay vista unica del cliente, ni reportes que cuadren, ni IA confiable. El mecanismo es asignar un duenio unico por dominio de informacion -exactamente lo que BIAN formaliza con el Control Record de cada Service Domain- y consumir el resto por servicio.&#xA;&#xA;EJEMPLO&#xA;Hoy contabilidad y cumplimiento reconstruyen sus reportes por separado y no cuadran (H-07); con una base transaccional unica se elimina la reconciliacion manual.&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Oportunidades O-02, O-07, O-10. Atiende los hallazgos H-02, H-07 y H-11. Sirve a los pilares P3 y P4 y al habilitador de datos y analitica.&#xA;&#xA;FUENTES&#xA;BIAN BOM First Edition  ·  BIAN 2nd Ed. Cap. 2.5 (Control Record)  ·  Ley N 29733  ·  DAMA-DMBOK">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="CA_DATA"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:CourseOfAction>

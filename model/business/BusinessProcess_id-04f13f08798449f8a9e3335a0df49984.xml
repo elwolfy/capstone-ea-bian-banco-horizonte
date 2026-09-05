@@ -1,0 +1,51 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-05 · Operacion en agente / corresponsal"
+    id="id-04f13f08798449f8a9e3335a0df49984"
+    documentation="PROCESO PN-05 - Operacion en agente / corresponsal&#xA;&#xA;TIPO: Misional   ESTADO: AS-IS   ORIGEN: [CASO seccion 7]&#xA;&#xA;SIPOC&#xA;S - Proveedor: Cliente; comercio aliado / agente corresponsal&#xA;I - Entrada: Operacion en efectivo (deposito, retiro, pago); identificacion del cliente&#xA;P - Proceso: 8 actividades (2 manuales)&#xA;O - Salida: Operacion aplicada en la cuenta; saldo actualizado; asiento contable&#xA;C - Cliente: Cliente final; contabilidad; operaciones&#xA;&#xA;CONTROLES Y NORMATIVA&#xA;Reglamento de cajeros corresponsales (SBS)&#xA;&#xA;DISPARADOR&#xA;Operacion registrada en agente&#xA;&#xA;CAPACIDADES L1 QUE REALIZA&#xA;CAP_M6, CAP_M5, CAP_H1&#xA;&#xA;NOTA DE ORIGEN&#xA;Actividades, roles y objetos son [SUPUESTO] didactico; el caso solo aporta el relato del proceso.&#xA;&#xA;FUENTE DEL CASO&#xA;https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M2/VistasProcesos"/>
+  <properties
+      key="cps:key"
+      value="PROC_PN-05"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+  <properties
+      key="Codigo"
+      value="PN-05"/>
+  <properties
+      key="Tipo"
+      value="Misional"/>
+  <properties
+      key="Estado"
+      value="AS-IS"/>
+  <properties
+      key="Actividades"
+      value="8"/>
+  <properties
+      key="Actividades manuales"
+      value="2"/>
+  <properties
+      key="Disparador"
+      value="Operacion registrada en agente"/>
+  <properties
+      key="Controles"
+      value="Reglamento de cajeros corresponsales (SBS)"/>
+  <properties
+      key="SIPOC-S"
+      value="Cliente; comercio aliado / agente corresponsal"/>
+  <properties
+      key="SIPOC-I"
+      value="Operacion en efectivo (deposito, retiro, pago); identificacion del cliente"/>
+  <properties
+      key="SIPOC-O"
+      value="Operacion aplicada en la cuenta; saldo actualizado; asiento contable"/>
+  <properties
+      key="SIPOC-C"
+      value="Cliente final; contabilidad; operaciones"/>
+</archimate:BusinessProcess>

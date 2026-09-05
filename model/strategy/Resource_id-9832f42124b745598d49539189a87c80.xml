@@ -1,0 +1,21 @@
+<archimate:Resource
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Plataforma tecnologica y core bancario"
+    id="id-9832f42124b745598d49539189a87c80"
+    documentation="QUE ES&#xA;El conjunto de sistemas que soportan la operacion: el core bancario monolitico, los canales digitales y las integraciones.&#xA;&#xA;POR QUE IMPORTA (MECANISMO)&#xA;Es simultaneamente el recurso mas critico y la principal restriccion: su rigidez encarece y arriesga cada cambio, y por eso frena la ejecucion de la estrategia. Es el recurso que la modernizacion con BIAN busca transformar de monolito a bloques.&#xA;&#xA;EJEMPLO&#xA;Cada nuevo canal o alianza exige integraciones punto a punto costosas y fragiles (H-08), y el cambio tecnologico es caro y riesgoso (H-12).&#xA;&#xA;TRAZABILIDAD DEL CASO&#xA;Hallazgos H-05, H-08, H-12; oportunidad O-11.&#xA;&#xA;FUENTES&#xA;BIAN 2nd Edition, Cap. 1 (legacy complexity)  ·  McKinsey 'next-generation core banking': https://www.mckinsey.com  ·  buscar 'coreless banking BIAN'">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M1/VistaEstrategica"/>
+  <properties
+      key="cps:key"
+      value="R_TEC"/>
+  <properties
+      key="Origen"
+      value="Caso Banco Horizonte"/>
+  <properties
+      key="Vista"
+      value="Estrategica"/>
+  <properties
+      key="Caso"
+      value="https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md"/>
+</archimate:Resource>
