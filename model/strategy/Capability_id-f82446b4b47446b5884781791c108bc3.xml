@@ -1,0 +1,33 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Authentication"
+    id="id-f82446b4b47446b5884781791c108bc3"
+    documentation="SERVICE DOMAIN CANDIDATO — Party Authentication&#xA;&#xA;PATRON DEL SERVICE DOMAIN (BIAN 2nd Ed., Secc. 2.4)&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Capacidad de autenticar a una parte&#xA;  Generic Artifact   : Arrangement&#xA;  Control Record     : Party Authentication Arrangement   (= Asset Type + Generic Artifact)&#xA;  Behavior Qualifier Type : features&#xA;  Behavior Qualifiers     : Credenciales | Factores de autenticacion | Politica de acceso por canal&#xA;&#xA;POR QUE EL UMBRAL SE ALCANZA AQUI (threshold of decomposition, Secc. 2.4.3)&#xA;El Asset Type es del tipo 'capacidad de realizar' (capacity to perform), que el libro cita justamente con el ejemplo de party authentication. El banco autentica o no autentica: no existe 'media autenticacion'. Umbral alcanzado.&#xA;&#xA;ALCANCE POR CICLO DE VIDA (Secc. 2.4.3)&#xA;Este dominio responde por su Asset Type durante TODO el ciclo de vida de cada instancia, no por una etapa. No se parte en originacion / administracion / cobranza.&#xA;&#xA;CAPACIDAD DE NEGOCIO SERVIDA&#xA;  Identidad y Autenticacion de Clientes (CAP_M1_2)   — relacion: el Service Domain SIRVE a la capacidad L2.&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (Modulo 2)&#xA;  PN-01.3 Validacion de identidad&#xA;  PN-01.7 Habilitacion de credenciales y canales&#xA;&#xA;OBSERVACIONES&#xA;Dominio separado del de datos de referencia a proposito: catalogar a la parte y autenticarla son patrones distintos sobre activos distintos. Unirlos seria quedarse por encima del umbral (el antipatron 'Gestion de Clientes').&#xA;&#xA;ORIGEN Y ESTADO&#xA;[PROPUESTA] Dominio candidato identificado en el taller del Modulo 3 aplicando el metodo de 6 pasos sobre el inventario de procesos AS-IS. NO contrastado aun contra el Service Landscape oficial de BIAN: ese contraste es el hito del Modulo 4, donde puede confirmarse, renombrarse o dividirse.&#xA;Caso: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M3/ServiceDomains"/>
+  <properties
+      key="cps:key"
+      value="SD_PARTY_AUTH"/>
+  <properties
+      key="BIAN Functional Pattern"
+      value="Fulfill"/>
+  <properties
+      key="BIAN Asset Type"
+      value="Capacidad de autenticar a una parte"/>
+  <properties
+      key="BIAN Generic Artifact"
+      value="Arrangement"/>
+  <properties
+      key="BIAN Control Record"
+      value="Party Authentication Arrangement"/>
+  <properties
+      key="BIAN Behavior Qualifier Type"
+      value="features"/>
+  <properties
+      key="Estado"
+      value="Candidato - no contrastado con Service Landscape"/>
+  <properties
+      key="Modulo"
+      value="CD-03 / M3"/>
+</archimate:Capability>
