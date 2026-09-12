@@ -1,0 +1,12 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Instruction"
+    id="id-155dfc3f4ef545e1b8309dfd166d339a"
+    documentation="--- BOM MODULO 5 (Capstone CD-03) ---&#xA;BUSINESS OBJECT — Instruction   (BOM Content Pattern, paso 6 de 9)&#xA;&#xA;DEFINICION LITERAL DEL ESTANDAR&#xA;A request to do something — ese something es el compromiso tomado en un Arrangement.&#xA;&#xA;INSTANCIACION EN BANCO HORIZONTE&#xA;Orden de pago · solicitud de desembolso · requerimiento de cuota en fecha de vencimiento.&#xA;&#xA;OBJETO DE DATOS DEL CASO&#xA;BO-ORD Orden de pago&#xA;&#xA;DUENO UNICO (Service Domain estandar BIAN v14)&#xA;Payment Order Initiation   [EN ALCANCE]&#xA;&#xA;NOTA&#xA;La distincion instruccion / transaccion es la que mas se pierde en los sistemas legados: la solicitud y la ejecucion terminan en el mismo registro con un campo de estado. Por eso la orden de pago vive hoy en 4 sistemas.&#xA;&#xA;NOTACION&#xA;Business Object = objeto conceptual del BOM, nivel empresa, independiente de todo contexto. NO confundir con Data Object, que es el artefacto fisico en un sistema.&#xA;&#xA;FUENTES&#xA;  BOM Content Pattern: BIAN 2nd Ed. Secc. 2.6.2&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- BOM MODULO 5 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <properties
+      key="cps:key"
+      value="M5_BO_INSTRUCTION"/>
+</archimate:BusinessObject>

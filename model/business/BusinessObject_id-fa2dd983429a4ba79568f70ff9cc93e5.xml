@@ -1,0 +1,12 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Feature"
+    id="id-fa2dd983429a4ba79568f70ff9cc93e5"
+    documentation="--- BOM MODULO 5 (Capstone CD-03) ---&#xA;BUSINESS OBJECT — Product Feature   (BOM Content Pattern, paso 3 de 9)&#xA;&#xA;DEFINICION LITERAL DEL ESTANDAR&#xA;A characteristic of a Product, expressed in offered Services and/or Goods and the terms and conditions applicable to the delivery of the services.&#xA;&#xA;INSTANCIACION EN BANCO HORIZONTE&#xA;Plazo maximo · rango de tasa · garantias admisibles · comision de desembolso. ES EL TARIFARIO.&#xA;&#xA;OBJETO DE DATOS DEL CASO&#xA;(NO EXISTE en el inventario del caso)&#xA;&#xA;DUENO UNICO (Service Domain estandar BIAN v14)&#xA;Special Pricing Conditions / Discount Pricing   [FUERA DE ALCANCE]&#xA;&#xA;NOTA&#xA;EL HALLAZGO MAS FINO DE LA SESION. El Content Pattern tiene Product Feature y el inventario del caso NO lo tiene como objeto. Esa ausencia explica el sintoma: el tarifario vive en un Excel (APP-12, deuda tecnica muy alta) porque nunca se modelo como parte del acuerdo, sino como dato de configuracion suelto. El estandar dice que las caracteristicas del producto fijan las opciones de los arrangements: son parte del modelo, no un anexo.&#xA;&#xA;NOTACION&#xA;Business Object = objeto conceptual del BOM, nivel empresa, independiente de todo contexto. NO confundir con Data Object, que es el artefacto fisico en un sistema.&#xA;&#xA;FUENTES&#xA;  BOM Content Pattern: BIAN 2nd Ed. Secc. 2.6.2&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- BOM MODULO 5 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <properties
+      key="cps:key"
+      value="M5_BO_PRODFEAT"/>
+</archimate:BusinessObject>

@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-57ea1eb61e554c7884f2edebec1c67d1">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-a53fee9d67ee421bbd2c2ebca9ea2667.xml#id-a53fee9d67ee421bbd2c2ebca9ea2667"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-94376379dd154a5aa788b3a0bc4eb0a2.xml#id-94376379dd154a5aa788b3a0bc4eb0a2"/>
+</archimate:AssociationRelationship>

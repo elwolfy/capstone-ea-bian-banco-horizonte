@@ -1,0 +1,12 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account Entry"
+    id="id-113946761f924ab1b60935c4e017e90c"
+    documentation="--- BOM MODULO 5 (Capstone CD-03) ---&#xA;BUSINESS OBJECT — Account Entry   (BOM Content Pattern, paso 9 de 9)&#xA;&#xA;DEFINICION LITERAL DEL ESTANDAR&#xA;The record of a movement in value or amounts of assets, rights and obligations.&#xA;&#xA;INSTANCIACION EN BANCO HORIZONTE&#xA;Asientos del desembolso, del pago de cuota y del cierre diario.&#xA;&#xA;OBJETO DE DATOS DEL CASO&#xA;BO-ASI Asiento contable&#xA;&#xA;DUENO UNICO (Service Domain estandar BIAN v14)&#xA;Financial Accounting   [EN ALCANCE]&#xA;&#xA;NOTA&#xA;Su dueno concentra 6 actividades de 3 procesos y 5 de ellas son MANUALES. Objeto con dueno clarisimo y cero automatizacion: es el argumento del proyecto en un dato.&#xA;&#xA;NOTACION&#xA;Business Object = objeto conceptual del BOM, nivel empresa, independiente de todo contexto. NO confundir con Data Object, que es el artefacto fisico en un sistema.&#xA;&#xA;FUENTES&#xA;  BOM Content Pattern: BIAN 2nd Ed. Secc. 2.6.2&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- BOM MODULO 5 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <properties
+      key="cps:key"
+      value="M5_BO_ACCENTRY"/>
+</archimate:BusinessObject>

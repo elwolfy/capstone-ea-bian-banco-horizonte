@@ -1,0 +1,12 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reporte regulatorio"
+    id="id-ceff67e13d604c62bcf755ca4eb284f7"
+    documentation="--- BOM MODULO 5 (Capstone CD-03) ---&#xA;OBJETO DEL CASO QUE NO PERTENECE AL CONTENT PATTERN — Reporte regulatorio&#xA;&#xA;OBJETO DE DATOS DEL CASO&#xA;BO-REP&#xA;&#xA;DUENO UNICO (Service Domain estandar BIAN v14)&#xA;Regulatory Reporting&#xA;&#xA;NOTA&#xA;NO es un objeto del Content Pattern. Es un artefacto DERIVADO: se produce a partir de los objetos core (asientos, cuentas, partes) segun una especificacion externa. Vale como lamina: no todo lo que el banco llama 'dato importante' es un objeto de negocio.&#xA;--- BOM MODULO 5 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <properties
+      key="cps:key"
+      value="M5_BO_REPORTE"/>
+</archimate:BusinessObject>

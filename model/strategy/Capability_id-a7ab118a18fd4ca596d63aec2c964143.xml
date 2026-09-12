@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Lifecycle Management"
+    id="id-a7ab118a18fd4ca596d63aec2c964143"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Party Lifecycle Management&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Sales and Service&#xA;  Business Domain: Sales&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Inicia y gobierna el ciclo de vida de la relacion con la parte, desde la solicitud de vinculacion.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Registro y Onboarding de Clientes (KYC)&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (1)&#xA;  PN-01.1 Recepcion de la solicitud&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Sustituye a la asignacion propia anterior, que dejaba esta actividad sin dominio o la forzaba a un dominio de correspondencia. El estandar tiene un dominio propio para el ciclo de vida de la parte.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_PLM"/>
+</archimate:Capability>

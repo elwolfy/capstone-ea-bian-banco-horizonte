@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Agreement"
+    id="id-7f371ecc006946e8bc34b3aa8544fc22"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Customer Agreement&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Sales and Service&#xA;  Business Domain: Customer Management&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Gobierna el acuerdo formal entre el banco y el cliente.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Gestion de Acuerdos y Contratos&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (1)&#xA;  PN-02.7 Formalizacion del contrato&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Cuarta pieza de nuestro SME Lending. El acuerdo es un objeto de negocio propio, con dominio propio, distinto del producto que se cumple.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_CUSTAGR"/>
+</archimate:Capability>

@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Accounting"
+    id="id-19a79086c4c74c4e97638bc631928fd6"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Financial Accounting&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Risk and Compliance&#xA;  Business Domain: Financial Statement Assessment&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Lleva la contabilidad del banco: registra los hechos economicos y mantiene los acumulados.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Contabilidad y Registro Financiero (Ledger)&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (6)&#xA;  PN-02.9 Registro contable del desembolso&#xA;  PN-04.7 Registro contable&#xA;  PN-10.1 Cierre de operaciones del dia&#xA;  PN-10.2 Extraccion de datos del core y satelites&#xA;  PN-10.3 Consolidacion manual en hojas de calculo&#xA;  PN-10.5 Ajustes manuales y reclasificaciones&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Es el destino estandar de nuestro Financial Journal, y antes de eso del fallido Financial Position Management. Cierra el bloqueante de nomenclatura de forma definitiva: el dominio existe, se llama Financial Accounting, y no habia que inventarle nombre. || CONVERGENCIA MAXIMA: 6 actividades de 3 procesos (PN-02, PN-04, PN-10), y CINCO DE LAS SEIS SON MANUALES. Una sola responsabilidad, tres procesos que la necesitan, ninguna automatizacion compartida. || Position Keeping existe como dominio aparte en Transaction Engine, pero NO aplica aqui: mantiene posiciones, no lleva el libro.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_FINACC"/>
+</archimate:Capability>

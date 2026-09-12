@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Authentication"
+    id="id-83f1c5e072844aca8b2fae7d8c9abebd"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Party Authentication&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Sales and Service&#xA;  Business Domain: Cross Channel&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Autentica a la parte. Activo del tipo capacity to perform.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Identidad y Autenticacion de Clientes&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (1)&#xA;  PN-01.3 Validacion de identidad&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;COINCIDENCIA EXACTA. El framework usa justamente la autenticacion de una parte como ejemplo de la familia de activos capacity to perform (Secc. 2.4).&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_PAUTH"/>
+</archimate:Capability>

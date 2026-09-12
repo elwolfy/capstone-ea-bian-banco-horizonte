@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Support"
+    id="id-1e7f87c9b0bb453e9d4d5875492b1bc7"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;BUSINESS AREA BIAN — Business Support&#xA;&#xA;QUE ES&#xA;Agrupacion de Business Domains en unidades mayores, como las que los bancos usan para mostrar sus funciones de alto nivel. Se representa en ArchiMate como GROUPING: es agrupacion, no capacidad.&#xA;&#xA;NOMBRE VERBATIM del BIAN Service Landscape V14.0. Sin customizacion.&#xA;&#xA;FUENTE&#xA;https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_BA_BS"/>
+</archimate:Grouping>

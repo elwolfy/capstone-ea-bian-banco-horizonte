@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Directory"
+    id="id-96885fecccd14f7cb037ed3fa0bf24a5"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Document Directory&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Business Support&#xA;  Business Domain: Document Services&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Cataloga y localiza los documentos del banco.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Originacion de Credito&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (1)&#xA;  PN-02.2 Conformacion del expediente&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Confirma la lectura [DEBATIBLE] que habiamos anotado: el expediente NO es parte del arreglo de credito, es un dominio documental compartido. El estandar zanja la duda.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_DOCDIR"/>
+</archimate:Capability>

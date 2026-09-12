@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-744ef1b8b6634e11a48e18664dcafb09">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-7f371ecc006946e8bc34b3aa8544fc22.xml#id-7f371ecc006946e8bc34b3aa8544fc22"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-42690b6b1b6044d48cc2767e5249437c.xml#id-42690b6b1b6044d48cc2767e5249437c"/>
+</archimate:AssociationRelationship>

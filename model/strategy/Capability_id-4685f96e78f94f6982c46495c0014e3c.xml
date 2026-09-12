@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payee Servicing"
+    id="id-4685f96e78f94f6982c46495c0014e3c"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;BUSINESS DOMAIN BIAN — Payee Servicing&#xA;&#xA;BUSINESS AREA&#xA;Sales and Service&#xA;&#xA;QUE ES&#xA;Agrupacion de Service Domains por lineas que los bancos usan para denotar sus capacidades de alto nivel. Se representa como CAPABILITY porque los Business Domains pueden considerarse capacidades de negocio de grano grueso.&#xA;&#xA;REGLA DURA&#xA;Un Business Domain pertenece a EXACTAMENTE UN Business Area.&#xA;&#xA;NOMBRE VERBATIM del Service Landscape V14.0. Sin customizacion.&#xA;&#xA;FUENTE&#xA;https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_BD_PAYSERV"/>
+</archimate:Capability>

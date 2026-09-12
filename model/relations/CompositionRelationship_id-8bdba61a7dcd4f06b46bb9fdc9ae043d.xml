@@ -1,0 +1,14 @@
+<archimate:CompositionRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-8bdba61a7dcd4f06b46bb9fdc9ae043d">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <source
+      xsi:type="archimate:Grouping"
+      href="Grouping_id-4cb174ddff8c46f1adbae68e639c6fa2.xml#id-4cb174ddff8c46f1adbae68e639c6fa2"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-4685f96e78f94f6982c46495c0014e3c.xml#id-4685f96e78f94f6982c46495c0014e3c"/>
+</archimate:CompositionRelationship>

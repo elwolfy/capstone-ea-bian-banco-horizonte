@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cards"
+    id="id-d546030b932d4b278e91fa9ce1aa8716"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;BUSINESS DOMAIN BIAN — Cards&#xA;&#xA;BUSINESS AREA&#xA;Operations and Execution&#xA;&#xA;QUE ES&#xA;Agrupacion de Service Domains por lineas que los bancos usan para denotar sus capacidades de alto nivel. Se representa como CAPABILITY porque los Business Domains pueden considerarse capacidades de negocio de grano grueso.&#xA;&#xA;REGLA DURA&#xA;Un Business Domain pertenece a EXACTAMENTE UN Business Area.&#xA;&#xA;NOMBRE VERBATIM del Service Landscape V14.0. Sin customizacion.&#xA;&#xA;FUENTE&#xA;https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_BD_CARDS"/>
+</archimate:Capability>

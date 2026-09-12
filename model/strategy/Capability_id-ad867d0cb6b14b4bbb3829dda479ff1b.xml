@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Order Initiation"
+    id="id-ad867d0cb6b14b4bbb3829dda479ff1b"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Payment Order Initiation&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Sales and Service&#xA;  Business Domain: Payee Servicing&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Captura y valida la orden de pago que da el cliente.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Canales Digitales (Web / Movil)&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (2)&#xA;  PN-04.1 Recepcion de la orden&#xA;  PN-04.2 Validacion de la orden&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Resuelve por si sola la DECISION 3 que habia quedado abierta: recepcion y validacion de la orden son el mismo dominio, y no pertenecen a la ejecucion. El estandar ya habia cortado ahi.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_POI"/>
+</archimate:Capability>

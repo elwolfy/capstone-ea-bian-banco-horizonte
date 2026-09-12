@@ -1,0 +1,12 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account"
+    id="id-ca3e27e76ecc432cb425bcc3d4158d37"
+    documentation="--- BOM MODULO 5 (Capstone CD-03) ---&#xA;BUSINESS OBJECT — Account   (BOM Content Pattern, paso 8 de 9)&#xA;&#xA;DEFINICION LITERAL DEL ESTANDAR&#xA;A measuring state on which movements in value or amounts of assets, rights and obligations are registered.&#xA;&#xA;INSTANCIACION EN BANCO HORIZONTE&#xA;Cuenta de credito · cuenta corriente del cliente · cuenta de ahorro.&#xA;&#xA;OBJETO DE DATOS DEL CASO&#xA;BO-CTA Cuenta&#xA;&#xA;DUENO UNICO (Service Domain estandar BIAN v14)&#xA;Current Account / Savings Account   [FUERA DE ALCANCE]&#xA;&#xA;NOTA&#xA;El dueno estandar depende del producto y ambos dominios estan fuera del alcance declarado, porque PN-03 (cuentas de ahorro) no se barrio. La definicion no dice 'cuenta bancaria': dice estado de medicion. Un almacen tiene cuentas de stock; la cuenta financiera es una especializacion.&#xA;&#xA;NOTACION&#xA;Business Object = objeto conceptual del BOM, nivel empresa, independiente de todo contexto. NO confundir con Data Object, que es el artefacto fisico en un sistema.&#xA;&#xA;FUENTES&#xA;  BOM Content Pattern: BIAN 2nd Ed. Secc. 2.6.2&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- BOM MODULO 5 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <properties
+      key="cps:key"
+      value="M5_BO_ACCOUNT"/>
+</archimate:BusinessObject>

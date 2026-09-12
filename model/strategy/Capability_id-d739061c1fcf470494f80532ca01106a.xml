@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Loan"
+    id="id-d739061c1fcf470494f80532ca01106a"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Corporate Loan&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Operations and Execution&#xA;  Business Domain: Loans and Deposits&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Cumple el producto de credito corporativo durante toda la vida de cada instancia.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Originacion de Credito&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (1)&#xA;  PN-02.6 Definicion de condiciones (monto, plazo, tasa)&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;CRITERIO DE CICLO DE VIDA COMPLETO: responde por el credito de principio a fin. Cuando se barra PN-07, la administracion normal del credito se cuelga de aqui. || MATIZ QUE NUESTRO CATALOGO NO TENIA: el estandar SI separa la gestion de la morosidad, con Delinquent Account Handling y Collections. Administracion normal = este dominio; gestion de mora = dominios aparte. || El credito PYME se modela como Corporate Loan por tratarse de persona juridica; si el banco lo tratara como banca personal seria Consumer Loan.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_CORPLOAN"/>
+</archimate:Capability>

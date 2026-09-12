@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Compliance"
+    id="id-61eababc1415429880e8304a03790666"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Regulatory Compliance&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Risk and Compliance&#xA;  Business Domain: Financial Statement Assessment&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Verifica el cumplimiento regulatorio de partes y operaciones.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Prevencion de Lavado de Activos (PLAFT)&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (3)&#xA;  PN-01.4 Verificacion en listas y perfil PLAFT&#xA;  PN-04.3 Verificacion PLAFT de la operacion&#xA;  PN-11.2 Evaluacion de riesgo y cumplimiento del aliado&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Resuelve la DECISION 1, y en contra de mi recomendacion: yo proponia dos dominios (parte y operacion) y el estandar tiene UNO. Las tres actividades convergen aqui. || CONVERGENCIA: 3 actividades de 3 procesos distintos (PN-01, PN-04, PN-11). En el AS-IS las tres ya corren sobre APP-13, asi que la convergencia existe de hecho pero no esta declarada.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_REGCOMP"/>
+</archimate:Capability>

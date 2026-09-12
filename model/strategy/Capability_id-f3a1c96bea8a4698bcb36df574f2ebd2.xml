@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Credit Rating"
+    id="id-f3a1c96bea8a4698bcb36df574f2ebd2"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Customer Credit Rating&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Sales and Service&#xA;  Business Domain: Customer Management&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Determina y mantiene la calificacion crediticia de la parte.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Riesgo de Credito&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (2)&#xA;  PN-02.3 Consulta a central de riesgos&#xA;  PN-02.4 Evaluacion de capacidad de pago (scoring)&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Nuestro Credit Risk Assessment se parte en dos: CALIFICAR (este dominio) y DECIDIR (Underwriting). Son responsabilidades distintas, y en el banco real tambien las hacen roles distintos.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_CCR"/>
+</archimate:Capability>

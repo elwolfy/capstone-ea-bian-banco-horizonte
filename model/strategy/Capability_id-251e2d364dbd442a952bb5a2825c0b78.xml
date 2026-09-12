@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Merchant Relations"
+    id="id-251e2d364dbd442a952bb5a2825c0b78"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Merchant Relations&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Operations and Execution&#xA;  Business Domain: Cards&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Gestiona la relacion comercial con el comercio afiliado.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Alianzas y Ecosistema&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (1)&#xA;  PN-11.1 Prospeccion y evaluacion del comercio&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;Destino estandar de nuestro Merchant Suitability Assessment. Nota de jerarquia: el estandar lo situa en el Business Domain Cards, porque la relacion con el comercio nace del negocio de adquirencia.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_MERCH"/>
+</archimate:Capability>

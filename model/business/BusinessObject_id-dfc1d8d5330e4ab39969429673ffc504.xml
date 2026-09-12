@@ -1,0 +1,12 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transaction"
+    id="id-dfc1d8d5330e4ab39969429673ffc504"
+    documentation="--- BOM MODULO 5 (Capstone CD-03) ---&#xA;BUSINESS OBJECT — Transaction   (BOM Content Pattern, paso 7 de 9)&#xA;&#xA;DEFINICION LITERAL DEL ESTANDAR&#xA;The act of doing something — el mismo something.&#xA;&#xA;INSTANCIACION EN BANCO HORIZONTE&#xA;Desembolso · pago de cuota · aplicacion de interes · cargo y abono de la transferencia.&#xA;&#xA;OBJETO DE DATOS DEL CASO&#xA;BO-TRX Transaccion&#xA;&#xA;DUENO UNICO (Service Domain estandar BIAN v14)&#xA;Payment Settlement   [EN ALCANCE]&#xA;&#xA;NOTA&#xA;Pedir hacer y hacer son dos objetos distintos. El desembolso, ademas, tiene dominio propio en el estandar: Disbursement. Liberar fondos de una facilidad concedida no es lo mismo que liquidar un pago.&#xA;&#xA;NOTACION&#xA;Business Object = objeto conceptual del BOM, nivel empresa, independiente de todo contexto. NO confundir con Data Object, que es el artefacto fisico en un sistema.&#xA;&#xA;FUENTES&#xA;  BOM Content Pattern: BIAN 2nd Ed. Secc. 2.6.2&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- BOM MODULO 5 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <properties
+      key="cps:key"
+      value="M5_BO_TRANSACTION"/>
+</archimate:BusinessObject>

@@ -1,0 +1,12 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compliance Reporting"
+    id="id-303dcd9586fc4c2788788ceb010f719a"
+    documentation="--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---&#xA;SERVICE DOMAIN BIAN — Compliance Reporting&#xA;&#xA;UBICACION EN EL SERVICE LANDSCAPE V14.0&#xA;  Business Area:   Risk and Compliance&#xA;  Business Domain: Financial Statement Assessment&#xA;&#xA;RESPONSABILIDAD EN BANCO HORIZONTE&#xA;Elabora los reportes de cumplimiento hacia las autoridades competentes.&#xA;&#xA;CAPACIDAD L2 A LA QUE SIRVE&#xA;Prevencion de Lavado de Activos (PLAFT)&#xA;&#xA;ACTIVIDADES AS-IS QUE LO USAN (1)&#xA;  PN-10.8 Elaboracion de reportes PLAFT (UIF)&#xA;&#xA;PATRON FUNCIONAL / ASSET TYPE / GENERIC ARTIFACT / CONTROL RECORD&#xA;PENDIENTE DE TRANSCRIBIR desde la ficha del dominio en el repositorio BIAN v14. No se inventa.&#xA;&#xA;NOTA&#xA;El reporte a la UIF no es el mismo dominio que el reporte a la SBS. El estandar los separa por naturaleza del reporte, no por destinatario.&#xA;&#xA;ESTADO&#xA;[LITERAL] BIAN v14.0 — nombre y ubicacion verificados contra el repositorio. Sin customizacion: este dominio NO es una propuesta del Capstone, es el dominio del estandar.&#xA;&#xA;FUENTES&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;  Caso Banco Horizonte: https://github.com/elwolfy/capstone-ea-bian-banco-horizonte/blob/main/docs/Caso-de-Negocio-Banco-Horizonte.md&#xA;--- SERVICE DOMAINS BIAN v14 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/ServiceDomains/BIANv14"/>
+  <properties
+      key="cps:key"
+      value="BIAN_SD_COMPREP"/>
+</archimate:Capability>

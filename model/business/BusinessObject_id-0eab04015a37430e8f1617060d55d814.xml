@@ -1,0 +1,12 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product"
+    id="id-0eab04015a37430e8f1617060d55d814"
+    documentation="--- BOM MODULO 5 (Capstone CD-03) ---&#xA;BUSINESS OBJECT — Product   (BOM Content Pattern, paso 2 de 9)&#xA;&#xA;DEFINICION LITERAL DEL ESTANDAR&#xA;A type of Good or Service or a coherent package thereof, which is offered to internal or external customers.&#xA;&#xA;INSTANCIACION EN BANCO HORIZONTE&#xA;Credito PYME capital de trabajo · cuenta de ahorro · orden de pago.&#xA;&#xA;OBJETO DE DATOS DEL CASO&#xA;BO-PRD Producto&#xA;&#xA;DUENO UNICO (Service Domain estandar BIAN v14)&#xA;Product Directory   [FUERA DE ALCANCE]&#xA;&#xA;NOTA&#xA;El dueno estandar es Product Directory, que no aparece en nuestro catalogo porque PN-09 (lanzamiento de productos) esta fuera del alcance declarado. NO es un gap del estandar: es un limite de nuestro barrido, y hay que decirlo asi.&#xA;&#xA;NOTACION&#xA;Business Object = objeto conceptual del BOM, nivel empresa, independiente de todo contexto. NO confundir con Data Object, que es el artefacto fisico en un sistema.&#xA;&#xA;FUENTES&#xA;  BOM Content Pattern: BIAN 2nd Ed. Secc. 2.6.2&#xA;  Service Landscape V14.0: https://bian.org/servicelandscape-14-0-0/views/view_54081.html&#xA;--- BOM MODULO 5 (Capstone CD-03) ---">
+  <properties
+      key="cps:generated-by"
+      value="Horizonte/M5/BOM"/>
+  <properties
+      key="cps:key"
+      value="M5_BO_PRODUCT"/>
+</archimate:BusinessObject>
