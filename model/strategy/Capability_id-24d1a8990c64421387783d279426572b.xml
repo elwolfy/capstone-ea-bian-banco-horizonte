@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SME Lending   ->   Customer Offer + Document Directory + Corporate Loan + Customer Agreement"
+    id="id-24d1a8990c64421387783d279426572b"
+    documentation="Dominio propio: SME Lending&#xA;Veredicto: SE PARTE&#xA;Dominios estandar v14: Customer Offer, Document Directory, Corporate Loan, Customer Agreement&#xA;&#xA;Parecia elemental y son CUATRO responsabilidades. Es el ejemplo mas claro de corte por encima del umbral.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

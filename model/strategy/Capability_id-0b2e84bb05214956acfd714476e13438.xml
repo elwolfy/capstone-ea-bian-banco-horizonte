@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Access Entitlement"
+    id="id-0b2e84bb05214956acfd714476e13438"
+    documentation="Service Domain BIAN v14: Customer Access Entitlement&#xA;Ubicacion Matrix: Sales and Service > Customer Management&#xA;Functional Pattern: Agree Terms&#xA;Control Record: Customer Access Profile Agreement&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

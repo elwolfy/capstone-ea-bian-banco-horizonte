@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.4  Verificacion en listas y perfil PLAFT"
+    id="id-3f0b5fd079f4460e9240730c05181a15"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Assess&#xA;  Tipo de activo   : Regulatory Compliance&#xA;  Service Domain   : Regulatory Compliance&#xA;  Ubicacion Matrix : Risk and Compliance > Regulations and Compliance&#xA;-------------------------------------------------&#xA;Assess sobre el cumplimiento regulatorio. El Control Record registra tipo de cliente, residencia, regulacion aplicable y resultado de la evaluacion.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Regulatory Compliance"/>
+</archimate:BusinessProcess>

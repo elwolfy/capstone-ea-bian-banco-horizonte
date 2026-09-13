@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Wholesale Trading   [12 SD]"
+    id="id-543b118f17db47fd91b2269d97d5f9fa"
+    documentation="Business Domain ANIDADO de la vista MATRIX.&#xA;Bajo: Product Specific Fulfillment   (Operations and Execution)&#xA;Service Domains: 12&#xA;&#xA;Se modela como CAPACIDAD DE NEGOCIO AGRUPADORA. No es un nivel del&#xA;metamodelo BIAN: el nivel donde se cumple el MECE son los 341&#xA;Service Domains.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain anidado"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account Recovery"
+    id="id-3864a4cc659f4e32adffd7d5f3e3032c"
+    documentation="[SERVICE DOMAIN: Account Recovery]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the restructuring of a distressed account (loan) after sta&#xA;  ndard recovery procedures have been exhausted&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Account Recovery&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Account Recovery Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Account Recovery Procedure Instance Record, 27 atributos)&#xA;  Account Recovery Case Type | Product Instance Reference | &#xA;  Linked Product Instance Reference | Customer Reference | &#xA;  Employee/Business Unit Reference | Account Number | Bank Branch/Location Reference | &#xA;  Date Type | Date | Involved Party Reference | Involved Party Obligation/Entitlement | &#xA;  Account Type | Account Currency | Account Limit Type | Account Limit | Allowed Access | &#xA;  Tax Reference | Account Status | Collateral Asset Allocation Profile | Collateral Type | &#xA;  Collateral Asset Description | Transaction Record | &#xA;  Account Recovery Case Work Products | Document Reference | Customer Commentary | &#xA;  Account Recovery Case Resolution Schedule | Account Recovery Case Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (5)&#xA;  Assessment   (1 atributos)&#xA;  Planning   (2 atributos)&#xA;  Writedown   (2 atributos)&#xA;  Negotiation   (6 atributos)&#xA;  Modification   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Update Initiate Retrieve Request&#xA;  Inbound service operations  : 17&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    BQ Writedown  &lt;-  Exchange, Update&#xA;    BQ Negotiation  &lt;-  Update, Exchange, Request, Retrieve&#xA;    BQ Modification  &lt;-  Exchange, Update, Retrieve&#xA;    BQ Planning  &lt;-  Update, Retrieve&#xA;    Control Record  &lt;-  Initiate, Update, Exchange, Retrieve&#xA;    BQ Assessment  &lt;-  Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Account Recovery"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Account Recovery Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="5"/>
+  <properties
+      key="bianAtributosCR"
+      value="27"/>
+</archimate:Capability>

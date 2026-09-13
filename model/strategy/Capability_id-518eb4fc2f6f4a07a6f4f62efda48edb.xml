@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Asset And Liability Management"
+    id="id-518eb4fc2f6f4a07a6f4f62efda48edb"
+    documentation="[SERVICE DOMAIN: Asset And Liability Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Bank Portfolio and Treasury&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The unit overseeing the banks asset and liability policies and position&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Direct&#xA;  Asset Type         : Asset And Liability Portfolio&#xA;  Generic Artifact   : Strategy&#xA;  Control Record     : Asset And Liability Portfolio Strategy&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Asset And Liability Portfolio Strategy Instance Record, 9 atributos)&#xA;  Asset And Liability Balance Sheet | Asset And Liability Maturity Ladder | &#xA;  Asset And Liability Capital Allocation | Asset And Liability Policy Goal Record | &#xA;  Asset And Liability Policy Type | Asset And Liability Policy Type Definition | &#xA;  Asset And Liability Policy Type Goals | Asset And Liability Policy Type Position | &#xA;  Asset And Liability Policy Type Sensitivity Assessment&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Transaction Alignment   (11 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Update Request Grant Retrieve Exchange&#xA;  Inbound service operations  : 8&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    BQ TransactionAlignment  &lt;-  Create, Exchange, Retrieve, Request&#xA;    Control Record  &lt;-  Update, Request, Grant, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Bank Portfolio and Treasury"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Direct"/>
+  <properties
+      key="bianAssetType"
+      value="Asset And Liability Portfolio"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Strategy"/>
+  <properties
+      key="bianControlRecord"
+      value="Asset And Liability Portfolio Strategy"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="9"/>
+</archimate:Capability>

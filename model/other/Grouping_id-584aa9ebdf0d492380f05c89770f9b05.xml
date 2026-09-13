@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Servicing"
+    id="id-584aa9ebdf0d492380f05c89770f9b05"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Business Domain de primer nivel.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

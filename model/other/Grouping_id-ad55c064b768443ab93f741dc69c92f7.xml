@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bank Portfolio and Treasury   [7 SD]"
+    id="id-ad55c064b768443ab93f741dc69c92f7"
+    documentation="Business Domain de primer nivel de la vista Matrix.&#xA;Service Domains en el estandar: 7&#xA;En el alcance del capstone: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Inventory Distribution"
+    id="id-91733605e26d4c38a79002a50313da3f"
+    documentation="[SERVICE DOMAIN: Product Inventory Distribution]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Administer the provisioning and distribution of product inventory across the branch ne&#xA;  twork and/or distribute direct to customers (e.g. mail) where appropriate&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Product Inventory Distribution&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Product Inventory Distribution Administrative Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product Inventory Distribution Administrative Plan Instance Record, 10 atributos)&#xA;  Budget Type | Budget | Assignment | Duty | Associated Party | Budget Balance | &#xA;  Subject Matter | Type | Reference | Description&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Provisioning   (8 atributos)&#xA;  Oversight   (8 atributos)&#xA;  Distribution   (8 atributos)&#xA;  Mailing   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Control Exchange Grant Initiate Retrieve Update Request&#xA;  Inbound service operations  : 24&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Control, Exchange, Grant, Initiate, Retrieve, Update, Request&#xA;    BQ Oversight  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ Distribution  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ Mailing  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ Provisioning  &lt;-  Capture, Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Product Inventory Distribution"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Product Inventory Distribution Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

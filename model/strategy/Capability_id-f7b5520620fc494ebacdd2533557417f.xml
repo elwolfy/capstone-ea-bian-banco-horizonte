@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Merchant Relations"
+    id="id-f7b5520620fc494ebacdd2533557417f"
+    documentation="[SERVICE DOMAIN: Merchant Relations]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Cards   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains the terms and conditions agreed with merchants for cards&#xA;   related activity&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Merchant Relationship&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Merchant Relationship Agreement&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Merchant Relationship Agreement Instance Record, 19 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Discharge Request | &#xA;  Discharge Schedule | Status | Associated Party | Customer Reference | Obligation | &#xA;  Entitlement | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Account Reference | Subject Matter | Product Reference | Calendar Reference | &#xA;  Associated Agreement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Regulatory Term   (9 atributos)&#xA;  Legal Term   (9 atributos)&#xA;  Operational Term   (14 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Request Notify Retrieve Update Exchange Evaluate Control Grant&#xA;  Inbound service operations  : 26&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Request, Exchange, Control, Notify, Retrieve, Update, Evaluate, Grant&#xA;    BQ OperationalTerm  &lt;-  Notify, Retrieve, Evaluate, Exchange, Request, Update&#xA;    BQ RegulatoryTerm  &lt;-  Update, Evaluate, Retrieve, Exchange, Notify, Request&#xA;    BQ LegalTerm  &lt;-  Evaluate, Request, Retrieve, Exchange, Notify, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Cards"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Merchant Relationship"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Merchant Relationship Agreement"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="19"/>
+</archimate:Capability>

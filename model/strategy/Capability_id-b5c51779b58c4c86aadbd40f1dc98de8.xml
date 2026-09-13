@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consumer Investments"
+    id="id-b5c51779b58c4c86aadbd40f1dc98de8"
+    documentation="[SERVICE DOMAIN: Consumer Investments]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Consumer Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Handle the consumer front-end trading requests. These will typically be blocked/netted&#xA;   for market execution&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Transact&#xA;  Asset Type         : Consumer Securities Order&#xA;  Generic Artifact   : Transaction&#xA;  Control Record     : Consumer Securities Order Transaction&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Consumer Securities Order Transaction Instance Record, 15 atributos)&#xA;  Consumer Securities Order Instruction Type | Customer Reference | &#xA;  Employee or Business Unit Reference | Investment Portfolio Instance Reference | &#xA;  Consumer Securities Order Processing Instruction | &#xA;  Document Directory Entry Instance Reference | Correspondence Instance Reference | &#xA;  Consumer Securities Order Transaction | &#xA;  Investment Account Arrangement Instance Reference | &#xA;  Current Account Arrangement Instance Reference | Market Order Type | Security Type | &#xA;  Amount | Date Type | Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Quote   (1 atributos)&#xA;  Compliance   (3 atributos)&#xA;  Confirmation   (1 atributos)&#xA;  Order Initiation   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve Initiate Update Exchange&#xA;  Inbound service operations  : 8&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    BQ Quote  &lt;-  Retrieve&#xA;    Control Record  &lt;-  Initiate, Update, Retrieve&#xA;    BQ Confirmation  &lt;-  Retrieve&#xA;    BQ Compliance  &lt;-  Retrieve&#xA;    BQ OrderInitiation  &lt;-  Exchange, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Consumer Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianAssetType"
+      value="Consumer Securities Order"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Transaction"/>
+  <properties
+      key="bianControlRecord"
+      value="Consumer Securities Order Transaction"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="15"/>
+</archimate:Capability>

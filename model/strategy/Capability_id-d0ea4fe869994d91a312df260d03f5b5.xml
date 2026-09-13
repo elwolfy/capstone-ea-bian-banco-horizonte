@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Notional Pooling"
+    id="id-d0ea4fe869994d91a312df260d03f5b5"
+    documentation="[SERVICE DOMAIN: Notional Pooling]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Notional pooling allows corporate customer with multiple active accounts to pool credi&#xA;  t and debit balances to provide a single centralized liquidity position and to minimiz&#xA;  e interest expense, simplify cash management and retain a degree of local autonomy to &#xA;  the accounts&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Notional Pooling&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Notional Pooling Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Notional Pooling Facility Instance Record, 19 atributos)&#xA;  Parameter Type | Selected Option | Type | Calendar Reference | Status | &#xA;  Associated Party | Currency | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Booking Location | Account Type | Account Reference | Customer Reference | Position | &#xA;  Product Reference | Position Limit | Reference | Arrangement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Cash Transfer   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Notify Request Initiate Retrieve Execute Update&#xA;  Inbound service operations  : 15&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Notify, Request, Initiate, Retrieve, Update, Execute&#xA;    BQ CashTransfer  &lt;-  Execute, Exchange, Request, Update, Notify, Initiate, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Notional Pooling"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Notional Pooling Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="19"/>
+</archimate:Capability>

@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Investment Management   [5 SD]"
+    id="id-00cd65a718c247d48b3aa0cad6b3ec1f"
+    documentation="Business Domain ANIDADO de la vista Matrix.&#xA;Se modela como capacidad de negocio agrupadora, no como un nivel del&#xA;metamodelo BIAN.&#xA;Service Domains en el estandar: 5   ·   en alcance: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

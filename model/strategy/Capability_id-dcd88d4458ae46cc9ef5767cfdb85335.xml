@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Inventory Item Management"
+    id="id-dcd88d4458ae46cc9ef5767cfdb85335"
+    documentation="[SERVICE DOMAIN: Product Inventory Item Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Maintain and distribute product inventory&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Allocate&#xA;  Asset Type         : Product Inventory&#xA;  Generic Artifact   : Allocation&#xA;  Control Record     : Product Inventory Allocation&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product Inventory Allocation Instance Record, 9 atributos)&#xA;  Service Schedule | Product Inventory Holdings | Product and Service Type | &#xA;  Product Inventory Item Type | Product Inventory Item Record | &#xA;  Product Inventory Item Description | Product Inventory Item Supplier Details | &#xA;  Product Inventory Used Locations | Product Inventory Holding&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Assignment   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Request Retrieve Provide Exchange&#xA;  Inbound service operations  : 8&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Request, Retrieve&#xA;    BQ Assignment  &lt;-  Update, Provide, Request, Retrieve, Exchange&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Allocate"/>
+  <properties
+      key="bianAssetType"
+      value="Product Inventory"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Allocation"/>
+  <properties
+      key="bianControlRecord"
+      value="Product Inventory Allocation"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="9"/>
+</archimate:Capability>

@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Specific Fulfillment › Loans and Deposits"
+    id="id-c482136d79bb430e86cf315a2a9a7759"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Incluye el nivel anidado, que se trata como capacidad de negocio&#xA;agrupadora y no como un nivel del metamodelo BIAN.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

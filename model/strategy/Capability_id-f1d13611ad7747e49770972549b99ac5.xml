@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Syndicated Loan"
+    id="id-f1d13611ad7747e49770972549b99ac5"
+    documentation="[SERVICE DOMAIN: Syndicated Loan]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Handle the processing of syndicated loans with the bank playing the lead coordination &#xA;  role with other syndicate bank members. Note some initial preparation may have been ma&#xA;  de through prior customer offer processing.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Syndicated Loan&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Syndicated Loan Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Syndicated Loan Facility Instance Record, 13 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Schedule | Status | Currency | &#xA;  Regulation Reference | Regulation Type | Jurisdiction | Booking Location | &#xA;  Account Type | Account Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Origination   (7 atributos)&#xA;  Syndicate   (7 atributos)&#xA;  Instrument Design   (7 atributos)&#xA;  Fulfillment   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Execute Initiate Retrieve Update Request&#xA;  Inbound service operations  : 24&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Execute, Initiate, Retrieve, Update, Request&#xA;    BQ Fulfillment  &lt;-  Exchange, Retrieve, Request, Update&#xA;    BQ Origination  &lt;-  Exchange, Retrieve, Request, Update&#xA;    BQ Syndicate  &lt;-  Exchange, Retrieve, Request, Update&#xA;    BQ InstrumentDesign  &lt;-  Initiate, Exchange, Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Syndicated Loan"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Syndicated Loan Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

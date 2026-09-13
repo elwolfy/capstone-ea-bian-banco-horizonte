@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Lease"
+    id="id-6ed99c887899491abe3c908ef018ac29"
+    documentation="[SERVICE DOMAIN: Corporate Lease]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The Corporate Lease product provides corporate customers with loans to support leasing&#xA;   activity for property and equipment&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Corporate Lease&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Corporate Lease Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Corporate Lease Facility Instance Record, 13 atributos)&#xA;  Parameter Type | Selected Option | Type | Schedule | Status | Reference | Currency | &#xA;  Regulation Reference | Regulation Type | Jurisdiction | Booking Location | &#xA;  Account Type | Account Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Administration   (7 atributos)&#xA;  Fulfill   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Execute Initiate Retrieve Request Update&#xA;  Inbound service operations  : 18&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Execute, Initiate, Retrieve, Request, Update&#xA;    BQ Administration  &lt;-  Exchange, Control, Retrieve, Request, Update&#xA;    BQ Fulfill  &lt;-  Exchange, Execute, Initiate, Retrieve, Update, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Corporate Lease"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Corporate Lease Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

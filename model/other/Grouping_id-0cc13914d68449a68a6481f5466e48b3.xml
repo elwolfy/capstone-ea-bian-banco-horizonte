@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Channel Specific   [17 SD]"
+    id="id-0cc13914d68449a68a6481f5466e48b3"
+    documentation="Business Domain de primer nivel de la vista Matrix.&#xA;Service Domains en el estandar: 17&#xA;En el alcance del capstone: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Market Information Management"
+    id="id-26dcdd201a464be4a7b9a7e3f85a475b"
+    documentation="[SERVICE DOMAIN: Market Information Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Market Data&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Market information management consolidates and improves market information from multip&#xA;  le sources in order to build up a bank knowledge base in targeted areas&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Financial Market Information&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Financial Market Information Administrative Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Financial Market Information Administrative Plan Instance Record, 11 atributos)&#xA;  Financial Market Information Service | Financial Market Information Provider | &#xA;  Financial Market information Description | Financial Market Information Service Type | &#xA;  Financial Market Information Service Schedule | &#xA;  Financial Market Information Service Agreement | Financial Market Information Database | &#xA;  Financial Market Information Subject Area | &#xA;  Financial Market Information Subject Area Description | &#xA;  Financial Market Information Subject Area Update History | &#xA;  Financial Market Information Subject Area Record&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Consolidation   (2 atributos)&#xA;  Improvement   (4 atributos)&#xA;  Reporting   (5 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Exchange Execute Request Retrieve Capture Create Control Grant&#xA;  Inbound service operations  : 16&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Exchange, Execute, Request, Create, Control, Grant, Retrieve&#xA;    BQ Improvement  &lt;-  Retrieve&#xA;    BQ Reporting  &lt;-  Update, Capture, Execute, Request, Create, Retrieve&#xA;    BQ Consolidation  &lt;-  Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Market Data"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Financial Market Information"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Financial Market Information Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

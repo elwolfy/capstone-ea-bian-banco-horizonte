@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account Reconciliation"
+    id="id-e1a91af7a6fd4311b4667566df29a4d8"
+    documentation="Service Domain BIAN v14: Account Reconciliation&#xA;Ubicacion Matrix: Operations and Execution > Cross Product Operations > Account Management&#xA;Functional Pattern: Process&#xA;Control Record: Account Reconciliation Procedure&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

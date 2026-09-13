@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Trade Settlement"
+    id="id-83494d6415454d2ab2d98af0904883f9"
+    documentation="[SERVICE DOMAIN: Trade Settlement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Market Operations   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain handles the final movement of cash and securities between deposito&#xA;  ries as previously confirmed in the clearing process, in order to settle a market trad&#xA;  e&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Trade Settlement&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Trade Settlement Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Trade Settlement Procedure Instance Record, 21 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | &#xA;  Associated Party Reference | Business Unit Reference | Service Provider Reference | &#xA;  Financial Facility Reference | Employee Reference | Customer Reference | Type | &#xA;  Service Provider Schedule | Service Type | Product and Service Type | &#xA;  Product and Service Instance | Transaction Type | Transaction | &#xA;  Financial Transaction Arrangement | Customer Agreement Reference | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Market Trade Securities Settlement   (8 atributos)&#xA;  Market Trade Settlement Confirmation   (8 atributos)&#xA;  Market Trade Cash Settlement   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Execute Initiate Notify Request Retrieve Update&#xA;  Inbound service operations  : 29&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ MarketTradeCashSettlement  &lt;-  Exchange, Notify, Initiate, Execute, Request, Retrieve, Update&#xA;    BQ MarketTradeSettlementConfirmation  &lt;-  Initiate, Execute, Exchange, Notify, Request, Update, Retrieve&#xA;    BQ MarketTradeSecuritiesSettlement  &lt;-  Execute, Initiate, Notify, Exchange, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Market Operations"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Trade Settlement"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Trade Settlement Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="21"/>
+</archimate:Capability>

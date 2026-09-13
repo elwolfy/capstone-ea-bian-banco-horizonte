@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Card Transaction Switch"
+    id="id-c9d74ea35be744f89758da91054ec397"
+    documentation="[SERVICE DOMAIN: Card Transaction Switch]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain orchestrates the switching and routing of Card Authorization and F&#xA;  inancial transactions&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Card Transaction Switch&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Card Transaction Switch Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Card Transaction Switch Operating Session Instance Record, 5 atributos)&#xA;  Network Reference | Participant Acquirer Bank Reference | &#xA;  Participant Acquirer Bank transaction Routing Details | &#xA;  Participant Issuer Bank Reference | &#xA;  Participant Issuer Bank Transaction Routing Details&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Transaction Capture   (16 atributos)&#xA;  Transaction Routing   (0 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Exchange Retrieve Control&#xA;  Inbound service operations  : 7&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Exchange, Retrieve, Control&#xA;    BQ TransactionCapture  &lt;-  Initiate, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Card Transaction Switch"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Card Transaction Switch Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="5"/>
+</archimate:Capability>

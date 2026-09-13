@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Segment Direction"
+    id="id-5de915be7db54426af860816b9f53238"
+    documentation="[SERVICE DOMAIN: Segment Direction]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Business Analysis&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Define market segments and develop and assess performance against the segment plan's p&#xA;  erformance goals&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Direct&#xA;  Asset Type         : Segment&#xA;  Generic Artifact   : Strategy&#xA;  Control Record     : Segment Strategy&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Segment Strategy Instance Record, 10 atributos)&#xA;  Period | Policies And Guidelines | Organization | Budget | Schedule | &#xA;  Segment Goal Record | Segment Goal Type | Segment Goal Definition | &#xA;  Segment Goal Organization | Segment Goal Result&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Initiative   (10 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Request Create Exchange Capture Retrieve Grant&#xA;  Inbound service operations  : 13&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Request, Create, Exchange, Capture, Retrieve, Grant&#xA;    BQ Initiative  &lt;-  Create, Update, Request, Exchange, Capture, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Analysis"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Direct"/>
+  <properties
+      key="bianAssetType"
+      value="Segment"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Strategy"/>
+  <properties
+      key="bianControlRecord"
+      value="Segment Strategy"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

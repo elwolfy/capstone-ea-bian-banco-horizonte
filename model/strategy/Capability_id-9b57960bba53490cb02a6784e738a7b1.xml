@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Servicing Activity Analysis"
+    id="id-9b57960bba53490cb02a6784e738a7b1"
+    documentation="[SERVICE DOMAIN: Servicing Activity Analysis]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain analyzes servicing activity to support continual service improveme&#xA;  nt&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Servicing Root Cause&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Servicing Root Cause Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Servicing Root Cause Analysis Instance Record, 7 atributos)&#xA;  Servicing Activity Type | Servicing Activity Analysis Period | &#xA;  Servicing Activity Analysis Type | Servicing Activity Analysis Result | &#xA;  Servicing Activity Analysis Determination | Servicing Activity Analysis Recommendation | &#xA;  Servicing Activity History Report&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Root Cause Algorithm   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Request Execute Initiate Update Retrieve&#xA;  Inbound service operations  : 8&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Request, Execute, Initiate, Update, Retrieve&#xA;    BQ RootCauseAlgorithm  &lt;-  Initiate, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Servicing Root Cause"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Servicing Root Cause Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

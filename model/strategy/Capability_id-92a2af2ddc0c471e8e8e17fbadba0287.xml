@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Correspondence"
+    id="id-92a2af2ddc0c471e8e8e17fbadba0287"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Business Support > Document Management and Archive&#xA;Functional Pattern: Operate&#xA;Control Record: Correspondence Operating Session">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianControlRecord"
+      value="Correspondence Operating Session"/>
+</archimate:Capability>

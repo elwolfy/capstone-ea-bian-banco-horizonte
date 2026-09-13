@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Directory"
+    id="id-314e3b61fc54454c83597e00703483b3"
+    documentation="Service Domain BIAN v14: Document Directory&#xA;Ubicacion Matrix: Business Support > Document Management and Archive&#xA;Functional Pattern: Catalog&#xA;Control Record: Document Directory Entry&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

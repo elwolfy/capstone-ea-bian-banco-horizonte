@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Operational Services   [20 SD · 1 en alcance]"
+    id="id-d28618fe32024981b8f5beb4910329e7"
+    documentation="Business Domain ANIDADO de la vista Matrix.&#xA;Se modela como capacidad de negocio agrupadora, no como un nivel del&#xA;metamodelo BIAN.&#xA;Service Domains en el estandar: 20   ·   en alcance: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

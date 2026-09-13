@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Credit Facility"
+    id="id-0e471647d78f40598af970ca2c42fe2b"
+    documentation="[SERVICE DOMAIN: Credit Facility]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The Credit Facility Service Domain manages the Credit Facilities that a Corporate Cust&#xA;  omer has with the bank&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Credit Line&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Credit Line Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Credit Line Facility Instance Record, 34 atributos)&#xA;  Product Instance Reference | Credit Facility Number | Customer Reference | &#xA;  Associated Party Reference | Customer Agreement Reference | &#xA;  Customer Credit Rating Reference | Insurance Reference | &#xA;  Bank Branch/Location Reference | Bank Accounting Unit Reference | Credit Facility Type | &#xA;  Credit Facility Amount | Credit Facility Currency | Credit Facility Rate Type | &#xA;  Credit Facility Maturity Date | Tax Reference | Entitlement Option Definition | &#xA;  Entitlement Option Setting | Restriction Option Definition | &#xA;  Restriction Option Setting | Associated Party Association Type | &#xA;  Associated Party Association Obligation | Customer Commentary | &#xA;  Credit Facility Association Type | Credit Facility Decreasing Schedule | &#xA;  Available Amount | Amount Block Amount | Amount Block Start Date | &#xA;  Amount Block Expiry Date | Amount Block Status | Credit Facility Opening Date | &#xA;  Credit Facility Closed Date | Sales Product Agreement Reference | &#xA;  Associated Product Conditions | Credit Facility Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Charge   (18 atributos)&#xA;  Credit Allocation   (10 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve Initiate Execute Update&#xA;  Inbound service operations  : 10&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Retrieve, Initiate, Update&#xA;    BQ CreditAllocation  &lt;-  Initiate, Retrieve, Update&#xA;    BQ Charge  &lt;-  Execute, Retrieve, Update, Initiate&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Credit Line"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Credit Line Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="34"/>
+</archimate:Capability>

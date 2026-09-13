@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Issued Certificate Directory"
+    id="id-538869d2cf0b4489a10614c41e599ff1"
+    documentation="[SERVICE DOMAIN: Issued Certificate Directory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain faciliatates the issuance of Rewards Certificates and their redemp&#xA;  tion.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Issued Certificate&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Issued Certificate Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Issued Certificate Directory Entry Instance Record, 8 atributos)&#xA;  Description | Schedule | Version | Status | Usage Log | Update Log | &#xA;  Service Configuration | Reference&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Issued Certificate"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Issued Certificate Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

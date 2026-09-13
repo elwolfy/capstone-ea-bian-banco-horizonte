@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Execution   ->   Transaction Engine + Disbursement + Payment Confirmation"
+    id="id-7427f8bfa0494674b29448a7f54e5593"
+    documentation="Dominio propio: Payment Execution&#xA;Veredicto: SE PARTE&#xA;Dominios estandar v14: Transaction Engine, Disbursement, Payment Confirmation&#xA;&#xA;EL HALLAZGO CLAVE. Payment Execution existia en la V13 y NO existe en la V14. Nuestro dominio inventado se llamaba igual que un dominio real de una version anterior. Sin verificar contra la version declarada habriamos dictado un nombre obsoleto que ademas circula en material previo.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

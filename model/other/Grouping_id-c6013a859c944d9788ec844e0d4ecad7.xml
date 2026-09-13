@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Collateral Administration   [4 SD]"
+    id="id-c6013a859c944d9788ec844e0d4ecad7"
+    documentation="Business Domain ANIDADO de la vista Matrix.&#xA;Se modela como capacidad de negocio agrupadora, no como un nivel del&#xA;metamodelo BIAN.&#xA;Service Domains en el estandar: 4   ·   en alcance: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

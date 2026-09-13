@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bank Guarantee"
+    id="id-8143f54dcbb443fba31cb36ec248321f"
+    documentation="[SERVICE DOMAIN: Bank Guarantee]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain handles the pricing and issuance of a broad range of bank guarante&#xA;  e instruments&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Transact&#xA;  Asset Type         : Bank Guarantee&#xA;  Generic Artifact   : Transaction&#xA;  Control Record     : Bank Guarantee Transaction&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Bank Guarantee Transaction Instance Record, 26 atributos)&#xA;  Bank Guarantee Customer Reference | Bank Guarantee Customer Name | &#xA;  Bank Guarantee Customer Branch Reference | Bank Guarantee Beneficiary Reference | &#xA;  Bank Guarantee Beneficiary Name | Bank Guarantee Beneficiary Bank Reference | &#xA;  Bank Guarantee Start Date | Bank Guarantee Expiry Date | Customer Tax Identifier | &#xA;  Bank Guarantee Amount | Bank Guarantee Currency Reference | Bank Guarantee Purpose | &#xA;  Credit Facility Reference | Collateral Allocation Management Reference | &#xA;  SWIFT Message ID | Document Directory Reference | Sales Product Agreement Reference | &#xA;  Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Customer Commentary | &#xA;  Association Type | Association Obligation | Association Reference | &#xA;  Bank Guarantee Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (6)&#xA;  Collection   (7 atributos)&#xA;  Bank Guarantee Issuance and Booking   (7 atributos)&#xA;  Bank Guarantee Payout   (7 atributos)&#xA;  Customer Payment   (7 atributos)&#xA;  Customer Collateral Allocation   (7 atributos)&#xA;  Bank Guarantee Definition and Pricing   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Initiate Notify Request Retrieve Update Execute&#xA;  Inbound service operations  : 50&#xA;  Outbound service events     : 23&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Initiate, Notify, Request, Retrieve, Update, Execute&#xA;    BQ Collection  &lt;-  Exchange, Execute, Initiate, Request, Notify, Retrieve, Update&#xA;    BQ BankGuaranteeDefinitionandPricing  &lt;-  Exchange, Execute, Initiate, Request, Retrieve, Notify, Update&#xA;    BQ CustomerPayment  &lt;-  Execute, Exchange, Notify, Initiate, Request, Retrieve, Update&#xA;    BQ BankGuaranteePayout  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ CustomerCollateralAllocation  &lt;-  Exchange, Execute, Initiate, Request, Notify, Retrieve, Update&#xA;    BQ BankGuaranteeIssuanceandBooking  &lt;-  Execute, Exchange, Initiate, Notify, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianAssetType"
+      value="Bank Guarantee"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Transaction"/>
+  <properties
+      key="bianControlRecord"
+      value="Bank Guarantee Transaction"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="6"/>
+  <properties
+      key="bianAtributosCR"
+      value="26"/>
+</archimate:Capability>

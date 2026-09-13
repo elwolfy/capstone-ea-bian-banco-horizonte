@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reward Points Account"
+    id="id-0c27857503f346cf8a95585d4f1fe120"
+    documentation="[SERVICE DOMAIN: Reward Points Account]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Administer the booking and remittance of rewards points&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Track&#xA;  Asset Type         : Reward Points&#xA;  Generic Artifact   : Log&#xA;  Control Record     : Reward Points Log&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Reward Points Log Instance Record, 13 atributos)&#xA;  Parameter Type | Selected Option | Type | Schedule | Usage Log | Update Log | &#xA;  Reference | Business Unit Reference | Customer Reference | Service Configuration | &#xA;  Position | Position Type | Position Limit Time&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Capture   (7 atributos)&#xA;  Expiration   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Control Exchange Grant Initiate Retrieve Request Update&#xA;  Inbound service operations  : 16&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Control, Exchange, Grant, Initiate, Retrieve, Request, Update&#xA;    BQ Capture  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ Expiration  &lt;-  Capture, Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Track"/>
+  <properties
+      key="bianAssetType"
+      value="Reward Points"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Log"/>
+  <properties
+      key="bianControlRecord"
+      value="Reward Points Log"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

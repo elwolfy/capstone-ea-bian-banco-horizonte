@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Sales Support"
+    id="id-2a30e9f124014d10bdd9654db336f4ec"
+    documentation="[SERVICE DOMAIN: Product Sales Support]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Sales&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain administers customer access to product specialists&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Product Sales Support&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Product Sales Support Administrative Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product Sales Support Administrative Plan Instance Record, 10 atributos)&#xA;  Budget Type | Budget | Assignment | Duty | Associated Party | Budget Balance | &#xA;  Subject Matter | Type | Reference | Description&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Staff Availability Tracking   (8 atributos)&#xA;  Staff Assignment   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Create Exchange Grant Notify Request Retrieve Update&#xA;  Inbound service operations  : 20&#xA;  Outbound service events     : 11&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Create, Exchange, Grant, Notify, Request, Retrieve, Update&#xA;    BQ StaffAssignment  &lt;-  Exchange, Grant, Notify, Request, Retrieve, Update&#xA;    BQ StaffAvailabilityTracking  &lt;-  Exchange, Grant, Notify, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Sales"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Product Sales Support"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Product Sales Support Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Reporting   ->   Regulatory Reporting"
+    id="id-03c83e8e7967473b8cb0d1fe02fdf3f2"
+    documentation="Dominio propio: Regulatory Reporting&#xA;Veredicto: EXACTO&#xA;Dominios estandar v14: Regulatory Reporting&#xA;&#xA;Acertamos.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

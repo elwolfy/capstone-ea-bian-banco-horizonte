@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Behavior Models"
+    id="id-30b7eec9e2ed4feca5a1b9ba06852e17"
+    documentation="[SERVICE DOMAIN: Customer Behavior Models]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Models&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the design and maintenance of a portfolio of customer beha&#xA;  vior models&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Design&#xA;  Asset Type         : Customer Behavior Model&#xA;  Generic Artifact   : Specification&#xA;  Control Record     : Customer Behavior Model Specification&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Behavior Model Specification Instance Record, 12 atributos)&#xA;  Customer Behavior Model Type | Customer Behavior Model Purpose | &#xA;  Customer Behavior Model Deployment | Employee or Business Unit Reference | &#xA;  Customer Behavior Model Deployment Configuration | &#xA;  Customer Behavior Model Deployment Task Reference | &#xA;  Customer Behavior Model Deployment Task Record | Customer Behavior Model Status | &#xA;  Customer Behavior Model Usage | Customer Behavior Model Impact | &#xA;  Customer Behavior Model Version | Customer Behavior Model&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Functional Requirements   (6 atributos)&#xA;  Testing   (10 atributos)&#xA;  Production   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Execute Request Retrieve Update Exchange Capture&#xA;  Inbound service operations  : 15&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Create, Execute, Request, Retrieve&#xA;    BQ FunctionalRequirements  &lt;-  Update, Exchange, Capture, Request, Retrieve&#xA;    BQ Testing  &lt;-  Update, Exchange, Retrieve&#xA;    BQ Production  &lt;-  Retrieve, Request, Execute&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Models"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Design"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Behavior Model"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Specification"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Behavior Model Specification"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

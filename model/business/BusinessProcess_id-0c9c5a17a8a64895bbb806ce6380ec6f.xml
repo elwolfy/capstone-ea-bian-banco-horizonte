@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.1 Recepcion de la solicitud"
+    id="id-0c9c5a17a8a64895bbb806ce6380ec6f"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Party Lifecycle Management&#xA;  Functional Pattern: Administer&#xA;  Asset Type: Party Relationship&#xA;  Control Record: Party Relationship Administrative Plan&#xA;  Ubicacion Matrix: Sales and Service > Sales">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Party Lifecycle Management"/>
+</archimate:BusinessProcess>

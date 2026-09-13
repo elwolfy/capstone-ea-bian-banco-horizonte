@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Direction   [5 SD]"
+    id="id-35afea51a55b40a2a1e9a49bb235e403"
+    documentation="Business Domain de primer nivel de la vista Matrix.&#xA;Service Domains en el estandar: 5&#xA;En el alcance del capstone: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

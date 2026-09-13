@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Support   [68 SD · 3 en alcance]"
+    id="id-b1e02fa3376349269859b217630362be"
+    documentation="Business Area de la vista Matrix.&#xA;Business Domains de primer nivel: 10&#xA;Service Domains en el estandar: 68&#xA;En el alcance del capstone: 3">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

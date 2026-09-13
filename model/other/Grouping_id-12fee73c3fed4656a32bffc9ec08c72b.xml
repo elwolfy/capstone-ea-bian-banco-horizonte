@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cross Product Operations > Operational Services"
+    id="id-12fee73c3fed4656a32bffc9ec08c72b"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Incluye el nivel anidado, que se trata como capacidad de negocio&#xA;agrupadora y no como un nivel del metamodelo BIAN.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

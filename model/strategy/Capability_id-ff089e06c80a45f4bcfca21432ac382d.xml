@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Merchant Relations"
+    id="id-ff089e06c80a45f4bcfca21432ac382d"
+    documentation="Service Domain BIAN v14: Merchant Relations&#xA;Ubicacion Matrix: Operations and Execution > Product Specific Fulfillment > Cards&#xA;Functional Pattern: Agree Terms&#xA;Control Record: Merchant Relationship Agreement&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

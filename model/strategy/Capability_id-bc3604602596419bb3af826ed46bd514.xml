@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Offer"
+    id="id-bc3604602596419bb3af826ed46bd514"
+    documentation="SERVICE DOMAIN: Customer Offer&#xA;Business Area: Sales and Service | Business Domain: Sales&#xA;-------------------------------------------------&#xA;Functional Pattern: Process   [LITERAL, SD Overview]&#xA;Generic Artifact: Procedure&#xA;Asset Type: Customer Offer   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Customer Offer Procedure = Customer Offer + Procedure&#xA;Control Record: Customer Offer Procedure   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (11):&#xA;  FacilityApplication · Disclosures · Underwriting · Credit · Compliance · Audit · CollateralAllocation · Booking · CorrespondenceandDocuments · Agreement · ProductInitialization&#xA;&#xA;Service Operations (Action Terms) — principales de 34 publicadas:&#xA;  [Initiate] POST /CustomerOffer/Initiate&#xA;  [Update] PUT /CustomerOffer/{id}/Update&#xA;  [Control] PUT /CustomerOffer/{id}/Control&#xA;  [Execute] PUT /CustomerOffer/{id}/Execute&#xA;  [Exchange] PUT /CustomerOffer/{id}/Exchange&#xA;  [Request] PUT /CustomerOffer/{id}/Request&#xA;  [Retrieve] GET /CustomerOffer/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /CustomerOffer/Initiate&#xA;  PUT /CustomerOffer/{id}/Update&#xA;  PUT /CustomerOffer/{id}/Control&#xA;  PUT /CustomerOffer/{id}/Execute&#xA;  PUT /CustomerOffer/{id}/Exchange&#xA;  PUT /CustomerOffer/{id}/Request&#xA;  GET /CustomerOffer/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  This service domain orchestrates the processing of a product offer for a new or established customer. The offer process is defined specifically for the product or service being considered and can include actions such as document checks, collateral allocation, credit assessments, underwriting decisions, regulatory and procedural checks, eligibility checks, the use of internal and external specialist services&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Gestiona la oferta y la solicitud del producto por parte del cliente.&#xA;  Capacidad que sirve: Originacion de Credito&#xA;  Actividades cubiertas (1):&#xA;    - PN-02.1 Recepcion de la solicitud de credito&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Customer Offer SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_COFFER"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Sales"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Offer Procedure"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Offer"/>
+</archimate:Capability>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Enterprise Tax Administration"
+    id="id-98720c53e51e40f89a8cf5c59381605a"
+    documentation="[SERVICE DOMAIN: Enterprise Tax Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Finance&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Tax Administration&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Tax Administration Management Plan&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Sin API publicada&#xA;  ISO 20022 / Semantics Alignment : Sin API publicada&#xA;  API semantica publicada         : No&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Finance"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Tax Administration"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Tax Administration Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="0"/>
+</archimate:Capability>

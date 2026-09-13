@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Rewards Inventory"
+    id="id-404ff590c38f4908b5c1f0a6f5eb1e11"
+    documentation="[SERVICE DOMAIN: Rewards Inventory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The service domain handles the allocation of rewards from available inventory.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Allocate&#xA;  Asset Type         : Rewards Inventory&#xA;  Generic Artifact   : Allocation&#xA;  Control Record     : Rewards Inventory Allocation&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Rewards Inventory Allocation Instance Record, 17 atributos)&#xA;  Parameter Type | Selected Option | Type | Description | Request | Schedule | Status | &#xA;  Reference | Customer Reference | Currency | Regulation Reference | Regulation Type | &#xA;  Jurisdiction | Booking Location | Account Type | Account Reference | Instance&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Allocate"/>
+  <properties
+      key="bianAssetType"
+      value="Rewards Inventory"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Allocation"/>
+  <properties
+      key="bianControlRecord"
+      value="Rewards Inventory Allocation"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="17"/>
+</archimate:Capability>

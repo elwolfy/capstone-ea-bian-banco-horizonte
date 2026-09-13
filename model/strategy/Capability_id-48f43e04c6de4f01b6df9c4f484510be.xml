@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cash Management And Account Services"
+    id="id-48f43e04c6de4f01b6df9c4f484510be"
+    documentation="[SERVICE DOMAIN: Cash Management And Account Services]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain orchestrates a cash management and accounting services facility ty&#xA;  pically used by corporations&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Cash Management And Account Services&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Cash Management And Account Services Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Cash Management And Account Services Facility Instance Record, 23 atributos)&#xA;  Product Instance Reference | Cash Management And Account Services Account Number | &#xA;  Customer Reference | Bank Branch/Location Reference | Account Type | Account Currency | &#xA;  Tax Reference | Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Associations | &#xA;  Association Type | Association Obligation/Entitlement | Association Reference | &#xA;  Linked Accounts | Link Type | Account Details | Limit Type | Limit Settings | &#xA;  Limit Value | Account Date Type | Account Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (9)&#xA;  Positive Pay   (4 atributos)&#xA;  Sweep   (10 atributos)&#xA;  Amount Block   (10 atributos)&#xA;  Issued Device   (19 atributos)&#xA;  Interest   (18 atributos)&#xA;  Charge   (18 atributos)&#xA;  Debit and Credit   (7 atributos)&#xA;  Deposit   (7 atributos)&#xA;  Payment   (26 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Retrieve Execute Exchange Request&#xA;  Inbound service operations  : 34&#xA;  Outbound service events     : 20&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Retrieve&#xA;    BQ Interest  &lt;-  Retrieve&#xA;    BQ Charge  &lt;-  Initiate, Retrieve, Execute&#xA;    BQ Sweep  &lt;-  Initiate, Retrieve, Execute, Update&#xA;    BQ DebitandCredit  &lt;-  Execute, Initiate, Update, Retrieve&#xA;    BQ Payment  &lt;-  Initiate, Execute, Update, Exchange, Retrieve&#xA;    BQ IssuedDevice  &lt;-  Initiate, Update, Request, Retrieve&#xA;    BQ PositivePay  &lt;-  Retrieve, Exchange&#xA;    BQ Deposit  &lt;-  Initiate, Update, Execute, Retrieve&#xA;    BQ AmountBlock  &lt;-  Initiate, Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Cash Management And Account Services"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Cash Management And Account Services Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="9"/>
+  <properties
+      key="bianAtributosCR"
+      value="23"/>
+</archimate:Capability>

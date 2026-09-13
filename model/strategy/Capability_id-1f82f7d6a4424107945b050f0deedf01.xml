@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Trading Book Oversight"
+    id="id-1f82f7d6a4424107945b050f0deedf01"
+    documentation="[SERVICE DOMAIN: Trading Book Oversight]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Wholesale Trading   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain oversees the bank's trading book (a type of account ledger that re&#xA;  cords details of frequently traded securities held by the bank) to manage the banks ma&#xA;  rket risk&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Trading Position&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Trading Position Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Trading Position Management Plan Instance Record, 10 atributos)&#xA;  Type | Reference | Budget Type | Budget | Assignment | Duty | Description | &#xA;  BudgetBalance | Associated Party | Subject Matter&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Trading Book Risk Mitigation   (8 atributos)&#xA;  Trading Book Analysis and Reporting   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Notify Update Exchange Request Grant Retrieve Create&#xA;  Inbound service operations  : 20&#xA;  Outbound service events     : 11&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Notify, Update, Exchange, Grant, Request, Retrieve, Create&#xA;    BQ TradingBookAnalysisandReporting  &lt;-  Exchange, Update, Grant, Notify, Request, Retrieve&#xA;    BQ TradingBookRiskMitigation  &lt;-  Request, Update, Exchange, Grant, Notify, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Wholesale Trading"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Trading Position"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Trading Position Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

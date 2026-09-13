@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10.1 Cierre de operaciones del dia"
+    id="id-57a0e90f0bd448d987b4dd08a1e77276"
+    documentation="Actividad del proceso PN-10 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Financial Accounting&#xA;  Functional Pattern: Track&#xA;  Asset Type: Financial Booking&#xA;  Control Record: Financial Booking Log&#xA;  Ubicacion Matrix: Risk and Compliance > Regulations and Compliance">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Financial Accounting"/>
+</archimate:BusinessProcess>

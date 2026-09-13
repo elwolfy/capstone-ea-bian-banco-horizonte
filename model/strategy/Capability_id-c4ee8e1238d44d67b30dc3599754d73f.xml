@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Relationship Management"
+    id="id-c4ee8e1238d44d67b30dc3599754d73f"
+    documentation="[SERVICE DOMAIN: Customer Relationship Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain develops and executes a customer plan to maintain and build a cust&#xA;  omer relationship&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Customer Relationship&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Customer Relationship Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Relationship Management Plan Instance Record, 12 atributos)&#xA;  Customer Reference | Employee/Business Unit Reference | &#xA;  Customer Relationship Rating Type | Customer Relationship Rating | &#xA;  Customer Insight Type | Customer Insight Description | Customer Budget | &#xA;  Customer Product Coverage | Customer Product Usage | &#xA;  Customer Product Eligibility Profile | Customer Sales Plan | Customer Profitability&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Incident   (6 atributos)&#xA;  Development   (7 atributos)&#xA;  Contact   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Update Control Request Grant Exchange Retrieve Capture&#xA;  Inbound service operations  : 22&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Create, Update, Control, Request, Grant, Exchange, Retrieve&#xA;    BQ Development  &lt;-  Create, Update, Exchange, Request, Retrieve&#xA;    BQ Incident  &lt;-  Create, Update, Control, Exchange, Capture, Retrieve&#xA;    BQ Contact  &lt;-  Create, Update, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Relationship"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Relationship Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

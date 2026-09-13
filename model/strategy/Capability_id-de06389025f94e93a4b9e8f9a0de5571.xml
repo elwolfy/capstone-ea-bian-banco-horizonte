@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Credit Risk Assessment   ->   Customer Credit Rating + Underwriting"
+    id="id-de06389025f94e93a4b9e8f9a0de5571"
+    documentation="Dominio propio: Credit Risk Assessment&#xA;Veredicto: SE PARTE&#xA;Dominios estandar v14: Customer Credit Rating, Underwriting&#xA;&#xA;Calificar y decidir son responsabilidades distintas, y en el banco tambien las hacen roles distintos.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

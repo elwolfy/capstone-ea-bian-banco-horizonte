@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Channel Portfolio"
+    id="id-1e5b6108649945b7961766bd1c5824c8"
+    documentation="[SERVICE DOMAIN: Channel Portfolio]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Business Analysis&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Channel Portfolio&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Channel Portfolio Analysis&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Sin API publicada&#xA;  ISO 20022 / Semantics Alignment : Sin API publicada&#xA;  API semantica publicada         : No&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Analysis"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Channel Portfolio"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Channel Portfolio Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="0"/>
+</archimate:Capability>

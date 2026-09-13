@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transaction Engine"
+    id="id-2a1040fffbee49909078fe065b81dfcc"
+    documentation="[SERVICE DOMAIN: Transaction Engine]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Orchestrate a schedule of payment transaction and reporting activities for the fulfill&#xA;  ment of certain long term instruments or structured facilities&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Transaction Schedule&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Transaction Schedule Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Transaction Schedule Facility Instance Record, 21 atributos)&#xA;  Product Instance Reference | ProductandService Type | &#xA;  Transaction Schedule Fulfillment Schedule | Transaction Schedule Work Task Record | &#xA;  Transaction Schedule Work Task Type | Transaction Schedule Work Task Description | &#xA;  Transaction Schedule Work Task Work Products | &#xA;  Document Directory Entry Instance Reference | Transaction Schedule Work Task Result | &#xA;  Transaction Schedule Task Fee Transaction | &#xA;  Transaction Schedule Work Task Fee Transaction Description | &#xA;  Transaction Schedule Work Task Fee Transaction Type | &#xA;  Transaction Schedule Work Task Fee Transaction Charge | &#xA;  Transaction Schedule Financial Transaction | &#xA;  Transaction Schedule Financial Transaction Product Instance Reference | &#xA;  Transaction Schedule Financial Transaction Type | &#xA;  Transaction Schedule Financial Transaction Description | &#xA;  Transaction Schedule Financial Transaction Amount | Correspondence Instance Reference | &#xA;  Date Type | Date&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Exchange Execute Retrieve&#xA;  Inbound service operations  : 6&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Exchange, Execute, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Transaction Schedule"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Transaction Schedule Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="21"/>
+</archimate:Capability>

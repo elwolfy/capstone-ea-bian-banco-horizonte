@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Journal   ->   Financial Accounting"
+    id="id-8d8198a23aab490486d2c5cc18eeb7ab"
+    documentation="Dominio propio: Financial Journal&#xA;Veredicto: RENOMBRA&#xA;Dominios estandar v14: Financial Accounting&#xA;&#xA;Dos intentos de nombre propio (Financial Position Management, luego Financial Journal) para un dominio que ya existia con nombre.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

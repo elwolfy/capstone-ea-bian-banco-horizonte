@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Counterparty Administration"
+    id="id-8421edbed63d4bfc88f44b3903dd086c"
+    documentation="[SERVICE DOMAIN: Counterparty Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Market Data&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain maintains key counterparty reference information used in the clear&#xA;  ing and settlement of wholesale trading&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Counterparty&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Counterparty Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Counterparty Directory Entry Instance Record, 11 atributos)&#xA;  Description | Schedule | Version | Status | Usage Log | Update Log | &#xA;  Service Configuration | Reference | Conterparty Reference | Agreement Reference | &#xA;  Financial Transaction Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Counterparty Permitted Transaction   (7 atributos)&#xA;  Counterparty Entity Reference   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Execute Register Request Notify Update Retrieve&#xA;  Inbound service operations  : 19&#xA;  Outbound service events     : 11&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Execute, Register, Request, Notify, Update, Retrieve&#xA;    BQ CounterpartyEntityReference  &lt;-  Notify, Request, Register, Execute, Retrieve, Update&#xA;    BQ CounterpartyPermittedTransaction  &lt;-  Execute, Notify, Register, Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Market Data"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Counterparty"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Counterparty Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

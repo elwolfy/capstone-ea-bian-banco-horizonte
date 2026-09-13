@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Legal Advisory"
+    id="id-398d7da328e64d1e8c01ae1301eaba28"
+    documentation="[SERVICE DOMAIN: Legal Advisory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Non-IT and Non-HR Enterprise Services&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The role of the Service Domain is to provide customers and bank employees with advice &#xA;  on legal aspects of product sales and servicing as well as on planned and executed tra&#xA;  nsactions.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Advise&#xA;  Asset Type         : Legal Advice&#xA;  Generic Artifact   : Advice&#xA;  Control Record     : Legal Advice&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Legal Advice Instance Record, 8 atributos)&#xA;  Subject Area Type | Parameter Type | Selected Option | Request | Usage Log | Feedback | &#xA;  Type | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Charge   (8 atributos)&#xA;  Legal   (8 atributos)&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Non-IT and Non-HR Enterprise Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Advise"/>
+  <properties
+      key="bianAssetType"
+      value="Legal Advice"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Advice"/>
+  <properties
+      key="bianControlRecord"
+      value="Legal Advice"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

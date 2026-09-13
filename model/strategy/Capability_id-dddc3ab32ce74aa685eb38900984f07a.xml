@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Correspondence   ->   Correspondence"
+    id="id-dddc3ab32ce74aa685eb38900984f07a"
+    documentation="Dominio propio: Customer Correspondence&#xA;Veredicto: RENOMBRA&#xA;Dominios estandar v14: Correspondence&#xA;&#xA;El estandar lo situa en Document Services, no en el area comercial.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

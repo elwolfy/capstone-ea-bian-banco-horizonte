@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10  ·  Cierre contable y reporteria   (9)"
+    id="id-faa6ed94f5434474995c54b323d1cd5c"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Actividades: 9&#xA;Todas cubiertas por Service Domains estandar de la v14.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="actividades"
+      value="9"/>
+</archimate:BusinessProcess>

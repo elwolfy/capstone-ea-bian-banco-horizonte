@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Position"
+    id="id-433ba9a27e744918bd0f7adf8dd2e7fc"
+    documentation="[SERVICE DOMAIN: Customer Position]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains a consolidated financial position for a customer, combin&#xA;  ing details from all products and services in use&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Monitor&#xA;  Asset Type         : Customer Position&#xA;  Generic Artifact   : State&#xA;  Control Record     : Customer Position State&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Position State Instance Record, 4 atributos)&#xA;  Customer Reference | Customer Positio Reference | Account Reference | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Cashflow   (10 atributos)&#xA;  Credit   (4 atributos)&#xA;  Collateral Allocation   (11 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Execute Request Retrieve Exchange Capture Evaluate Notify&#xA;  Inbound service operations  : 19&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Execute, Request, Retrieve&#xA;    BQ Cashflow  &lt;-  Exchange, Capture, Retrieve, Evaluate, Notify&#xA;    BQ Credit  &lt;-  Exchange, Capture, Retrieve, Notify, Evaluate&#xA;    BQ CollateralAllocation  &lt;-  Exchange, Capture, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Monitor"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Position"/>
+  <properties
+      key="bianGenericArtifact"
+      value="State"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Position State"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="4"/>
+</archimate:Capability>

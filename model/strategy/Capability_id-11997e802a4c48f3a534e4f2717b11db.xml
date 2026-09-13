@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Term Deposit"
+    id="id-11997e802a4c48f3a534e4f2717b11db"
+    documentation="[SERVICE DOMAIN: Term Deposit]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  A Term Deposit is an interest bearing account into which a customer can place a fixed &#xA;  amount of funds for a fixed amount of time. The Service Domain handles the opening, se&#xA;  rvicing and maturity processing of a Term Deposit.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Term Deposit&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Term Deposit Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Term Deposit Facility Instance Record, 50 atributos)&#xA;  Product Instance Reference | Account Number | Customer Reference | &#xA;  Bank Branch/Location Reference | Account Type | Account Currency | Tax Reference | &#xA;  Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Associations | &#xA;  Association Type | Association Obligation/Entitlement | Association Reference | &#xA;  Linked Accounts | Link Type | Account Details | Account Date Type | Account Date | &#xA;  Statements Schedule | Statement Type | Statement Transaction Type | Statement Period | &#xA;  Statement Report | Term Deposit Amount | Term Deposit Duration | &#xA;  Term Deposit Maturity Date | Term Deposit Open Date | Initial Deposit Payer Reference | &#xA;  Initial Deposit Payer Name | Initial Deposit Payer Account Reference | &#xA;  Initial Deposit Payer Bank Reference | Initial Deposit Amount | &#xA;  Initial Deposit Value Date | Early Termination Fee Amount | &#xA;  Early Termination Document Reference | Early Termination Document Summary | &#xA;  Closing Settlement Payee Reference | Closing Settlement Payee Name | &#xA;  Closing Settlement Payee Account Reference | &#xA;  Closing Settlement Payee External Account Number | &#xA;  Closing Settlement Payee Bank Reference | Closing Settlement Amount | &#xA;  Closing Settlement Payment Mechanism Type | Sales Product Agreement Reference | &#xA;  Contract Number of Payer | Limit Type | Limit Value | Limit Settings&#xA;&#xA;BEHAVIOR QUALIFIERS   (11)&#xA;  Financial Status Tracking   (0 atributos)&#xA;  Interest   (20 atributos)&#xA;  Charge   (19 atributos)&#xA;  Sweep   (10 atributos)&#xA;  Issued Device   (19 atributos)&#xA;  Payments   (26 atributos)&#xA;  Debit and Credit   (7 atributos)&#xA;  Booking   (8 atributos)&#xA;  Rollover   (3 atributos)&#xA;  Amount Block   (10 atributos)&#xA;  Deposit   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Retrieve Execute Exchange&#xA;  Inbound service operations  : 35&#xA;  Outbound service events     : 22&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Retrieve&#xA;    BQ Interest  &lt;-  Retrieve, Execute&#xA;    BQ Charge  &lt;-  Initiate, Execute, Retrieve, Update&#xA;    BQ Sweep  &lt;-  Initiate, Update, Execute, Retrieve&#xA;    BQ DebitandCredit  &lt;-  Initiate, Update, Execute, Retrieve&#xA;    BQ Payments  &lt;-  Initiate, Update, Exchange, Execute, Retrieve&#xA;    BQ IssuedDevice  &lt;-  Initiate, Update, Retrieve&#xA;    BQ Booking  &lt;-  Execute&#xA;    BQ Rollover  &lt;-  Update&#xA;    BQ AmountBlock  &lt;-  Initiate, Update, Retrieve&#xA;    BQ Deposit  &lt;-  Initiate, Update, Execute, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Term Deposit"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Term Deposit Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="11"/>
+  <properties
+      key="bianAtributosCR"
+      value="50"/>
+</archimate:Capability>

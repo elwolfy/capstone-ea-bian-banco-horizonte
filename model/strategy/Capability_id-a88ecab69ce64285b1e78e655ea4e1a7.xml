@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consumer Loan"
+    id="id-a88ecab69ce64285b1e78e655ea4e1a7"
+    documentation="[SERVICE DOMAIN: Consumer Loan]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the fulfillment of a consumer loan product&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Consumer Loan&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Consumer Loan Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Consumer Loan Facility Instance Record, 38 atributos)&#xA;  Product Instance Reference | Consumer Loan Number | Customer Reference | &#xA;  Party Reference | Customer Agreement Reference | Customer Credit Assessment Reference | &#xA;  Insurance Reference | Delinquency/Collection Reference | &#xA;  Bank Branch/Location Reference | Bank Accounting Unit Reference | Loan Type | &#xA;  Loan Amount | Loan Currency | Loan Rate Type | Loan Applicable Rate | Repayment Type | &#xA;  Interest Type | Interest Accrual Method | Loan Origination Date | Loan Maturity Date | &#xA;  Collateral Reference | Collateral Allocation | Tax Reference | Loan Access Terms | &#xA;  Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Associations | &#xA;  Association Type | Association Obligation/Entitlement | Association Reference | &#xA;  Loan Repayment Schedule | Staged Repayment Statement | Customer Commentary | &#xA;  Loan Outstanding Balance | Account Date Type | Account Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (12)&#xA;  Disbursement   (6 atributos)&#xA;  Maintenance   (6 atributos)&#xA;  Repayment   (7 atributos)&#xA;  Financial Status Tracking   (0 atributos)&#xA;  Amount Block   (10 atributos)&#xA;  Booking   (8 atributos)&#xA;  Interest   (18 atributos)&#xA;  Debit and Credit   (7 atributos)&#xA;  Issued Device   (19 atributos)&#xA;  Charge   (18 atributos)&#xA;  Modification   (5 atributos)&#xA;  Collateral Allocation   (9 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Retrieve Execute Request&#xA;  Inbound service operations  : 29&#xA;  Outbound service events     : 24&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Retrieve&#xA;    BQ Interest  &lt;-  Retrieve, Execute&#xA;    BQ Charge  &lt;-  Execute, Retrieve, Update&#xA;    BQ Disbursement  &lt;-  Retrieve&#xA;    BQ Maintenance  &lt;-  Request, Retrieve&#xA;    BQ DebitandCredit  &lt;-  Update, Execute, Request, Retrieve&#xA;    BQ Repayment  &lt;-  Update, Execute, Request, Retrieve&#xA;    BQ AmountBlock  &lt;-  Initiate, Retrieve, Update&#xA;    BQ IssuedDevice  &lt;-  Initiate, Retrieve, Update&#xA;    BQ Booking  &lt;-  Execute&#xA;    BQ Modification  &lt;-  Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Consumer Loan"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Consumer Loan Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="12"/>
+  <properties
+      key="bianAtributosCR"
+      value="38"/>
+</archimate:Capability>

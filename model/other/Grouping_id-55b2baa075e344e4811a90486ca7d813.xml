@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Trade Banking   [15 SD]"
+    id="id-55b2baa075e344e4811a90486ca7d813"
+    documentation="Business Domain ANIDADO de la vista MATRIX.&#xA;Bajo: Product Specific Fulfillment   (Operations and Execution)&#xA;Service Domains: 15&#xA;&#xA;Se modela como CAPACIDAD DE NEGOCIO AGRUPADORA. No es un nivel del&#xA;metamodelo BIAN: el nivel donde se cumple el MECE son los 341&#xA;Service Domains.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain anidado"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

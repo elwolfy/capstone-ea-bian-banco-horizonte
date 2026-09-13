@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Branch Currency Distribution"
+    id="id-ed5e6a9b185f4b5a969c655b68a26666"
+    documentation="[SERVICE DOMAIN: Branch Currency Distribution]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Schedule and coordinate the secure distribution of cash inventory across the branch an&#xA;  d ATM networks&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Cash Distribution&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Cash Distribution Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Cash Distribution Procedure Instance Record, 20 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | Reference | &#xA;  Business Unit Reference | Service Provider Reference | Financial Facility Reference | &#xA;  Employee Reference | Customer Reference | Type | Service Provider Schedule | &#xA;  Service Type | Product and Service Type | Product and Service Instance | &#xA;  Transaction Type | Transaction | Financial Transaction Arrangement | &#xA;  Customer Agreement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Inventory Distribution Oversight   (8 atributos)&#xA;  Inventory Provisioning   (8 atributos)&#xA;  Distribution Vehicle Administration   (8 atributos)&#xA;  Distribution Planning   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Control Execute Request Initiate Update Retrieve&#xA;  Inbound service operations  : 21&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Control, Execute, Request, Initiate, Update, Retrieve&#xA;    BQ DistributionPlanning  &lt;-  Exchange, Retrieve, Request, Update&#xA;    BQ InventoryProvisioning  &lt;-  Exchange, Retrieve, Request, Update&#xA;    BQ InventoryDistributionOversight  &lt;-  Retrieve, Request, Update&#xA;    BQ DistributionVehicleAdministration  &lt;-  Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Cash Distribution"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Cash Distribution Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="20"/>
+</archimate:Capability>

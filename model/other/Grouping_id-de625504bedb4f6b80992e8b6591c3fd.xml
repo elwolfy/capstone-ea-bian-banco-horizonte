@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SE PARTE   (5)"
+    id="id-de625504bedb4f6b80992e8b6591c3fd"
+    documentation="Un dominio propio agrupaba responsabilidades que el estandar separa. Aqui esta el aprendizaje.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

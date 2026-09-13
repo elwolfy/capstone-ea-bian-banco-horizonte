@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Disbursement"
+    id="id-f3e7e04143c949c48fe2be4883433603"
+    documentation="Service Domain BIAN v14: Disbursement&#xA;Ubicacion Matrix: Operations and Execution > Cross Product Operations > Operational Services&#xA;Functional Pattern: Transact&#xA;Control Record: Disbursement Transaction&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

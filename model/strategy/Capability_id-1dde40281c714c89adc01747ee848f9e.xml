@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Guideline Compliance"
+    id="id-1dde40281c714c89adc01747ee848f9e"
+    documentation="[SERVICE DOMAIN: Guideline Compliance]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Regulations and Compliance&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain develops and applies a portfolio of guideline compliance tests to &#xA;  confirm adherence to bank and regulator imposed internal procedures&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Guideline Compliance&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Guideline Compliance Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Guideline Compliance Assessment Instance Record, 7 atributos)&#xA;  Type | Business Unit Reference | Product and Service Reference | Customer Reference | &#xA;  Document Reference | Work Products | Result&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Retrieve Update Exchange Request&#xA;  Inbound service operations  : 5&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Retrieve, Update, Exchange, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Regulations and Compliance"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Guideline Compliance"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Guideline Compliance Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

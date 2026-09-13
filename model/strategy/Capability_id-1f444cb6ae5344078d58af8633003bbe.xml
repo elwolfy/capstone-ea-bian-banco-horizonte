@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Case Root Cause Analysis"
+    id="id-1f444cb6ae5344078d58af8633003bbe"
+    documentation="[SERVICE DOMAIN: Case Root Cause Analysis]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Servicing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Root cause analysis business function reviews case reports to identify possible improv&#xA;  ements to eliminate/mitigate servicing issues&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Customer Case Root Cause&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Customer Case Root Cause Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Case Root Cause Analysis Instance Record, 7 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | Usage Log | &#xA;  Requester Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Credit and Fraud Related Issue Analysis   (4 atributos)&#xA;  Product and Service Issue Analysis   (4 atributos)&#xA;  Operations and Servicing Issue Analysis   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Request Execute Retrieve Initiate Update&#xA;  Inbound service operations  : 20&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Request, Execute, Retrieve, Initiate, Update&#xA;    BQ CreditandFraudRelatedIssueAnalysis  &lt;-  Execute, Initiate, Retrieve, Request, Update&#xA;    BQ OperationsandServicingIssueAnalysis  &lt;-  Execute, Initiate, Retrieve, Request, Update&#xA;    BQ ProductandServiceIssueAnalysis  &lt;-  Execute, Initiate, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Servicing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Case Root Cause"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Case Root Cause Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Market Data Switch Operation"
+    id="id-f084fab32b61431fa70a44ca0a2d1d14"
+    documentation="[SERVICE DOMAIN: Market Data Switch Operation]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Market Data&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain operates the internal information distribution facility/switch in &#xA;  compliance with administered external subscription information feed service access rig&#xA;  hts. Note the content is retrieved by the Market Feed Operation service domain from th&#xA;  e various external feed services. Internal information can also be published over the &#xA;  switch from various bank sources (such as bank rates provided by treasury).&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Information Feed Switch&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Information Feed Switch Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Information Feed Switch Operating Session Instance Record, 2 atributos)&#xA;  Market Information Feed Service Reference | Market Information Feed Service Profile&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Feed Upload   (2 atributos)&#xA;  Internal Publication   (4 atributos)&#xA;  Distribution   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Initiate Control Execute Retrieve Request Exchange&#xA;  Inbound service operations  : 18&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Initiate, Control, Execute, Retrieve, Request&#xA;    BQ FeedUpload  &lt;-  Update, Exchange, Retrieve&#xA;    BQ InternalPublication  &lt;-  Update, Initiate, Exchange, Retrieve&#xA;    BQ Distribution  &lt;-  Initiate, Retrieve, Request, Update, Execute&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Market Data"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Information Feed Switch"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Information Feed Switch Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="2"/>
+</archimate:Capability>

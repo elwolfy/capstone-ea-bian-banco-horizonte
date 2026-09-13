@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.5 Decision y aprobacion"
+    id="id-4b911b6ca65d4a5b86b50edb8ab3b63e"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Underwriting&#xA;  Functional Pattern: Assess&#xA;  Asset Type: Underwriting&#xA;  Control Record: Underwriting Assessment&#xA;  Ubicacion Matrix: Sales and Service > Sales">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Underwriting"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fraud Resolution"
+    id="id-1ddf7348e41943dbbae7285af691b9e8"
+    documentation="[SERVICE DOMAIN: Fraud Resolution]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Regulations and Compliance&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain sets up and processes a fraud case resulting from fraud behavior d&#xA;  etected during production processing&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Fraud Resolution&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Fraud Resolution Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Fraud Resolution Procedure Instance Record, 14 atributos)&#xA;  Fraud Case Type | Product Instance Reference | Customer Reference | Merchant Reference | &#xA;  Intersted Party Reference | Contact Reference | Transaction Reference | &#xA;  Transaction Record | Case Location | Date | Employee/Business Unit Reference | &#xA;  Fraud Case Work Products | Fraud Case Resolution Schedule | Fraud Case Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Case Analysis   (1 atributos)&#xA;  Case Determination   (7 atributos)&#xA;  Case Resolution   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Exchange Update Retrieve Request&#xA;  Inbound service operations  : 9&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Exchange, Update, Retrieve&#xA;    BQ CaseAnalysis  &lt;-  Retrieve&#xA;    BQ CaseDetermination  &lt;-  Exchange, Retrieve&#xA;    BQ CaseResolution  &lt;-  Retrieve, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Regulations and Compliance"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Fraud Resolution"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Fraud Resolution Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="14"/>
+</archimate:Capability>

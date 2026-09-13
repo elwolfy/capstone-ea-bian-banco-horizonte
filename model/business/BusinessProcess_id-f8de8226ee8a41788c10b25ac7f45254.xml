@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02  ·  Originacion de credito   (9)"
+    id="id-f8de8226ee8a41788c10b25ac7f45254"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Actividades: 9&#xA;Todas cubiertas por Service Domains estandar de la v14.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="actividades"
+      value="9"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Merchant Suitability Assessment   ->   Merchant Relations"
+    id="id-520342e4483f43248a6a6639e432e977"
+    documentation="Dominio propio: Merchant Suitability Assessment&#xA;Veredicto: RENOMBRA&#xA;Dominios estandar v14: Merchant Relations&#xA;&#xA;El estandar lo situa en Cards: la relacion con el comercio nace de la adquirencia.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

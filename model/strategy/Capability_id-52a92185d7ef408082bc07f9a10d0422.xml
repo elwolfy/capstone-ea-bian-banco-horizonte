@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Unit Financial Operations"
+    id="id-52a92185d7ef408082bc07f9a10d0422"
+    documentation="[SERVICE DOMAIN: Business Unit Financial Operations]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Business Command and Control&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Busines Unit Budegt&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Busines Unit Budegt Administrative Plan&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Sin API publicada&#xA;  ISO 20022 / Semantics Alignment : Sin API publicada&#xA;  API semantica publicada         : No&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Command and Control"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Busines Unit Budegt"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Busines Unit Budegt Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="0"/>
+</archimate:Capability>

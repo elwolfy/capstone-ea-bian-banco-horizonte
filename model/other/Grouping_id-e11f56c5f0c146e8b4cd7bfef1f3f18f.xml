@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Command and Control   [6 SD]"
+    id="id-e11f56c5f0c146e8b4cd7bfef1f3f18f"
+    documentation="Business Domain de primer nivel de la vista Matrix.&#xA;Service Domains en el estandar: 6&#xA;En el alcance del capstone: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

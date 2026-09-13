@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Market Making"
+    id="id-6b1dcdf62a3d4bbd9e97a5c7cdd00ee5"
+    documentation="[SERVICE DOMAIN: Market Making]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Wholesale Trading   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain enables the bank to fulfill its market making function typically i&#xA;  n collaboration with a trading exchange. The bank maintains a buy/sell quote for the s&#xA;  ecurities it supports as a market maker and accepts buy/sell orders on request&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Market Making&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Market Making Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Market Making Facility Instance Record, 18 atributos)&#xA;  Parameter Type | Selected Option | Type | Calendar Reference | Status | &#xA;  Associated Party | Currency | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Booking Location | Account Type | Account Reference | Customer Reference | Position | &#xA;  Product Reference | Position Limit | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Order   (7 atributos)&#xA;  Position Tracking   (7 atributos)&#xA;  Quote   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Initiate Exchange Execute Notify Request Retrieve Update&#xA;  Inbound service operations  : 29&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Initiate, Exchange, Execute, Notify, Request, Retrieve, Update&#xA;    BQ Quote  &lt;-  Exchange, Execute, Request, Notify, Initiate, Retrieve, Update&#xA;    BQ Order  &lt;-  Execute, Exchange, Initiate, Retrieve, Notify, Request, Update&#xA;    BQ PositionTracking  &lt;-  Exchange, Execute, Request, Initiate, Notify, Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Wholesale Trading"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Market Making"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Market Making Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="18"/>
+</archimate:Capability>

@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Mergers and Acquisitions Advisory"
+    id="id-8a7e08e00e3e4044a4fb85d51d4091e4"
+    documentation="[SERVICE DOMAIN: Mergers and Acquisitions Advisory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Corporate Financing and Advisory Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain handles mergers and acquisition, IPO, MBO and LBO projects with th&#xA;  e bank acting in the lead and/or subordinate role&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Advise&#xA;  Asset Type         : Mergers And Acquisition&#xA;  Generic Artifact   : Advice&#xA;  Control Record     : Mergers And Acquisition Advice&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Mergers And Acquisition Advice Instance Record, 8 atributos)&#xA;  Subject Area Type | Parameter Type | Selected Option | Request | Usage Log | Feedback | &#xA;  Type | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Merger and Acquisition   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Initiate Notify Request Update Control Execute Retrieve&#xA;  Inbound service operations  : 15&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    BQ MergerandAcquisition  &lt;-  Exchange, Execute, Initiate, Request, Notify, Retrieve, Update&#xA;    Control Record  &lt;-  Exchange, Initiate, Notify, Request, Update, Control, Execute, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Corporate Financing and Advisory Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Advise"/>
+  <properties
+      key="bianAssetType"
+      value="Mergers And Acquisition"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Advice"/>
+  <properties
+      key="bianControlRecord"
+      value="Mergers And Acquisition Advice"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

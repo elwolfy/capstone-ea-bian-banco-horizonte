@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Workforce Training"
+    id="id-2800fcbe301541cab5e24f36ae77c5ca"
+    documentation="[SERVICE DOMAIN: Workforce Training]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Human Resource Management&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Employee Training&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Employee Training Administrative Plan&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Sin API publicada&#xA;  ISO 20022 / Semantics Alignment : Sin API publicada&#xA;  API semantica publicada         : No&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Human Resource Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Employee Training"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Employee Training Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="0"/>
+</archimate:Capability>

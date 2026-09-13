@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10.8 Elaboracion de reportes PLAFT (UIF)"
+    id="id-516f285b0848442eae66f423206dc361"
+    documentation="Actividad del proceso PN-10 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Compliance Reporting&#xA;  Functional Pattern: Administer&#xA;  Asset Type: Compliance Reporting&#xA;  Control Record: Compliance Reporting Administrative Plan&#xA;  Ubicacion Matrix: Risk and Compliance > Regulations and Compliance">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Compliance Reporting"/>
+</archimate:BusinessProcess>

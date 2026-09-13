@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Agreement"
+    id="id-9049a1723e3d4539b6379b3b3f96d3e2"
+    documentation="SERVICE DOMAIN: Partner Agreement&#xA;Business Area: Reference Data | Business Domain: External Agency&#xA;-------------------------------------------------&#xA;Functional Pattern: Agree Terms   [LITERAL, SD Overview]&#xA;Generic Artifact: Agreement&#xA;Asset Type: Partner   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Intelligence Asset Type&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Partner Agreement = Partner + Agreement&#xA;Control Record: Partner Agreement   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (3):&#xA;  LegalTerm · RegulatoryTerm · PolicyTerm&#xA;&#xA;Service Operations (Action Terms) — principales de 16 publicadas:&#xA;  [Evaluate] POST /PartnerAgreement/Evaluate&#xA;  [Update] PUT /PartnerAgreement/{id}/Update&#xA;  [Control] PUT /PartnerAgreement/{id}/Control&#xA;  [Exchange] PUT /PartnerAgreement/{id}/Exchange&#xA;  [Request] PUT /PartnerAgreement/{id}/Request&#xA;  [Grant] PUT /PartnerAgreement/{id}/Grant&#xA;  [Retrieve] GET /PartnerAgreement/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /PartnerAgreement/Evaluate&#xA;  PUT /PartnerAgreement/{id}/Update&#xA;  PUT /PartnerAgreement/{id}/Control&#xA;  PUT /PartnerAgreement/{id}/Exchange&#xA;  PUT /PartnerAgreement/{id}/Request&#xA;  PUT /PartnerAgreement/{id}/Grant&#xA;  GET /PartnerAgreement/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  This service domain captures and maintains comprehensive terms and conditions governing Partner relationships&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Gobierna el acuerdo formal con el socio o corresponsal.&#xA;  Capacidad que sirve: Alianzas y Ecosistema&#xA;  Actividades cubiertas (1):&#xA;    - PN-11.3 Firma del contrato de corresponsalia&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Partner Agreement SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_PARTAGR"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="External Agency"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Partner Agreement"/>
+  <properties
+      key="bianAssetType"
+      value="Partner"/>
+</archimate:Capability>

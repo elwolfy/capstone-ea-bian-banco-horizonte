@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Finance   [4 SD]"
+    id="id-8721eaa6893d43a58f6fb43525b74360"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Business Support&#xA;Service Domains: 4">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

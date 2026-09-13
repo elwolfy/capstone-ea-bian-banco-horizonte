@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Investment Account"
+    id="id-9992c54bd0714d15b8a6e8015328ce20"
+    documentation="[SERVICE DOMAIN: Investment Account]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Investment Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the non-cash holdings positions for a customer, covering m&#xA;  ultiple instruments as necessary&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Investment Account&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Investment Account Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Investment Account Facility Instance Record, 28 atributos)&#xA;  Product Instance Reference | Investment Account Number | Customer Reference | &#xA;  Bank Branch/Location Reference | Linked Cash Account | Link Type | Account Details | &#xA;  Investment Account Type | Investment Account Instrument Profile | &#xA;  Investment Account Instrument Record | Instrument Type | Instrument Reference | &#xA;  Trading Marketplace Reference | Instrument Processing Schedule | Instrument Event Type | &#xA;  Instrument Event Description | Instrument Event Date | Tax Reference | &#xA;  Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Linked Accounts | &#xA;  Date Type | Date | Limit Type | Limit Value | Limit Settings&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Corporate Action   (10 atributos)&#xA;  Debit and Credit   (8 atributos)&#xA;  Charge   (18 atributos)&#xA;  Deposit   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Retrieve Execute Exchange Request&#xA;  Inbound service operations  : 25&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Retrieve&#xA;    BQ DebitandCredit  &lt;-  Retrieve, Execute, Update, Initiate, Exchange&#xA;    BQ CorporateAction  &lt;-  Initiate, Exchange, Retrieve, Execute, Update&#xA;    BQ Charge  &lt;-  Initiate, Update, Exchange, Execute, Retrieve, Request&#xA;    BQ Deposit  &lt;-  Retrieve, Exchange, Initiate, Update, Execute&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Investment Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Investment Account"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Investment Account Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="28"/>
+</archimate:Capability>

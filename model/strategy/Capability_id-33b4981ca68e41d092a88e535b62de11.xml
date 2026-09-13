@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Correspondent Agent Relationship   ->   Partner Agreement + Partner Management + Partner Administration"
+    id="id-33b4981ca68e41d092a88e535b62de11"
+    documentation="Dominio propio: Correspondent Agent Relationship&#xA;Veredicto: SE PARTE&#xA;Dominios estandar v14: Partner Agreement, Partner Management, Partner Administration&#xA;&#xA;Defendimos unirlos invocando el criterio de ciclo de vida. El estandar los separa: acordar, habilitar y administrar son tres responsabilidades.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

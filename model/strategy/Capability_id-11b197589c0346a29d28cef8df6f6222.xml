@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Public Reference Data Management"
+    id="id-11b197589c0346a29d28cef8df6f6222"
+    documentation="[SERVICE DOMAIN: Public Reference Data Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Market Data&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Provide structured access to standard&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Design&#xA;  Asset Type         : Global Standard&#xA;  Generic Artifact   : Specification&#xA;  Control Record     : Global Standard Specification&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Global Standard Specification Instance Record, 8 atributos)&#xA;  Parameter Type | Selected Option | Description | Version | Status | Usage Log | &#xA;  Feedback | Service Provider Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Global Reference Data   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Control Initiate Exchange Request Retrieve Update&#xA;  Inbound service operations  : 9&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Control, Initiate, Exchange, Request, Retrieve, Update&#xA;    BQ GlobalReferenceData  &lt;-  Initiate, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Market Data"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Design"/>
+  <properties
+      key="bianAssetType"
+      value="Global Standard"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Specification"/>
+  <properties
+      key="bianControlRecord"
+      value="Global Standard Specification"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

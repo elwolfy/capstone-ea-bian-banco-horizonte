@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cross Product Operations   [47 SD]"
+    id="id-ad919a559e1c435bbf95b87edfd49cc2"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Operations and Execution&#xA;Service Domains: 47">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

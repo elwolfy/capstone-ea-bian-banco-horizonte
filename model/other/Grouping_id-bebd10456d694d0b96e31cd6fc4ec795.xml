@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sales"
+    id="id-bebd10456d694d0b96e31cd6fc4ec795"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Business Domain de primer nivel.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

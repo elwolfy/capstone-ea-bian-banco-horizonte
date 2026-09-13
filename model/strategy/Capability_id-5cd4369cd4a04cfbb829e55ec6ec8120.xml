@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transaction Compliance Screening   ->   Regulatory Compliance"
+    id="id-5cd4369cd4a04cfbb829e55ec6ec8120"
+    documentation="Dominio propio: Transaction Compliance Screening&#xA;Veredicto: SE ABSORBE&#xA;Dominios estandar v14: Regulatory Compliance&#xA;&#xA;Propusimos separar el screening de parte y de operacion. El estandar tiene un solo dominio. La recomendacion estaba mal.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.5 Habilitacion y capacitacion"
+    id="id-938781df37c9421c9a7e0fa93e08caf6"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Partner Management&#xA;  Functional Pattern: Manage&#xA;  Asset Type: Partner Releationship&#xA;  Control Record: Partner Releationship Management Plan&#xA;  Ubicacion Matrix: Reference Data > External Agency">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Partner Management"/>
+</archimate:BusinessProcess>

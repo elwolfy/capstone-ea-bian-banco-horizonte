@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Reference Data Directory   ->   Party Reference Data Directory"
+    id="id-b85156f599cd47b98979601e802dc319"
+    documentation="Dominio propio: Party Reference Data Directory&#xA;Veredicto: EXACTO&#xA;Dominios estandar v14: Party Reference Data Directory&#xA;&#xA;Acertamos. Es ademas el ejemplo desarrollado del framework.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10.6 Generacion de estados financieros"
+    id="id-c22a12a51dcd4c62bd72e1eff4e3e599"
+    documentation="Actividad del proceso PN-10 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Financial Statements&#xA;  Functional Pattern: Analyze&#xA;  Asset Type: Financial Statements&#xA;  Control Record: Financial Statements Analysis&#xA;  Ubicacion Matrix: Business Support > Finance">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Financial Statements"/>
+</archimate:BusinessProcess>

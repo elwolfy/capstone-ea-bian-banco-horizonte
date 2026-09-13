@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consumer Advisory Services"
+    id="id-12194585b9c64f14a77e333ade1b8a0d"
+    documentation="[SERVICE DOMAIN: Consumer Advisory Services]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Consumer Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Offer financial advisory services to consumer customers, possibly for a fee&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Advise&#xA;  Asset Type         : Consumer Advice&#xA;  Generic Artifact   : Advice&#xA;  Control Record     : Consumer Advice&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Consumer Advice Instance Record, 12 atributos)&#xA;  Product Instance Reference | Customer Reference | Bank Branch/Location Reference | &#xA;  Employee or Business Unit Reference | Work Products | &#xA;  Document Directory Entry Instance Reference | Session Schedule | Profile | Advice Type | &#xA;  Consolidation Record | Date Type | Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Financial Planning   (2 atributos)&#xA;  Taxation   (2 atributos)&#xA;  Product Guidance   (6 atributos)&#xA;  Charge   (5 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Initiate Control Request Retrieve Exchange Execute&#xA;  Inbound service operations  : 19&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Initiate, Control, Request, Retrieve&#xA;    BQ FinancialPlanning  &lt;-  Initiate, Update, Retrieve&#xA;    BQ Taxation  &lt;-  Initiate, Update, Retrieve&#xA;    BQ ProductGuidance  &lt;-  Initiate, Retrieve, Update&#xA;    BQ Charge  &lt;-  Retrieve, Initiate, Update, Exchange, Execute&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Consumer Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Advise"/>
+  <properties
+      key="bianAssetType"
+      value="Consumer Advice"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Advice"/>
+  <properties
+      key="bianControlRecord"
+      value="Consumer Advice"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Systems Administration"
+    id="id-61fd24b400164f4ea0b7a06d611f9ee3"
+    documentation="[SERVICE DOMAIN: Systems Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : IT Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Administer the configuration, maintenance, assignment and track usage and status of al&#xA;  l IT assets deployed in development and production across the enterprise&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : IT System&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : IT System Administrative Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (IT System Administrative Plan Instance Record, 10 atributos)&#xA;  Budget Type | Budget | Assignment | Duty | Associated Party | Budget Balance | &#xA;  Subject Matter | Type | Reference | Description&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Capacity Planning and Resilience   (8 atributos)&#xA;  Inventory   (8 atributos)&#xA;  Configuration   (8 atributos)&#xA;  Assurance   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Grant Exchange Control Initiate Retrieve Update Request&#xA;  Inbound service operations  : 24&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Grant, Exchange, Control, Initiate, Retrieve, Update, Request&#xA;    BQ Assurance  &lt;-  Capture, Retrieve, Request, Update&#xA;    BQ CapacityPlanningandResilience  &lt;-  Capture, Retrieve, Request, Update&#xA;    BQ Configuration  &lt;-  Capture, Retrieve, Request, Update&#xA;    BQ Inventory  &lt;-  Capture, Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="IT Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="IT System"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="IT System Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

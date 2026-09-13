@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Behavior Insights"
+    id="id-145bc1b7e6f94c44b5db86adc348ebcd"
+    documentation="[SERVICE DOMAIN: Customer Behavior Insights]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain applies behavioral analysis to customer event history to maintain &#xA;  a range of customer ratings/scores&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Customer Behavior&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Customer Behavior Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Behavior Analysis Instance Record, 11 atributos)&#xA;  Customer Reference | Customer Behavior Insights Analysis Schedule | &#xA;  Customer Behavior Insights Analysis Record | Customer Insight Type | Customer Insight | &#xA;  Customer Insight Calculation Date | Customer Behavior Insights Analysis | &#xA;  Customer Behavior Insights Analysis Model Reference | &#xA;  Customer Behavior Insights Analysis Report Reference | &#xA;  Customer Behavior Insights Analysis Log Reference | &#xA;  Customer Behavior Insights Analysis Document Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (6)&#xA;  Customer Engagement Insight   (8 atributos)&#xA;  Customer Psychographic Insight   (8 atributos)&#xA;  Customer Satisfaction and Sentiment Insight   (8 atributos)&#xA;  Customer Journey Insight   (8 atributos)&#xA;  Customer Retention and Churn Insight   (8 atributos)&#xA;  Customer Demographic Insight   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Exchange Request Execute Retrieve&#xA;  Inbound service operations  : 9&#xA;  Outbound service events     : 16&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Exchange, Request, Execute, Retrieve&#xA;    BQ Insight  &lt;-  Exchange, Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Behavior"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Behavior Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="6"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

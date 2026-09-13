@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Market Research"
+    id="id-1e50eaaf5e3e4db98b79e8a034168e9f"
+    documentation="[SERVICE DOMAIN: Market Research]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Business Analysis&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the capture of market research from multiple external sour&#xA;  ces. This can include live feeds, analysis and reports in any form. The information is&#xA;   classified/catalogued and stored for retrieval.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : General Market Research&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : General Market Research Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (General Market Research Directory Entry Instance Record, 9 atributos)&#xA;  General Market Research Viewpoint Type | General Market Research Viewpoint Description | &#xA;  Referenced Market Research Record | Market Research Report Type | &#xA;  Market Research Report Type Definition | Market Research Report Version/Period | &#xA;  Market Research Report Reference | Market Research Report Request | &#xA;  Employee or Business Unit Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (15)&#xA;  Consumer Behavior   (4 atributos)&#xA;  Branding and Positioning   (6 atributos)&#xA;  Customer Journey and Experience   (6 atributos)&#xA;  Technology and Innovation   (6 atributos)&#xA;  Regulatory and Environmental Factors   (6 atributos)&#xA;  Target Market and Segmentation   (6 atributos)&#xA;  Market Entry and Expansion   (6 atributos)&#xA;  Market Size and Trends   (6 atributos)&#xA;  Customer Demographics and Psychographics   (6 atributos)&#xA;  Competitive Analysis   (6 atributos)&#xA;  Distribution Channels   (6 atributos)&#xA;  Product or Service Analysis   (4 atributos)&#xA;  Pricing Analysis   (4 atributos)&#xA;  Forecasting and Future Outlook   (6 atributos)&#xA;  Marketing and Advertising   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Register Update Execute Request Retrieve&#xA;  Inbound service operations  : 5&#xA;  Outbound service events     : 32&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Register, Update, Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Analysis"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="General Market Research"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="General Market Research Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="15"/>
+  <properties
+      key="bianAtributosCR"
+      value="9"/>
+</archimate:Capability>

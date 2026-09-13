@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account Reconciliation"
+    id="id-6cb76797f0c14fb28c2695b464a082a9"
+    documentation="SERVICE DOMAIN: Account Reconciliation&#xA;Business Area: Operations and Execution | Business Domain: Cross Product Operations > Operational Services&#xA;-------------------------------------------------&#xA;Functional Pattern: Process   [LITERAL, SD Overview]&#xA;Generic Artifact: Procedure&#xA;Asset Type: Account Reconciliation   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Account Reconciliation Procedure = Account Reconciliation + Procedure&#xA;Control Record: Account Reconciliation Procedure   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (2):&#xA;  AccountAssessment · AccountResolution&#xA;&#xA;Service Operations (Action Terms) — principales de 22 publicadas:&#xA;  [Initiate] POST /AccountReconciliation/Initiate&#xA;  [Update] PUT /AccountReconciliation/{id}/Update&#xA;  [Control] PUT /AccountReconciliation/{id}/Control&#xA;  [Exchange] PUT /AccountReconciliation/{id}/Exchange&#xA;  [Execute] PUT /AccountReconciliation/{id}/Execute&#xA;  [Request] PUT /AccountReconciliation/{id}/Request&#xA;  [Notify] GET /AccountReconciliation/{id}/Notify&#xA;  [Retrieve] GET /AccountReconciliation/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /AccountReconciliation/Initiate&#xA;  PUT /AccountReconciliation/{id}/Update&#xA;  PUT /AccountReconciliation/{id}/Control&#xA;  PUT /AccountReconciliation/{id}/Exchange&#xA;  PUT /AccountReconciliation/{id}/Execute&#xA;  PUT /AccountReconciliation/{id}/Request&#xA;  GET /AccountReconciliation/{id}/Notify&#xA;  GET /AccountReconciliation/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  [SIN DESCRIPCION EN EL YAML OFICIAL]&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Concilia los saldos y movimientos entre registros.&#xA;  Capacidad que sirve: Contabilidad y Registro Financiero (Ledger)&#xA;  Actividades cubiertas (1):&#xA;    - PN-10.4 Conciliacion entre contabilidad y operaciones&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Account Reconciliation SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_ACCREC"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Account Reconciliation Procedure"/>
+  <properties
+      key="bianAssetType"
+      value="Account Reconciliation"/>
+</archimate:Capability>

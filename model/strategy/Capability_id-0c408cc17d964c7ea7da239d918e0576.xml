@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Suitability Checking"
+    id="id-0c408cc17d964c7ea7da239d918e0576"
+    documentation="[SERVICE DOMAIN: Suitability Checking]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Wholesale Trading   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Confirm that all involved counterparties are suitable for a proposed market trade.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Suitability&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Suitability Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Suitability Assessment Instance Record, 16 atributos)&#xA;  Employee or Business Unit Reference | Customer Reference | Market Order Type | &#xA;  Investment Portfolio Instance Reference | Customer Market Order Processing Instruction | &#xA;  Proposed Market Order Transaction | Investment Account Arrangement Instance Reference | &#xA;  Security Type | Amount | Date Type | Date | Type | &#xA;  Document Directory Entry Instance Reference | Correspondence Instance Reference | &#xA;  Suitability Compliance Assessment Work Products | &#xA;  Suitability Compliance Assessment Result&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Update Exchange Request Grant Retrieve&#xA;  Inbound service operations  : 6&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Update, Exchange, Request, Grant, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Wholesale Trading"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Suitability"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Suitability Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="16"/>
+</archimate:Capability>

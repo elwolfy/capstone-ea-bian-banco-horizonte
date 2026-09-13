@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payee Management"
+    id="id-f03d7925b79445949a8839ac974a6e8e"
+    documentation="[SERVICE DOMAIN: Payee Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Payee Alias&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Payee Alias Directory Entry&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Sin API publicada&#xA;  ISO 20022 / Semantics Alignment : Sin API publicada&#xA;  API semantica publicada         : No&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Payee Alias"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Payee Alias Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="0"/>
+</archimate:Capability>

@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Accounts Receivable"
+    id="id-ecddb954035d4f9086e35528cc9dfe89"
+    documentation="[SERVICE DOMAIN: Accounts Receivable]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles accounts receivable for invoices issue by the bank to cust&#xA;  omers and partners. It includes follow-up and resolution activity for delayed/missed p&#xA;  ayments&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Accounts Receivable&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Accounts Receivable Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Accounts Receivable Procedure Instance Record, 20 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | Reference | &#xA;  Business Unit Reference | Service Provider Reference | Financial Facility Reference | &#xA;  Employee Reference | Customer Reference | Type | Service Provider Schedule | &#xA;  Service Type | Product and Service Type | Product and Service Instance | &#xA;  Transaction Type | Transaction | Financial Transaction Arrangement | &#xA;  Customer Agreement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Resolution   (8 atributos)&#xA;  Customer Negotiation   (8 atributos)&#xA;  Payment   (8 atributos)&#xA;  Receivables Evaluation   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Retrieve Execute Initiate Update Request&#xA;  Inbound service operations  : 22&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Retrieve, Execute, Initiate, Update, Request&#xA;    BQ Payment  &lt;-  Initiate, Retrieve, Update&#xA;    BQ ReceivablesEvaluation  &lt;-  Exchange, Initiate, Retrieve, Update&#xA;    BQ Resolution  &lt;-  Initiate, Retrieve, Update&#xA;    BQ CustomerNegotiation  &lt;-  Initiate, Retrieve, Exchange, Update, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Accounts Receivable"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Accounts Receivable Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="20"/>
+</archimate:Capability>

@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Accounting   [reutilizado en 3 procesos]"
+    id="id-bb7ea74eb479463a8c7d4c3d8b3cf1f6"
+    documentation="Service Domain BIAN v14: Financial Accounting&#xA;Ubicacion Matrix: Risk and Compliance > Regulations and Compliance&#xA;Functional Pattern: Track&#xA;Control Record: Financial Booking Log&#xA;Procesos del alcance en que participa: 3">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

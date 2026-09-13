@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Open Item Management"
+    id="id-8a8a56ce19b94fc2aad6a4f59367100a"
+    documentation="[SERVICE DOMAIN: Open Item Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain provides a service for handling the resolution of open items again&#xA;  st accounts (such as overdue loan payments)&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Open Item&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Open Item Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Open Item Procedure Instance Record, 8 atributos)&#xA;  Open Item Type | Open Item Description | Product Instance Reference | Party Reference | &#xA;  Loan Repayment Schedule | Loan Outstanding Balance | Loan Termination Date | &#xA;  Repayment Statement&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Tracking   (6 atributos)&#xA;  Repayment   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Request Retrieve Update Initiate Exchange Execute&#xA;  Inbound service operations  : 11&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Request, Retrieve, Update, Initiate&#xA;    BQ Tracking  &lt;-  Retrieve&#xA;    BQ Repayment  &lt;-  Update, Exchange, Execute, Retrieve, Initiate&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Open Item"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Open Item Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

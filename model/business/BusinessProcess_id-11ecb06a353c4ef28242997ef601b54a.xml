@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11  ·  Incorporacion de comercios y agentes   (6)"
+    id="id-11ecb06a353c4ef28242997ef601b54a"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Actividades: 6&#xA;Todas cubiertas por Service Domains estandar de la v14.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="actividades"
+      value="6"/>
+</archimate:BusinessProcess>

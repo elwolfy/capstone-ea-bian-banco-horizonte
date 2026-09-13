@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contact Center Management"
+    id="id-b47a7d46b2d045399c473b8fdc7b46bd"
+    documentation="[SERVICE DOMAIN: Contact Center Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Oversee the assignment and operation of the customer contact center&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Contact Center&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Contact Center Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Contact Center Management Plan Instance Record, 7 atributos)&#xA;  Period | Contact Center Usage Policies And Guidelines | &#xA;  Contact Center Service Performance Goals | Contact Center Service Schedule | &#xA;  Contact Center Service Operating Configuration | Contact Center Resource Plan | &#xA;  Contact Center Training Plan&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Performance   (7 atributos)&#xA;  Troubleshooting   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Create Exchange Request Retrieve&#xA;  Inbound service operations  : 12&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Create, Exchange, Request, Retrieve&#xA;    BQ Performance  &lt;-  Request, Retrieve, Update&#xA;    BQ Troubleshooting  &lt;-  Create, Retrieve, Update, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Contact Center"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Contact Center Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01 · Vinculacion de clientes   [8 actividades, 2 manuales]"
+    id="id-2c79c8ae747c47f8834f3776fbf9d576"
+    documentation="Proceso declarado en el alcance del capstone.&#xA;Actividades: 8   ·   manuales hoy: 2&#xA;Service Domains estandar que lo cubren: 7">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

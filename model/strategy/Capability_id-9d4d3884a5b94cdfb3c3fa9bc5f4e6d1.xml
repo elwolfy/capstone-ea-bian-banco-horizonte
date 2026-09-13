@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Workbench"
+    id="id-9d4d3884a5b94cdfb3c3fa9bc5f4e6d1"
+    documentation="[SERVICE DOMAIN: Customer Workbench]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain represents customer side devices, providing a customer access port&#xA;  al to the banks products and services&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Customer Workbench&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Customer Workbench Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Workbench Operating Session Instance Record, 9 atributos)&#xA;  Customer Reference | Customer Workbench Device Type | &#xA;  Customer Workbench Device Registration | Customer Workbench Device Manufacturer | &#xA;  Customer Workbench Device Operating System/Version Number | &#xA;  Customer Workbench Device Access Permissions | Installed Bank Application Type | &#xA;  Installed Bank Application Version Number | Last Update Date and Time&#xA;&#xA;BEHAVIOR QUALIFIERS   (5)&#xA;  SW Update   (4 atributos)&#xA;  Broadcast   (2 atributos)&#xA;  Browsing   (2 atributos)&#xA;  Contact   (2 atributos)&#xA;  ProductandService Access   (5 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve Initiate Update Control Execute Exchange Request Evaluate&#xA;  Inbound service operations  : 23&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Retrieve, Initiate, Update, Control&#xA;    BQ SWUpdate  &lt;-  Initiate, Retrieve, Exchange&#xA;    BQ Broadcast  &lt;-  Initiate, Request&#xA;    BQ Browsing  &lt;-  Initiate, Execute, Retrieve&#xA;    BQ Contact  &lt;-  Initiate, Retrieve, Update, Execute, Request, Evaluate&#xA;    BQ ProductandServiceAccess  &lt;-  Update, Initiate, Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Workbench"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Workbench Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="5"/>
+  <properties
+      key="bianAtributosCR"
+      value="9"/>
+</archimate:Capability>

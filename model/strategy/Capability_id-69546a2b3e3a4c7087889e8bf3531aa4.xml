@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Order   ->   Payment Order Initiation + Payment Orchestration"
+    id="id-69546a2b3e3a4c7087889e8bf3531aa4"
+    documentation="Dominio propio: Payment Order&#xA;Veredicto: SE PARTE&#xA;Dominios estandar v14: Payment Order Initiation, Payment Orchestration&#xA;&#xA;Capturar la orden y orquestar el riel se separan en el estandar.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

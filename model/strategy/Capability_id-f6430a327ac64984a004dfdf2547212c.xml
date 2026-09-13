@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compliance Reporting"
+    id="id-f6430a327ac64984a004dfdf2547212c"
+    documentation="Service Domain BIAN v14: Compliance Reporting&#xA;Ubicacion Matrix: Risk and Compliance > Regulations and Compliance&#xA;Functional Pattern: Administer&#xA;Control Record: Compliance Reporting Administrative Plan&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

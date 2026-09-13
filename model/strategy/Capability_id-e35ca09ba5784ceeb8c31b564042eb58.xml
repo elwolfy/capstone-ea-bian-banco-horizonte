@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transaction Engine"
+    id="id-e35ca09ba5784ceeb8c31b564042eb58"
+    documentation="SERVICE DOMAIN: Transaction Engine&#xA;Business Area: Operations and Execution | Business Domain: Cross Product Operations > Operational Services&#xA;-------------------------------------------------&#xA;Functional Pattern: Fulfill   [LITERAL, SD Overview]&#xA;Generic Artifact: Facility&#xA;Asset Type: Transaction Schedule   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Transaction Schedule Facility = Transaction Schedule + Facility&#xA;Control Record: Transaction Schedule Facility   [LITERAL, SD Overview]&#xA;&#xA;Service Operations (Action Terms) — principales de 6 publicadas:&#xA;  [Initiate] POST /TransactionEngine/Initiate&#xA;  [Update] PUT /TransactionEngine/{id}/Update&#xA;  [Control] PUT /TransactionEngine/{id}/Control&#xA;  [Exchange] PUT /TransactionEngine/{id}/Exchange&#xA;  [Execute] PUT /TransactionEngine/{id}/Execute&#xA;  [Retrieve] GET /TransactionEngine/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /TransactionEngine/Initiate&#xA;  PUT /TransactionEngine/{id}/Update&#xA;  PUT /TransactionEngine/{id}/Control&#xA;  PUT /TransactionEngine/{id}/Exchange&#xA;  PUT /TransactionEngine/{id}/Execute&#xA;  GET /TransactionEngine/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  EcCR Accept, reject a proposed action&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Ejecuta el movimiento efectivo de fondos: el cargo en la cuenta origen y el abono en la destino.&#xA;  Capacidad que sirve: Ejecucion de Pagos y Desembolso&#xA;  Actividades cubiertas (1):&#xA;    - PN-04.5 Ejecucion del cargo y abono&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Transaction Engine SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_TXENG"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Transaction Schedule Facility"/>
+  <properties
+      key="bianAssetType"
+      value="Transaction Schedule"/>
+</archimate:Capability>

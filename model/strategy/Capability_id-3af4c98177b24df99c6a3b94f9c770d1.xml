@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Agreement"
+    id="id-3af4c98177b24df99c6a3b94f9c770d1"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Sales and Service > Customer Management&#xA;Functional Pattern: Agree Terms&#xA;Control Record: Customer Agreement">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Agreement"/>
+</archimate:Capability>

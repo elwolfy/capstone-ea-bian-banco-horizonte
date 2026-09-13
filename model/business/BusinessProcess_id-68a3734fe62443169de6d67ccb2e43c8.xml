@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.3 Firma del contrato de corresponsalia"
+    id="id-68a3734fe62443169de6d67ccb2e43c8"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Partner Agreement&#xA;  Functional Pattern: Agree Terms&#xA;  Asset Type: Partner&#xA;  Control Record: Partner Agreement&#xA;  Ubicacion Matrix: Reference Data > External Agency">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Partner Agreement"/>
+</archimate:BusinessProcess>

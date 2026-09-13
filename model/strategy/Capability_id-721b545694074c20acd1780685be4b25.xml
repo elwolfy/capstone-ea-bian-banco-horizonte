@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Correspondent Bank Directory"
+    id="id-721b545694074c20acd1780685be4b25"
+    documentation="[SERVICE DOMAIN: Correspondent Bank Directory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : External Agency&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains correspondent bank reference details&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Correspondent Bank&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Correspondent Bank Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Correspondent Bank Directory Entry Instance Record, 16 atributos)&#xA;  Correspondent Bank Reference | Contact Addresses | Vostro Account Reference | &#xA;  Correspondent Bank Agreement Reference | Correspondent Bank Name | BIC | &#xA;  National Clearing Code | Correspondent Bank Contact Address | &#xA;  Party Reference Data Directory Reference | Legal Entity Directory Reference | &#xA;  Payment Processing Times | Nostro Account Reference | &#xA;  Related Beneficiary Bank Reference | Related Beneficiary Bank BIC | &#xA;  Related Beneficiary Bank Name | Related Beneficiary Bank Currency Reference&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Register Update Request Retrieve&#xA;  Inbound service operations  : 4&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Register, Update, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="External Agency"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Correspondent Bank"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Correspondent Bank Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="16"/>
+</archimate:Capability>

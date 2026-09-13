@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Management"
+    id="id-121a5f6c1a9245f4a5dd3a02b64f535f"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Business Domain de primer nivel.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

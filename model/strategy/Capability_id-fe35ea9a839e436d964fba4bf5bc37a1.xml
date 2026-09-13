@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Routing Profile"
+    id="id-fe35ea9a839e436d964fba4bf5bc37a1"
+    documentation="[SERVICE DOMAIN: Party Routing Profile]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Party&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains a small profile of key indicators for a customer that is&#xA;   referenced during customer interactions to facilitate routing, servicing and product/&#xA;  service fulfillment decisions. This can include status (such as account in arrears), r&#xA;  atings (such as high value customer) and alerts (such possible fraud activity detected&#xA;  )&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Monitor&#xA;  Asset Type         : Party&#xA;  Generic Artifact   : State&#xA;  Control Record     : Party State&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Party State Instance Record, 1 atributos)&#xA;  Customer Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Status   (4 atributos)&#xA;  Rating   (4 atributos)&#xA;  Alert   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Request Update Capture Retrieve Control Execute Exchange Notify Evaluate&#xA;  Inbound service operations  : 18&#xA;  Outbound service events     : 9&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Request, Update, Retrieve, Control, Execute&#xA;    BQ Status  &lt;-  Update, Retrieve, Capture, Notify, Evaluate&#xA;    BQ Rating  &lt;-  Capture, Retrieve, Update&#xA;    BQ Alert  &lt;-  Update, Capture, Exchange, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Party"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Monitor"/>
+  <properties
+      key="bianAssetType"
+      value="Party"/>
+  <properties
+      key="bianGenericArtifact"
+      value="State"/>
+  <properties
+      key="bianControlRecord"
+      value="Party State"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="1"/>
+</archimate:Capability>

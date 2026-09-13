@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Underwriting"
+    id="id-634e095fda9e43e4b63ed3a2ee9f60a1"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Sales and Service > Sales&#xA;Functional Pattern: Assess&#xA;Control Record: Underwriting Assessment">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianControlRecord"
+      value="Underwriting Assessment"/>
+</archimate:Capability>

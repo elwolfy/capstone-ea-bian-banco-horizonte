@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account Reconciliation"
+    id="id-a2fad84f0c4f49be9194f6a2d3402d02"
+    documentation="[SERVICE DOMAIN: Account Reconciliation]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain handles account reconciliation tasks&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Account Reconciliation&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Account Reconciliation Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Account Reconciliation Procedure Instance Record, 27 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | &#xA;  Associated Party Reference | Business Unit Reference | Service Provider Reference | &#xA;  Financial Facility Reference | Employee Reference | Customer Reference | Type | &#xA;  Service Provider Schedule | Service Type | Product and Service Type | &#xA;  Product and Service Instance | Transaction Type | Transaction | &#xA;  Financial Transaction Arrangement | Customer Agreement Reference | Reference | &#xA;  Account Reference | Document Reference | Reconciliation Transaction Reference | &#xA;  Reconciliation Arrangement Reference | Reconciliation Request Reference | &#xA;  System Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Account Assessment   (8 atributos)&#xA;  Account Resolution   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Initiate Retrieve Notify Request Update Execute&#xA;  Inbound service operations  : 22&#xA;  Outbound service events     : 15&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Initiate, Retrieve, Notify, Request, Execute, Update&#xA;    BQ AccountAssessment  &lt;-  Exchange, Initiate, Request, Update, Notify, Execute, Retrieve&#xA;    BQ AccountResolution  &lt;-  Request, Update, Execute, Notify, Retrieve, Exchange, Initiate&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Account Reconciliation"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Account Reconciliation Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="27"/>
+</archimate:Capability>

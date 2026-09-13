@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Loan Syndication"
+    id="id-271b318779b84ffaa4c9847eb35dbcfd"
+    documentation="[SERVICE DOMAIN: Loan Syndication]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Servicing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Loan Syndication is a Service Domain that supports orgination, set-up and servicing of&#xA;   syndicated loans. It provides services that are used in lead banks, agents and banks &#xA;  providing administrative support. It handles the orchestration of origination and serv&#xA;  icing processes for syndicated loans.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Syndicated Loan Application&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Syndicated Loan Application Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Syndicated Loan Application Procedure Instance Record, 21 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | &#xA;  Associated Party Reference | Business Unit Reference | Service Provider Reference | &#xA;  Financial Facility Reference | Employee Reference | Customer Reference | Type | &#xA;  Service Provider Schedule | Service Type | Product and Service Type | &#xA;  Product and Service Instance | Transaction Type | Transaction | &#xA;  Financial Transaction Arrangement | Customer Agreement Reference | Reference&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve Initiate Update Control&#xA;  Inbound service operations  : 4&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Retrieve, Initiate, Update, Control&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Servicing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Syndicated Loan Application"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Syndicated Loan Application Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="21"/>
+</archimate:Capability>

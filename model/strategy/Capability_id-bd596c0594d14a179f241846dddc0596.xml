@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Agreement"
+    id="id-bd596c0594d14a179f241846dddc0596"
+    documentation="Service Domain BIAN v14: Partner Agreement&#xA;Ubicacion Matrix: Reference Data > External Agency&#xA;Functional Pattern: Agree Terms&#xA;Control Record: Partner Agreement&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

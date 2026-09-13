@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.7 Habilitacion de credenciales y canales"
+    id="id-dc7b4d56c91b486e8fdc57ce59807a4f"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Customer Access Entitlement&#xA;  Functional Pattern: Agree Terms&#xA;  Asset Type: Customer Access Profile&#xA;  Control Record: Customer Access Profile Agreement&#xA;  Ubicacion Matrix: Sales and Service > Customer Management">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Access Entitlement"/>
+</archimate:BusinessProcess>

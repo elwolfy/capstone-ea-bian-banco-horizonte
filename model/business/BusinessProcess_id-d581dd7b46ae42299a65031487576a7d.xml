@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.2 Evaluacion de riesgo y cumplimiento del aliado"
+    id="id-d581dd7b46ae42299a65031487576a7d"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Regulatory Compliance&#xA;  Functional Pattern: Assess&#xA;  Asset Type: Regulatory Compliance&#xA;  Control Record: Regulatory Compliance Assessment&#xA;  Ubicacion Matrix: Risk and Compliance > Regulations and Compliance">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Regulatory Compliance"/>
+</archimate:BusinessProcess>

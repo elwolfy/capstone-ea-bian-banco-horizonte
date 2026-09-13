@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Merchant Relations"
+    id="id-9eb48805acc74296af59b76c19457249"
+    documentation="SERVICE DOMAIN: Merchant Relations&#xA;Business Area: Operations and Execution | Business Domain: Product Specific Fulfillment > Loans and Deposits&#xA;-------------------------------------------------&#xA;Functional Pattern: Agree Terms   [LITERAL, SD Overview]&#xA;Generic Artifact: Agreement&#xA;Asset Type: Merchant Relationship   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Intelligence Asset Type&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Merchant Relationship Agreement = Merchant Relationship + Agreement&#xA;Control Record: Merchant Relationship Agreement   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (3):&#xA;  OperationalTerm · RegulatoryTerm · LegalTerm&#xA;&#xA;Service Operations (Action Terms) — principales de 26 publicadas:&#xA;  [Evaluate] POST /MerchantRelations/Evaluate&#xA;  [Update] PUT /MerchantRelations/{id}/Update&#xA;  [Control] PUT /MerchantRelations/{id}/Control&#xA;  [Exchange] PUT /MerchantRelations/{id}/Exchange&#xA;  [Request] PUT /MerchantRelations/{id}/Request&#xA;  [Grant] PUT /MerchantRelations/{id}/Grant&#xA;  [Notify] GET /MerchantRelations/{id}/Notify&#xA;  [Retrieve] GET /MerchantRelations/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /MerchantRelations/Evaluate&#xA;  PUT /MerchantRelations/{id}/Update&#xA;  PUT /MerchantRelations/{id}/Control&#xA;  PUT /MerchantRelations/{id}/Exchange&#xA;  PUT /MerchantRelations/{id}/Request&#xA;  PUT /MerchantRelations/{id}/Grant&#xA;  GET /MerchantRelations/{id}/Notify&#xA;  GET /MerchantRelations/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  [SIN DESCRIPCION EN EL YAML OFICIAL]&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Gestiona la relacion comercial con el comercio afiliado.&#xA;  Capacidad que sirve: Alianzas y Ecosistema&#xA;  Actividades cubiertas (1):&#xA;    - PN-11.1 Prospeccion y evaluacion del comercio&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Merchant Relations SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_MERCH"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Merchant Relationship Agreement"/>
+  <properties
+      key="bianAssetType"
+      value="Merchant Relationship"/>
+</archimate:Capability>

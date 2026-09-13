@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Project Finance"
+    id="id-ec284e73938940c7b1bc18f5888cea95"
+    documentation="[SERVICE DOMAIN: Project Finance]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain fulfills project financing by which major (government) projects ca&#xA;  n attract privet sector financing&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Project Finance&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Project Finance Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Project Finance Facility Instance Record, 18 atributos)&#xA;  Parameter Type | Selected Option | Type | Calendar Reference | Status | &#xA;  Associated Party | Currency | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Booking Location | Account Type | Account Reference | Customer Reference | Position | &#xA;  Product Reference | Position Limit | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Maintenance   (7 atributos)&#xA;  Instrument Design   (7 atributos)&#xA;  Repayment   (15 atributos)&#xA;  Placement   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Execute Exchange Initiate Notify Request Retrieve Update&#xA;  Inbound service operations  : 36&#xA;  Outbound service events     : 17&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Execute, Exchange, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ Placement  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ Maintenance  &lt;-  Exchange, Initiate, Notify, Retrieve, Execute, Request, Update&#xA;    BQ Repayment  &lt;-  Exchange, Initiate, Request, Retrieve, Notify, Execute, Update&#xA;    BQ InstrumentDesign  &lt;-  Execute, Notify, Initiate, Request, Exchange, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Project Finance"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Project Finance Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="18"/>
+</archimate:Capability>

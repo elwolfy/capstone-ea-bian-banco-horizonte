@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Case Management"
+    id="id-77b6f6bed88143cf864f15621797252f"
+    documentation="[SERVICE DOMAIN: Customer Case Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Servicing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Track and assess case load and resolution activity&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Customer Case&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Customer Case Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Case Management Plan Instance Record, 7 atributos)&#xA;  Period | Customer Case Policies And Guidelines | &#xA;  Customer Case Service Performance Goals | Customer Case Service Schedule | &#xA;  Customer Case Service Operating Configuration | Customer Case Resource Plan | &#xA;  Customer Case Training Plan&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Rules   (5 atributos)&#xA;  Performance   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Update Exchange Request Retrieve&#xA;  Inbound service operations  : 11&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Create, Update, Exchange, Request, Retrieve&#xA;    BQ Rules  &lt;-  Update, Request, Retrieve&#xA;    BQ Performance  &lt;-  Update, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Servicing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Case"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Case Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

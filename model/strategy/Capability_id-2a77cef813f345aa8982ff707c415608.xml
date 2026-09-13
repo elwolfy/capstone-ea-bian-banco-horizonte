@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Training"
+    id="id-2a77cef813f345aa8982ff707c415608"
+    documentation="[SERVICE DOMAIN: Product Training]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Product Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Develop and provide product specific training across the workforce. This includes all &#xA;  media and training mechanisms (on-line, self taught, classroom etc.)&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Product Training&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Product Training Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product Training Procedure Instance Record, 20 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | Reference | &#xA;  Business Unit Reference | Service Provider Reference | Financial Facility Reference | &#xA;  Employee Reference | Customer Reference | Type | Service Provider Schedule | &#xA;  Service Type | ProductandService Type | Product and Service Instance | &#xA;  Transaction Type | Transaction | Financial Transaction Arrangement | &#xA;  Customer Agreement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Service Scheduling   (8 atributos)&#xA;  Content Development   (8 atributos)&#xA;  Service Delivery   (8 atributos)&#xA;  Service Evaluation   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Control Execute Initiate Retrieve Request Update&#xA;  Inbound service operations  : 28&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Control, Execute, Initiate, Retrieve, Request, Update&#xA;    BQ ContentDevelopment  &lt;-  Exchange, Initiate, Retrieve, Request, Update&#xA;    BQ ServiceDelivery  &lt;-  Exchange, Execute, Initiate, Retrieve, Request, Update&#xA;    BQ ServiceScheduling  &lt;-  Exchange, Execute, Initiate, Retrieve, Request, Update&#xA;    BQ ServiceEvaluation  &lt;-  Exchange, Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Product Training"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Product Training Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="20"/>
+</archimate:Capability>

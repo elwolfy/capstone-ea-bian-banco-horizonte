@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Authentication"
+    id="id-742f814f36724060b67fc94bc8da0d77"
+    documentation="Service Domain BIAN v14: Party Authentication&#xA;Ubicacion Matrix: Sales and Service > Cross Channel&#xA;Functional Pattern: Assess&#xA;Control Record: Party Authentication Assessment&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

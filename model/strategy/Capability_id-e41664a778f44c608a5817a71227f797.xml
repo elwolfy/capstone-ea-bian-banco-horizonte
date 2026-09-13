@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Card eCommerce Gateway"
+    id="id-e41664a778f44c608a5817a71227f797"
+    documentation="[SERVICE DOMAIN: Card eCommerce Gateway]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Payments   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain orchestrates the processing of e-commerce transactions for authent&#xA;  ication, authorization and capture of the financial transactions&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : eCommerce Gateway&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : eCommerce Gateway Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (eCommerce Gateway Operating Session Instance Record, 10 atributos)&#xA;  Reference | Schedule | Status | Usage Log | Associated Party Reference | &#xA;  Service Provider Reference | Service Configuration | Service Provider Schedule | &#xA;  Service Type | Type&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Card Payment   (14 atributos)&#xA;  Transaction Batch   (3 atributos)&#xA;  Card Authentication   (2 atributos)&#xA;  Transaction Authorization   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Initiate Retrieve Update&#xA;  Inbound service operations  : 14&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Retrieve&#xA;    BQ CardPayment  &lt;-  Initiate, Update, Retrieve&#xA;    BQ TransactionBatch  &lt;-  Update, Initiate, Retrieve&#xA;    BQ CardAuthentication  &lt;-  Retrieve, Initiate, Update&#xA;    BQ TransactionAuthorization  &lt;-  Update, Initiate, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Payments"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="eCommerce Gateway"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="eCommerce Gateway Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

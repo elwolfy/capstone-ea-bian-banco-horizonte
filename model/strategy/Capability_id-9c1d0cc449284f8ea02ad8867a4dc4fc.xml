@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contact Center Operations"
+    id="id-9c1d0cc449284f8ea02ad8867a4dc4fc"
+    documentation="[SERVICE DOMAIN: Contact Center Operations]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Administer the day to day activity in the contact center&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Contact Center&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Contact Center Administrative Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Contact Center Administrative Plan Instance Record, 9 atributos)&#xA;  Contact Center Service Operating Configuration | &#xA;  Customer Servicing Representative Allocation Schedule | &#xA;  Customer Servicing Representative Reference | Customer Servicing Representative Record | &#xA;  Customer Servicing Representative Qualification Profile | &#xA;  Customer Servicing Representative Location | &#xA;  Customer Servicing Representative Availability Schedule | &#xA;  Customer Servicing Representative Status | &#xA;  Customer Servicing Representative Assignment Record&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Assignment   (5 atributos)&#xA;  Peak Load   (5 atributos)&#xA;  Troubleshooting   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Update Control Execute Request Retrieve&#xA;  Inbound service operations  : 18&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Create, Update, Control, Execute, Request, Retrieve&#xA;    BQ Assignment  &lt;-  Create, Update, Control, Request, Retrieve&#xA;    BQ PeakLoad  &lt;-  Update, Request, Retrieve&#xA;    BQ Troubleshooting  &lt;-  Create, Update, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Contact Center"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Contact Center Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="9"/>
+</archimate:Capability>

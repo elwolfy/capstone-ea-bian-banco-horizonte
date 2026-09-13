@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Legal Entity Directory"
+    id="id-77717e7af4324e0a8bc7a566d24e7a7a"
+    documentation="[SERVICE DOMAIN: Legal Entity Directory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Party&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains details of the legal entity structure of the party inclu&#xA;  ding dependents and associations for individuals and ownership/subsidiary structures f&#xA;  or corporations. Some financial indicators and product coverage/activity details can b&#xA;  e included where this defines the nature of the legal entity relationship in particula&#xA;  r for corporate entities&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Legal Entity&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Legal Entity Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Legal Entity Directory Entry Instance Record, 4 atributos)&#xA;  Legal Entity Reference | Party Reference | Directory Entry Date Type | &#xA;  Directory Entry Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Reference   (12 atributos)&#xA;  Profile   (6 atributos)&#xA;  Associations   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Register Control Update Exchange Request Retrieve Execute&#xA;  Inbound service operations  : 13&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Register, Control, Update, Exchange, Request, Execute, Retrieve&#xA;    BQ Reference  &lt;-  Retrieve, Update&#xA;    BQ Profile  &lt;-  Retrieve, Update&#xA;    BQ Associations  &lt;-  Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Party"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Legal Entity"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Legal Entity Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="4"/>
+</archimate:Capability>

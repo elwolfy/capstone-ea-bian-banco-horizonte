@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.3 Validacion de identidad"
+    id="id-39096f87660d41ed8da3e681efb383e3"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Party Authentication&#xA;  Functional Pattern: Assess&#xA;  Asset Type: Party Authentication&#xA;  Control Record: Party Authentication Assessment&#xA;  Ubicacion Matrix: Sales and Service > Cross Channel">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Party Authentication"/>
+</archimate:BusinessProcess>

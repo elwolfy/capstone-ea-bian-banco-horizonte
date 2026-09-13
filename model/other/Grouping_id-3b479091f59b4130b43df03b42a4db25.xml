@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cross Channel   [11 SD]"
+    id="id-3b479091f59b4130b43df03b42a4db25"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Sales and Service&#xA;Service Domains: 11">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

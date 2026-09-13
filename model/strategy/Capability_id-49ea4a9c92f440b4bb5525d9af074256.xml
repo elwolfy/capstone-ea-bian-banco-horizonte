@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Offer"
+    id="id-49ea4a9c92f440b4bb5525d9af074256"
+    documentation="Service Domain BIAN v14: Customer Offer&#xA;Ubicacion Matrix: Sales and Service > Sales&#xA;Functional Pattern: Process&#xA;Control Record: Customer Offer Procedure&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

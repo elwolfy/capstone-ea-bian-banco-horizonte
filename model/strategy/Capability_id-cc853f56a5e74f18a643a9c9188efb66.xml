@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Prospect Campaign Execution"
+    id="id-cc853f56a5e74f18a643a9c9188efb66"
+    documentation="[SERVICE DOMAIN: Prospect Campaign Execution]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Sales&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Execute a prospect campaign (version) and track and respond to impact&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Prospect Campaign&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Prospect Campaign Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Prospect Campaign Procedure Instance Record, 14 atributos)&#xA;  Prospect Campaign Type | Prospect Campaign Description | &#xA;  Employee or Business Unit Reference | Set-up | Version Number | &#xA;  Prospect Campaign Schedule | Prospect Campaign Consumables Inventory | &#xA;  Prospect Campaign Consumable Type | Prospect Campaign Consumable Holding | Date Type | &#xA;  Date | Result | Prospect Identification | &#xA;  Party Lifecycle Management Procedure Instance Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Candidate Selection   (3 atributos)&#xA;  Execution   (6 atributos)&#xA;  Analysis Feedback   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Control Execute Retrieve Update Exchange Request&#xA;  Inbound service operations  : 18&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Control, Execute, Retrieve, Update, Exchange, Request&#xA;    BQ Execution  &lt;-  Update, Retrieve, Request, Initiate&#xA;    BQ CandidateSelection  &lt;-  Update, Exchange, Retrieve&#xA;    BQ AnalysisFeedback  &lt;-  Initiate, Update, Retrieve, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Sales"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Prospect Campaign"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Prospect Campaign Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="14"/>
+</archimate:Capability>

@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Administration"
+    id="id-0686df80e09b4104a70e51bf0ac68b95"
+    documentation="SERVICE DOMAIN: Partner Administration&#xA;Business Area: Reference Data | Business Domain: External Agency&#xA;-------------------------------------------------&#xA;Functional Pattern: Administer   [LITERAL, SD Overview]&#xA;Generic Artifact: Administrative Plan&#xA;Asset Type: Partner   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Partner Administrative Plan = Partner + Administrative Plan&#xA;Control Record: Partner Administrative Plan   [LITERAL, SD Overview]&#xA;&#xA;Service Operations (Action Terms):&#xA;  [PENDIENTE] BIAN no publica Semantic API para este dominio en la&#xA;  release 14.0.0 del repositorio oficial.&#xA;&#xA;Semantic API Endpoints:&#xA;  [PENDIENTE] idem.&#xA;&#xA;Definicion oficial (BIAN):&#xA;  Handle and assign the day to day activities, capture time, costs and income for an operational unit within Partner Administration&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Administra la operacion corriente del socio ya habilitado.&#xA;  Capacidad que sirve: Red de Corresponsalia&#xA;  Actividades cubiertas (1):&#xA;    - PN-11.6 Activacion y monitoreo&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Partner Administration SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_PARTADM"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="External Agency"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Partner Administrative Plan"/>
+  <properties
+      key="bianAssetType"
+      value="Partner"/>
+</archimate:Capability>

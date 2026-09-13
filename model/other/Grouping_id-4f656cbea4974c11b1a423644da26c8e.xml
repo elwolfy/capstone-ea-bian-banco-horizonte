@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Loans and Deposits   [15 SD · 1 en alcance]"
+    id="id-4f656cbea4974c11b1a423644da26c8e"
+    documentation="Business Domain ANIDADO de la vista Matrix.&#xA;Se modela como capacidad de negocio agrupadora, no como un nivel del&#xA;metamodelo BIAN.&#xA;Service Domains en el estandar: 15   ·   en alcance: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

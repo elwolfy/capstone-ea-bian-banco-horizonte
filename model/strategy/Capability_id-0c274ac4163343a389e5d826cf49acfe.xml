@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Reporting"
+    id="id-0c274ac4163343a389e5d826cf49acfe"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Risk and Compliance > Regulations and Compliance&#xA;Functional Pattern: Administer&#xA;Control Record: Regulatory Compliance Administrative Plan">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianControlRecord"
+      value="Regulatory Compliance Administrative Plan"/>
+</archimate:Capability>

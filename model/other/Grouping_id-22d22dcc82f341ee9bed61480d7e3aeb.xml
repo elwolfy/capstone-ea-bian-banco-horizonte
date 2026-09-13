@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Finance"
+    id="id-22d22dcc82f341ee9bed61480d7e3aeb"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Business Domain de primer nivel.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Management"
+    id="id-c8cfba006ab545418ecc53b176fb3d1b"
+    documentation="Service Domain BIAN v14: Partner Management&#xA;Ubicacion Matrix: Reference Data > External Agency&#xA;Functional Pattern: Manage&#xA;Control Record: Partner Releationship Management Plan&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

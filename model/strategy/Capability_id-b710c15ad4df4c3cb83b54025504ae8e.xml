@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Reference Data Directory"
+    id="id-b710c15ad4df4c3cb83b54025504ae8e"
+    documentation="[SERVICE DOMAIN: Party Reference Data Directory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains a range of party reference information covering aspects &#xA;  including general reference details, contacts and associations and demographic informa&#xA;  tion&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Party Reference Data&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Party Reference Data Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Party Reference Data Directory Entry Instance Record, 4 atributos)&#xA;  Party Reference | Directory Entry Date Type | Directory Entry Date | Party Type&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Reference   (24 atributos)&#xA;  Associations   (9 atributos)&#xA;  Demographics   (6 atributos)&#xA;  Bank Relations   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Register Control Update Retrieve Request Execute Exchange&#xA;  Inbound service operations  : 17&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Register, Control, Update, Retrieve, Request, Execute, Exchange&#xA;    BQ Demographics  &lt;-  Exchange, Update, Retrieve&#xA;    BQ Reference  &lt;-  Update, Retrieve&#xA;    BQ Associations  &lt;-  Retrieve, Update, Register&#xA;    BQ BankRelations  &lt;-  Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Party Reference Data"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Party Reference Data Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="4"/>
+</archimate:Capability>

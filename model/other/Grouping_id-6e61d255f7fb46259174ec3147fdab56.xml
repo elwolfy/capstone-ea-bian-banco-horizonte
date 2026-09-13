@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sales and Service   [74 Service Domains]"
+    id="id-6e61d255f7fb46259174ec3147fdab56"
+    documentation="Business Area de la vista MATRIX del BIAN Service Landscape V14.0.&#xA;Business Domains de primer nivel: 6&#xA;Service Domains: 74 de 341&#xA;&#xA;La Matrix tiene 5 Business Areas; la Value Chain tiene 8, y ninguna&#xA;coincide en nombre. Son dos particiones distintas del mismo catalogo.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Area"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

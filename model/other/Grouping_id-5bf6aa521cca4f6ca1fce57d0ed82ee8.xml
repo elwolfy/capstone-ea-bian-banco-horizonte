@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-04 · Ejecucion de pagos   [7 actividades, 0 manuales]"
+    id="id-5bf6aa521cca4f6ca1fce57d0ed82ee8"
+    documentation="Proceso declarado en el alcance del capstone.&#xA;Actividades: 7   ·   manuales hoy: 0&#xA;Service Domains estandar que lo cubren: 6">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

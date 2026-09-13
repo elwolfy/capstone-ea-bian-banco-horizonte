@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Dealer Desk"
+    id="id-862b22808f874e74a8031c060c791391"
+    documentation="[SERVICE DOMAIN: Dealer Desk]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Wholesale Trading   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The Dealer Workbench represents the bank dealing desk facility supporting one or more &#xA;  trading lines of activity&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Dealer Desk&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Dealer Desk Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Dealer Desk Operating Session Instance Record, 10 atributos)&#xA;  Schedule | Status | Usage Log | Associated Party Reference | &#xA;  Service Provider Reference | Type | Service Provider Schedule | Service Type | &#xA;  Service Configuration | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Dealer Desk Consolidated Position Tracking   (6 atributos)&#xA;  Dealer Desk Trading Assignment and Limits   (6 atributos)&#xA;  Information Feed Administration   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Execute Control Initiate Request Notify Retrieve Update&#xA;  Inbound service operations  : 29&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Execute, Control, Initiate, Request, Notify, Retrieve, Update&#xA;    BQ DealerDeskConsolidatedPositionTracking  &lt;-  Exchange, Execute, Initiate, Notify, Request, Update, Retrieve&#xA;    BQ DealerDeskTradingAssignmentandLimits  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ InformationFeedAdministration  &lt;-  Exchange, Execute, Initiate, Notify, Update, Retrieve, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Wholesale Trading"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Dealer Desk"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Dealer Desk Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

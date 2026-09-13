@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="External Agency   [13 SD]"
+    id="id-c6d7e3012c964263bc086265b6509ba9"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Reference Data&#xA;Service Domains: 13">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

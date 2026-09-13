@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Direct Debit Mandate"
+    id="id-78e27bfdd7db42f2bf0ecf61ba95a46c"
+    documentation="[SERVICE DOMAIN: Direct Debit Mandate]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domains manages the customer mandates associated with direct debit proces&#xA;  sing for a corporate client&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Direct Debit Mandate&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Direct Debit Mandate Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Direct Debit Mandate Directory Entry Instance Record, 7 atributos)&#xA;  Mandated Customer Reference | Mandate Description | Mandate Collection Valid Period | &#xA;  Direct Debit Mandate Reference | Reference | Customer Product Instance Reference | &#xA;  Direct Debit Mandate Payee Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Mandate Registration   (18 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Register Retrieve Update Control Execute Exchange Request&#xA;  Inbound service operations  : 10&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Register, Retrieve, Update, Control&#xA;    BQ MandateRegistration  &lt;-  Register, Update, Execute, Exchange, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Direct Debit Mandate"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Direct Debit Mandate Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

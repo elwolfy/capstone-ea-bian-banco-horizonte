@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Special Pricing Conditions"
+    id="id-f63ce63e12ab4443a651255e459072df"
+    documentation="[SERVICE DOMAIN: Special Pricing Conditions]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Product Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Maintain a pricing list or conditions (with ranges and optional terms) categorized by &#xA;  various dimensions to impose exceptional product pricing conditions that override stan&#xA;  dard pricing terms (for special events/situations)&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Special Pricing Conditions&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Special Pricing Conditions Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Special Pricing Conditions Directory Entry Instance Record, 7 atributos)&#xA;  Description | Schedule | Version | Status | Usage Log | Update Log | &#xA;  Service Configuration&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Pricing Terms   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Execute Initiate Retrieve Request Update&#xA;  Inbound service operations  : 10&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Execute, Initiate, Retrieve, Request, Update&#xA;    BQ PricingTerms  &lt;-  Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Special Pricing Conditions"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Special Pricing Conditions Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

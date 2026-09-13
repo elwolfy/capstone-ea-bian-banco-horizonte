@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10.9 Envio al regulador"
+    id="id-f8bca064f9ad40b9b15e558d40c8e9b4"
+    documentation="Actividad del proceso PN-10 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Regulatory Reporting&#xA;  Functional Pattern: Administer&#xA;  Asset Type: Regulatory Compliance&#xA;  Control Record: Regulatory Compliance Administrative Plan&#xA;  Ubicacion Matrix: Risk and Compliance > Regulations and Compliance">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Regulatory Reporting"/>
+</archimate:BusinessProcess>

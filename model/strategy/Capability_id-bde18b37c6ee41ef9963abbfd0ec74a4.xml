@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Virtual Account"
+    id="id-bde18b37c6ee41ef9963abbfd0ec74a4"
+    documentation="[SERVICE DOMAIN: Virtual Account]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  A Virtual Account is a bank account that is defined on an underlying real account. It &#xA;  can receive and send payments for the underlying account while behaving towards the ou&#xA;  tside as a separate account.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Virtual Account&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Virtual Account Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Virtual Account Facility Instance Record, 13 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Schedule | Status | Currency | &#xA;  Regulation Reference | Regulation Type | Jurisdiction | Booking Location | &#xA;  Account Type | Account Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (10)&#xA;  Financial Status Tracking   (7 atributos)&#xA;  Direct Debit   (7 atributos)&#xA;  Booking   (8 atributos)&#xA;  Amount Block   (10 atributos)&#xA;  Maintenance   (7 atributos)&#xA;  Issued Device   (19 atributos)&#xA;  Interest   (25 atributos)&#xA;  Payment   (15 atributos)&#xA;  Charge   (25 atributos)&#xA;  Withdrawal   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Control Exchange Execute Retrieve Grant Request Initiate Update&#xA;  Inbound service operations  : 42&#xA;  Outbound service events     : 24&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Control, Exchange, Execute, Retrieve, Grant, Request, Initiate, Update&#xA;    BQ DirectDebit  &lt;-  Capture, Control, Grant, Initiate, Retrieve, Request, Update&#xA;    BQ Payment  &lt;-  Capture, Grant, Initiate, Retrieve, Request, Update&#xA;    BQ Charge  &lt;-  Exchange, Execute, Initiate, Retrieve, Request, Update&#xA;    BQ Interest  &lt;-  Execute, Exchange, Initiate, Retrieve, Request, Update&#xA;    BQ FinancialStatusTracking  &lt;-  Execute&#xA;    BQ AmountBlock  &lt;-  Initiate, Retrieve, Update&#xA;    BQ IssuedDevice  &lt;-  Initiate, Retrieve, Update&#xA;    BQ Booking  &lt;-  Execute&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Virtual Account"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Virtual Account Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="10"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

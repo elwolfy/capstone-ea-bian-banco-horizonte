@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Leasing"
+    id="id-25a0f55c8b28438a88ee4b7ce776f07f"
+    documentation="[SERVICE DOMAIN: Leasing]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The leasing products enables customers to finance equipment purchases using the leased&#xA;   item as collateral when necessary&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Leasing&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Leasing Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Leasing Facility Instance Record, 13 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Schedule | Status | Currency | &#xA;  Regulation Reference | Regulation Type | Jurisdiction | Booking Location | &#xA;  Account Type | Account Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (12)&#xA;  Issued Device   (19 atributos)&#xA;  Sweep   (17 atributos)&#xA;  Charge   (18 atributos)&#xA;  Debit and Credit   (14 atributos)&#xA;  Deposit   (14 atributos)&#xA;  Collateral Allocation   (9 atributos)&#xA;  Financial Status Tracking   (7 atributos)&#xA;  Booking   (7 atributos)&#xA;  Payment   (33 atributos)&#xA;  Interest   (25 atributos)&#xA;  Amount Block   (10 atributos)&#xA;  Corporate Action   (10 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Execute Exchange Request Initiate Retrieve Update&#xA;  Inbound service operations  : 44&#xA;  Outbound service events     : 26&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Execute, Exchange, Request, Initiate, Retrieve, Update&#xA;    BQ Charge  &lt;-  Exchange, Initiate, Retrieve, Request, Update&#xA;    BQ Payment  &lt;-  Exchange, Initiate, Retrieve, Update&#xA;    BQ Sweep  &lt;-  Exchange, Initiate, Retrieve, Update&#xA;    BQ Deposit  &lt;-  Initiate, Retrieve, Update&#xA;    BQ CollateralAllocation  &lt;-  Initiate, Retrieve, Request, Update&#xA;    BQ CorporateAction  &lt;-  Initiate, Retrieve, Update&#xA;    BQ IssuedDevice  &lt;-  Initiate, Retrieve, Update&#xA;    BQ FinancialStatusTracking  &lt;-  Initiate, Retrieve, Update&#xA;    BQ DebitandCredit  &lt;-  Initiate, Retrieve, Update&#xA;    BQ Interest  &lt;-  Retrieve, Update&#xA;    BQ AmountBlock  &lt;-  Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Leasing"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Leasing Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="12"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

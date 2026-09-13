@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payments   [11 SD · 2 en alcance]"
+    id="id-003490384b774902be675b6d0ca5a583"
+    documentation="Business Domain ANIDADO de la vista Matrix.&#xA;Se modela como capacidad de negocio agrupadora, no como un nivel del&#xA;metamodelo BIAN.&#xA;Service Domains en el estandar: 11   ·   en alcance: 2">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

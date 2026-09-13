@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Statements"
+    id="id-97eb39480c0045e280e6fb8c35a4c79a"
+    documentation="Service Domain BIAN v14: Financial Statements&#xA;Ubicacion Matrix: Business Support > Finance&#xA;Functional Pattern: Analyze&#xA;Control Record: Financial Statements Analysis&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

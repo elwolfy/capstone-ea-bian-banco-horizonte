@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Credit Rating"
+    id="id-3587a904eb98416092fdd7dfdf1d146d"
+    documentation="[SERVICE DOMAIN: Customer Credit Rating]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains and administers the bank credit assessment for customers&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Monitor&#xA;  Asset Type         : Customer Credit Rating&#xA;  Generic Artifact   : State&#xA;  Control Record     : Customer Credit Rating State&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Credit Rating State Instance Record, 14 atributos)&#xA;  Customer Reference | Customer Credit Rating Status Type | &#xA;  Customer Credit Rating Schedule | Customer Credit Rating Assessment Record | &#xA;  Assessment Customer Behavior Model Reference | Credit Rating Assessment Type | &#xA;  Credit Rating Assessment Date | Credit Rating Assessment Work Products | &#xA;  Credit Rating Assessment Result | Customer Credit Rating Record | &#xA;  Customer Credit Rating State | Customer Credit Rating Assessment | &#xA;  Customer Credit Rating Narrative | Customer Credit Rating Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Alerts   (5 atributos)&#xA;  Internal Reporting   (3 atributos)&#xA;  External Reporting   (5 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Control Exchange Execute Request Retrieve Capture&#xA;  Inbound service operations  : 12&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Control, Exchange, Execute, Request, Retrieve&#xA;    BQ Alerts  &lt;-  Capture, Retrieve&#xA;    BQ InternalReporting  &lt;-  Capture, Retrieve&#xA;    BQ ExternalReporting  &lt;-  Capture, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Monitor"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Credit Rating"/>
+  <properties
+      key="bianGenericArtifact"
+      value="State"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Credit Rating State"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="14"/>
+</archimate:Capability>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sub Custodian Agreement"
+    id="id-aca51ed3a7fc44f4a2c7ca717d8b7312"
+    documentation="[SERVICE DOMAIN: Sub Custodian Agreement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : External Agency&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain establishes and maintains the terms governing sub custodian relati&#xA;  onship&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Sub Custodian&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Sub Custodian Agreement&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Sub Custodian Agreement Instance Record, 19 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Discharge Request | &#xA;  Discharge Schedule | Status | Associated Party | Customer Reference | Obligation | &#xA;  Entitlement | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Account Reference | Subject Matter | Product Reference | Calendar Reference | &#xA;  Associated Agreement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Policy Term   (9 atributos)&#xA;  Regulatory Term   (9 atributos)&#xA;  Legal Term   (9 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Evaluate Exchange Grant Notify Request Retrieve Update&#xA;  Inbound service operations  : 26&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Evaluate, Exchange, Grant, Notify, Request, Retrieve, Update&#xA;    BQ LegalTerm  &lt;-  Evaluate, Exchange, Notify, Request, Retrieve, Update&#xA;    BQ PolicyTerm  &lt;-  Evaluate, Exchange, Notify, Request, Retrieve, Update&#xA;    BQ RegulatoryTerm  &lt;-  Evaluate, Exchange, Notify, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="External Agency"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Sub Custodian"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Sub Custodian Agreement"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="19"/>
+</archimate:Capability>

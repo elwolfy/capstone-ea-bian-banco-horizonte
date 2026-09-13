@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Reporting"
+    id="id-21aeefe4025744fdb9fa699c56e407b4"
+    documentation="[SERVICE DOMAIN: Regulatory Reporting]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Regulations and Compliance&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain administers and orchestrates the tasks required to meet the bank's&#xA;   regulatory reporting obligations&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Regulatory Compliance&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Regulatory Compliance Administrative Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Regulatory Compliance Administrative Plan Instance Record, 4 atributos)&#xA;  Regulatory Authority Reference | Regulatory Reporting Schedule | Regulation Reference | &#xA;  Regulatory Report Type&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Consolidation   (5 atributos)&#xA;  Authoring   (7 atributos)&#xA;  Enquiries   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Request Retrieve Create Capture Exchange&#xA;  Inbound service operations  : 13&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Request, Retrieve, Create&#xA;    BQ Consolidation  &lt;-  Retrieve, Update&#xA;    BQ Authoring  &lt;-  Capture, Exchange, Retrieve&#xA;    BQ Enquiries  &lt;-  Update, Exchange, Retrieve, Capture&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Regulations and Compliance"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Regulatory Compliance"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Regulatory Compliance Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="4"/>
+</archimate:Capability>

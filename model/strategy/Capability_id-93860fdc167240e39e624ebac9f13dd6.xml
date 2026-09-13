@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Accounting"
+    id="id-93860fdc167240e39e624ebac9f13dd6"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Risk and Compliance > Regulations and Compliance&#xA;Functional Pattern: Track&#xA;Control Record: Financial Booking Log">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Track"/>
+  <properties
+      key="bianControlRecord"
+      value="Financial Booking Log"/>
+</archimate:Capability>

@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Orchestration"
+    id="id-315c6e59c50a4351b5e9a67d15d3455d"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Operations and Execution > Cross Product Operations > Payments&#xA;Functional Pattern: Process&#xA;Control Record: Payment Orchestration Procedure">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Orchestration Procedure"/>
+</archimate:Capability>

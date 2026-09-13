@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.7b  Habilitacion de canales"
+    id="id-367906ceaa5b4f209e189d65a940544c"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Agree Terms&#xA;  Tipo de activo   : Customer Access Profile&#xA;  Service Domain   : Customer Access Entitlement&#xA;  Behavior Qualifier: Preferences&#xA;  Ubicacion Matrix : Sales and Service > Customer Management&#xA;-------------------------------------------------&#xA;Agree Terms sobre el perfil de acceso del cliente.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Access Entitlement"/>
+  <properties
+      key="behaviorQualifier"
+      value="Preferences"/>
+</archimate:BusinessProcess>

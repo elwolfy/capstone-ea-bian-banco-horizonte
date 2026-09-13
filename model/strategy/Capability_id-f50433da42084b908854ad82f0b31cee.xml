@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Statement Assessment"
+    id="id-f50433da42084b908854ad82f0b31cee"
+    documentation="[SERVICE DOMAIN: Financial Statement Assessment]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Regulations and Compliance&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain supports a range of financial analyses that can be used to extract&#xA;   specific insights from an entity&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Financial Statement&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Financial Statement Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Financial Statement Assessment Instance Record, 11 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Request | Schedule | Status | &#xA;  Usage Log | Requester Reference | Associated Party | Service Provider Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Risk Test   (7 atributos)&#xA;  Sensitivity Test   (7 atributos)&#xA;  Liquidity and Cash Flow Test   (7 atributos)&#xA;  Asset and Liability Valuation Test   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Execute Grant Notify Request Retrieve&#xA;  Inbound service operations  : 26&#xA;  Outbound service events     : 17&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Execute, Grant, Notify, Request, Retrieve&#xA;    BQ AssetandLiabilityValuationTest  &lt;-  Evaluate, Execute, Notify, Request, Retrieve&#xA;    BQ LiquidityandCashFlowTest  &lt;-  Evaluate, Execute, Notify, Request, Retrieve&#xA;    BQ RiskTest  &lt;-  Evaluate, Execute, Notify, Request, Retrieve&#xA;    BQ SensitivityTest  &lt;-  Evaluate, Execute, Notify, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Regulations and Compliance"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Financial Statement"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Financial Statement Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

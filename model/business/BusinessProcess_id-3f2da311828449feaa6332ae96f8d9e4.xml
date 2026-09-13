@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.2 Captura de datos y documentos"
+    id="id-3f2da311828449feaa6332ae96f8d9e4"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Party Reference Data Directory&#xA;  Functional Pattern: Catalog&#xA;  Asset Type: Party Reference Data&#xA;  Control Record: Party Reference Data Directory Entry&#xA;  Ubicacion Matrix: Sales and Service > Customer Management">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Party Reference Data Directory"/>
+</archimate:BusinessProcess>

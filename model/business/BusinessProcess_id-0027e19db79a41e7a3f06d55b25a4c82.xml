@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.6 Definicion de condiciones (monto, plazo, tasa)"
+    id="id-0027e19db79a41e7a3f06d55b25a4c82"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Corporate Loan&#xA;  Functional Pattern: Fulfill&#xA;  Asset Type: Corporate Loan&#xA;  Control Record: Corporate Loan Facility&#xA;  Ubicacion Matrix: Operations and Execution > Product Specific Fulfillment › Loans and Deposits">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Corporate Loan"/>
+</archimate:BusinessProcess>

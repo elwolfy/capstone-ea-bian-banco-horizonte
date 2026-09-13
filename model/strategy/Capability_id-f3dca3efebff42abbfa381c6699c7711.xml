@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Servicing Order"
+    id="id-f3dca3efebff42abbfa381c6699c7711"
+    documentation="[SERVICE DOMAIN: Servicing Order]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Servicing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the processing of a customer servicing request as a predef&#xA;  ined procedure. A range of standard servicing requests can be supported. The process c&#xA;  an include a check of permissions when the request is made by a third party/service pr&#xA;  ovider&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Servicing Order&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Servicing Order Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Servicing Order Procedure Instance Record, 12 atributos)&#xA;  Third Party Reference | Third Party Servicing Mandate Reference | &#xA;  Third Party Servicing Mandate | Customer Reference | &#xA;  Customer Eligibility Assessment Instance Reference | Servicing Order Type | &#xA;  Servicing Order Task Record | Servicing Order Description | Date | &#xA;  Employee/Business Unit Reference | Servicing Order Work Product | &#xA;  Servicing Order Work Task Result&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Exchange Execute Request Retrieve&#xA;  Inbound service operations  : 7&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Exchange, Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Servicing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Servicing Order"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Servicing Order Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

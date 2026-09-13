@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Reference Data Directory"
+    id="id-3fd71396df654adaa0e43b8b2e554f1f"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Sales and Service > Customer Management&#xA;Functional Pattern: Catalog&#xA;Control Record: Party Reference Data Directory Entry">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianControlRecord"
+      value="Party Reference Data Directory Entry"/>
+</archimate:Capability>

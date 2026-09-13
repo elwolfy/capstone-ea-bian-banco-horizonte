@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Management   [15 SD]"
+    id="id-a58d8065a7af4f648d0015fbc18c2e22"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Sales and Service&#xA;Service Domains: 15">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Credit Rating"
+    id="id-05273b8e1b8e4c85a4eb66b96d4906f9"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Sales and Service > Customer Management&#xA;Functional Pattern: Monitor&#xA;Control Record: Customer Credit Rating State">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Monitor"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Credit Rating State"/>
+</archimate:Capability>

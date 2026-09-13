@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transaction Authorization"
+    id="id-5ee42e9681384b96bb9e6ce9ec4eef8b"
+    documentation="[SERVICE DOMAIN: Transaction Authorization]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles risk based authorization for interactive customer transact&#xA;  ions. This combines the context (channel) transaction, customer details and recent act&#xA;  ivity analysis as appropriate. The authorization may require a specific level of party&#xA;  /customer authentication to get approval.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Interactive Transaction&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Interactive Transaction Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Interactive Transaction Assessment Instance Record, 35 atributos)&#xA;  Customer Reference | Employee Reference | Product Reference | &#xA;  Product Instance Reference | Proposed Transaction Type | Proposed Transaction Value | &#xA;  Customer Contact Record Reference | Customer Contact Record | &#xA;  Customer Contact Record Customer Reference | Customer Contact Record Contact Device | &#xA;  Customer Contact Record Authentication Status | &#xA;  Customer Contact Record Routing Selection Status | &#xA;  Customer Contact Record Menu Selection | Customer Contact Record Servicing Request | &#xA;  Customer Contact Record Servicing Event History | &#xA;  Customer Contact Record Servicing Position Reference | &#xA;  Customer Contact Record Servicing Resource Reference | &#xA;  Customer Contact Record Activity Record | Customer Session Dialogue Reference | &#xA;  Customer Session Dialogue Record | Session Dialogue Type | Session Dialogue Script | &#xA;  Session Dialogue Log Reference | Session Dialogue Log | &#xA;  Session Dialogue Session Mechanism | Session Dialogue Record Session Start/End Time | &#xA;  Session Dialogue Result | Customer Contact Record Duration | &#xA;  Customer Contact Activity Record | Customer Contact Result | &#xA;  Channel Activity History Report Reference | Channel Activity History Report From/to | &#xA;  Channel Activity History Report | Transaction Authorization Guidance | &#xA;  Transaction Authorization Result&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Request Retrieve Exchange Update Execute Grant&#xA;  Inbound service operations  : 7&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Request, Retrieve, Exchange, Update, Execute, Grant&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Interactive Transaction"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Interactive Transaction Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="35"/>
+</archimate:Capability>

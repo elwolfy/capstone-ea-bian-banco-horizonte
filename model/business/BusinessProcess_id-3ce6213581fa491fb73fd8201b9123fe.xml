@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.5  Registro del cliente en el core"
+    id="id-3ce6213581fa491fb73fd8201b9123fe"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;SIN RESPONSABILIDAD FUNCIONAL BIAN&#xA;  Esta actividad no recibe Service Domain.&#xA;-------------------------------------------------&#xA;BRECHA. Ejerce el mismo patron sobre el mismo activo y el mismo Behavior Qualifier que PN-01.2a. Es recaptura por duplicidad de sistemas de registro, no una responsabilidad distinta.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="brecha"
+      value="si"/>
+</archimate:BusinessProcess>

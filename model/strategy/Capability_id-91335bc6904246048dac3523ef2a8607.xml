@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Disbursement"
+    id="id-91335bc6904246048dac3523ef2a8607"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Operations and Execution > Cross Product Operations > Operational Services&#xA;Functional Pattern: Transact&#xA;Control Record: Disbursement Transaction">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianControlRecord"
+      value="Disbursement Transaction"/>
+</archimate:Capability>

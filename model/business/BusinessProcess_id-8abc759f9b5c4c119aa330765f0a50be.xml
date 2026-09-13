@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.4 Evaluacion de capacidad de pago (scoring)"
+    id="id-8abc759f9b5c4c119aa330765f0a50be"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Customer Credit Rating&#xA;  Functional Pattern: Monitor&#xA;  Asset Type: Customer Credit Rating&#xA;  Control Record: Customer Credit Rating State&#xA;  Ubicacion Matrix: Sales and Service > Customer Management">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Credit Rating"/>
+</archimate:BusinessProcess>

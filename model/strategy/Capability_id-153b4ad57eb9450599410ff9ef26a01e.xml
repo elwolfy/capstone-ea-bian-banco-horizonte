@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Agreement"
+    id="id-153b4ad57eb9450599410ff9ef26a01e"
+    documentation="SERVICE DOMAIN: Customer Agreement&#xA;Business Area: Sales and Service | Business Domain: Customer Management&#xA;-------------------------------------------------&#xA;Functional Pattern: Agree Terms   [LITERAL, SD Overview]&#xA;Generic Artifact: Agreement&#xA;Asset Type: Customer   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Intelligence Asset Type&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Customer Agreement = Customer + Agreement&#xA;Control Record: Customer Agreement   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (3):&#xA;  LegalTerm · RegulatoryTerm · PolicyTerm&#xA;&#xA;Service Operations (Action Terms) — principales de 16 publicadas:&#xA;  [Evaluate] POST /CustomerAgreement/Evaluate&#xA;  [Update] PUT /CustomerAgreement/{id}/Update&#xA;  [Exchange] PUT /CustomerAgreement/{id}/Exchange&#xA;  [Control] PUT /CustomerAgreement/{id}/Control&#xA;  [Request] PUT /CustomerAgreement/{id}/Request&#xA;  [Grant] PUT /CustomerAgreement/{id}/Grant&#xA;  [Retrieve] GET /CustomerAgreement/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /CustomerAgreement/Evaluate&#xA;  PUT /CustomerAgreement/{id}/Update&#xA;  PUT /CustomerAgreement/{id}/Exchange&#xA;  PUT /CustomerAgreement/{id}/Control&#xA;  PUT /CustomerAgreement/{id}/Request&#xA;  PUT /CustomerAgreement/{id}/Grant&#xA;  GET /CustomerAgreement/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  EcCR Accept, reject etc an agreement&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Gobierna el acuerdo formal entre el banco y el cliente.&#xA;  Capacidad que sirve: Gestion de Acuerdos y Contratos&#xA;  Actividades cubiertas (1):&#xA;    - PN-02.7 Formalizacion del contrato&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Customer Agreement SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_CUSTAGR"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Agreement"/>
+  <properties
+      key="bianAssetType"
+      value="Customer"/>
+</archimate:Capability>

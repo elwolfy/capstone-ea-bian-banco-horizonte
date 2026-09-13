@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Compliance   [reutilizado en 3 procesos]"
+    id="id-bdbff4428279429e8d55a3b85df2f29a"
+    documentation="Service Domain BIAN v14: Regulatory Compliance&#xA;Ubicacion Matrix: Risk and Compliance > Regulations and Compliance&#xA;Functional Pattern: Assess&#xA;Control Record: Regulatory Compliance Assessment&#xA;Procesos del alcance en que participa: 3">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

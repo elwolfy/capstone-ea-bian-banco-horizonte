@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Policies"
+    id="id-ee3743b1f9864adf83764ebbe88c01d2"
+    documentation="[SERVICE DOMAIN: Corporate Policies]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Business Direction&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Design&#xA;  Asset Type         : Corporate Policy&#xA;  Generic Artifact   : Specification&#xA;  Control Record     : Corporate Policy Specification&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Sin API publicada&#xA;  ISO 20022 / Semantics Alignment : Sin API publicada&#xA;  API semantica publicada         : No&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Direction"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Design"/>
+  <properties
+      key="bianAssetType"
+      value="Corporate Policy"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Specification"/>
+  <properties
+      key="bianControlRecord"
+      value="Corporate Policy Specification"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="0"/>
+</archimate:Capability>

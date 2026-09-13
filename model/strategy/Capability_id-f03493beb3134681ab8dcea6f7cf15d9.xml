@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Confirmation"
+    id="id-f03493beb3134681ab8dcea6f7cf15d9"
+    documentation="[SERVICE DOMAIN: Payment Confirmation]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Payment Confirmation&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Payment Confirmation Procedure&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Payments&#xA;&#xA;BEHAVIOR QUALIFIERS&#xA;  v14 no publica Behavior Qualifiers para este dominio.&#xA;&#xA;SEMANTICA&#xA;  BOM mapping       : Sin API publicada&#xA;  ISO 20022         : Sin API publicada&#xA;  API publicada v14 : No">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Payment Confirmation"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Confirmation Procedure"/>
+</archimate:Capability>

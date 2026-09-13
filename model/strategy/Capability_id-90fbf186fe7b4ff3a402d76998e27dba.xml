@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Trade and Price Reporting"
+    id="id-90fbf186fe7b4ff3a402d76998e27dba"
+    documentation="[SERVICE DOMAIN: Trade and Price Reporting]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Market Operations   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain operates an automated facility that reports executed market trades&#xA;   to the market place as required by the rules of market participation&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Market Trade Reporting&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Market Trade Reporting Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Market Trade Reporting Operating Session Instance Record, 10 atributos)&#xA;  Schedule | Status | Usage Log | Associated Party Reference | &#xA;  Service Provider Reference | Type | Service Provider Schedule | Service Type | &#xA;  Service Configuration | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Transaction Reporting   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Control Execute Initiate Notify Request Retrieve Update&#xA;  Inbound service operations  : 15&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Control, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ TransactionReporting  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Market Operations"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Market Trade Reporting"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Market Trade Reporting Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

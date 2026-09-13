@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Market Analysis"
+    id="id-518b78968dfd47baa3342330c5fefae9"
+    documentation="[SERVICE DOMAIN: Market Analysis]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Business Analysis&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain analyzes internal and external market information sources as neces&#xA;  sary to develop specific market insights. It may maintain a collection of predefined m&#xA;  arket analyses and may also offer specific ad-hoc analysis on request&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : General Market Research&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : General Market Research Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (General Market Research Analysis Instance Record, 13 atributos)&#xA;  Type | Specification | Guidance | Algorithm Reference | Request Record | Request | &#xA;  Employee/Business Unit Reference | Request Work Products | Request Result | &#xA;  Usage Record | Usage | Impact | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (6)&#xA;  Market Forecasting   (10 atributos)&#xA;  Pricing Behavior Analsysis   (10 atributos)&#xA;  Competitive Analysis   (10 atributos)&#xA;  Market Segmentation Analysis   (10 atributos)&#xA;  Channel Distribution Analysis   (10 atributos)&#xA;  Customer Need Analysis   (10 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Execute Request Retrieve&#xA;  Inbound service operations  : 5&#xA;  Outbound service events     : 16&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Execute, Request, Retrieve&#xA;    BQ CompetitiveAnalysis  &lt;-  Evaluate&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Analysis"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="General Market Research"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="General Market Research Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="6"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

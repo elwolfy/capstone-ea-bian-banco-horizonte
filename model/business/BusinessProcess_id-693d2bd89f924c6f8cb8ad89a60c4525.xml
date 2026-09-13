@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-04.4 Enrutamiento (interno / interbancario)"
+    id="id-693d2bd89f924c6f8cb8ad89a60c4525"
+    documentation="Actividad del proceso PN-04 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Payment Orchestration&#xA;  Functional Pattern: Process&#xA;  Asset Type: Payment Orchestration&#xA;  Control Record: Payment Orchestration Procedure&#xA;  Ubicacion Matrix: Operations and Execution > Cross Product Operations › Operational Services">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Payment Orchestration"/>
+</archimate:BusinessProcess>

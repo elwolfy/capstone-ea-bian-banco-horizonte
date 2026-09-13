@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Portfolio"
+    id="id-2a162315db434b2a8c5a0aa26223b6ae"
+    documentation="[SERVICE DOMAIN: Product Portfolio]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Business Analysis&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Maintain a portfolio of analytical views of the product portfolio to support product p&#xA;  rofitability and performance analysis&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Product Portfolio&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Product Portfolio Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product Portfolio Analysis Instance Record, 10 atributos)&#xA;  Product Portfolio Make-up | Product Type | Product Type Definition | &#xA;  Product Portfolio Performance Goals | Schedule | Report | Product Analysis Type | &#xA;  Product Analysis Result | Product Analysis Reporting Date | &#xA;  Document Directory Entry Instance Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Performance Analysis   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Update Request Retrieve Exchange Execute&#xA;  Inbound service operations  : 10&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Update, Request, Retrieve&#xA;    BQ PerformanceAnalysis  &lt;-  Evaluate, Update, Exchange, Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Analysis"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Product Portfolio"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Product Portfolio Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

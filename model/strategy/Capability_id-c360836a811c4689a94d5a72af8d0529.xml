@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Securities Fails Processing"
+    id="id-c360836a811c4689a94d5a72af8d0529"
+    documentation="[SERVICE DOMAIN: Securities Fails Processing]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Market Operations   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain handles the resolution of clerical and processing errors that lead&#xA;   to failures in the securities trade clearing and settlement processes&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Security Trading Fails&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Security Trading Fails Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Security Trading Fails Procedure Instance Record, 21 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | &#xA;  Associated Party Reference | Business Unit Reference | Service Provider Reference | &#xA;  Financial Facility Reference | Employee Reference | Customer Reference | Type | &#xA;  Service Provider Schedule | Service Type | Product and Service Type | &#xA;  Product and Service Instance | Transaction Type | Transaction | &#xA;  Financial Transaction Arrangement | Customer Agreement Reference | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Securities Fail Determination   (8 atributos)&#xA;  Securities Fail Analysis   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Execute Exchange Initiate Request Notify Retrieve Update&#xA;  Inbound service operations  : 22&#xA;  Outbound service events     : 11&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Execute, Exchange, Initiate, Request, Notify, Retrieve, Update&#xA;    BQ SecuritiesFailAnalysis  &lt;-  Exchange, Execute, Request, Initiate, Notify, Retrieve, Update&#xA;    BQ SecuritiesFailDetermination  &lt;-  Exchange, Execute, Initiate, Notify, Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Market Operations"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Security Trading Fails"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Security Trading Fails Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="21"/>
+</archimate:Capability>

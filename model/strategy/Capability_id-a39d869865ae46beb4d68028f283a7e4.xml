@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Quality Assurance"
+    id="id-a39d869865ae46beb4d68028f283a7e4"
+    documentation="[SERVICE DOMAIN: Product Quality Assurance]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Product Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Maintain and execute a portfolio of product quality assurance tests and certifications&#xA;   that can be applied to evaluate any aspect of production activity for quality assuran&#xA;  ce&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Product and Service&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Product and Service Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product and Service Assessment Instance Record, 11 atributos)&#xA;  Productand Service Assessment Parameter Type | &#xA;  Productand Service Assessment Selected Option | Productand Service Assessment Type | &#xA;  Productand Service Assessment Reference | Productand Service Assessment Request | &#xA;  Productand Service Assessment Schedule | Productand Service Assessment Status | &#xA;  Productand Service Assessment Usage Log | &#xA;  Productand Service Assessment Requester Reference | &#xA;  Productand Service Assessment Associated Party | &#xA;  Productand Service Assessment Service Provider Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Processing Error and Integrity Checks   (7 atributos)&#xA;  Usability Checks   (7 atributos)&#xA;  Resiliency and Performance Checks   (7 atributos)&#xA;  Functional Consistency Checks   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Execute Grant Initiate Retrieve Request Update&#xA;  Inbound service operations  : 19&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Execute, Grant, Initiate, Retrieve, Request, Update&#xA;    BQ FunctionalConsistencyChecks  &lt;-  Initiate, Retrieve, Update&#xA;    BQ ProcessingErrorandIntegrityChecks  &lt;-  Initiate, Retrieve, Update&#xA;    BQ ResiliencyandPerformanceChecks  &lt;-  Initiate, Retrieve, Update&#xA;    BQ UsabilityChecks  &lt;-  Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Product and Service"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Product and Service Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

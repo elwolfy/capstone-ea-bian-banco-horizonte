@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Correspondence"
+    id="id-4657046329c84caeb060ac19d3fbc532"
+    documentation="[SERVICE DOMAIN: Correspondence]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Correspondence&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Correspondence Operating Session&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Business Support&#xA;  Business Domain : Document Management and Archive&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain orchestrates the production of pre-formatted correspondence and&#xA;  batches of correspondence&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (4)&#xA;  Correspondence Service Session Statistics | Correspondence Service Session Report&#xA;  Type | Correspondence Service Session Report | Correspondence Service Session Date&#xA;&#xA;BEHAVIOR QUALIFIERS (4)&#xA;    Outbound   (17 atributos)&#xA;    Outbound With Response   (3 atributos)&#xA;    Inbound   (9 atributos)&#xA;    Block Mailing   (1 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Request Initiate Update Control Execute Retrieve&#xA;  Inbound  : 18 operaciones&#xA;  Outbound : 10 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping       : Si&#xA;  ISO 20022         : Si&#xA;  API publicada v14 : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Correspondence"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Correspondence Operating Session"/>
+</archimate:Capability>

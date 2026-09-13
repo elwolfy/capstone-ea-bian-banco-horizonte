@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Management Manual"
+    id="id-450a66b437ae4163bb33887a62cec710"
+    documentation="[SERVICE DOMAIN: Management Manual]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Knowledge and Intellectual Property Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Develop, maintain and promulgate the management manual of required procedures and guid&#xA;  elines. Provide support in its reference and interpretation as appropriate&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Design&#xA;  Asset Type         : Management Manual&#xA;  Generic Artifact   : Specification&#xA;  Control Record     : Management Manual Specification&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Management Manual Specification Instance Record, 8 atributos)&#xA;  Parameter Type | Selected Option | Description | Version | Status | Usage Log | &#xA;  Feedback | Service Provider Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (6)&#xA;  Company Mission and Policies   (4 atributos)&#xA;  Operational Security Procedures and Guidelines   (4 atributos)&#xA;  Operational and Production Procedures and Guidelines   (4 atributos)&#xA;  Employment Related Procedures and Guidelines   (4 atributos)&#xA;  Staff Management Procedures and Guidelines   (4 atributos)&#xA;  Legal and Regulatory Obligations and Guidelines   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Control Initiate Exchange Retrieve Request Update&#xA;  Inbound service operations  : 31&#xA;  Outbound service events     : 16&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Control, Initiate, Exchange, Retrieve, Request, Update&#xA;    BQ CompanyMissionandPolicies  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ EmploymentRelatedProceduresandGuidelines  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ LegalandRegulatoryObligationsandGuidelines  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ OperationalSecurityProceduresandGuidelines  &lt;-  Capture, Retrieve, Update, Initiate&#xA;    BQ OperationalandProductionProceduresandGuidelines  &lt;-  Capture, Retrieve, Initiate, Update&#xA;    BQ StaffManagementProceduresandGuidelines  &lt;-  Capture, Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Knowledge and Intellectual Property Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Design"/>
+  <properties
+      key="bianAssetType"
+      value="Management Manual"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Specification"/>
+  <properties
+      key="bianControlRecord"
+      value="Management Manual Specification"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="6"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

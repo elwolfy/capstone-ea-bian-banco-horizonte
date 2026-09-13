@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Issued Device Administration"
+    id="id-32f140068d5f4fdca74f8d547fdd5e0b"
+    documentation="[SERVICE DOMAIN: Issued Device Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain administers the issuance of authentication tokens to customers and&#xA;   third party service providers. Tokens here include physical devices such as cards, fo&#xA;  bs, readers and intangible&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Allocate&#xA;  Asset Type         : Issued Device&#xA;  Generic Artifact   : Allocation&#xA;  Control Record     : Issued Device Allocation&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Issued Device Allocation Instance Record, 6 atributos)&#xA;  Customer Reference | Product Instance Reference | Issued Device Type | &#xA;  Associated Permissions | Issue Date | Valid From-To Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (7)&#xA;  Password Assignment   (4 atributos)&#xA;  Question Assignment   (5 atributos)&#xA;  Device Assignment   (7 atributos)&#xA;  Biometric Assignment   (2 atributos)&#xA;  Reader Assignment   (5 atributos)&#xA;  Cheques Assignment   (3 atributos)&#xA;  Token Assignment   (11 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Exchange Retrieve Capture Execute Provide&#xA;  Inbound service operations  : 39&#xA;  Outbound service events     : 16&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Exchange, Retrieve&#xA;    BQ PasswordAssignment  &lt;-  Update, Control, Retrieve, Capture, Initiate, Exchange&#xA;    BQ QuestionAssignment  &lt;-  Control, Initiate, Update, Exchange, Capture, Retrieve&#xA;    BQ BiometricAssignment  &lt;-  Initiate, Exchange, Update, Control, Retrieve&#xA;    BQ DeviceAssignment  &lt;-  Retrieve, Update, Control, Capture&#xA;    BQ ReaderAssignment  &lt;-  Update, Retrieve, Control, Capture&#xA;    BQ ChequesAssignment  &lt;-  Initiate, Exchange, Retrieve, Control&#xA;    BQ TokenAssignment  &lt;-  Retrieve, Capture, Update, Execute, Provide&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Allocate"/>
+  <properties
+      key="bianAssetType"
+      value="Issued Device"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Allocation"/>
+  <properties
+      key="bianControlRecord"
+      value="Issued Device Allocation"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="7"/>
+  <properties
+      key="bianAtributosCR"
+      value="6"/>
+</archimate:Capability>

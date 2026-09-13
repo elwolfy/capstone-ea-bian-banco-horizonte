@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Design"
+    id="id-a91390a9c544424d9f4dadc2ec3bc56b"
+    documentation="[SERVICE DOMAIN: Product Design]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Product Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Develop/refine product designs and supporting specification details&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Design&#xA;  Asset Type         : Product and Service&#xA;  Generic Artifact   : Specification&#xA;  Control Record     : Productor Service Specification&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product or Service Specification Instance Record, 12 atributos)&#xA;  ProductandService Type | ProductandService Description | &#xA;  ProductandService Specification Deployment | Employee or Business Unit Reference | &#xA;  ProductandService Specification Deployment Configuration | &#xA;  ProductandService Specification Deployment Task Reference | &#xA;  ProductandService Specification Deployment Task Record | &#xA;  ProductandService Specification Status | ProductandService Specification Usage | &#xA;  ProductandService Specification Impact | ProductandService Specification Version | &#xA;  ProductandService Specification&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Functional Requirements   (6 atributos)&#xA;  Testing   (10 atributos)&#xA;  Production   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Execute Request Retrieve Update Exchange Capture&#xA;  Inbound service operations  : 15&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Create, Execute, Request, Retrieve&#xA;    BQ FunctionalRequirements  &lt;-  Update, Exchange, Capture, Retrieve, Request&#xA;    BQ Testing  &lt;-  Update, Retrieve, Exchange&#xA;    BQ Production  &lt;-  Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Design"/>
+  <properties
+      key="bianAssetType"
+      value="Product and Service"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Specification"/>
+  <properties
+      key="bianControlRecord"
+      value="Productor Service Specification"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

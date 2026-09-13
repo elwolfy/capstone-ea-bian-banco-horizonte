@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Compliance"
+    id="id-d8f637557fdd4140bb0e4492f6004827"
+    documentation="[SERVICE DOMAIN: Regulatory Compliance]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Regulations and Compliance&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain provides a service to interpret regulatory requirements, provide g&#xA;  uidance and define and implement a portfolio of regulatory compliance tests across all&#xA;   appropriate bank activities&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Regulatory Compliance&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Regulatory Compliance Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Regulatory Compliance Assessment Instance Record, 22 atributos)&#xA;  Regulatory Assessment Type | Business Unit Reference | Product and Service Reference | &#xA;  Customer Reference | Regulatory Authority Reference | Regulation Reference | &#xA;  Regulation Definition | Regulation Compliance and Reporting Requirements | &#xA;  Regulation Accountability | Regulation Penalties | Regulation Guideline | &#xA;  Document Reference | Regulatory Assessment Work Products | &#xA;  Regulatory Assessment Result | Reference | Assessment Requestor | &#xA;  Assessment Start Date | Assessment Completion Date | Regulation Customer Type | &#xA;  Regulation Customer Residence Status | Regulation Valid from Date | &#xA;  Regulation Valid to Date&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve Evaluate Request Update Capture&#xA;  Inbound service operations  : 5&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Retrieve, Evaluate, Request, Update, Capture&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Regulations and Compliance"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Regulatory Compliance"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Regulatory Compliance Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="22"/>
+</archimate:Capability>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Confirmation"
+    id="id-2207c06ea2d346ffb0d23e643b79dacf"
+    documentation="SERVICE DOMAIN: Payment Confirmation&#xA;Business Area: Operations and Execution | Business Domain: Cross Product Operations > Operational Services&#xA;-------------------------------------------------&#xA;Functional Pattern: Process   [LITERAL, SD Overview]&#xA;Generic Artifact: Procedure&#xA;Asset Type: Payment Confirmation   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Payment Confirmation Procedure = Payment Confirmation + Procedure&#xA;Control Record: Payment Confirmation Procedure   [LITERAL, SD Overview]&#xA;&#xA;Service Operations (Action Terms):&#xA;  [PENDIENTE] BIAN no publica Semantic API para este dominio en la&#xA;  release 14.0.0 del repositorio oficial.&#xA;&#xA;Semantic API Endpoints:&#xA;  [PENDIENTE] idem.&#xA;&#xA;Definicion oficial (BIAN):&#xA;  [PENDIENTE] Sin Semantic API publicada en release14.0.0&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Confirma al ordenante el resultado del pago.&#xA;  Capacidad que sirve: Canales Digitales (Web / Movil)&#xA;  Actividades cubiertas (1):&#xA;    - PN-04.6 Confirmacion al cliente&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Payment Confirmation SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_PCONF"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Confirmation Procedure"/>
+  <properties
+      key="bianAssetType"
+      value="Payment Confirmation"/>
+</archimate:Capability>

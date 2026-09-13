@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Order Initiation"
+    id="id-65ff950cf2bc4fc49d54818247d3c496"
+    documentation="[SERVICE DOMAIN: Payment Order Initiation]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Transact&#xA;  Asset Type         : Payment Order Initiation&#xA;  Generic Artifact   : Transaction&#xA;  Control Record     : Payment Order Initiation Transaction&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Servicing&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain provides a customer payment service. It captures the payer and&#xA;  payee details and other key properties of the payment and initiates the&#xA;  orchestration of the transaction. It provides support for repeating/scheduled&#xA;  payments.&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (21)&#xA;  Payment Transaction Type | Recurring Payment Record | Recurring Payment Customer&#xA;  Reference | Recurring Payment Reference | Customer Reference | Payment Transaction |&#xA;  Payer Reference | Payer Bank Reference | Payer Product Instance Reference | Payee&#xA;  Reference | Payee Bank Reference | Payee Product Instance Reference | Amount |&#xA;  Currency | Date Type | Date | Payment Fees/Charges | Payment Mechanism | Payment&#xA;  Purpose | Document Directory Entry Instance Reference | Document Content&#xA;&#xA;BEHAVIOR QUALIFIERS (3)&#xA;    Compliance   (3 atributos)&#xA;    Confirmation   (1 atributos)&#xA;    Order Initiation   (3 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Initiate Update Retrieve Exchange&#xA;  Inbound  : 7 operaciones&#xA;  Outbound : 8 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping       : Si&#xA;  ISO 20022         : Si&#xA;  API publicada v14 : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianAssetType"
+      value="Payment Order Initiation"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Transaction"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Order Initiation Transaction"/>
+</archimate:Capability>

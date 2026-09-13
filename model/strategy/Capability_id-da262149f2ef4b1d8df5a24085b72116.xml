@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Disbursement"
+    id="id-da262149f2ef4b1d8df5a24085b72116"
+    documentation="SERVICE DOMAIN: Disbursement&#xA;Business Area: Operations and Execution | Business Domain: Cross Product Operations > Operational Services&#xA;-------------------------------------------------&#xA;Functional Pattern: Transact   [LITERAL, SD Overview]&#xA;Generic Artifact: Transaction&#xA;Asset Type: Disbursement   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Disbursement Transaction = Disbursement + Transaction&#xA;Control Record: Disbursement Transaction   [LITERAL, SD Overview]&#xA;&#xA;Service Operations (Action Terms) — principales de 7 publicadas:&#xA;  [Initiate] POST /Disbursement/Initiate&#xA;  [Update] PUT /Disbursement/{id}/Update&#xA;  [Control] PUT /Disbursement/{id}/Control&#xA;  [Exchange] PUT /Disbursement/{id}/Exchange&#xA;  [Execute] PUT /Disbursement/{id}/Execute&#xA;  [Request] PUT /Disbursement/{id}/Request&#xA;  [Retrieve] GET /Disbursement/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /Disbursement/Initiate&#xA;  PUT /Disbursement/{id}/Update&#xA;  PUT /Disbursement/{id}/Control&#xA;  PUT /Disbursement/{id}/Exchange&#xA;  PUT /Disbursement/{id}/Execute&#xA;  PUT /Disbursement/{id}/Request&#xA;  GET /Disbursement/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  EcCR Verify, confirm etc. a disbursement&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Ejecuta el desembolso de fondos comprometidos.&#xA;  Capacidad que sirve: Ejecucion de Pagos y Desembolso&#xA;  Actividades cubiertas (1):&#xA;    - PN-02.8 Desembolso&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Disbursement SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_DISB"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Transaction"/>
+  <properties
+      key="bianControlRecord"
+      value="Disbursement Transaction"/>
+  <properties
+      key="bianAssetType"
+      value="Disbursement"/>
+</archimate:Capability>

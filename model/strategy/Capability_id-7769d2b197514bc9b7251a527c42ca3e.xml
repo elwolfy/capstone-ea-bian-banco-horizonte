@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Order Initiation"
+    id="id-7769d2b197514bc9b7251a527c42ca3e"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Sales and Service > Servicing&#xA;Functional Pattern: Transact&#xA;Control Record: Payment Order Initiation Transaction">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Order Initiation Transaction"/>
+</archimate:Capability>

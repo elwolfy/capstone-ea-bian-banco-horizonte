@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.8b  Activacion de productos y servicios"
+    id="id-eceffcb2c4fa4df1ac34d88703750ec6"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Catalog&#xA;  Tipo de activo   : Customer Product And Service&#xA;  Service Domain   : Customer Product and Service Directory&#xA;  Behavior Qualifier: Product&#xA;  Ubicacion Matrix : Sales and Service > Customer Management&#xA;-------------------------------------------------&#xA;Cataloga los productos y servicios vigentes del cliente.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Product and Service Directory"/>
+  <properties
+      key="behaviorQualifier"
+      value="Product"/>
+</archimate:BusinessProcess>

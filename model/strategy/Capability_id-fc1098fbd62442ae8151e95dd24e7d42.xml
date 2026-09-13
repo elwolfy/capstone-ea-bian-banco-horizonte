@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Investment Portfolio Planning"
+    id="id-fc1098fbd62442ae8151e95dd24e7d42"
+    documentation="[SERVICE DOMAIN: Investment Portfolio Planning]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Investment Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Agree the policies and required make-up of an investment portfolio and ensure all requ&#xA;  ired bank and regulatory terms and conditions are addressed&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Managed Investment Portfolio&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Managed Investment Portfolio Agreement&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Managed Investment Portfolio Agreement Instance Record, 11 atributos)&#xA;  Customer Reference | Legal Entity Reference | Investment Portfolio Instance Reference | &#xA;  Investment Portfolio Agreement Type | Investment Portfolio Agreement Jurisdiction | &#xA;  Investment Portfolio Agreement Valid From/To Date | &#xA;  Investment Portfolio Agreement Signatories/Responsible Parties | &#xA;  Document Directory Entry Instance Reference | Customer Agreement Instance Reference | &#xA;  Party Relationship Procedure Instance Reference | &#xA;  Managed Investment Portfolio Agreement&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Investment Terms   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Update Control Exchange Retrieve Request Grant&#xA;  Inbound service operations  : 11&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Update, Control, Exchange, Retrieve, Request, Grant&#xA;    BQ InvestmentTerms  &lt;-  Request, Evaluate, Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Investment Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Managed Investment Portfolio"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Managed Investment Portfolio Agreement"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

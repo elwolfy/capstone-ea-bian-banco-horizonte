@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Branch Currency Management"
+    id="id-18ba39dd98e14942844ea354078dad00"
+    documentation="[SERVICE DOMAIN: Branch Currency Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Track cash inventory, project demand and ensure all cash is accounted for within the b&#xA;  ranch&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Allocate&#xA;  Asset Type         : Branch Cash&#xA;  Generic Artifact   : Allocation&#xA;  Control Record     : Branch Cash Allocation&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Branch Cash Allocation Instance Record, 17 atributos)&#xA;  Parameter Type | Selected Option | &lt;Subject Area> Type | Description | Request | &#xA;  Schedule | Status | Reference | Customer Reference | Currency | Regulation Reference | &#xA;  Regulation Type | Jurisdiction | Booking Location | Account Type | Account Reference | &#xA;  Instance&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Inventory Allocation   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Exchange Control Initiate Update Retrieve&#xA;  Inbound service operations  : 12&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Exchange, Control, Initiate, Update, Retrieve&#xA;    BQ InventoryAllocation  &lt;-  Exchange, Capture, Control, Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Allocate"/>
+  <properties
+      key="bianAssetType"
+      value="Branch Cash"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Allocation"/>
+  <properties
+      key="bianControlRecord"
+      value="Branch Cash Allocation"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="17"/>
+</archimate:Capability>

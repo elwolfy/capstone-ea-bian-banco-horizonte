@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Investment Portfolio Management"
+    id="id-da4977a61dc74ffb8e0d8cb99d185a9b"
+    documentation="[SERVICE DOMAIN: Investment Portfolio Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Investment Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Manage an investment portfolio, initiating trading to leverage market opportunities, r&#xA;  emaining within portfolio trading policies&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Managed Investment Portfolio&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Managed Investment Portfolio Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Managed Investment Portfolio Facility Instance Record, 8 atributos)&#xA;  Investment Portfolio Trading Policies | Investment Portfolio Policy Type | &#xA;  Investment Portfolio Policy Description | &#xA;  Investment Portfolio Policy Limits and Constraints | &#xA;  Investment Portfolio Instance Reference | Investment Portfolio Holdings | &#xA;  Investment Portfolio Security Type | Investment Portfolio Security Holding&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Opportunity   (2 atributos)&#xA;  Trade   (3 atributos)&#xA;  Financial Status Tracking   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Initiate Update Exchange Execute Request Retrieve&#xA;  Inbound service operations  : 14&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Initiate, Update, Exchange, Execute, Request, Retrieve&#xA;    BQ Opportunity  &lt;-  Retrieve&#xA;    BQ FinancialStatusTracking  &lt;-  Retrieve&#xA;    BQ Trade  &lt;-  Update, Request, Retrieve, Exchange, Initiate&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Investment Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Managed Investment Portfolio"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Managed Investment Portfolio Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

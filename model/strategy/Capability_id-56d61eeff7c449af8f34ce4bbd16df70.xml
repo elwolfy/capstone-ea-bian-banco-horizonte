@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Internal Audit"
+    id="id-56d61eeff7c449af8f34ce4bbd16df70"
+    documentation="[SERVICE DOMAIN: Internal Audit]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Non-IT and Non-HR Enterprise Services&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Maintain and portfolio of internal audit checks. Select and execute a meaningful sampl&#xA;  e of checks and identify and resolve non-compliance&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Internal Audit&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Internal Audit Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Internal Audit Assessment Instance Record, 10 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Request | Schedule | Status | &#xA;  Usage Log | Service Provider Reference | Requester Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Audit   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Grant Execute Initiate Request Retrieve Update&#xA;  Inbound service operations  : 14&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Grant, Execute, Initiate, Request, Retrieve, Update&#xA;    BQ Audit  &lt;-  Exchange, Execute, Grant, Retrieve, Initiate, Update, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Non-IT and Non-HR Enterprise Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Internal Audit"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Internal Audit Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

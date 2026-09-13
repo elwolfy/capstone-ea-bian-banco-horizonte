@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Underwriting"
+    id="id-eb2821c0440b46deb36ae645372bb3ca"
+    documentation="SERVICE DOMAIN: Underwriting&#xA;Business Area: Sales and Service | Business Domain: Sales&#xA;-------------------------------------------------&#xA;Functional Pattern: Assess   [LITERAL, SD Overview]&#xA;Generic Artifact: Assessment&#xA;Asset Type: Underwriting   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Intelligence Asset Type&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Underwriting Assessment = Underwriting + Assessment&#xA;Control Record: Underwriting Assessment   [LITERAL, SD Overview]&#xA;&#xA;Service Operations (Action Terms) — principales de 7 publicadas:&#xA;  [Evaluate] POST /Underwriting/Evaluate&#xA;  [Update] PUT /Underwriting/{id}/Update&#xA;  [Execute] PUT /Underwriting/{id}/Execute&#xA;  [Request] PUT /Underwriting/{id}/Request&#xA;  [Exchange] PUT /Underwriting/{id}/Exchange&#xA;  [Grant] PUT /Underwriting/{id}/Grant&#xA;  [Retrieve] GET /Underwriting/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /Underwriting/Evaluate&#xA;  PUT /Underwriting/{id}/Update&#xA;  PUT /Underwriting/{id}/Execute&#xA;  PUT /Underwriting/{id}/Request&#xA;  PUT /Underwriting/{id}/Exchange&#xA;  PUT /Underwriting/{id}/Grant&#xA;  GET /Underwriting/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  EcCR Accept, reject verify etc. an underwriting assessment&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Evalua y decide la aceptacion del riesgo de la operacion propuesta.&#xA;  Capacidad que sirve: Evaluacion y Decision (Scoring)&#xA;  Actividades cubiertas (1):&#xA;    - PN-02.5 Decision y aprobacion&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Underwriting SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_UW"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Sales"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Underwriting Assessment"/>
+  <properties
+      key="bianAssetType"
+      value="Underwriting"/>
+</archimate:Capability>

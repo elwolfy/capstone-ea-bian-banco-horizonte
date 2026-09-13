@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.6 Activacion y monitoreo"
+    id="id-b341c80603504f588cf87b4f2b687d8d"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Partner Administration&#xA;  Functional Pattern: Administer&#xA;  Asset Type: Partner&#xA;  Control Record: Partner Administrative Plan&#xA;  Ubicacion Matrix: Reference Data > External Agency">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Partner Administration"/>
+</archimate:BusinessProcess>

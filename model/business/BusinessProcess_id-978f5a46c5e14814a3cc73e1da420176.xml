@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.2b  Captura de documentos"
+    id="id-978f5a46c5e14814a3cc73e1da420176"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Catalog&#xA;  Tipo de activo   : Document&#xA;  Service Domain   : Document Directory&#xA;  Behavior Qualifier: Document Reference Properties&#xA;  Ubicacion Matrix : Business Support > Document Management and Archive&#xA;-------------------------------------------------&#xA;Cataloga el documento como activo propio, con su ciclo de verificacion y version.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Document Directory"/>
+  <properties
+      key="behaviorQualifier"
+      value="Document Reference Properties"/>
+</archimate:BusinessProcess>

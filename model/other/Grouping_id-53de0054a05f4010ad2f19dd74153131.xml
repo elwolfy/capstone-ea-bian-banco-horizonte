@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reference Data"
+    id="id-53de0054a05f4010ad2f19dd74153131"
+    documentation="Business Area de la vista Matrix del Service Landscape V14.0.&#xA;La Matrix tiene 5 Business Areas; la Value Chain tiene 8, y ninguna&#xA;coincide en nombre. Son dos particiones distintas de los mismos 341&#xA;Service Domains.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Brand Management"
+    id="id-08196e6cd7a34f0c821f0865df59d36c"
+    documentation="[SERVICE DOMAIN: Brand Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Marketing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Respond to events that potentially damage the brand or provide an opportunity to stren&#xA;  gthen/leverage brand awareness&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Brand&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Brand Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Brand Management Plan Instance Record, 4 atributos)&#xA;  Brand Definition | Brand Value Assessment | Brand Usage | Brand Development Schedule&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Brand Advice   (5 atributos)&#xA;  Troubleshooting   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Request Create Update Grant Retrieve Exchange&#xA;  Inbound service operations  : 13&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Request, Update, Grant, Retrieve&#xA;    BQ BrandAdvice  &lt;-  Create, Update, Exchange, Request, Retrieve&#xA;    BQ Troubleshooting  &lt;-  Create, Retrieve, Update, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Marketing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Brand"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Brand Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="4"/>
+</archimate:Capability>

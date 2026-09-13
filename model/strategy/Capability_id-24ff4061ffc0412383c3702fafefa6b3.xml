@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Securities Position Keeping"
+    id="id-24ff4061ffc0412383c3702fafefa6b3"
+    documentation="[SERVICE DOMAIN: Securities Position Keeping]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains a securities transaction log to support securities inves&#xA;  tment activity&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Track&#xA;  Asset Type         : Securities Position&#xA;  Generic Artifact   : Log&#xA;  Control Record     : Securities Position Log&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Securities Position Log Instance Record, 20 atributos)&#xA;  Securities Transaction Log Type | Product Instance Reference | Customer Reference | &#xA;  Counterparty Reference | Instrument Profile | Instrument Record | &#xA;  Securities Instrument Type | Securities Instrument Reference | &#xA;  Securities Position Limits | Securities Position Limit Type | &#xA;  Securities Position Limit Settings | Securities Position Limit Value | &#xA;  Securities Amount Block | Securities Amount Block Type | Priority | Amount | Date Type | &#xA;  Date | Initiation Date | Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Securities Transaction Capture   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Retrieve Capture&#xA;  Inbound service operations  : 7&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Retrieve&#xA;    BQ SecuritiesTransactionCapture  &lt;-  Update, Retrieve, Capture&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Track"/>
+  <properties
+      key="bianAssetType"
+      value="Securities Position"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Log"/>
+  <properties
+      key="bianControlRecord"
+      value="Securities Position Log"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="20"/>
+</archimate:Capability>

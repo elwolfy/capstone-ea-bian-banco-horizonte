@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Collateral Allocation Management"
+    id="id-1be290ce7a77419a831cd314f1bc7291"
+    documentation="[SERVICE DOMAIN: Collateral Allocation Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Collateral Administration   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The Service Domain manages the allocation of party owned assets to bank issued lending&#xA;   and other asset products&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Allocate&#xA;  Asset Type         : Collateral Asset&#xA;  Generic Artifact   : Allocation&#xA;  Control Record     : Collateral Asset Allocation&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Collateral Asset Allocation Instance Record, 17 atributos)&#xA;  Collateral Allocation Amount | Collateral Allocation Description | &#xA;  Collateral Allocation End Date | Collateral Allocation Start Date | &#xA;  Collateral Allocation Recall Amount | Collateral Allocation Recall Schedule | &#xA;  Collateral Allocation Recall Result | Collateral Current Value Amount | &#xA;  Collateral Earmarked Amount | Collateral Earmarked End Date | &#xA;  Collateral Earmarked Start Date | Collateral Status | Party Asset Description | &#xA;  Party Asset Directory Reference | Product Instance Name | Product Instance Reference | &#xA;  Evaluate Acceptability Result Description&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Retrieve Exchange Capture&#xA;  Inbound service operations  : 4&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Retrieve, Exchange, Capture&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Collateral Administration"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Allocate"/>
+  <properties
+      key="bianAssetType"
+      value="Collateral Asset"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Allocation"/>
+  <properties
+      key="bianControlRecord"
+      value="Collateral Asset Allocation"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="17"/>
+</archimate:Capability>

@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Leasing Item Administration"
+    id="id-356fa8f732124329aa3ddded43a06734"
+    documentation="[SERVICE DOMAIN: Leasing Item Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Track the status of the assets underlying leasing agreements as they represent collate&#xA;  ral items that could be accessed in the event of account recovery&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Leasing Item&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Leasing Item Administrative Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Leasing Item Administrative Plan Instance Record, 5 atributos)&#xA;  Budget Type | Budget | Assignment | Leasing Item Administrative Plan | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Valuation   (8 atributos)&#xA;  Assurance   (8 atributos)&#xA;  Item Registration   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Control Exchange Grant Initiate Retrieve Request Update&#xA;  Inbound service operations  : 20&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Control, Exchange, Grant, Initiate, Retrieve, Request, Update&#xA;    BQ Assurance  &lt;-  Capture, Initiate, Retrieve, Update&#xA;    BQ ItemRegistration  &lt;-  Capture, Retrieve, Initiate, Update&#xA;    BQ Valuation  &lt;-  Capture, Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Leasing Item"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Leasing Item Administrative Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="5"/>
+</archimate:Capability>

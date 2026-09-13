@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Proposition"
+    id="id-b6fbe66a337c44f6a5dbe1094822ca5d"
+    documentation="[SERVICE DOMAIN: Customer Proposition]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain maintains bank and customer defined requirements spanning all prod&#xA;  ucts and services&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Customer Proposition&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Customer Proposition Agreement&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Proposition Agreement Instance Record, 19 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Discharge Request | &#xA;  Discharge Schedule | Status | Associated Party | Customer Reference | Obligation | &#xA;  Entitlement | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Account Reference | Subject Matter | Product Reference | Calendar Reference | &#xA;  Associated Agreement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Customer Defined Product and Service Term   (6 atributos)&#xA;  Bank Defined Product and Service Term   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Evaluate Exchange Grant Notify Request Retrieve Update Execute&#xA;  Inbound service operations  : 21&#xA;  Outbound service events     : 11&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Evaluate, Exchange, Grant, Notify, Request, Retrieve, Update&#xA;    BQ BankDefinedProductandServiceTerm  &lt;-  Evaluate, Exchange, Notify, Request, Retrieve, Update, Execute&#xA;    BQ CustomerDefinedProductandServiceTerm  &lt;-  Evaluate, Exchange, Notify, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Proposition"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Proposition Agreement"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="19"/>
+</archimate:Capability>

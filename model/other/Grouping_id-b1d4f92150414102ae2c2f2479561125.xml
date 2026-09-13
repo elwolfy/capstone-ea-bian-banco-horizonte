@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Operations and Execution   [130 Service Domains]"
+    id="id-b1d4f92150414102ae2c2f2479561125"
+    documentation="Business Area de la vista MATRIX del BIAN Service Landscape V14.0.&#xA;Business Domains de primer nivel: 2&#xA;Service Domains: 130 de 341&#xA;&#xA;La Matrix tiene 5 Business Areas; la Value Chain tiene 8, y ninguna&#xA;coincide en nombre. Son dos particiones distintas del mismo catalogo.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Area"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Directory"
+    id="id-765aa48b16124ed4b3545e5303b09f88"
+    documentation="SERVICE DOMAIN: Document Directory&#xA;Business Area: Business Support | Business Domain: Document Management and Archive&#xA;-------------------------------------------------&#xA;Functional Pattern: Catalog   [LITERAL, SD Overview]&#xA;Generic Artifact: Directory Entry&#xA;Asset Type: Document   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Intelligence Asset Type&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Document Directory Entry = Document + Directory Entry&#xA;Control Record: Document Directory Entry   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (6):&#xA;  DocumentAmendmentProperties · DocumentArchivingProperties · DocumentReferenceProperties · DocumentUpdateHistoryProperties · DocumentVerificationProperties · DocumentVersionProperties&#xA;&#xA;Service Operations (Action Terms) — principales de 44 publicadas:&#xA;  [Register] POST /DocumentDirectory/Register&#xA;  [Update] PUT /DocumentDirectory/{id}/Update&#xA;  [Control] PUT /DocumentDirectory/{id}/Control&#xA;  [Execute] PUT /DocumentDirectory/{id}/Execute&#xA;  [Exchange] PUT /DocumentDirectory/{id}/Exchange&#xA;  [Request] PUT /DocumentDirectory/{id}/Request&#xA;  [Notify] GET /DocumentDirectory/{id}/Notify&#xA;  [Retrieve] GET /DocumentDirectory/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /DocumentDirectory/Register&#xA;  PUT /DocumentDirectory/{id}/Update&#xA;  PUT /DocumentDirectory/{id}/Control&#xA;  PUT /DocumentDirectory/{id}/Execute&#xA;  PUT /DocumentDirectory/{id}/Exchange&#xA;  PUT /DocumentDirectory/{id}/Request&#xA;  GET /DocumentDirectory/{id}/Notify&#xA;  GET /DocumentDirectory/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  [SIN DESCRIPCION EN EL YAML OFICIAL]&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Cataloga y localiza los documentos del banco.&#xA;  Capacidad que sirve: Originacion de Credito&#xA;  Actividades cubiertas (1):&#xA;    - PN-02.2 Conformacion del expediente&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Document Directory SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_DOCDIR"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Document Management and Archive"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Document Directory Entry"/>
+  <properties
+      key="bianAssetType"
+      value="Document"/>
+</archimate:Capability>

@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Knowledge and Intellectual Property Management   [3 SD]"
+    id="id-4bf20bc4f24a43a28f00f1d3b1bfbad3"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Business Support&#xA;Service Domains: 3">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

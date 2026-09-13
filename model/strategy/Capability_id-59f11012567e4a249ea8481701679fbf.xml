@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compliance Reporting"
+    id="id-59f11012567e4a249ea8481701679fbf"
+    documentation="SERVICE DOMAIN: Compliance Reporting&#xA;Business Area: Risk and Compliance | Business Domain: Regulations and Compliance&#xA;-------------------------------------------------&#xA;Functional Pattern: Administer   [LITERAL, SD Overview]&#xA;Generic Artifact: Administrative Plan&#xA;Asset Type: Compliance Reporting   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Compliance Reporting Administrative Plan = Compliance Reporting + Administrative Plan&#xA;Control Record: Compliance Reporting Administrative Plan   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (3):&#xA;  Consolidation · ComplianceAssessment · Remediation&#xA;&#xA;Service Operations (Action Terms) — principales de 18 publicadas:&#xA;  [Initiate] POST /ComplianceReporting/Initiate&#xA;  [Update] PUT /ComplianceReporting/{id}/Update&#xA;  [Capture] PUT /ComplianceReporting/{id}/Capture&#xA;  [Request] PUT /ComplianceReporting/{id}/Request&#xA;  [Retrieve] GET /ComplianceReporting/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /ComplianceReporting/Initiate&#xA;  PUT /ComplianceReporting/{id}/Update&#xA;  PUT /ComplianceReporting/{id}/Capture&#xA;  PUT /ComplianceReporting/{id}/Request&#xA;  GET /ComplianceReporting/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  [SIN DESCRIPCION EN EL YAML OFICIAL]&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Elabora los reportes de cumplimiento hacia las autoridades competentes.&#xA;  Capacidad que sirve: Prevencion de Lavado de Activos (PLAFT)&#xA;  Actividades cubiertas (1):&#xA;    - PN-10.8 Elaboracion de reportes PLAFT (UIF)&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Compliance Reporting SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_COMPREP"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Regulations and Compliance"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Compliance Reporting Administrative Plan"/>
+  <properties
+      key="bianAssetType"
+      value="Compliance Reporting"/>
+</archimate:Capability>

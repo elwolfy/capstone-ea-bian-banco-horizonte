@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10.4  Conciliacion entre contabilidad y operaciones"
+    id="id-271de88e30a447358b5156d6799d217c"
+    documentation="Actividad del proceso PN-10 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Process&#xA;  Tipo de activo   : Account Reconciliation&#xA;  Service Domain   : Account Reconciliation&#xA;  Behavior Qualifier: Account Assessment&#xA;  Ubicacion Matrix : Operations and Execution > Cross Product Operations > Account Management&#xA;-------------------------------------------------&#xA;Process sobre la conciliacion de cuentas.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Account Reconciliation"/>
+  <properties
+      key="behaviorQualifier"
+      value="Account Assessment"/>
+</archimate:BusinessProcess>

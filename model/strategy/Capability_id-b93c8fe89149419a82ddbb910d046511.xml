@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Custody Administration"
+    id="id-b93c8fe89149419a82ddbb910d046511"
+    documentation="[SERVICE DOMAIN: Custody Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Market Operations   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  A service to provide safe custody services for marketable securities for bank customer&#xA;  s&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Custody&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Custody Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Custody Facility Instance Record, 13 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Schedule | Status | Currency | &#xA;  Regulation Reference | Regulation Type | Jurisdiction | Booking Location | &#xA;  Account Type | Account Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (5)&#xA;  Dividend   (7 atributos)&#xA;  Regulatory Submission   (7 atributos)&#xA;  Charge   (7 atributos)&#xA;  Safe Keeping   (7 atributos)&#xA;  Settlement   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve Request Initiate Execute Control Exchange Update&#xA;  Inbound service operations  : 26&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Retrieve, Request, Initiate, Control, Exchange, Execute, Update&#xA;    BQ Settlement  &lt;-  Execute, Initiate, Retrieve, Request, Update&#xA;    BQ Dividend  &lt;-  Initiate, Retrieve&#xA;    BQ SafeKeeping  &lt;-  Control, Retrieve, Request, Update&#xA;    BQ Charge  &lt;-  Initiate, Exchange, Retrieve, Update&#xA;    BQ RegulatorySubmission  &lt;-  Execute, Initiate, Retrieve, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Market Operations"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Custody"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Custody Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="5"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

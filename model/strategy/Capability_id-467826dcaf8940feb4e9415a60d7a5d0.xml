@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Matching"
+    id="id-467826dcaf8940feb4e9415a60d7a5d0"
+    documentation="[SERVICE DOMAIN: Product Matching]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Sales&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Capability used to match eligible product and product combinations to a customer based&#xA;   on prevailing conditions such as customer type, product interest, solicitation/retent&#xA;  ion, campaign alignment&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Product to Customer Combination&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Product to Customer Combination Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product to Customer Combination Assessment Instance Record, 11 atributos)&#xA;  Product/ Customer Combination Assessment Parameter Type | &#xA;  Product/ Customer Combination Assessment Selected Option | &#xA;  Product/ Customer Combination Assessment Type | &#xA;  Product/ Customer Combination Assessment Reference | &#xA;  Product/ Customer Combination Assessment Request | &#xA;  Product/ Customer Combination Assessment Schedule | &#xA;  Product/ Customer Combination Assessment Status | &#xA;  Product/ Customer Combination Assessment Usage Log | &#xA;  Product/ Customer Combination Assessment Requester Reference | &#xA;  Product/ Customer Combination Assessment Associated Party | &#xA;  Product/ Customer Combination Assessment Service Provider Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Product Type Selection   (7 atributos)&#xA;  Product Eligibility   (7 atributos)&#xA;  Context Criteria   (7 atributos)&#xA;  Bank and Campaign Alignment   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Execute Grant Evaluate Retrieve Update Request&#xA;  Inbound service operations  : 19&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Execute, Grant, Evaluate, Retrieve, Update, Request&#xA;    BQ BankandCampaignAlignment  &lt;-  Evaluate, Retrieve, Update&#xA;    BQ ProductEligibility  &lt;-  Evaluate, Retrieve, Update&#xA;    BQ ContextCriteria  &lt;-  Evaluate, Retrieve, Update&#xA;    BQ ProductTypeSelection  &lt;-  Evaluate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Sales"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Product to Customer Combination"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Product to Customer Combination Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

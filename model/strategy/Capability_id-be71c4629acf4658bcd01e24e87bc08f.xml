@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Payroll Services"
+    id="id-be71c4629acf4658bcd01e24e87bc08f"
+    documentation="[SERVICE DOMAIN: Corporate Payroll Services]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Trade Banking   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The Corporate Payroll Services Service Domain handles payroll payment processing for t&#xA;  he employees of a corporate customer&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Employee Payment Services&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Employee Payment Services Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Employee Payment Services Facility Instance Record, 18 atributos)&#xA;  Parameter Type | Selected Option | Type | Calendar Reference | Status | &#xA;  Associated Party | Currency | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Booking Location | Account Type | Account Reference | Customer Reference | Position | &#xA;  Product Reference | Position Limit | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Transaction Batch   (0 atributos)&#xA;  Issue Resolution   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Initiate Execute Notify Request Retrieve Exchange Update&#xA;  Inbound service operations  : 14&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Initiate, Execute, Notify, Request, Retrieve, Update&#xA;    BQ IssueResolution  &lt;-  Exchange, Initiate, Execute, Update, Request, Retrieve, Notify&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Trade Banking"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Employee Payment Services"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Employee Payment Services Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="18"/>
+</archimate:Capability>

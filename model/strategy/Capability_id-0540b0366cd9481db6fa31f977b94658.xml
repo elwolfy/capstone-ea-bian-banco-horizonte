@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Agreement"
+    id="id-0540b0366cd9481db6fa31f977b94658"
+    documentation="[SERVICE DOMAIN: Partner Agreement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Partner&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Partner Agreement&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Reference Data&#xA;  Business Domain : External Agency&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain captures and maintains comprehensive terms and conditions&#xA;  govering Partner relationships.&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (6)&#xA;  Party Reference | Agreement Type | Agreement Jurisdiction | Agreement Valid From/To&#xA;  Date | Agreement Signatures/Responsible Parties | Document Directory Entry Instance&#xA;  Reference&#xA;&#xA;BEHAVIOR QUALIFIERS (3)&#xA;    Legal Term   (3 atributos)&#xA;    Regulatory Term   (3 atributos)&#xA;    Policy Term   (3 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Exchange Update Control Evaluate Request Grant Retrieve&#xA;  Inbound  : 16 operaciones&#xA;  Outbound : 8 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping       : Si&#xA;  ISO 20022         : Si&#xA;  API publicada v14 : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Partner"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Partner Agreement"/>
+</archimate:Capability>

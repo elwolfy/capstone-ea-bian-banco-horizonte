@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Financial Insights"
+    id="id-78322028b22e4a5880df4f580d653f4a"
+    documentation="[SERVICE DOMAIN: Customer Financial Insights]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain applies behavioral analysis to the customer financial history to d&#xA;  evelop financial insights&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Customer Financial Position&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Customer Financial Position Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Financial Position Analysis Instance Record, 12 atributos)&#xA;  Customer Reference | Customer Financial Insights Analysis Record | &#xA;  Customer Financial Insight Analysis Schedule | Customer Insight Calculation Date | &#xA;  Customer Insight | Customer Insight Type | Customer Financial Insights Analysis | &#xA;  Customer Financial Insights Analysis Model Reference | &#xA;  Customer Financial Insights Analysis Report Reference | &#xA;  Customer Financial Insights Analysis Document Reference | &#xA;  Customer Financial Insights Analysis Log Reference | &#xA;  Customer Financial Insights Analysis Position Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (10)&#xA;  Customer Acquisition Cost   (10 atributos)&#xA;  Revenue per Customer   (10 atributos)&#xA;  Customer Financial Insight   (10 atributos)&#xA;  Customer Transactional Insight   (10 atributos)&#xA;  Profitability Analysis   (10 atributos)&#xA;  Customer Lifetime Value   (10 atributos)&#xA;  Retention Cost   (10 atributos)&#xA;  Churn Cost   (10 atributos)&#xA;  Discount and Promotion Impact   (10 atributos)&#xA;  Segmented Financial Performance   (10 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve&#xA;  Inbound service operations  : 1&#xA;  Outbound service events     : 22&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Financial Position"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Financial Position Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="10"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Relationship Management"
+    id="id-25fa183527724212ab5a4dd0859b86dd"
+    documentation="Service Domain BIAN v14: Customer Relationship Management&#xA;Ubicacion Matrix: Sales and Service > Customer Management&#xA;Functional Pattern: Manage&#xA;Control Record: Customer Relationship Management Plan&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

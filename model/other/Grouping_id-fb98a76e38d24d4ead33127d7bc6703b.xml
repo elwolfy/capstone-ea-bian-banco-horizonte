@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account Management   [12 SD]"
+    id="id-fb98a76e38d24d4ead33127d7bc6703b"
+    documentation="Business Domain ANIDADO de la vista MATRIX.&#xA;Bajo: Cross Product Operations   (Operations and Execution)&#xA;Service Domains: 12&#xA;&#xA;Se modela como CAPACIDAD DE NEGOCIO AGRUPADORA. No es un nivel del&#xA;metamodelo BIAN: el nivel donde se cumple el MECE son los 341&#xA;Service Domains.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain anidado"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

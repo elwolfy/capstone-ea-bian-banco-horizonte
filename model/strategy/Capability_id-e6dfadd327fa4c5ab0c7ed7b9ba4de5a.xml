@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Action"
+    id="id-e6dfadd327fa4c5ab0c7ed7b9ba4de5a"
+    documentation="[SERVICE DOMAIN: Corporate Action]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Market Operations   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain supports the various custodial tasks associated with processing as&#xA;  sociated corporate actions&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Corporate Action&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Corporate Action Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Corporate Action Procedure Instance Record, 25 atributos)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | &#xA;  Associated Party Reference | Business Unit Reference | Service Provider Reference | &#xA;  Financial Facility Reference | Employee Reference | Customer Reference | Type | &#xA;  Service Provider Schedule | Service Type | Product and Service Type | &#xA;  Product and Service Instance | Transaction Type | Transaction | &#xA;  Financial Transaction Arrangement | Customer Agreement Reference | Reference | &#xA;  Corporate Action Reference | Corporate Action Arrangement Reference | &#xA;  Corporate Action Involved Party Reference | Corporate Action Involvement Type&#xA;&#xA;BEHAVIOR QUALIFIERS   (5)&#xA;  Security Spin-Off Action   (8 atributos)&#xA;  Security Rights Issue Action   (8 atributos)&#xA;  Security Mergers and Acquisition Action   (8 atributos)&#xA;  Security Dividend Payment   (8 atributos)&#xA;  Stock Split or Reversal Action   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Initiate Execute Exchange Notify Request Retrieve Update&#xA;  Inbound service operations  : 43&#xA;  Outbound service events     : 17&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Initiate, Execute, Exchange, Notify, Request, Retrieve, Update&#xA;    BQ SecurityMergersandAcquisitionAction  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ SecurityDividendPayment  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ SecurityRightsIssueAction  &lt;-  Execute, Exchange, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ SecuritySpin-OffAction  &lt;-  Execute, Exchange, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ StockSplitorReversalAction  &lt;-  Execute, Exchange, Initiate, Notify, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Market Operations"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Corporate Action"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Corporate Action Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="5"/>
+  <properties
+      key="bianAtributosCR"
+      value="25"/>
+</archimate:Capability>

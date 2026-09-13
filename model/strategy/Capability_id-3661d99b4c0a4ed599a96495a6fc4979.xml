@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Disbursement"
+    id="id-3661d99b4c0a4ed599a96495a6fc4979"
+    documentation="[SERVICE DOMAIN: Disbursement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the disbursement of funds to newly established loans/facil&#xA;  ities as necessary&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Transact&#xA;  Asset Type         : Disbursement&#xA;  Generic Artifact   : Transaction&#xA;  Control Record     : Disbursement Transaction&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Disbursement Transaction Instance Record, 27 atributos)&#xA;  Product Instance Reference | Initiating Customer Reference | Beneficiary Reference | &#xA;  Payment Amount | Payment Currency | Disbursement Execution Date | &#xA;  Authorising Employee Reference | Initiating Account Reference | &#xA;  Beneficiary Account Reference | Beneficiary External Account Number | Beneficiary Name | &#xA;  Beneficiary Address | Beneficiary Bank Reference | Payment Value Date | &#xA;  Payment Execution Date | Payment Details | Disbursement Type | &#xA;  Disbursement Tax Account Reference | Disbursement Tax Amount | &#xA;  Disbursement Tax Currency | Disbursement Tax Type | Disbursement Fee Account Reference | &#xA;  Disbursement Fee Amount | Disbursement Fee Currency | Disbursement Fee Type | &#xA;  Disbursement Status | Disbursement Process Reference&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Exchange Execute Request Retrieve&#xA;  Inbound service operations  : 7&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Exchange, Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Operational Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianAssetType"
+      value="Disbursement"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Transaction"/>
+  <properties
+      key="bianControlRecord"
+      value="Disbursement Transaction"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="27"/>
+</archimate:Capability>

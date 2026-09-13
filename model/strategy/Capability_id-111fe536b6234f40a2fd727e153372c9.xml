@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Reference Data Directory"
+    id="id-111fe536b6234f40a2fd727e153372c9"
+    documentation="SERVICE DOMAIN: Party Reference Data Directory&#xA;Business Area: Sales and Service | Business Domain: Customer Management&#xA;-------------------------------------------------&#xA;Functional Pattern: Catalog   [LITERAL, SD Overview]&#xA;Generic Artifact: Directory Entry&#xA;Asset Type: Party Reference Data   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Intelligence Asset Type&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Party Reference Data Directory Entry = Party Reference Data + Directory Entry&#xA;Control Record: Party Reference Data Directory Entry   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (4):&#xA;  Demographics · Reference · Associations · BankRelations&#xA;&#xA;Service Operations (Action Terms) — principales de 17 publicadas:&#xA;  [Register] POST /PartyReferenceDataDirectory/Register&#xA;  [Control] PUT /PartyReferenceDataDirectory/{id}/Control&#xA;  [Update] PUT /PartyReferenceDataDirectory/{id}/Update&#xA;  [Retrieve] GET /PartyReferenceDataDirectory/{id}/Retrieve&#xA;  [Request] PUT /PartyReferenceDataDirectory/{id}/Request&#xA;  [Execute] PUT /PartyReferenceDataDirectory/{id}/Execute&#xA;  [Exchange] PUT /PartyReferenceDataDirectory/{id}/Exchange&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /PartyReferenceDataDirectory/Register&#xA;  PUT /PartyReferenceDataDirectory/{id}/Control&#xA;  PUT /PartyReferenceDataDirectory/{id}/Update&#xA;  GET /PartyReferenceDataDirectory/{id}/Retrieve&#xA;  PUT /PartyReferenceDataDirectory/{id}/Request&#xA;  PUT /PartyReferenceDataDirectory/{id}/Execute&#xA;  PUT /PartyReferenceDataDirectory/{id}/Exchange&#xA;&#xA;Definicion oficial (BIAN):&#xA;  This service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Cataloga los datos de referencia de cada parte. Es el DUENO UNICO del objeto de negocio Party.&#xA;  Capacidad que sirve: Registro y Onboarding de Clientes (KYC)&#xA;  Actividades cubiertas (2):&#xA;    - PN-01.2 Captura de datos y documentos&#xA;    - PN-01.5 Registro del cliente en el core&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Party Reference Data Directory SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_PRDD"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Customer Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Party Reference Data Directory Entry"/>
+  <properties
+      key="bianAssetType"
+      value="Party Reference Data"/>
+</archimate:Capability>

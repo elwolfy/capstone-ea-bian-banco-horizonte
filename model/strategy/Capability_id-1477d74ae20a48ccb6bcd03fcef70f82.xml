@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Confirmation"
+    id="id-1477d74ae20a48ccb6bcd03fcef70f82"
+    documentation="Service Domain BIAN v14: Payment Confirmation&#xA;Ubicacion Matrix: Operations and Execution > Cross Product Operations > Payments&#xA;Functional Pattern: Process&#xA;Control Record: Payment Confirmation Procedure&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

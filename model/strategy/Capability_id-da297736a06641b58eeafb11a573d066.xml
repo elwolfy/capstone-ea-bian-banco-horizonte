@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Credit Card"
+    id="id-da297736a06641b58eeafb11a573d066"
+    documentation="[SERVICE DOMAIN: Credit Card]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Cards   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain orchestrates the scheduled maintenance and transactional activitie&#xA;  s associated with credit card product fulfillment&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Credit Card&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Credit Card Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Credit Card Facility Instance Record, 32 atributos)&#xA;  Product Instance Reference | Customer Reference | Party Reference | &#xA;  Bank Branch/Location Reference | Account Currency | Secondary Billing Currency | &#xA;  Tax Reference | Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Allowed Access | &#xA;  Configuration/Options | Option Definition | Option Setting | Associations | &#xA;  Association Type | Association Obligation/Entitlement | Association Reference | &#xA;  Linked Accounts | Link Type | Account Details | Date Type | Date | Statements Schedule | &#xA;  Statement Type | Statement Transaction Type | Statement Period | Statement Report | &#xA;  Limit Type | Limit Value | Limit Settings&#xA;&#xA;BEHAVIOR QUALIFIERS   (8)&#xA;  Billing   (9 atributos)&#xA;  Repayment   (9 atributos)&#xA;  Card Payment   (16 atributos)&#xA;  Credit Plan   (3 atributos)&#xA;  Financial Status Tracking   (0 atributos)&#xA;  Interest   (18 atributos)&#xA;  Charge   (18 atributos)&#xA;  Issued Device   (19 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Retrieve Update Control Execute Exchange Request&#xA;  Inbound service operations  : 28&#xA;  Outbound service events     : 16&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Retrieve, Update, Control&#xA;    BQ Interest  &lt;-  Retrieve, Execute&#xA;    BQ Charge  &lt;-  Retrieve, Update, Execute&#xA;    BQ Billing  &lt;-  Execute, Update, Retrieve&#xA;    BQ Repayment  &lt;-  Update, Execute, Retrieve&#xA;    BQ CardPayment  &lt;-  Update, Exchange, Retrieve, Execute&#xA;    BQ IssuedDevice  &lt;-  Initiate, Update, Exchange, Request, Retrieve&#xA;    BQ CreditPlan  &lt;-  Initiate, Update, Retrieve, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Cards"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Credit Card"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Credit Card Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="8"/>
+  <properties
+      key="bianAtributosCR"
+      value="32"/>
+</archimate:Capability>

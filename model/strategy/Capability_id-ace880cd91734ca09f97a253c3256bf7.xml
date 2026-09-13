@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Directory"
+    id="id-ace880cd91734ca09f97a253c3256bf7"
+    documentation="[SERVICE DOMAIN: Product Directory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Reference Data&#xA;  Business Domain : Product Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain maintains a comprehensive directory of the bank&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Product&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Product Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product Directory Entry Instance Record, 3 atributos)&#xA;  Product Version | Configuration | Product Refrence&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Operations   (4 atributos)&#xA;  Sales and Marketing   (8 atributos)&#xA;  Servicing   (4 atributos)&#xA;  Production   (3 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Register Request Retrieve&#xA;  Inbound service operations  : 16&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Register, Request, Retrieve&#xA;    BQ Operations  &lt;-  Register, Update, Retrieve&#xA;    BQ SalesandMarketing  &lt;-  Register, Update, Retrieve&#xA;    BQ Servicing  &lt;-  Update, Register, Retrieve&#xA;    BQ Production  &lt;-  Register, Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Reference Data"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Product"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Product Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="3"/>
+</archimate:Capability>

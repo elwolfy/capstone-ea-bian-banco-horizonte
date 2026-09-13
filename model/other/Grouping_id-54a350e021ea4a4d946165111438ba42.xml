@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party   [2 SD]"
+    id="id-54a350e021ea4a4d946165111438ba42"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Reference Data&#xA;Service Domains: 2">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

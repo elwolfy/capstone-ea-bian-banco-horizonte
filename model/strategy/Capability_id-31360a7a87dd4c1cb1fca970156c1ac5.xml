@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Prospect Campaign Design"
+    id="id-31360a7a87dd4c1cb1fca970156c1ac5"
+    documentation="[SERVICE DOMAIN: Prospect Campaign Design]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Marketing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Design and refine prospect campaign specifications based on their impact&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Design&#xA;  Asset Type         : Prospect Campaign&#xA;  Generic Artifact   : Specification&#xA;  Control Record     : Prospect Campaign Specification&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Prospect Campaign Specification Instance Record, 23 atributos)&#xA;  Prospect Campaign Type | Prospect Campaign Description | Prospect Campaign Metrics | &#xA;  Prospect Campaign Metric Definition | Prospect Campaign Metric Goal | &#xA;  Prospect Campaign Specification | Prospect Campaign ProductandService Usage | &#xA;  Prospect Campaign ProductandService Type | &#xA;  ProductandService Campaign Engagement Description | &#xA;  ProductandService Campaign Transfer Pricing Arrangement | &#xA;  Prospect Campaign Execution Guidelines | Prospect Campaign Eligibility | &#xA;  Prospect Campaign Qualifications | Prospect Campaign Interaction Guide | &#xA;  Prospect Campaign Consumables | Prospect Campaign Consumable Type | &#xA;  Prospect Campaign Consumable Description | Prospect Campaign Performance Record | &#xA;  Prospect Campaign Procedure Instance Reference | Employee or Business Unit Reference | &#xA;  Prospect Campaign Procedure Set-up | Prospect Campaign Procedure Version Number | &#xA;  Prospect Campaign Procedure Result&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Execute Update Control Create Exchange Capture Request Retrieve&#xA;  Inbound service operations  : 8&#xA;  Outbound service events     : 2&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Execute, Update, Control, Create, Exchange, Capture, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Marketing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Design"/>
+  <properties
+      key="bianAssetType"
+      value="Prospect Campaign"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Specification"/>
+  <properties
+      key="bianControlRecord"
+      value="Prospect Campaign Specification"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="0"/>
+  <properties
+      key="bianAtributosCR"
+      value="23"/>
+</archimate:Capability>

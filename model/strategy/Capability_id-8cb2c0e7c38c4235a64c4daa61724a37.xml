@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Compliance Risk Assessment   ->   Regulatory Compliance"
+    id="id-8cb2c0e7c38c4235a64c4daa61724a37"
+    documentation="Dominio propio: Party Compliance Risk Assessment&#xA;Veredicto: RENOMBRA&#xA;Dominios estandar v14: Regulatory Compliance&#xA;&#xA;Nuestro nombre describia el metodo; el del estandar describe la responsabilidad.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

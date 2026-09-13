@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Lifecycle Management"
+    id="id-58e1c5ce48294bf1b7dde52edd2d3792"
+    documentation="SERVICE DOMAIN: Party Lifecycle Management&#xA;Business Area: Sales and Service | Business Domain: Sales&#xA;-------------------------------------------------&#xA;Functional Pattern: Administer   [LITERAL, SD Overview]&#xA;Generic Artifact: Administrative Plan&#xA;Asset Type: Party Relationship   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Party Relationship Administrative Plan = Party Relationship + Administrative Plan&#xA;Control Record: Party Relationship Administrative Plan   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (4):&#xA;  Qualification · Documentation · Precedents · IdentityProofing&#xA;&#xA;Service Operations (Action Terms) — principales de 15 publicadas:&#xA;  [Initiate] POST /PartyLifecycleManagement/Initiate&#xA;  [Update] PUT /PartyLifecycleManagement/{id}/Update&#xA;  [Control] PUT /PartyLifecycleManagement/{id}/Control&#xA;  [Exchange] PUT /PartyLifecycleManagement/{id}/Exchange&#xA;  [Execute] PUT /PartyLifecycleManagement/{id}/Execute&#xA;  [Request] PUT /PartyLifecycleManagement/{id}/Request&#xA;  [Retrieve] GET /PartyLifecycleManagement/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /PartyLifecycleManagement/Initiate&#xA;  PUT /PartyLifecycleManagement/{id}/Update&#xA;  PUT /PartyLifecycleManagement/{id}/Control&#xA;  PUT /PartyLifecycleManagement/{id}/Exchange&#xA;  PUT /PartyLifecycleManagement/{id}/Execute&#xA;  PUT /PartyLifecycleManagement/{id}/Request&#xA;  GET /PartyLifecycleManagement/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  EcCR Accept, verify, etc. of the party life-cycle administrative plan&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Inicia y gobierna el ciclo de vida de la relacion con la parte, desde la solicitud de vinculacion.&#xA;  Capacidad que sirve: Registro y Onboarding de Clientes (KYC)&#xA;  Actividades cubiertas (1):&#xA;    - PN-01.1 Recepcion de la solicitud&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Party Lifecycle Management SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_PLM"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Sales"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Party Relationship Administrative Plan"/>
+  <properties
+      key="bianAssetType"
+      value="Party Relationship"/>
+</archimate:Capability>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Authentication"
+    id="id-a6d5451355604735a32eb60b001bb839"
+    documentation="[SERVICE DOMAIN: Party Authentication]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain provides a customer identify authentication service covering all c&#xA;  hannels and devices to support access to the banks products and services&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Party Authentication&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Party Authentication Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Party Authentication Assessment Instance Record, 8 atributos)&#xA;  Customer Reference | Party Reference | Profile | Authentication Type | &#xA;  Party Authentication Consolidation Record | Customer Contact Authentication Level | &#xA;  Authorisation Token Reference | Refresh Token Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (6)&#xA;  Password   (9 atributos)&#xA;  Question   (4 atributos)&#xA;  Document   (5 atributos)&#xA;  Device   (5 atributos)&#xA;  Biometric   (4 atributos)&#xA;  Behavior   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Evaluate Exchange Execute Request Grant Retrieve&#xA;  Inbound service operations  : 19&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Evaluate, Exchange, Execute, Request, Grant, Retrieve&#xA;    BQ Password  &lt;-  Evaluate, Retrieve&#xA;    BQ Question  &lt;-  Evaluate, Retrieve&#xA;    BQ Document  &lt;-  Retrieve, Evaluate&#xA;    BQ Device  &lt;-  Evaluate, Retrieve&#xA;    BQ Biometric  &lt;-  Evaluate, Retrieve&#xA;    BQ Behavior  &lt;-  Evaluate, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Party Authentication"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Party Authentication Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="6"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

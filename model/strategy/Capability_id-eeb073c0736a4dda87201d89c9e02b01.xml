@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Card Terminal Administration"
+    id="id-eeb073c0736a4dda87201d89c9e02b01"
+    documentation="[SERVICE DOMAIN: Card Terminal Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain administers the POS Network including the inventory, terminal char&#xA;  acteristics, deployment and status of the POS devices&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Allocate&#xA;  Asset Type         : Card POS Device&#xA;  Generic Artifact   : Allocation&#xA;  Control Record     : Card POS Device Allocation&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Card POS Device Allocation Instance Record, 10 atributos)&#xA;  Card POS Device Reference | Card POS Device Identifier | Card POS Device Type | &#xA;  Card POS Device Software Type | Card POS Device Software Version | &#xA;  Card POS Device Acquired Date | Card POS Repair Record | Card POS Repair Details | &#xA;  Card POS Repair Dates | Card POS Device Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Allocation   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Request Provide Control Exchange Retrieve Grant Capture&#xA;  Inbound service operations  : 11&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Request, Provide, Retrieve&#xA;    BQ Allocation  &lt;-  Provide, Control, Exchange, Update, Retrieve, Grant, Capture&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Allocate"/>
+  <properties
+      key="bianAssetType"
+      value="Card POS Device"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Allocation"/>
+  <properties
+      key="bianControlRecord"
+      value="Card POS Device Allocation"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.3 Consulta a central de riesgos"
+    id="id-a77e350a897840c2ac0b427546f8a815"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Customer Credit Rating&#xA;  Functional Pattern: Monitor&#xA;  Asset Type: Customer Credit Rating&#xA;  Control Record: Customer Credit Rating State&#xA;  Ubicacion Matrix: Sales and Service > Customer Management">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Credit Rating"/>
+</archimate:BusinessProcess>

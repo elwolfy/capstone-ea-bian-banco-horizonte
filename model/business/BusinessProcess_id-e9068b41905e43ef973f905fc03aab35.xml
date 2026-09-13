@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.1 Prospeccion y evaluacion del comercio"
+    id="id-e9068b41905e43ef973f905fc03aab35"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Merchant Relations&#xA;  Functional Pattern: Agree Terms&#xA;  Asset Type: Merchant Relationship&#xA;  Control Record: Merchant Relationship Agreement&#xA;  Ubicacion Matrix: Operations and Execution > Product Specific Fulfillment › Loans and Deposits">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Merchant Relations"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contact Routing"
+    id="id-fddd3c4deb464273a629cb09841468d0"
+    documentation="[SERVICE DOMAIN: Contact Routing]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The Contact Routing service domain tracks servicing resource availability and makes an&#xA;   optimal routing decision&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Allocate&#xA;  Asset Type         : Customer Servicing Resource&#xA;  Generic Artifact   : Allocation&#xA;  Control Record     : Customer Servicing Resource Allocation&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Servicing Resource Allocation Instance Record, 8 atributos)&#xA;  Servicing Resource Allocation Service Schedule | Servicing Resource Reference | &#xA;  Servicing Resource Record | Servicing Resource Qualification Profile | &#xA;  Servicing Position Reference | Servicing Resource Availability Schedule | &#xA;  Servicing Resource Status | Servicing Session Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Allocation   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Provide Control Update Exchange Capture Retrieve Request&#xA;  Inbound service operations  : 12&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Provide, Control, Update, Exchange, Capture, Retrieve&#xA;    BQ Allocation  &lt;-  Request, Update, Control, Exchange, Capture, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Allocate"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Servicing Resource"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Allocation"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Servicing Resource Allocation"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

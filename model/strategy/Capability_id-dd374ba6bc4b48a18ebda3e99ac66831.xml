@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Competitor Analysis"
+    id="id-dd374ba6bc4b48a18ebda3e99ac66831"
+    documentation="[SERVICE DOMAIN: Competitor Analysis]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Business Analysis&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Solicit, consolidate and analyze competitor specific public domain data to develop com&#xA;  petitor insights and comparisons&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Competitor&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Competitor Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Competitor Analysis Instance Record, 13 atributos)&#xA;  Type | Specification | Guidance | Algorithm Reference | Request Record | Request | &#xA;  Employee/Business Unit Reference | Request Work Products | Request Result | &#xA;  Usage Record | Usage | Impact | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (5)&#xA;  Peer Competitor Analysis   (10 atributos)&#xA;  Competitor SWOT Analysis   (10 atributos)&#xA;  Competitive Benchmarking   (10 atributos)&#xA;  Competitor Clustering or Grouping   (10 atributos)&#xA;  Product Competitive Analysis   (10 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Retrieve Execute Request&#xA;  Inbound service operations  : 6&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    BQ ProductCompetitiveAnalysis  &lt;-  Evaluate, Retrieve&#xA;    Control Record  &lt;-  Evaluate, Execute, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Business Analysis"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Competitor"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Competitor Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="5"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

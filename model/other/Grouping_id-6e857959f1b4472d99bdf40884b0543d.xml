@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulations and Compliance   [7 SD]"
+    id="id-6e857959f1b4472d99bdf40884b0543d"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Risk and Compliance&#xA;Service Domains: 7">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

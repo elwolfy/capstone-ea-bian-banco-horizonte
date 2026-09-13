@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Position Management"
+    id="id-08b35bf949d54ad58bde0e3f4a6f9cd6"
+    documentation="[SERVICE DOMAIN: Position Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The Service Domain tracks the bank's consolidated financial positions for major custom&#xA;  ers and complex market conditions&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Monitor&#xA;  Asset Type         : Financial Position&#xA;  Generic Artifact   : State&#xA;  Control Record     : Financial Position State&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Financial Position State Instance Record, 12 atributos)&#xA;  Position Type | Position Customer Reference | Position Sector | Position Product Type | &#xA;  Position Definition | Position Thresholds/Limits | Position Value | &#xA;  Position Notification Arrangement Reference | Position Notification Arrangement Record | &#xA;  Position Notification Business Unit Reference | Position Notification Details | &#xA;  Position Notification Record&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Trial Transaction   (7 atributos)&#xA;  Transaction Application   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Request Retrieve&#xA;  Inbound service operations  : 10&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Request&#xA;    BQ TrialTransaction  &lt;-  Initiate, Update, Retrieve&#xA;    BQ TransactionApplication  &lt;-  Initiate, Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Monitor"/>
+  <properties
+      key="bianAssetType"
+      value="Financial Position"/>
+  <properties
+      key="bianGenericArtifact"
+      value="State"/>
+  <properties
+      key="bianControlRecord"
+      value="Financial Position State"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

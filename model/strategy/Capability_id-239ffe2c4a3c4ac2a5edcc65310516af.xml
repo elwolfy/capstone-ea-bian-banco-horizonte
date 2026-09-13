@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eBranch Operations"
+    id="id-239ffe2c4a3c4ac2a5edcc65310516af"
+    documentation="[SERVICE DOMAIN: eBranch Operations]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain operates the bank's on-line web based electronic branch capabiliti&#xA;  es - controlling access and load balancing across available communications and process&#xA;  ing resources to optimize performance/availability&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : eBranch Channel&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : eBranch Channel Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (eBranch Channel Operating Session Instance Record, 12 atributos)&#xA;  EBranch Operations Service Menu | EBranch Service Session Statistics | &#xA;  EBranch Service Session Report Type | EBranch Service Session Report | &#xA;  EBranch Production Issue Record | Employee or Business Unit Reference | &#xA;  Customer Contact Record Reference | Production Issue Type | &#xA;  Production Issue Description | Production Issue Diagnosis | &#xA;  Production Issue Resolution Task | Production Issue Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Inbound   (5 atributos)&#xA;  Outbound   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Request Retrieve Control&#xA;  Inbound service operations  : 9&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Request, Retrieve, Control&#xA;    BQ Inbound  &lt;-  Retrieve, Initiate&#xA;    BQ Outbound  &lt;-  Retrieve, Initiate&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="eBranch Channel"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="eBranch Channel Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

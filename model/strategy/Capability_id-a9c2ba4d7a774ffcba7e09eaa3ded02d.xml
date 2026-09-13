@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Treasury"
+    id="id-a9c2ba4d7a774ffcba7e09eaa3ded02d"
+    documentation="[SERVICE DOMAIN: Corporate Treasury]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Bank Portfolio and Treasury&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain orchestrates the consolidation and presentation of summary transac&#xA;  tion details to assemble a view of the overall treasury position of the Bank&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Corporate Treasury&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Corporate Treasury Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Corporate Treasury Management Plan Instance Record, 8 atributos)&#xA;  Treasury Planning Policies And Guidelines | Treasury Plan Operating Parameters | &#xA;  Treasury Plan Goals | Enterprise Financial Statements | &#xA;  Enterprise Balance Sheet Detailed Content | &#xA;  Enterprise Bank Accounting And Cash Management Records | &#xA;  Capital/Wholesale Market Transactions | Currency and Rate Risk Analysis&#xA;&#xA;BEHAVIOR QUALIFIERS   (5)&#xA;  Liquidity   (4 atributos)&#xA;  Tactical Funding   (4 atributos)&#xA;  Strategic Funding   (5 atributos)&#xA;  Securitization   (4 atributos)&#xA;  Bank Rates   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Capture Retrieve&#xA;  Inbound service operations  : 11&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Capture, Retrieve&#xA;    BQ Securitization  &lt;-  Update, Retrieve&#xA;    BQ Liquidity  &lt;-  Retrieve, Capture&#xA;    BQ StrategicFunding  &lt;-  Capture, Retrieve&#xA;    BQ TacticalFunding  &lt;-  Retrieve&#xA;    BQ BankRates  &lt;-  Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Bank Portfolio and Treasury"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Corporate Treasury"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Corporate Treasury Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="5"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

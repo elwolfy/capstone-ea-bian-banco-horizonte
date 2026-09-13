@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Session Dialogue"
+    id="id-dbcd15ad1ed04e618f743c37cdff7ca1"
+    documentation="[SERVICE DOMAIN: Session Dialogue]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles/structures the customer narrative during an interactive se&#xA;  ssion. It consolidates and presents pertinent customer information and provides servic&#xA;  ing guidelines with standard dialogue/scripting as appropriate. It can include the cap&#xA;  ability to provoke questions to capture key relationship and sales triggers. It also e&#xA;  nsures the correct sequencing, dialogue content and actions are performed/initiated du&#xA;  ring the customer interaction. It may further leverage the session by passing on custo&#xA;  mer notifications, status updates and triggering sales/marketing efforts.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Customer Contact Session&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Customer Contact Session Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Contact Session Procedure Instance Record, 11 atributos)&#xA;  Customer Reference | Employee Reference | Servicing Position Reference | &#xA;  Session Mechanism | Session Start/End Time | Session Dialogue Record | &#xA;  Session Dialogue Type | Session Dialogue Script | Session Dialogue Log Reference | &#xA;  Session Dialogue Log | Session Dialogue Result&#xA;&#xA;BEHAVIOR QUALIFIERS   (8)&#xA;  Query   (2 atributos)&#xA;  Sales   (3 atributos)&#xA;  Offer   (2 atributos)&#xA;  Product or Service   (2 atributos)&#xA;  Case   (3 atributos)&#xA;  Order   (4 atributos)&#xA;  Intelligence   (4 atributos)&#xA;  History   (1 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Exchange Execute Request Retrieve&#xA;  Inbound service operations  : 35&#xA;  Outbound service events     : 20&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Exchange, Execute, Request, Retrieve&#xA;    BQ Query  &lt;-  Initiate, Update, Retrieve&#xA;    BQ Authentication  &lt;-  Retrieve, Update&#xA;    BQ Sales  &lt;-  Initiate, Update, Retrieve&#xA;    BQ Offer  &lt;-  Initiate, Update, Retrieve&#xA;    BQ ProductorService  &lt;-  Initiate, Update, Retrieve, Execute, Exchange&#xA;    BQ Case  &lt;-  Initiate, Update, Retrieve&#xA;    BQ Order  &lt;-  Initiate, Retrieve, Update, Exchange&#xA;    BQ Intelligence  &lt;-  Initiate, Update, Retrieve&#xA;    BQ History  &lt;-  Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Contact Session"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Contact Session Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="8"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

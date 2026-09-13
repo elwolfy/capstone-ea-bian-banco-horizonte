@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Loan"
+    id="id-618d5f470c5b465f93565cacc6f09611"
+    documentation="Service Domain BIAN v14: Corporate Loan&#xA;Ubicacion Matrix: Operations and Execution > Product Specific Fulfillment > Loans and Deposits&#xA;Functional Pattern: Fulfill&#xA;Control Record: Corporate Loan Facility&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

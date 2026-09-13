@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sales Product"
+    id="id-092c191996934fdbb2343b8b1cc58c34"
+    documentation="[SERVICE DOMAIN: Sales Product]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Sales&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  A representation of a product as sold to a customer, covering the operational fulfillm&#xA;  ent requirements&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Product and Service&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Product and Service Agreement&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Product and Service Agreement Instance Record, 18 atributos)&#xA;  Product Instance Reference | Underlying Product Instance Reference | &#xA;  Customer Reference | Bank Branch/Location Reference | Tax Reference | &#xA;  Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Linked Accounts | &#xA;  Link Type | Account Details | Position Limits | Position Limit Type | &#xA;  Position Limit Settings | Position Limit Value | Date Type | Date&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Operational Term   (9 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Update Exchange Retrieve Control Grant&#xA;  Inbound service operations  : 9&#xA;  Outbound service events     : 4&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Update, Retrieve, Control&#xA;    BQ OperationalTerm  &lt;-  Update, Exchange, Evaluate, Grant, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Sales"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Product and Service"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Product and Service Agreement"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="18"/>
+</archimate:Capability>

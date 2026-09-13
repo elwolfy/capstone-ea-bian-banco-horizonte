@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Management   [7 SD]"
+    id="id-33a70abdaff1497d82291093e674fda4"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Reference Data&#xA;Service Domains: 7">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

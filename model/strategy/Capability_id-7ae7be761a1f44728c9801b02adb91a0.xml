@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Campaign Management"
+    id="id-7ae7be761a1f44728c9801b02adb91a0"
+    documentation="[SERVICE DOMAIN: Customer Campaign Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Marketing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Assess the coverage and impact of internal/customer campaigns and redirect campaign de&#xA;  velopment and execution activity accordingly&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Customer Campaign Portfolio&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Customer Campaign Portfolio Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Campaign Portfolio Management Plan Instance Record, 12 atributos)&#xA;  Customer Campaign Portfolio | Customer Campaign Type | Customer Campaign Description | &#xA;  Customer Campaign Metrics | Customer Campaign Metric Definition | &#xA;  Customer Campaign Metric Goal | Customer Campaign Performance Record | &#xA;  Customer Campaign Procedure Instance Reference | Employee/Business Unit Reference | &#xA;  Customer Campaign Procedure Set-up | Customer Campaign Procedure Version Number | &#xA;  Customer Campaign Procedure Result&#xA;&#xA;BEHAVIOR QUALIFIERS   (7)&#xA;  Competitive Assessment   (8 atributos)&#xA;  Impact Assessment   (8 atributos)&#xA;  Capability Oversight   (8 atributos)&#xA;  Coverage Planning   (8 atributos)&#xA;  Market Tracking   (8 atributos)&#xA;  Performance Assessment   (5 atributos)&#xA;  Campaign Direction   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Update Request Grant Retrieve Execute&#xA;  Inbound service operations  : 18&#xA;  Outbound service events     : 16&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Create, Update, Request, Grant, Retrieve&#xA;    BQ MarketTracking  &lt;-  Update, Execute, Retrieve, Request&#xA;    BQ PerformanceAssessment  &lt;-  Create, Update, Retrieve, Execute, Request&#xA;    BQ CampaignDirection  &lt;-  Create, Update, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Marketing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Campaign Portfolio"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Campaign Portfolio Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="7"/>
+  <properties
+      key="bianAtributosCR"
+      value="12"/>
+</archimate:Capability>

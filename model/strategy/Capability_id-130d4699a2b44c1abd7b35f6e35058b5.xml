@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Operational Gateway"
+    id="id-130d4699a2b44c1abd7b35f6e35058b5"
+    documentation="[SERVICE DOMAIN: Operational Gateway]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : IT Management&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain operates production information exchanges with external parties fo&#xA;  r non-financial messages/transactions. It may employ a broad range of channels, media &#xA;  and technologies as needed to support the different requirements of any particular thi&#xA;  rd party interface&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Operational Gateway&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Operational Gateway Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Operational Gateway Operating Session Instance Record, 10 atributos)&#xA;  Schedule | Status | Usage Log | Associated Party Reference | &#xA;  Service Provider Reference | Type | Service Provider Schedule | Service Type | &#xA;  Service Configuration | Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Inbound Message   (6 atributos)&#xA;  Outbound Message   (6 atributos)&#xA;  Outbound With Response   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Execute Initiate Control Exchange Request Notify Update Retrieve&#xA;  Inbound service operations  : 29&#xA;  Outbound service events     : 14&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Execute, Initiate, Control, Exchange, Request, Notify, Update, Retrieve&#xA;    BQ InboundMessage  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ OutboundWithResponse  &lt;-  Exchange, Initiate, Execute, Request, Notify, Retrieve, Update&#xA;    BQ OutboundMessage  &lt;-  Exchange, Initiate, Execute, Notify, Request, Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="IT Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Operational Gateway"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Operational Gateway Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

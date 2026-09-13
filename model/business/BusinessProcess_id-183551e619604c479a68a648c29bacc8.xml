@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.7 Formalizacion del contrato"
+    id="id-183551e619604c479a68a648c29bacc8"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Customer Agreement&#xA;  Functional Pattern: Agree Terms&#xA;  Asset Type: Customer&#xA;  Control Record: Customer Agreement&#xA;  Ubicacion Matrix: Sales and Service > Customer Management">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Agreement"/>
+</archimate:BusinessProcess>

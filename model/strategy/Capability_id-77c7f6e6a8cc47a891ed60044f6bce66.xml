@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Mortgage Loan"
+    id="id-77c7f6e6a8cc47a891ed60044f6bce66"
+    documentation="[SERVICE DOMAIN: Mortgage Loan]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Fulfillment of a loan product for the purpose of property purchase. Note different ser&#xA;  vicing patterns can be applied to interest calculations and principle and interest rep&#xA;  ayments&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Mortgage Loan&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Mortgage Loan Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Mortgage Loan Facility Instance Record, 13 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Schedule | Status | Currency | &#xA;  Regulation Reference | Regulation Type | Jurisdiction | Booking Location | &#xA;  Account Type | Account Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (12)&#xA;  Payment   (33 atributos)&#xA;  Deposit   (14 atributos)&#xA;  Interest   (25 atributos)&#xA;  Debit and Credit   (14 atributos)&#xA;  Amount Block   (10 atributos)&#xA;  Issued Device   (19 atributos)&#xA;  Collateral Allocation   (9 atributos)&#xA;  Charge   (25 atributos)&#xA;  Billing   (7 atributos)&#xA;  Booking   (7 atributos)&#xA;  Financial Status Tracking   (7 atributos)&#xA;  Sweep   (17 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Execute Initiate Retrieve Update Request&#xA;  Inbound service operations  : 47&#xA;  Outbound service events     : 28&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Execute, Initiate, Retrieve, Update, Request&#xA;    BQ Billing  &lt;-  Exchange, Initiate, Retrieve, Update&#xA;    BQ Charge  &lt;-  Exchange, Initiate, Retrieve, Request, Update, Execute&#xA;    BQ Payment  &lt;-  Exchange, Initiate, Retrieve, Update&#xA;    BQ Sweep  &lt;-  Exchange, Initiate, Retrieve, Update&#xA;    BQ Deposit  &lt;-  Initiate, Retrieve, Update&#xA;    BQ CollateralAllocation  &lt;-  Initiate, Retrieve, Request, Update&#xA;    BQ IssuedDevice  &lt;-  Initiate, Retrieve, Update&#xA;    BQ DebitandCredit  &lt;-  Initiate, Retrieve, Update&#xA;    BQ Booking  &lt;-  Retrieve, Update&#xA;    BQ Interest  &lt;-  Retrieve, Update, Execute&#xA;    BQ FinancialStatusTracking  &lt;-  Execute&#xA;    BQ AmountBlock  &lt;-  Initiate, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Mortgage Loan"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Mortgage Loan Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="12"/>
+  <properties
+      key="bianAtributosCR"
+      value="13"/>
+</archimate:Capability>

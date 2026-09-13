@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Standing Order"
+    id="id-4c52744cd8f54273a86c019f3a73933d"
+    documentation="[SERVICE DOMAIN: Standing Order]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Customers can issue standing orders to the bank. In most cases this is for the executi&#xA;  on of a periodical payment, but there are other standing instructions like, sweeping b&#xA;  alances at end of month, topping off excess funds for a current account, etc.&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Standing Order&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Standing Order Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Standing Order Facility Instance Record, 20 atributos)&#xA;  Standing Order Regulation Reference | Standing Order Regulation Type | &#xA;  Standing Order Jurisdiction | Standing Order Product Reference | Standing Order Amount | &#xA;  Standing Order Frequency | Standing Order Identification | Standing Order Status | &#xA;  Standing Order Schedule | Standing Order Creditor Agent | &#xA;  Standing Order Creditor Account | Standing Order Debtor Account | &#xA;  Standing Order Creditor | Standing Order Debtor | Standing Order Amount Currency | &#xA;  Standing Order Validity Period | Standing Order Type | Number of Payments | &#xA;  Standing Order Account Reference | Standing Order Payment Transaction Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (1)&#xA;  Standing Order Payment   (14 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Control Exchange Execute Initiate Retrieve Request Update&#xA;  Inbound service operations  : 11&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Control, Exchange, Execute, Initiate, Retrieve, Request, Update&#xA;    BQ StandingOrderPayment  &lt;-  Exchange, Initiate, Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Standing Order"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Standing Order Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="1"/>
+  <properties
+      key="bianAtributosCR"
+      value="20"/>
+</archimate:Capability>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Directory"
+    id="id-3040dbea36744f7fa97b5224c9a5dded"
+    documentation="[SERVICE DOMAIN: Document Directory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Document Management and Archive&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain provides a directory based categorization and storage mechanism fo&#xA;  r documents created and referenced by the bank&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Document&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Document Directory Entry&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Document Directory Entry Instance Record, 33 atributos)&#xA;  Document Name | Location Reference | Business Unit or Employee Reference | &#xA;  Product and Service Reference | Product and Service Action Reference | &#xA;  Document Creation Date | Document Capture Date and Time | Document Type/Description | &#xA;  Document Content | Document Provisioning History | Document Provisioning Request | &#xA;  Document Provisioning Schedule | Document Provisioning Result | &#xA;  Document Version History | Document Version | Document Version Date | &#xA;  Document Verification History | Document Verification Task Description | &#xA;  Document Verification Service Provider Reference | Document Verification Task Result | &#xA;  Document Amendment History | Document Amendment Description | &#xA;  Document Amendment Result | Document Update History | Document Update Description | &#xA;  Document Update Result | Document Archiving History | Document Archiving Action | &#xA;  Document Archive Reference | Document Media/Format | Document Subject Reference | &#xA;  Document Location | Document Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (6)&#xA;  Document Update History Properties   (7 atributos)&#xA;  Document Archiving Properties   (7 atributos)&#xA;  Document Version Properties   (7 atributos)&#xA;  Document Reference Properties   (7 atributos)&#xA;  Document Amendment Properties   (7 atributos)&#xA;  Document Verification Properties   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Request Control Execute Notify Register Retrieve Update&#xA;  Inbound service operations  : 44&#xA;  Outbound service events     : 23&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Request, Control, Execute, Notify, Register, Retrieve, Update&#xA;    BQ DocumentAmendmentProperties  &lt;-  Execute, Notify, Register, Request, Retrieve, Update&#xA;    BQ DocumentArchivingProperties  &lt;-  Execute, Notify, Register, Request, Retrieve, Update&#xA;    BQ DocumentReferenceProperties  &lt;-  Execute, Notify, Register, Request, Retrieve, Update&#xA;    BQ DocumentUpdateHistoryProperties  &lt;-  Execute, Notify, Register, Request, Retrieve, Update&#xA;    BQ DocumentVerificationProperties  &lt;-  Execute, Notify, Register, Request, Retrieve, Update&#xA;    BQ DocumentVersionProperties  &lt;-  Execute, Notify, Register, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Document Management and Archive"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Document"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Document Directory Entry"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="6"/>
+  <properties
+      key="bianAtributosCR"
+      value="33"/>
+</archimate:Capability>

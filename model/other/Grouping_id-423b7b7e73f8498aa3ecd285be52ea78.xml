@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Collateral Administration   [4 SD]"
+    id="id-423b7b7e73f8498aa3ecd285be52ea78"
+    documentation="Business Domain ANIDADO de la vista MATRIX.&#xA;Bajo: Cross Product Operations   (Operations and Execution)&#xA;Service Domains: 4&#xA;&#xA;Se modela como CAPACIDAD DE NEGOCIO AGRUPADORA. No es un nivel del&#xA;metamodelo BIAN: el nivel donde se cumple el MECE son los 341&#xA;Service Domains.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain anidado"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

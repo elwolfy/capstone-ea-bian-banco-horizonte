@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Directory"
+    id="id-a8c45b9d2e774b8d99ce17d368ed0eb1"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Business Support > Document Management and Archive&#xA;Functional Pattern: Catalog&#xA;Control Record: Document Directory Entry">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianControlRecord"
+      value="Document Directory Entry"/>
+</archimate:Capability>

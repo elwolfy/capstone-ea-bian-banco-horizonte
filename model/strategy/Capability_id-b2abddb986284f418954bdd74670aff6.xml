@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Point of Service"
+    id="id-b2abddb986284f418954bdd74670aff6"
+    documentation="[SERVICE DOMAIN: Point of Service]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain operates servicing positions within the bank. It administers all m&#xA;  edia connections, inventory holdings (e.g. cash), provides access to support utilities&#xA;   and tracks servicing activity -e.g. time spent, activity logs, capturing servicing ev&#xA;  ents including commission and training related actions. In cases servicing positions c&#xA;  an be automated&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Pointof Service&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Pointof Service Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Point of Service Operating Session Instance Record, 11 atributos)&#xA;  Servicing Position Configuration/Set-up | Servicing Position Reference | &#xA;  Servicing Position Type | Servicing Position Location | &#xA;  Servicing Position Facility Type | Servicing Position Facility Reference | &#xA;  Servicing Position Schedule | Servicing Position Activity Report | &#xA;  Servicing Position Operating Session Statistics | &#xA;  Servicing Position Operating Session Report Type | &#xA;  Servicing Position Operating Session Report&#xA;&#xA;BEHAVIOR QUALIFIERS   (5)&#xA;  Assisted   (2 atributos)&#xA;  Automated   (1 atributos)&#xA;  Interaction   (1 atributos)&#xA;  Inventory   (3 atributos)&#xA;  Cash Position   (5 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Initiate Control Execute Request Retrieve&#xA;  Inbound service operations  : 23&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Initiate, Control, Execute, Request, Retrieve&#xA;    BQ Assisted  &lt;-  Update, Control, Retrieve, Initiate&#xA;    BQ Automated  &lt;-  Initiate, Update, Control, Retrieve&#xA;    BQ Interaction  &lt;-  Update, Control, Retrieve&#xA;    BQ Inventory  &lt;-  Retrieve, Execute, Update&#xA;    BQ CashPosition  &lt;-  Update, Execute, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Pointof Service"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Pointof Service Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="5"/>
+  <properties
+      key="bianAtributosCR"
+      value="11"/>
+</archimate:Capability>

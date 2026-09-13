@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Human Resource Management   [12 SD]"
+    id="id-24ad1fae805f40988b4f6dd41dc1a09e"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Business Support&#xA;Service Domains: 12">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02  ·  Originacion de credito&#xA;(9 responsabilidades, 0 brechas)"
+    id="id-3d0ada30910d4a7e992c53e898afe2ac"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Filas de derivacion: 9&#xA;Responsabilidades funcionales asignadas a un Service Domain: 9&#xA;Brechas sin responsabilidad BIAN: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="responsabilidades"
+      value="9"/>
+  <properties
+      key="brechas"
+      value="0"/>
+</archimate:BusinessProcess>

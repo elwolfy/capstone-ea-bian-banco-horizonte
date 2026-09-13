@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sales   [13 SD]"
+    id="id-f87aea352ac34ea19d4e49fe24f734b3"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Sales and Service&#xA;Service Domains: 13">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

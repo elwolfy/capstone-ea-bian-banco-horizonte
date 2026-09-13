@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Lifecycle Management"
+    id="id-dd28b3ba7080421fb8ed2c71474883bd"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Sales and Service > Sales&#xA;Functional Pattern: Administer&#xA;Control Record: Party Relationship Administrative Plan">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianControlRecord"
+      value="Party Relationship Administrative Plan"/>
+</archimate:Capability>

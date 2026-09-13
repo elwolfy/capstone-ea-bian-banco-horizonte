@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Risk and Compliance   [36 SD · 4 en alcance]"
+    id="id-5db7e8d18dcb48a7a309a0db944a6362"
+    documentation="Business Area de la vista Matrix.&#xA;Business Domains de primer nivel: 4&#xA;Service Domains en el estandar: 36&#xA;En el alcance del capstone: 4">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

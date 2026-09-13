@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Credit Risk Models"
+    id="id-38d4d3fc96284286a8dfa76c2e243b3c"
+    documentation="[SERVICE DOMAIN: Credit Risk Models]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Models&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the design and maintenance of a portfolio of credit models&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Design&#xA;  Asset Type         : Credit Risk Model&#xA;  Generic Artifact   : Specification&#xA;  Control Record     : Credit Risk Model Specification&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Credit Risk Model Specification Instance Record, 8 atributos)&#xA;  Parameter Type | Selected Option | Description | Version | Status | Usage Log | &#xA;  Feedback | Service Provider Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Functional Requirements   (4 atributos)&#xA;  Production   (4 atributos)&#xA;  Testing   (4 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Retrieve Capture Exchange Initiate Control Request Update&#xA;  Inbound service operations  : 19&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Retrieve, Capture, Exchange, Initiate, Control, Request, Update&#xA;    BQ FunctionalRequirements  &lt;-  Capture, Retrieve, Request, Update&#xA;    BQ Production  &lt;-  Capture, Retrieve, Request, Update&#xA;    BQ Testing  &lt;-  Capture, Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Risk and Compliance"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Models"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Design"/>
+  <properties
+      key="bianAssetType"
+      value="Credit Risk Model"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Specification"/>
+  <properties
+      key="bianControlRecord"
+      value="Credit Risk Model Specification"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="8"/>
+</archimate:Capability>

@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-04  ·  Ejecucion de pagos   (7)"
+    id="id-506c4ca0fe7b49fb85cd83c11b2148f0"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Actividades: 7&#xA;Todas cubiertas por Service Domains estandar de la v14.">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="actividades"
+      value="7"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eBranch Management"
+    id="id-6d7d9ca605f045d6ae149fec42a45f76"
+    documentation="[SERVICE DOMAIN: eBranch Management]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Channel Specific&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Oversee the configuration and operation of the e-branch channel facilities&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : eBranch Channel&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : eBranch Channel Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (eBranch Channel Management Plan Instance Record, 5 atributos)&#xA;  Period | eBranch Channel Usage Policies And Guidelines | &#xA;  eBranch Channel Service Operating Parameters | &#xA;  eBranch Channel Service Performance Goals | eBranch Channel Service Schedule&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Capacity Planning   (2 atributos)&#xA;  Maintenance And Upgrades   (6 atributos)&#xA;  Troubleshooting   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Create Update Exchange Request Retrieve&#xA;  Inbound service operations  : 15&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Create, Update, Exchange, Request, Retrieve&#xA;    BQ MaintenanceAndUpgrades  &lt;-  Update, Create, Request, Retrieve&#xA;    BQ CapacityPlanning  &lt;-  Update, Retrieve, Request&#xA;    BQ Troubleshooting  &lt;-  Update, Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Channel Specific"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="eBranch Channel"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="eBranch Channel Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="5"/>
+</archimate:Capability>

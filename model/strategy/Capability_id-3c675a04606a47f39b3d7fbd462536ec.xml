@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fraud Evaluation"
+    id="id-3c675a04606a47f39b3d7fbd462536ec"
+    documentation="[SERVICE DOMAIN: Fraud Evaluation]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  The service domain executes fraud behavioral pattern tests to detect possible fraudule&#xA;  nt transactions/activity&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Fraud Evaluation&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Fraud Evaluation Assessment&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Fraud Evaluation Assessment Instance Record, 7 atributos)&#xA;  Product Production Session Reference | Fraud Evaluation Test Profile | &#xA;  Fraud Evaluation Ensemble Technique Type | &#xA;  Fraud Evaluation Ensemble Technique Definition | &#xA;  Fraud Evaluation Transaction Consolidation Record | &#xA;  Fraud Evaluation Production Anomaly Record | &#xA;  Fraud Evaluation Production Anomaly Production Transaction Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Rule Sets and Decision Trees   (2 atributos)&#xA;  Models   (2 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Evaluate Exchange Execute Retrieve Grant Request&#xA;  Inbound service operations  : 8&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Evaluate, Exchange, Execute, Grant, Request, Retrieve&#xA;    BQ RuleSetsandDecisionTrees  &lt;-  Retrieve&#xA;    BQ Models  &lt;-  Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Fraud Evaluation"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Fraud Evaluation Assessment"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

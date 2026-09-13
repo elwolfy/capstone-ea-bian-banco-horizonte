@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contact Handler"
+    id="id-aa34652ed21f43db917c724f2597eb67"
+    documentation="[SERVICE DOMAIN: Contact Handler]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles a customer interactive contact with the bank&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Customer Contact&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Customer Contact Operating Session&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Contact Operating Session Instance Record, 19 atributos)&#xA;  Customer Contact Inbound or Outbound Indicator | eBranch Operating Session Reference | &#xA;  Advanced Voice Service Operating Session Reference | Customer Contact Record Reference | &#xA;  Customer Contact Record | Customer Contact Record Customer Reference | &#xA;  Customer Contact Record Contact Device | Customer Contact Record Authentication Status | &#xA;  Customer Contact Record Routing Selection Status | &#xA;  Customer Contact Record Menu Selection | Customer Contact Record Servicing Request | &#xA;  Customer Contact Record Servicing Event History | &#xA;  Customer Contact Record Servicing Position Reference | &#xA;  Customer Contact Record Servicing Resource Reference | &#xA;  Customer Contact Record Activity Record | Customer Session Dialogue Reference | &#xA;  Customer Session Dialogue Record | Customer Contact Record Duration | &#xA;  Customer Contact Record Result&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Authentication   (1 atributos)&#xA;  Routing   (1 atributos)&#xA;  Session   (2 atributos)&#xA;  History   (1 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Exchange Execute Retrieve Request&#xA;  Inbound service operations  : 16&#xA;  Outbound service events     : 10&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Exchange, Execute, Retrieve, Request&#xA;    BQ Authentication  &lt;-  Retrieve&#xA;    BQ Routing  &lt;-  Retrieve&#xA;    BQ Session  &lt;-  Update, Control, Execute, Retrieve, Initiate&#xA;    BQ History  &lt;-  Update, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Channel"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Contact"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Contact Operating Session"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="19"/>
+</archimate:Capability>

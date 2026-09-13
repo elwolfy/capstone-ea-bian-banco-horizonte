@@ -1,0 +1,9 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Operations and Execution   [130 SD · 7 en alcance]"
+    id="id-bf1000ebba2f42a6b4b2ff2e10a201b6"
+    documentation="Business Area de la vista Matrix.&#xA;Business Domains de primer nivel: 2&#xA;Service Domains en el estandar: 130&#xA;En el alcance del capstone: 7">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Grouping>

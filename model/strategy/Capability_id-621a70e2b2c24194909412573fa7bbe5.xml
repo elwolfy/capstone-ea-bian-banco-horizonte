@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fiduciary Agreement"
+    id="id-621a70e2b2c24194909412573fa7bbe5"
+    documentation="[SERVICE DOMAIN: Fiduciary Agreement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  An agreement where the bank agrees to act on behalf of the customer in a financial mat&#xA;  ter and in accordance with the agreement terms&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Fiduciary Relationship&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Fiduciary Relationship Agreement&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Fiduciary Relationship Agreement Instance Record, 19 atributos)&#xA;  Parameter Type | Selected Option | Type | Reference | Discharge Request | &#xA;  Discharge Schedule | Status | Associated Party | Customer Reference | Obligation | &#xA;  Entitlement | Regulation Reference | Regulation Type | Jurisdiction | &#xA;  Account Reference | Subject Matter | Product Reference | Calendar Reference | &#xA;  Associated Agreement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (2)&#xA;  Fiduciary   (7 atributos)&#xA;  Charge   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Initiate Retrieve Request Update&#xA;  Inbound service operations  : 8&#xA;  Outbound service events     : 6&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    BQ Fiduciary  &lt;-  Exchange, Initiate, Retrieve, Request, Update&#xA;    BQ Charge  &lt;-  Exchange, Retrieve, Request&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Fiduciary Relationship"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Fiduciary Relationship Agreement"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="2"/>
+  <properties
+      key="bianAtributosCR"
+      value="19"/>
+</archimate:Capability>

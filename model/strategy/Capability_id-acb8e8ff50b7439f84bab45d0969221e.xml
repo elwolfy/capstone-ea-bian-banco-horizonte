@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory And Legal Authority"
+    id="id-acb8e8ff50b7439f84bab45d0969221e"
+    documentation="[SERVICE DOMAIN: Regulatory And Legal Authority]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Business Support&#xA;  Business Domain : Corporate Relations&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  Maintain effective relations with regulators, accounting and government agencies. Over&#xA;  see interactions and reporting as necessary&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Manage&#xA;  Asset Type         : Regulatory And Legal Authority Relationship&#xA;  Generic Artifact   : Management Plan&#xA;  Control Record     : Regulatory And Legal Authority Relationship Management Plan&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Regulatory And Legal Authority Relationship Management Plan Instance Record, 7 atributos)&#xA;  Type | Reference | Budget Type | Budget | Assignment | Plan | Description&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Troubleshooting   (8 atributos)&#xA;  Maintain Relations   (8 atributos)&#xA;  Represent Bank Interests   (8 atributos)&#xA;  Establish Relations   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Capture Retrieve Exchange Control Grant Request Initiate Update&#xA;  Inbound service operations  : 25&#xA;  Outbound service events     : 12&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Capture, Exchange, Control, Grant, Retrieve, Request, Initiate, Update&#xA;    BQ RepresentBankInterests  &lt;-  Retrieve, Initiate, Request, Update&#xA;    BQ Troubleshooting  &lt;-  Capture, Initiate, Retrieve, Request, Update&#xA;    BQ MaintainRelations  &lt;-  Initiate, Retrieve, Request, Update&#xA;    BQ EstablishRelations  &lt;-  Initiate, Retrieve, Request, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Business Support"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Corporate Relations"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Manage"/>
+  <properties
+      key="bianAssetType"
+      value="Regulatory And Legal Authority Relationship"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Management Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Regulatory And Legal Authority Relationship Management Plan"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

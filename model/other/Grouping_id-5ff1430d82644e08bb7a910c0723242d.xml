@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Models   [13 SD]"
+    id="id-5ff1430d82644e08bb7a910c0723242d"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Risk and Compliance&#xA;Service Domains: 13">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

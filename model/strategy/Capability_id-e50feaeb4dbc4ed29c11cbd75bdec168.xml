@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Corporate Finance"
+    id="id-e50feaeb4dbc4ed29c11cbd75bdec168"
+    documentation="[SERVICE DOMAIN: Corporate Finance]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Corporate Financing and Advisory Services   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This Service Domain handles the provision of a broad range of financial advisory servi&#xA;  ces to corporate clients&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Advise&#xA;  Asset Type         : Corporate Finance Services&#xA;  Generic Artifact   : Advice&#xA;  Control Record     : Corporate Finance Services Advice&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Corporate Finance Services Advice Instance Record, 9 atributos)&#xA;  Subject Area Type | Parameter Type | Selected Option | Request | Usage Log | Feedback | &#xA;  Type | Reference | Arrangement Reference&#xA;&#xA;BEHAVIOR QUALIFIERS   (4)&#xA;  Strategic Funding   (8 atributos)&#xA;  Tactical Funding   (8 atributos)&#xA;  Taxation   (8 atributos)&#xA;  Capital Structuring   (8 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Exchange Execute Initiate Update Control Request Notify Retrieve&#xA;  Inbound service operations  : 36&#xA;  Outbound service events     : 17&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Exchange, Initiate, Update, Control, Request, Execute, Notify, Retrieve&#xA;    BQ StrategicFunding  &lt;-  Exchange, Initiate, Execute, Notify, Request, Retrieve, Update&#xA;    BQ Taxation  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ CapitalStructuring  &lt;-  Execute, Exchange, Initiate, Notify, Request, Retrieve, Update&#xA;    BQ TacticalFunding  &lt;-  Exchange, Execute, Initiate, Notify, Request, Retrieve, Update&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Corporate Financing and Advisory Services"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Advise"/>
+  <properties
+      key="bianAssetType"
+      value="Corporate Finance Services"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Advice"/>
+  <properties
+      key="bianControlRecord"
+      value="Corporate Finance Services Advice"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="4"/>
+  <properties
+      key="bianAtributosCR"
+      value="9"/>
+</archimate:Capability>

@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.2 Conformacion del expediente"
+    id="id-53e537142d5b4cbb84cf57f787ad5f52"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;Service Domain responsable: Document Directory&#xA;  Functional Pattern: Catalog&#xA;  Asset Type: Document&#xA;  Control Record: Document Directory Entry&#xA;  Ubicacion Matrix: Business Support > Document Management and Archive">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="serviceDomain"
+      value="Document Directory"/>
+</archimate:BusinessProcess>

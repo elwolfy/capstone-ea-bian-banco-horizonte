@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fraud Diagnosis"
+    id="id-4de43e44aa3248b1bda348842ff35dc7"
+    documentation="[SERVICE DOMAIN: Fraud Diagnosis]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the evaluation of detected possible fraud to support an ap&#xA;  propriate response to contain the exposure&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Analyze&#xA;  Asset Type         : Fraud Diagnosis&#xA;  Generic Artifact   : Analysis&#xA;  Control Record     : Fraud Diagnosis Analysis&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Fraud Diagnosis Analysis Instance Record, 7 atributos)&#xA;  Product Production Session Reference | Fraud Diagnosis Evaluation Profile | &#xA;  Fraud Diagnosis Transaction Consolidation Record | &#xA;  Fraud Evaluation Production Anomaly Record | &#xA;  Fraud Evaluation Production Anomaly Production Transaction Reference | &#xA;  Fraud Diagnosis Determination | Fraud Diagnosis Recommendation&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Customer Behavior   (2 atributos)&#xA;  Economic Model   (2 atributos)&#xA;  Analyst Review   (5 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Update Evaluate Exchange Request Retrieve&#xA;  Inbound service operations  : 9&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Update, Evaluate, Exchange, Request, Retrieve&#xA;    BQ EconomicModel  &lt;-  Retrieve&#xA;    BQ CustomerBehavior  &lt;-  Retrieve&#xA;    BQ AnalystReview  &lt;-  Request, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Cross Product Operations"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Account Management"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Analyze"/>
+  <properties
+      key="bianAssetType"
+      value="Fraud Diagnosis"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Analysis"/>
+  <properties
+      key="bianControlRecord"
+      value="Fraud Diagnosis Analysis"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="7"/>
+</archimate:Capability>

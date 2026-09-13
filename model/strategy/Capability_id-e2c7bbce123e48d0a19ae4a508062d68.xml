@@ -1,0 +1,9 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Transaction Engine"
+    id="id-e2c7bbce123e48d0a19ae4a508062d68"
+    documentation="Service Domain BIAN v14: Transaction Engine&#xA;Ubicacion Matrix: Operations and Execution > Cross Product Operations > Account Management&#xA;Functional Pattern: Fulfill&#xA;Control Record: Transaction Schedule Facility&#xA;Procesos del alcance en que participa: 1">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+</archimate:Capability>

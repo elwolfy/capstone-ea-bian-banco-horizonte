@@ -1,0 +1,42 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Current Account"
+    id="id-c6f21a7301e14f5b96c9aae7399ba553"
+    documentation="[SERVICE DOMAIN: Current Account]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Product Specific Fulfillment&#xA;  Anidado         : Loans and Deposits   (capacidad de negocio agrupadora, no un nivel del metamodelo)&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain orchestrates a consumer checking/demand deposit account&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Fulfill&#xA;  Asset Type         : Current Account&#xA;  Generic Artifact   : Facility&#xA;  Control Record     : Current Account Facility&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Current Account Facility Instance Record, 25 atributos)&#xA;  Product Instance Reference | Current Account Number | Customer Reference | &#xA;  Bank Branch/Location Reference | Account Type | Account Currency | Tax Reference | &#xA;  Entitlement Option Definition | Entitlement Option Setting | &#xA;  Restriction Option Definition | Restriction Option Setting | Associations | &#xA;  Association Type | Association Obligation or Entitlement | Association Reference | &#xA;  Linked Accounts | Link Type | Account Details | Limit Type | Limit Settings | &#xA;  Limit Value | Account Date Type | Account Date | Account Balance | Account Status&#xA;&#xA;BEHAVIOR QUALIFIERS   (10)&#xA;  Sweep   (11 atributos)&#xA;  Debit and Credit   (7 atributos)&#xA;  Payment   (26 atributos)&#xA;  Financial Status Tracking   (0 atributos)&#xA;  Interest   (18 atributos)&#xA;  Issued Device   (19 atributos)&#xA;  Booking   (8 atributos)&#xA;  Charge   (18 atributos)&#xA;  Amount Block   (10 atributos)&#xA;  Deposit   (7 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Retrieve Execute Exchange&#xA;  Inbound service operations  : 34&#xA;  Outbound service events     : 20&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Retrieve&#xA;    BQ Interest  &lt;-  Retrieve, Execute&#xA;    BQ Charge  &lt;-  Initiate, Retrieve, Execute, Update&#xA;    BQ Sweep  &lt;-  Execute, Initiate, Update, Retrieve&#xA;    BQ DebitandCredit  &lt;-  Update, Initiate, Retrieve, Execute&#xA;    BQ Payment  &lt;-  Initiate, Exchange, Execute, Update, Retrieve&#xA;    BQ IssuedDevice  &lt;-  Update, Retrieve, Initiate&#xA;    BQ Booking  &lt;-  Execute&#xA;    BQ Deposit  &lt;-  Execute, Initiate, Update, Retrieve&#xA;    BQ AmountBlock  &lt;-  Retrieve, Update, Initiate&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Operations and Execution"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Product Specific Fulfillment"/>
+  <properties
+      key="bianBusinessDomainAnidado"
+      value="Loans and Deposits"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Fulfill"/>
+  <properties
+      key="bianAssetType"
+      value="Current Account"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Facility"/>
+  <properties
+      key="bianControlRecord"
+      value="Current Account Facility"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="10"/>
+  <properties
+      key="bianAtributosCR"
+      value="25"/>
+</archimate:Capability>

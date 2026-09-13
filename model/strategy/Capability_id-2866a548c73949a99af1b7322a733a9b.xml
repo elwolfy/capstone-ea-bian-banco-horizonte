@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Agreement"
+    id="id-2866a548c73949a99af1b7322a733a9b"
+    documentation="Service Domain BIAN v14 en el alcance del capstone.&#xA;Ubicacion Matrix: Reference Data > External Agency&#xA;Functional Pattern: Agree Terms&#xA;Control Record: Partner Agreement">
+  <properties
+      key="generadoPor"
+      value="Horizonte/M4/ServiceLandscape/BIANv14/Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianControlRecord"
+      value="Partner Agreement"/>
+</archimate:Capability>

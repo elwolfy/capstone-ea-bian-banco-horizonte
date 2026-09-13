@@ -1,0 +1,39 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Case"
+    id="id-a035c70012124c07a5014e6e17f38d05"
+    documentation="[SERVICE DOMAIN: Customer Case]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;UBICACION&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Servicing&#xA;&#xA;BUSINESS DEFINITION (proposito)&#xA;  This service domain handles the initiation, tracking, resolution and reporting on cust&#xA;  omer cases&#xA;&#xA;METAMODELO   Control Record = Asset Type + Generic Artifact&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Customer Case&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Customer Case Procedure&#xA;&#xA;ESTRUCTURA DEL CONTROL RECORD   (Customer Case Procedure Instance Record, 10 atributos)&#xA;  Customer Case Type | Product Instance Reference | Customer Reference | &#xA;  Customer Contact Record Reference | Product Transaction Reference | &#xA;  Product Transaction Record | Case Location | Date | Employee/Business Unit Reference | &#xA;  Customer Case Resolution Schedule&#xA;&#xA;BEHAVIOR QUALIFIERS   (3)&#xA;  Analysis   (3 atributos)&#xA;  Determination   (4 atributos)&#xA;  Resolution   (6 atributos)&#xA;&#xA;INTERFAZ Y COMPORTAMIENTO OPERATIVO&#xA;  Action Terms : Initiate Update Control Exchange Execute Request Retrieve&#xA;  Inbound service operations  : 14&#xA;  Outbound service events     : 8&#xA;&#xA;  Que Action Term activa que Behavior Qualifier:&#xA;    Control Record  &lt;-  Initiate, Update, Control, Exchange, Execute, Request, Retrieve&#xA;    BQ Analysis  &lt;-  Update, Retrieve&#xA;    BQ Determination  &lt;-  Update, Retrieve&#xA;    BQ Resolution  &lt;-  Update, Exchange, Retrieve&#xA;&#xA;MODELO DE DATOS Y SEMANTICA&#xA;  BOM mapping (AsyncAPI 3.x)      : Si&#xA;  ISO 20022 / Semantics Alignment : Si&#xA;  API semantica publicada         : Si&#xA;&#xA;FUENTE: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview,&#xA;Control Record Diagram) y github.com/bian-official/public release14.0.0.">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Servicing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Case"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Case Procedure"/>
+  <properties
+      key="bianBehaviorQualifiers"
+      value="3"/>
+  <properties
+      key="bianAtributosCR"
+      value="10"/>
+</archimate:Capability>

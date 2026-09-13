@@ -1,0 +1,15 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Non-IT and Non-HR Enterprise Services   [9 SD]"
+    id="id-d2633351a96240ce852661c579a10f71"
+    documentation="Business Domain de primer nivel de la vista MATRIX.&#xA;Business Area: Business Support&#xA;Service Domains: 9">
+  <properties
+      key="generadoPor"
+      value="BIAN_Matrix_Landscape_v14"/>
+  <properties
+      key="bianNivel"
+      value="Business Domain"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,36 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Order Initiation"
+    id="id-44a41dec3078450a889f892788894525"
+    documentation="SERVICE DOMAIN: Payment Order Initiation&#xA;Business Area: Sales and Service | Business Domain: Servicing&#xA;-------------------------------------------------&#xA;Functional Pattern: Transact   [LITERAL, SD Overview]&#xA;Generic Artifact: Transaction&#xA;Asset Type: Payment Order Initiation   [LITERAL, SD Overview]&#xA;  Clase (BIAN Asset Type View): Work Performance&#xA;  Regla: Control Record = Asset Type + Generic Artifact&#xA;         Payment Order Initiation Transaction = Payment Order Initiation + Transaction&#xA;Control Record: Payment Order Initiation Transaction   [LITERAL, SD Overview]&#xA;&#xA;Behavior Qualifiers (3):&#xA;  Compliance · Confirmation · OrderInitiation&#xA;&#xA;Service Operations (Action Terms) — principales de 7 publicadas:&#xA;  [Initiate] POST /PaymentOrderInitiation/Initiate&#xA;  [Update] PUT /PaymentOrderInitiation/{id}/Update&#xA;  [Retrieve] GET /PaymentOrderInitiation/{id}/Retrieve&#xA;&#xA;Semantic API Endpoints:&#xA;  POST /PaymentOrderInitiation/Initiate&#xA;  PUT /PaymentOrderInitiation/{id}/Update&#xA;  GET /PaymentOrderInitiation/{id}/Retrieve&#xA;&#xA;Definicion oficial (BIAN):&#xA;  [SIN DESCRIPCION EN EL YAML OFICIAL]&#xA;&#xA;BANCO HORIZONTE — por que este dominio esta en el alcance:&#xA;  Captura y valida la orden de pago que da el cliente.&#xA;  Capacidad que sirve: Canales Digitales (Web / Movil)&#xA;  Actividades cubiertas (2):&#xA;    - PN-04.1 Recepcion de la orden&#xA;    - PN-04.2 Validacion de la orden&#xA;&#xA;-------------------------------------------------&#xA;Jerarquia : Matrix View V14.0 (view_54081), leida del DOM vectorial&#xA;Ficha     : github.com/bian-official/public · release14.0.0&#xA;FP/AT/GA/CR: vista «Payment Order Initiation SD Overview» del sitio del Landscape&#xA;Clase AT  : BIAN Asset Type View (view_56908)">
+  <properties
+      key="generadoPor"
+      value="Horizonte/ServiceDomains/BIANv14/Matrix"/>
+  <properties
+      key="bianKey"
+      value="BIAN_SD_POI"/>
+  <properties
+      key="bianVersion"
+      value="14.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianBusinessArea"
+      value="Sales and Service"/>
+  <properties
+      key="bianBusinessDomain"
+      value="Servicing"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Transaction"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Order Initiation Transaction"/>
+  <properties
+      key="bianAssetType"
+      value="Payment Order Initiation"/>
+</archimate:Capability>

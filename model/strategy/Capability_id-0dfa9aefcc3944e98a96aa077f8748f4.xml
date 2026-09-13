@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Disbursement"
+    id="id-0dfa9aefcc3944e98a96aa077f8748f4"
+    documentation="[SERVICE DOMAIN: Disbursement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Transact&#xA;  Asset Type         : Disbursement&#xA;  Generic Artifact   : Transaction&#xA;  Control Record     : Disbursement Transaction&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Operational Services&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain handles the disbursement of funds to newly established&#xA;  loans/facilities as necessary&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (27)&#xA;  Product Instance Reference | Initiating Customer Reference | Beneficiary Reference |&#xA;  Payment Amount | Payment Currency | Disbursement Execution Date | Authorising&#xA;  Employee Reference | Initiating Account Reference | Beneficiary Account Reference |&#xA;  Beneficiary External Account Number | Beneficiary Name | Beneficiary Address |&#xA;  Beneficiary Bank Reference | Payment Value Date | Payment Execution Date | Payment&#xA;  Details | Disbursement Type | Disbursement Tax Account Reference | Disbursement Tax&#xA;  Amount | Disbursement Tax Currency | Disbursement Tax Type | Disbursement Fee&#xA;  Account Reference | Disbursement Fee Amount | Disbursement Fee Currency |&#xA;  Disbursement Fee Type | Disbursement Status | Disbursement Process Reference&#xA;&#xA;BEHAVIOR QUALIFIERS&#xA;  v14 no publica Behavior Qualifiers para este dominio.&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Initiate Update Control Exchange Execute Request Retrieve&#xA;  Inbound  : 7 operaciones&#xA;  Outbound : 2 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping       : Si&#xA;  ISO 20022         : Si&#xA;  API publicada v14 : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Transact"/>
+  <properties
+      key="bianAssetType"
+      value="Disbursement"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Transaction"/>
+  <properties
+      key="bianControlRecord"
+      value="Disbursement Transaction"/>
+</archimate:Capability>
