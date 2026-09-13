@@ -1,0 +1,478 @@
+# Derivación de responsabilidades funcionales · Procesos de Banco Horizonte sobre BIAN v14
+
+**Capstone CD-03 · Curso de Arquitectura Bancaria basada en el Estándar BIAN**
+Estándar: BIAN Service Landscape **V14.0**, vista **Matrix** — 341 Service Domains.
+
+> Curso independiente de CPS Tech · No afiliado ni acreditado por BIAN e.V. · BIAN® es marca registrada de BIAN e.V., usada con fines descriptivos.
+
+---
+
+## 1. Método
+
+El análisis no parte de las aplicaciones monolíticas ni de una asignación previa de dominios. Parte de los procesos de negocio y deriva, para cada actividad, la responsabilidad funcional que ejerce.
+
+La derivación se lee en un solo sentido:
+
+```
+actividad  →  patrón funcional  +  tipo de activo  →  Service Domain  →  ubicación Matrix
+```
+
+Un Service Domain es la síntesis de un **Functional Pattern** aplicado a un **Asset Type**. La ejecución de ese patrón produce un **Generic Artifact**, y el registro de control es la suma de ambos:
+
+```
+Control Record = Asset Type + Generic Artifact
+```
+
+La ubicación en la Matrix **no se elige**: se hereda del dominio. Business Area y Business Domain son consecuencia, no criterio.
+
+### Reglas de derivación
+
+1. **Un patrón, un activo, un dominio.** Se identifica primero qué hace la actividad —`Administer`, `Assess`, `Process`, `Transact`, `Track`, `Catalog`, `Agree Terms`, `Fulfill`, `Operate`, `Analyze`…— y sobre qué activo actúa. El dominio resulta de ambos. Que el nombre del dominio suene relacionado con la actividad no es evidencia.
+
+2. **Actividad no atómica, se parte.** Si una actividad ejerce dos responsabilidades sobre dos activos distintos, se divide en dos filas. Forzar un solo dominio destruye la trazabilidad.
+
+3. **Sin responsabilidad de negocio, sin dominio.** Una actividad que solo mueve datos entre sistemas, o que recaptura lo ya capturado, no ejerce ninguna responsabilidad funcional. No recibe dominio: se declara como brecha.
+
+4. **La unidad canónica es el Service Domain, no el Behavior Qualifier.** El Service Domain y su Control Record son **uno a uno**: eso es lo que cumple MECE. Un Behavior Qualifier es una **subestructura** del Control Record, y muchos BQ son a su vez el Control Record de **otro** Service Domain.
+
+   De ahí se siguen dos prohibiciones y una función:
+
+   - **No divide.** Un BQ no puede usarse para argumentar que dos actividades ejercen responsabilidades distintas.
+   - **No traslada.** Si al ejercer su patrón funcional sobre su tipo de activo un dominio **actualiza alguno de sus Behavior Qualifiers**, la responsabilidad funcional sigue siendo la de **ese patrón sobre ese activo**. Que el BQ lleve el nombre del Control Record de otro dominio no mueve la responsabilidad a ese otro dominio.
+   - **Detalla.** El Behavior Qualifier **especifica** la responsabilidad funcional: dice *qué faceta* del Control Record se ejerce. Es la unidad de precisión —para la especificación de servicios y de APIs—, nunca la unidad de identidad.
+
+5. **Cada fila declara su rationale.** Toda fila explicita si existe duplicación o acoplamiento, nombrando los patrones funcionales y tipos de activo comprendidos. Cuando no existe ninguno de los dos, se declara expresamente.
+
+### Test de duplicación
+
+Se agrupan las filas por **Service Domain** —equivalentemente por su Control Record, dado el 1:1—:
+
+- Service Domain presente en **una sola fila** → responsabilidad única.
+- Mismo Service Domain en **procesos distintos** → reutilización: una responsabilidad, varios puntos de invocación.
+- Mismo Service Domain en el **mismo proceso** → hay que mirar la **instancia** del Control Record y la **etapa**:
+  - instancias o etapas distintas → secuencia legítima del ciclo de vida del registro;
+  - misma instancia y misma etapa → **duplicación**, y hay que fusionar.
+
+La última distinción no es derivable del estándar: es una decisión sobre el proceso, y se documenta como tal.
+
+### Tipos de acoplamiento
+
+| Tipo | Qué significa | Tratamiento |
+|---|---|---|
+| **Resuelto por partición** | La actividad original comprendía dos patrones o dos activos | Se parte en dos filas; queda registrado qué comprendía |
+| **Por diseño del estándar** | Delegación servicio a servicio, típicamente visible porque un BQ es el Control Record de otro dominio | Se documenta; no es defecto |
+| **Entre sistemas** | La actividad no ejerce patrón sobre activo alguno: solo une dos sistemas | Brecha; sin dominio |
+
+### MECE
+
+Los 341 Service Domains de la vista Matrix son mutuamente excluyentes y colectivamente exhaustivos. Los Business Domains anidados se tratan como capacidades de negocio agrupadoras, no como un nivel del metamodelo. Si en algún punto aparece un solapamiento, está en el proceso del banco, nunca en el estándar.
+
+### Fuentes
+
+Vista Matrix del Service Landscape V14.0; las vistas `<SD> SD Overview` y `<SD> Control Record Diagram`; las fichas de cada dominio publicadas en el propio InSite; y el repositorio `github.com/bian-official/public`, release 14.0.0. Los ejemplos de los libros de BIAN no son fuente de nomenclatura y no entran en el modelo del capstone.
+
+---
+
+## 2. Resultado
+
+39 actividades declaradas. Al partir las no atómicas producen **43 filas de derivación**:
+
+- **39 filas** con responsabilidad funcional asignada a un Service Domain estándar
+- **4 filas** sin dominio: brechas de la arquitectura actual
+- **26 Service Domains distintos**, todos del catálogo de 341. **Cero dominios a medida.**
+
+| Proceso | Responsabilidades | Brechas |
+|---|---|---|
+| PN-01 Vinculacion de clientes | 9 | 2 |
+| PN-02 Originacion de credito | 9 | 0 |
+| PN-04 Ejecucion de pagos | 7 | 0 |
+| PN-10 Cierre contable y reporteria | 7 | 2 |
+| PN-11 Incorporacion de agentes corresponsales | 7 | 0 |
+
+---
+
+## 3. Las cuatro brechas
+
+Cuatro actividades no reciben dominio porque no ejercen ninguna responsabilidad de negocio. **Este es el resultado de valor del método, no una falla.** Asignarles un dominio estándar las legitimaría y ocultaría el defecto.
+
+| Actividad | Naturaleza | Desaparece cuando |
+|---|---|---|
+| `PN-01.5` Registro del cliente en el core | Duplicación: mismo Service Domain y misma instancia del Control Record `Party Reference Data Directory Entry` que `PN-01.2a`, en la misma etapa | Party Reference Data Directory es el único *system of record* |
+| `PN-01.6` Replicación del cliente al CRM | Mecanismo de integración | Se elimina el segundo registro maestro |
+| `PN-10.2` Extracción de datos del core y satélites | Mecanismo de integración | El cierre consume los Control Records directamente |
+| `PN-10.3` Consolidación manual en hojas de cálculo | Trabajo manual sustituto de una capacidad ausente | Financial Accounting y Financial Statements operan sobre datos conciliados |
+
+Las tres primeras existen por la misma causa raíz: **dos sistemas de registro para la misma parte**.
+
+---
+
+## 4. Derivación correcta de Dominios de Servicio: no es intuitiva
+
+Esta sección sostiene una afirmación fuerte: **derivar bien un Service Domain contradice la intuición**. Y la sostiene con seis casos del propio ejercicio en los que la respuesta intuitiva y la correcta son distintas.
+
+### 4.1 Cuatro conceptos que se confunden
+
+Antes de los casos hay que separar cuatro cosas que en la conversación diaria se usan como sinónimos y no lo son:
+
+| Concepto | Qué es | Cuántos hay | Ejemplo |
+|---|---|---|---|
+| **Patrón funcional** | El *verbo*: qué clase de comportamiento se ejerce | 19, cerrados | `Fulfill` |
+| **Tipo de activo** | El *sustantivo*: sobre qué se ejerce | Abierto | `Corporate Loan` |
+| **Service Domain** | La *síntesis* de un verbo sobre un sustantivo | 341, cerrados y MECE | **Corporate Loan** |
+| **Control Record** | El registro que gobierna ese dominio: tipo de activo + artefacto genérico del patrón | 1 por dominio | `Corporate Loan Facility` |
+| **Behavior Qualifier** | Una *faceta* del Control Record: detalla la responsabilidad, no la divide | 865 en total | `Disbursement`, `Repayment`, `Interest` |
+
+Leído como una frase: **Corporate Loan** *cumple* (`Fulfill`) sobre *un préstamo corporativo* (`Corporate Loan`), y el resultado que gobierna es una *facilidad* (`Corporate Loan Facility`), cuyo desembolso, repago e intereses son facetas de esa misma responsabilidad.
+
+El error de base es saltarse el verbo. Quien identifica solo el sustantivo —«esto es de préstamos»— ya perdió: le quedan varios dominios posibles y elegirá por nombre.
+
+### 4.2 Las cinco intuiciones que fallan
+
+| # | La intuición | Por qué falla |
+|---|---|---|
+| **I1** | **Por nombre.** El dominio que más se parece al nombre de la actividad es el correcto | Los nombres de BIAN describen el *par verbo + sustantivo*, no la actividad. Hay nombres que significan lo contrario de lo que sugieren |
+| **I2** | **Por producto.** La actividad es de crédito, luego el dominio es el del crédito | El producto no es el criterio: el mismo producto se toca con verbos distintos en momentos distintos, y cada verbo es otro dominio |
+| **I3** | **Por sinónimo del verbo.** «Evaluar», «revisar» o «calificar» apuntan a cualquier dominio que suene a evaluación | Los 19 patrones son técnicos y cerrados. `Monitor` no evalúa; `Assess` sí. La cercanía del lenguaje común no vale |
+| **I4** | **Por jerarquía.** Primero se elige el Business Area o el Business Domain, y ahí se busca | La ubicación se **hereda** del dominio. Elegirla primero restringe la búsqueda a una rama y esconde el dominio correcto |
+| **I5** | **Por sustantivo compartido.** Si un Behavior Qualifier se llama igual que otro dominio, la responsabilidad es de ese otro | El BQ detalla la responsabilidad del dominio que lo contiene. La coincidencia de nombre es reutilización de vocabulario, no delegación |
+
+### 4.3 Los seis casos, uno por intuición
+
+#### Caso A · `I1` por nombre — Payment Confirmation no confirma nada al cliente
+
+**La intuición.** `PN-04.6 Confirmación al cliente` → **Payment Confirmation**. El nombre coincide palabra por palabra.
+
+**Lo que dice la ficha.** Payment Confirmation ejecuta *las comprobaciones internas y regulatorias requeridas, con bloqueo opcional de fondos, antes de liberar la transacción para su liquidación*. Sus facetas son `Pricing`, `FX Conversion`, `Compliance (AML) Checks`, `Risk Checks`, `Funding Source/Authorization` y `Funds earmarking`.
+
+**La derivación correcta.** Confirmar al ordenante cierra el ciclo de la orden que él mismo inició: `Transact` sobre `Payment Order Initiation`, faceta `Confirmation`. Y la verificación PLAFT de la operación —`PN-04.3`— sí es Payment Confirmation.
+
+> **Las dos actividades están intercambiadas respecto de lo que sugiere el nombre.** Es el caso más claro de por qué el nombre no es evidencia.
+
+#### Caso B · `I2` por producto — definir condiciones de un crédito no es Corporate Loan
+
+**La intuición.** `PN-02.6 Definición de condiciones (monto, plazo, tasa)` → **Corporate Loan**. Es un crédito corporativo.
+
+**El verbo, que es lo que decide.** Corporate Loan es `Fulfill`: **opera una facilidad que ya existe**. En el momento de `PN-02.6` no hay facilidad todavía; hay una oferta en curso.
+
+**La derivación correcta.** `Process` sobre `Customer Offer`, faceta `Credit`. Al aprobarse, esas condiciones instancian los atributos del `Corporate Loan Facility` — pero eso ocurre después, y lo hace otro dominio.
+
+**Regla que se lleva el alumno:** `Fulfill` siempre llega tarde. Todo lo que ocurre antes de que el activo exista pertenece a otro patrón.
+
+#### Caso C · `I3` por sinónimo del verbo — `Monitor` no evalúa
+
+**La intuición.** `PN-02.4 Evaluación de capacidad de pago` → **Customer Credit Rating**. Suena a calificación crediticia.
+
+**La distinción técnica.** Customer Credit Rating es `Monitor`: **mantiene y reporta el estado** de la calificación. Sus facetas son `Alerts`, `Internal Reporting`, `External Reporting`. Consultar la central de riesgos —`PN-02.3`— sí lo alimenta.
+
+**La derivación correcta.** Evaluar capacidad de pago es `Assess`, y el activo es la suscripción: **Underwriting**. La prueba está en su Control Record `Underwriting Assessment`, que contiene literalmente `Customer Income Statement`, `Customer Debt Statement`, `Customer Asset Statement`, `Customer Credit Assessment`, `Decision` y `Work Product`.
+
+**Regla:** cuando dudes entre dos dominios, abre sus Control Records. El que tiene los atributos que la actividad produce es el correcto.
+
+#### Caso D · `I1` otra vez — acuerdo maestro y contrato de producto son dos activos
+
+**La intuición.** `PN-02.7 Formalización del contrato` → **Customer Agreement**. Es un contrato con el cliente.
+
+**Los dos activos.** `Customer Agreement` (`Agree Terms` sobre `Customer`) es el acuerdo **maestro de la relación**. `Sales Product Agreement` (`Agree Terms` sobre `Sales Product Agreement`) es el contrato de **un producto en vigor**, y BIAN lo define explícitamente como subordinado al primero.
+
+**La derivación correcta.** Un contrato de crédito es un contrato de producto: **Sales Product Agreement**.
+
+> **Hallazgo derivado.** Al separarlos aparece que **ninguna actividad de `PN-01` establece el Customer Agreement maestro**. El proceso de vinculación crea la relación, los datos, las credenciales y los accesos, pero nunca firma el acuerdo marco. Es una actividad faltante que solo se ve al derivar por activo.
+
+#### Caso E · `I4` por jerarquía — el orquestador no vive donde uno lo busca
+
+**La intuición.** `PN-04.5 Ejecución del cargo y abono` es «motor transaccional» → **Transaction Engine**, que además está en Cross Product Operations, donde uno busca los pagos.
+
+**El par verbo + sustantivo.** Transaction Engine es `Fulfill` sobre `Transaction Schedule`: orquesta un **calendario** de transacciones para instrumentos de largo plazo o facilidades estructuradas. No mueve fondos.
+
+**La derivación correcta.** El movimiento de fondos entre la cuenta del cliente y la cuenta interna es `Process` sobre `Payment Settlement`: **Payment Settlement**. Y el asiento contra la cuenta es la faceta `Debit and Credit` de la facilidad de producto.
+
+**Regla:** nunca se busca por rama del Landscape. Se deriva el par, y la rama aparece sola.
+
+#### Caso F · `I5` por sustantivo compartido — el BQ `Disbursement` no es el dominio `Disbursement`
+
+**La intuición.** `Corporate Loan` tiene una faceta llamada `Disbursement`; existe además un Service Domain llamado `Disbursement`. Parece que uno delega en el otro, o que son lo mismo.
+
+**Son dos cosas distintas:**
+
+| | Faceta `Disbursement` de Corporate Loan | Service Domain **Disbursement** |
+|---|---|---|
+| Verbo | `Fulfill` (el de Corporate Loan) | `Transact` |
+| Sustantivo | `Corporate Loan` | `Disbursement` |
+| Registro | Parte del `Corporate Loan Facility` | `Disbursement Transaction`, propio |
+
+La faceta detalla el cumplimiento que **Corporate Loan** ejerce sobre su propia facilidad. El dominio ejerce una responsabilidad distinta, con registro propio y definición publicada: *desembolso de fondos a facilidades recién constituidas*.
+
+**La derivación correcta de `PN-02.8 Desembolso`** es el dominio **Disbursement**, porque la actividad ejecuta la transacción. Actualizar la faceta del préstamo no traslada la responsabilidad, ni al revés.
+
+### 4.4 Qué queda demostrado
+
+En seis de las 43 filas, la respuesta intuitiva y la correcta difieren. No por casos raros: son las actividades más comunes de la banca —confirmar un pago, fijar las condiciones de un crédito, evaluar capacidad de pago, firmar un contrato, ejecutar un cargo y abono, desembolsar—.
+
+El método que resiste es siempre el mismo, y es puramente mecánico:
+
+```
+1. Nombrar el verbo     →  uno de los 19 patrones funcionales
+2. Nombrar el sustantivo →  el tipo de activo sobre el que actúa
+3. Buscar el par         →  el Service Domain es la síntesis de ambos
+4. Verificar             →  ¿el Control Record contiene lo que la actividad produce?
+5. Heredar la ubicación  →  Business Domain y Business Area vienen del dominio
+```
+
+El paso 4 es el que salva. Si el Control Record del dominio elegido no contiene los atributos que la actividad produce o modifica, el dominio está mal.
+
+## 5. Rationale · duplicación y acoplamiento
+
+Cada una de las 43 filas declara si existe duplicación o acoplamiento, nombrando los patrones funcionales y tipos de activo comprendidos. La clasificación se calcula agrupando por **Service Domain**, que es la unidad canónica.
+
+| Clasificación | Filas | Criterio |
+|---|---|---|
+| ✅ **Responsabilidad unica en todo el alcance** | 17 | El Service Domain no aparece en ninguna otra fila del alcance. |
+| ✅ **Reutilizacion entre procesos** | 8 | El mismo Service Domain se invoca desde procesos distintos. Una responsabilidad, varios puntos de uso. |
+| 🟡 **Etapas sucesivas del mismo Control Record** | 10 | El mismo Service Domain se invoca varias veces en un proceso, sobre la **misma instancia** del Control Record en etapas distintas. |
+| 🔴 **Duplicacion de responsabilidad** | 5 | El mismo Service Domain sobre la **misma instancia** del Control Record en la **misma etapa**. Redundante. |
+| ⚪ **Acoplamiento entre sistemas · sin dominio** | 3 | No ejerce patrón sobre activo alguno: une dos sistemas. Sin dominio. |
+
+**25 de 43 filas (58 %) no presentan duplicación ni acoplamiento indebido** — 17 responsabilidades únicas más 8 reutilizaciones entre procesos.
+
+### 5.1 Service Domains invocados desde más de una fila
+
+| Service Domain | Control Record | Filas | Procesos | Veredicto |
+|---|---|---|---|---|
+| **Financial Accounting** | `Financial Booking Log` | `PN-02.9`, `PN-04.7`, `PN-10.1`, `PN-10.5` | PN-02, PN-04, PN-10 | ✅ **Reutilización** · 3 procesos |
+| **Payment Order Initiation** | `Payment Order Initiation Transaction` | `PN-04.1`, `PN-04.2`, `PN-04.6` | PN-04 | 🟡 Repetido en PN-04 · verificar etapa |
+| **Regulatory Reporting** | `Regulatory Compliance Administrative Plan` | `PN-10.7`, `PN-10.8`, `PN-10.9` | PN-10 | 🟡 Repetido en PN-10 · verificar etapa |
+| **Customer Offer** | `Customer Offer Procedure` | `PN-02.1`, `PN-02.6` | PN-02 | 🟡 Repetido en PN-02 · verificar etapa |
+| **Document Directory** | `Document Directory Entry` | `PN-01.2b`, `PN-02.2` | PN-01, PN-02 | ✅ **Reutilización** · 2 procesos |
+| **Partner Administration** | `Partner Administrative Plan` | `PN-11.5a`, `PN-11.6` | PN-11 | 🟡 Repetido en PN-11 · verificar etapa |
+| **Party Lifecycle Management** | `Party Relationship Administrative Plan` | `PN-01.1`, `PN-01.3` | PN-01 | 🟡 Repetido en PN-01 · verificar etapa |
+| **Regulatory Compliance** | `Regulatory Compliance Assessment` | `PN-01.4`, `PN-11.2` | PN-01, PN-11 | ✅ **Reutilización** · 2 procesos |
+| **Underwriting** | `Underwriting Assessment` | `PN-02.4`, `PN-02.5` | PN-02 | 🟡 Repetido en PN-02 · verificar etapa |
+
+Cinco dominios se repiten **dentro de un mismo proceso**. En esos casos la pregunta es si actúan sobre la misma instancia del Control Record y en la misma etapa:
+
+| Dominio | Filas | Veredicto |
+|---|---|---|
+| **Underwriting** | `PN-02.4`, `PN-02.5` | 🔴 **Duplicación.** Misma instancia del `Underwriting Assessment`, misma etapa. El atributo `Decision` es el desenlace de la misma evaluación. **Fusionar.** |
+| **Regulatory Reporting** | `PN-10.7`, `PN-10.8` | 🔴 **Duplicación.** Mismo `Regulatory Compliance Administrative Plan`, misma etapa; solo cambia la autoridad. Una responsabilidad parametrizada. **Fusionar.** |
+| **Payment Order Initiation** | `PN-04.1`, `PN-04.2`, `PN-04.6` | 🟡 Secuencia. Misma instancia del `Payment Order Initiation Transaction`: crear, validar, confirmar. Ciclo de vida legítimo. |
+| **Customer Offer** | `PN-02.1`, `PN-02.6` | 🟡 Secuencia. Misma instancia del `Customer Offer Procedure`, etapas sucesivas. |
+| **Party Lifecycle Management** | `PN-01.1`, `PN-01.3` | 🟡 Secuencia. Misma instancia del `Party Relationship Administrative Plan`. **A decidir:** el BQ `Identity Proofing` no las separa; evaluar si son una sola actividad. |
+| **Partner Administration** | `PN-11.5a`, `PN-11.6` | 🟡 Secuencia. Misma instancia del `Partner Administrative Plan`. Delimitar si el monitoreo continuo pertenece aquí o a Partner Management. |
+
+> **Por qué el Behavior Qualifier no decide aquí.** En `PN-01.1`/`PN-01.3` y `PN-11.5a`/`PN-11.6` cada fila invoca una faceta distinta del mismo Control Record. Eso no las separa en dos responsabilidades: la faceta detalla, no divide. Por eso quedan como secuencias sobre la misma instancia, y decidir si son una o dos actividades es una cuestión del proceso del banco, no del estándar.
+
+A ellas se suma la duplicación alojada en una brecha: **`PN-01.5` ejerce el mismo `Catalog` sobre `Party Reference Data` que `PN-01.2a`**, sobre el mismo Control Record y en la misma etapa. Es la duplicación más costosa del alcance, porque no duplica una actividad sino un sistema de registro.
+
+
+### 5.2 Acoplamiento resuelto por partición
+
+Cuatro actividades declaradas comprendían dos responsabilidades cada una. La partición deja constancia de qué contenían:
+
+| Actividad original | Patrones y activos que comprendía | Filas resultantes |
+|---|---|---|
+| `PN-01.2` Captura de datos y documentos | `Catalog`/`Party Reference Data` + `Catalog`/`Document` — un patrón, dos activos | `PN-01.2a`, `PN-01.2b` |
+| `PN-01.7` Habilitación de credenciales y canales | `Administer`/`Issued Device Allocation` + `Agree Terms`/`Customer Access Profile` — dos patrones, dos activos | `PN-01.7a`, `PN-01.7b` |
+| `PN-01.8` Entrega de bienvenida y activación | `Operate`/`Correspondence` + `Catalog`/`Customer Product and Service` — dos patrones, dos activos | `PN-01.8a`, `PN-01.8b` |
+| `PN-11.5` Habilitación y capacitación | `Administer`/`Partner` + `Process`/`Product Training` — dos patrones, dos activos | `PN-11.5a`, `PN-11.5b` |
+
+### 5.3 Acoplamiento por diseño del estándar
+
+Cuatro filas están acopladas a otro dominio porque **BIAN lo documenta así en el rol del propio dominio**. La evidencia es el texto publicado de la ficha, no una coincidencia de nombres.
+
+La ficha de **Payment Orchestration** declara textualmente que su rol incluye *invocar a Payment Confirmation* para las comprobaciones internas y de elegibilidad, *invocar a Payment Rail* para cursar la instrucción por el esquema elegido, e *iniciar el movimiento final de fondos invocando a Payment Settlement*.
+
+| Fila | Papel en la cadena | Evidencia |
+|---|---|---|
+| `PN-04.4` **Payment Orchestration** | Orquestador | Su rol publicado enumera las invocaciones |
+| `PN-04.3` **Payment Confirmation** | Invocado para las comprobaciones previas | Citado nominalmente en el rol del orquestador |
+| `PN-04.5` **Payment Settlement** | Invocado para el movimiento de fondos | Citado nominalmente en el rol del orquestador |
+| `PN-02.8` **Disbursement** | Responsabilidad propia, adyacente a la facilidad | Definición publicada: *desembolso de fondos a facilidades recién constituidas* |
+
+Los Behavior Qualifiers de Payment Orchestration —`Initiate Payment Confirmation`, `Initiate Payment Settlement`, `Payment Routing`, `Payment Rail Coordination`— **detallan** esa responsabilidad de orquestación. No son los Control Records de los otros dominios, que son `Payment Confirmation Details` y `Payment Settlement Details`.
+
+> **Caso que NO es delegación.** `Corporate Loan` tiene un Behavior Qualifier llamado `Disbursement`, y existe un Service Domain `Disbursement`. Son cosas distintas: el BQ detalla el `Fulfill` que Corporate Loan ejerce sobre su propia facilidad; el dominio ejerce `Transact` sobre el activo `Disbursement` con Control Record propio. Actualizar ese BQ no convierte la actividad en responsabilidad del dominio `Disbursement`, ni al revés.
+
+Esto es acoplamiento **arquitectónico**: explícito, contractual y previsto. No se corrige.
+
+### 5.4 Acoplamiento entre sistemas
+
+Tres filas no ejercen ningún patrón sobre ningún activo de negocio: solo unen dos sistemas. Son acoplamiento **accidental**, y desaparecen en la arquitectura objetivo.
+
+`PN-01.6` transporta el `Party Reference Data Directory Entry` a un segundo registro maestro. `PN-10.2` mueve datos del core y los satélites hacia el cierre. `PN-10.3` sustituye con trabajo humano la consolidación que deberían resolver `Track`/`Financial Booking` y `Analyze`/`Financial Statements`.
+
+Junto con la duplicación de `PN-01.5`, las cuatro comparten causa raíz: **dos sistemas de registro para la misma parte, y un cierre contable que no consume los Control Records directamente.**
+
+La distinción entre 5.3 y 5.4 es la que más rinde en clase: ambos se llaman acoplamiento y son opuestos. Uno es la relación contractual entre servicios; el otro es la costura entre sistemas que sobran.
+
+## 6. Reutilización entre procesos: el argumento del desacoplamiento
+
+Tres Service Domains se invocan desde **procesos distintos**. Sólo éstos son reutilización en sentido estricto: una responsabilidad funcional única, con varios puntos de invocación repartidos por la organización.
+
+| Service Domain | Control Record | Invocado desde | Puntos de uso |
+|---|---|---|---|
+| **Financial Accounting** | `Financial Booking Log` | `PN-02.9`, `PN-04.7`, `PN-10.1`, `PN-10.5` | 4 filas · 3 procesos |
+| **Regulatory Compliance** | `Regulatory Compliance Assessment` | `PN-01.4`, `PN-11.2` | 2 filas · 2 procesos |
+| **Document Directory** | `Document Directory Entry` | `PN-01.2b`, `PN-02.2` | 2 filas · 2 procesos |
+
+Éste es el caso de negocio del desacoplamiento escrito solo. En la arquitectura actual, `Regulatory Compliance` son verificaciones implementadas por separado en sistemas distintos, y `Financial Accounting` son cuatro rutas de asiento independientes que luego hay que conciliar — de ahí `PN-10.4`.
+
+Los demás dominios repetidos lo están **dentro de un mismo proceso** y no cuentan como reutilización: o son etapas sucesivas sobre la misma instancia del Control Record, o son duplicación. El detalle está en la sección 5.1.
+
+La reutilización se mide por **Service Domain**, nunca por Behavior Qualifier: la faceta detalla la responsabilidad, no la identifica.
+
+
+## 7. Especificación estructural de la cadena de pagos y de Financial Statements
+
+Cuatro de los dominios derivados soportan actividades centrales de `PN-04` y `PN-10`. Su especificación completa, tomada de las fichas de BIAN, es la siguiente.
+
+### 7.1 La cadena de pagos
+
+BIAN parte la ejecución de un pago en cuatro responsabilidades, cada una con su propio verbo, su propio activo y su propio registro de control:
+
+| Dominio | Patrón funcional | Tipo de activo | Control Record | Responsabilidad |
+|---|---|---|---|---|
+| **Payment Order Initiation** | `Transact` | `Payment Order Initiation` | `Payment Order Initiation Transaction` | Capta, valida y confirma la orden del cliente |
+| **Payment Confirmation** | `Process` | `Payment Confirmation` | `Payment Confirmation Details` | Comprobaciones previas a la liquidación |
+| **Payment Orchestration** | `Process` | `Payment Orchestration` | `Payment Orchestration Details` | Coordina la ejecución de extremo a extremo |
+| **Payment Settlement** | `Process` | `Payment Settlement` | `Payment Settlement Details` | Mueve los fondos entre cuentas |
+
+Los tres últimos se ubican en **Cross Product Operations › Payments** en la vista Matrix, y en **Operations › Clearing & Settlement** en la vista Value Chain.
+
+**Sus facetas:**
+
+| Dominio | Behavior Qualifiers |
+|---|---|
+| **Payment Confirmation** | `Pricing` · `FX Conversion` · `Compliance (AML) Checks` · `Risk Checks` · `Funding Source/Authorization` · `Funds earmarking` |
+| **Payment Orchestration** | `Initiate Payment Confirmation` · `Fee Transfer` · `Payment Routing` · `Payment Rail Coordination` · `Initiate Payment Settlement` · `Payment Initiation (for RTP)` |
+| **Payment Settlement** | `Funds Transfer` |
+| **Payment Order Initiation** | `Order Initiation` · `Compliance` · `Confirmation` |
+
+**Cómo se encadenan.** Payment Orchestration es el coordinador, y su rol publicado enumera las invocaciones: llama a **Payment Confirmation** para las políticas internas, la elegibilidad de cuenta, la disponibilidad de fondos, los límites y el bloqueo; determina y transfiere comisiones; enruta de forma inteligente hacia el esquema de pago adecuado según preferencias, SLA y costo; cursa la instrucción a través de **Payment Rail**; sigue la finalización del pago; atiende devoluciones, rechazos y fallos; e inicia el movimiento final de fondos invocando a **Payment Settlement**.
+
+Esa secuencia es la que se modela en `PN-04`: la orden entra por Payment Order Initiation, las verificaciones las hace Payment Confirmation, el enrutamiento lo decide Payment Orchestration, el movimiento lo ejecuta Payment Settlement, y la confirmación al cliente vuelve a Payment Order Initiation.
+
+### 7.2 Financial Statements
+
+| | |
+|---|---|
+| **Patrón funcional** | `Analyze` |
+| **Tipo de activo** | `Financial Statements` |
+| **Artefacto genérico** | `Analysis` |
+| **Control Record** | `Financial Statements Analysis` |
+| **Ubicación Matrix** | Business Support › Finance |
+
+**Rol publicado.** Consolidar y presentar los estados financieros de la empresa: balance, estado de flujos de efectivo, estado de utilidades retenidas y estado de resultados.
+
+**Granularidad.** Este dominio no se detalla mediante Behavior Qualifiers, sino mediante **facetas analíticas**, que es la forma que BIAN usa para los dominios de patrón `Analyze`:
+
+| Analítica individual | Analítica de portafolio |
+|---|---|
+| `Accumulators` | `Portfolio Activity Analysis` |
+| `Activity Analysis` | `Portfolio Make-Up Analysis` |
+| `Performance Analysis` | `Portfolio Performance Analysis` |
+| `Trends and Events` | |
+
+**Relación con Financial Accounting.** Financial Statements **consume** el `Financial Booking Log` que mantiene Financial Accounting (`Track` / `Financial Booking`); no lo mantiene. Es la separación entre llevar el asiento y analizar el resultado, y es la razón por la que `PN-10.6` es un dominio distinto de `PN-10.1` y `PN-10.5`.
+
+## 8. Catálogo derivado · 26 Service Domains
+
+| Service Domain | Patrón funcional | Tipo de activo | Artefacto genérico | Control Record | Ubicación Matrix |
+|---|---|---|---|---|---|
+| **Account Reconciliation** | `Process` | `Account Reconciliation` | `Procedure` | `Account Reconciliation Procedure` | Operations and Execution › Cross Product Operations › Account Management |
+| **Correspondence** | `Operate` | `Correspondence` | `Operating Session` | `Correspondence Operating Session` | Business Support › Document Management and Archive |
+| **Customer Access Entitlement** | `Agree Terms` | `Customer Access Profile` | `Agreement` | `Customer Access Profile Agreement` | Sales and Service › Customer Management |
+| **Customer Credit Rating** | `Monitor` | `Customer Credit Rating` | `State` | `Customer Credit Rating State` | Sales and Service › Customer Management |
+| **Customer Offer** | `Process` | `Customer Offer` | `Procedure` | `Customer Offer Procedure` | Sales and Service › Sales |
+| **Customer Product and Service Directory** | `Catalog` | `Customer Product And Service` | `Directory Entry` | `Customer Product And Service Directory Entry` | Sales and Service › Customer Management |
+| **Disbursement** | `Transact` | `Disbursement` | `Transaction` | `Disbursement Transaction` | Operations and Execution › Cross Product Operations › Operational Services |
+| **Document Directory** | `Catalog` | `Document` | `Directory Entry` | `Document Directory Entry` | Business Support › Document Management and Archive |
+| **Financial Accounting** | `Track` | `Financial Booking` | `Log` | `Financial Booking Log` | Risk and Compliance › Regulations and Compliance |
+| **Financial Statements** | `Analyze` | `Financial Statements` | `Analysis` | `Financial Statements Analysis` | Business Support › Finance |
+| **Issued Device Administration** | `Allocate` | `Issued Device` | `Allocation` | `Issued Device Allocation` | Operations and Execution › Cross Product Operations › Operational Services |
+| **Lead and Opportunity Management** | `Process` | `Leadand Opportunity` | `Procedure` | `Leadand Opportunity Procedure` | Sales and Service › Sales |
+| **Partner Administration** | `Administer` | `Partner` | `Administrative Plan` | `Partner Administrative Plan` | Reference Data › External Agency |
+| **Partner Agreement** | `Agree Terms` | `Partner` | `Agreement` | `Partner Agreement` | Reference Data › External Agency |
+| **Party Lifecycle Management** | `Administer` | `Party Relationship` | `Administrative Plan` | `Party Relationship Administrative Plan` | Sales and Service › Sales |
+| **Party Reference Data Directory** | `Catalog` | `Party Reference Data` | `Directory Entry` | `Party Reference Data Directory Entry` | Sales and Service › Customer Management |
+| **Payment Confirmation** | `Process` | `Payment Confirmation` | `Procedure` | `Payment Confirmation Procedure` | Operations and Execution › Cross Product Operations › Payments |
+| **Payment Orchestration** | `Process` | `Payment Orchestration` | `Procedure` | `Payment Orchestration Procedure` | Operations and Execution › Cross Product Operations › Payments |
+| **Payment Order Initiation** | `Transact` | `Payment Order Initiation` | `Transaction` | `Payment Order Initiation Transaction` | Sales and Service › Servicing |
+| **Payment Settlement** | `Process` | `Payment Settlement` | `Procedure` | `Payment Settlement Procedure` | Operations and Execution › Cross Product Operations › Payments |
+| **Point of Service** | `Operate` | `Pointof Service` | `Operating Session` | `Pointof Service Operating Session` | Sales and Service › Cross Channel |
+| **Product Training** | `Process` | `Product Training` | `Procedure` | `Product Training Procedure` | Reference Data › Product Management |
+| **Regulatory Compliance** | `Assess` | `Regulatory Compliance` | `Assessment` | `Regulatory Compliance Assessment` | Risk and Compliance › Regulations and Compliance |
+| **Regulatory Reporting** | `Administer` | `Regulatory Compliance` | `Administrative Plan` | `Regulatory Compliance Administrative Plan` | Risk and Compliance › Regulations and Compliance |
+| **Sales Product Agreement** | `Agree Terms` | `Sales Product Agreement` | `Agreement` | `Sales Product Agreement` | Sales and Service › Customer Management |
+| **Underwriting** | `Assess` | `Underwriting` | `Assessment` | `Underwriting Assessment` | Sales and Service › Sales |
+
+---
+
+## 9. Anexo · Las 43 filas de derivación con su rationale
+
+| # | Actividad | Patrón funcional | Tipo de activo | Service Domain | Control Record | Rationale |
+|---|---|---|---|---|---|---|
+| `PN-01.1` | Recepcion de la solicitud | `Administer` | `Party Relationship` | **Party Lifecycle Management** | `Party Relationship Administrative Plan` | 🟡 Comparte el Control Record Party Relationship Administrative Plan con PN-01.3, misma instancia. Aqui se abre el plan; alli se ejecuta una de sus comprobaciones. Etapas sucesivas, no responsabilidades distintas. |
+| `PN-01.2a` | Captura de datos de la parte | `Catalog` | `Party Reference Data` | **Party Reference Data Directory** | `Party Reference Data Directory Entry` | ✅ Sin duplicacion ni acoplamiento entre dominios. Procede de partir PN-01.2, que comprendia Catalog sobre dos activos: Party Reference Data y Document. Advertencia: PN-01.5 repite este mismo Control Record. |
+| `PN-01.2b` | Captura de documentos | `Catalog` | `Document` | **Document Directory** | `Document Directory Entry` | ✅ Sin duplicacion. Document Directory se reutiliza en PN-02.2, otro proceso. Procede de partir PN-01.2, que comprendia Catalog sobre Party Reference Data y sobre Document: un patron, dos activos. |
+| `PN-01.3` | Validacion de identidad | `Administer` | `Party Relationship` | **Party Lifecycle Management** | `Party Relationship Administrative Plan` | 🟡 Mismo Service Domain y mismo Control Record que PN-01.1. El Behavior Qualifier Identity Proofing NO las convierte en responsabilidades distintas: es una subestructura del mismo Control Record. Evaluar si son una sola actividad. |
+| `PN-01.4` | Verificacion en listas y perfil PLAFT | `Assess` | `Regulatory Compliance` | **Regulatory Compliance** | `Regulatory Compliance Assessment` | ✅ Sin duplicacion ni acoplamiento. Assess sobre Regulatory Compliance se reutiliza en PN-11.2, otro proceso y otro sujeto evaluado. Una responsabilidad, dos puntos de invocacion. |
+| `PN-01.5` | Registro del cliente en el core | — | — | *sin dominio* | — | 🔴 DUPLICACION. Ejerce el mismo Catalog sobre Party Reference Data que PN-01.2a, sobre el mismo Control Record y en la misma etapa. Es recaptura por existir un segundo sistema de registro de la parte. |
+| `PN-01.6` | Replicacion del cliente al CRM | — | — | *sin dominio* | — | ⚪ ACOPLAMIENTO ENTRE SISTEMAS. No ejerce ningun patron funcional sobre ningun tipo de activo: transporta el Control Record Party Reference Data Directory Entry hacia un segundo registro maestro. |
+| `PN-01.7a` | Habilitacion de credenciales | `Allocate` | `Issued Device` | **Issued Device Administration** | `Issued Device Allocation` | ✅ Sin duplicacion ni acoplamiento entre dominios. Procede de partir PN-01.7, que comprendia Administer sobre Issued Device Allocation y Agree Terms sobre Customer Access Profile: dos patrones y dos activos. |
+| `PN-01.7b` | Habilitacion de canales | `Agree Terms` | `Customer Access Profile` | **Customer Access Entitlement** | `Customer Access Profile Agreement` | ✅ Sin duplicacion ni acoplamiento entre dominios. Mitad de entitlement de PN-01.7. Agree Terms sobre Customer Access Profile pacta que canales usa el cliente; no emite la credencial. |
+| `PN-01.8a` | Entrega de bienvenida | `Operate` | `Correspondence` | **Correspondence** | `Correspondence Operating Session` | ✅ Sin duplicacion ni acoplamiento entre dominios. Procede de partir PN-01.8, que comprendia Operate sobre Correspondence y Catalog sobre Customer Product and Service: dos patrones y dos activos. |
+| `PN-01.8b` | Activacion de productos y servicios | `Catalog` | `Customer Product And Service` | **Customer Product and Service Directory** | `Customer Product And Service Directory Entry` | ✅ Sin duplicacion ni acoplamiento. Catalog sobre Customer Product And Service: el activo es lo que el cliente ha adquirido. Actualizar su Behavior Qualifier Product detalla esa misma responsabilidad; no la traslada a Product Directory, que cataloga el activo Product del banco. |
+| `PN-02.1` | Recepcion de la solicitud de credito | `Process` | `Customer Offer` | **Customer Offer** | `Customer Offer Procedure` | 🟡 Comparte el Control Record Customer Offer Procedure con PN-02.6, misma instancia. Aqui se abre el procedimiento de oferta; alli se fijan sus condiciones. Etapas sucesivas del mismo registro. |
+| `PN-02.2` | Conformacion del expediente | `Catalog` | `Document` | **Document Directory** | `Document Directory Entry` | ✅ Sin duplicacion. Document Directory se reutiliza desde PN-01.2b, otro proceso. Mismo Control Record Document Directory Entry, instancias distintas. |
+| `PN-02.3` | Consulta a central de riesgos | `Monitor` | `Customer Credit Rating` | **Customer Credit Rating** | `Customer Credit Rating State` | ✅ Sin duplicacion ni acoplamiento. Unico Monitor del alcance y unico uso de Customer Credit Rating. Alimenta el estado de la calificacion; no lo evalua, porque evaluar es Assess sobre otro activo. |
+| `PN-02.4` | Evaluacion de capacidad de pago (scoring) | `Assess` | `Underwriting` | **Underwriting** | `Underwriting Assessment` | 🔴 DUPLICACION con PN-02.5. Mismo Service Domain y mismo Control Record Underwriting Assessment, misma instancia y misma etapa. Ningun Behavior Qualifier las separa, y aunque lo hubiera no bastaria: el BQ es subestructura, no responsabilidad. |
+| `PN-02.5` | Decision y aprobacion | `Assess` | `Underwriting` | **Underwriting** | `Underwriting Assessment` | 🔴 DUPLICACION con PN-02.4. El atributo Decision del Underwriting Assessment es el desenlace de la misma evaluacion, sobre la misma instancia del registro de control. Fusionar. |
+| `PN-02.6` | Definicion de condiciones (monto, plazo, tasa) | `Process` | `Customer Offer` | **Customer Offer** | `Customer Offer Procedure` | 🟡 Mismo Control Record Customer Offer Procedure que PN-02.1. Acoplamiento de salida previsto: al aprobar, sus condiciones instancian los atributos del Corporate Loan Facility, que es el Control Record de otro dominio. |
+| `PN-02.7` | Formalizacion del contrato | `Agree Terms` | `Sales Product Agreement` | **Sales Product Agreement** | `Sales Product Agreement` | ✅ Sin duplicacion ni acoplamiento. Agree Terms sobre Sales Product Agreement, subordinado al Customer Agreement maestro. Ninguna actividad del alcance establece ese acuerdo maestro. |
+| `PN-02.8` | Desembolso | `Transact` | `Disbursement` | **Disbursement** | `Disbursement Transaction` | ✅ Sin duplicacion. Transact sobre Disbursement, con Control Record propio Disbursement Transaction y definicion publicada: desembolso de fondos a facilidades recien constituidas. Corporate Loan lleva un Behavior Qualifier Disbursement, pero ese BQ detalla SU fulfillment, no esta responsabilidad. |
+| `PN-02.9` | Registro contable del desembolso | `Track` | `Financial Booking` | **Financial Accounting** | `Financial Booking Log` | ✅ Sin duplicacion. Financial Accounting se reutiliza en PN-04.7, PN-10.1 y PN-10.5: un Control Record Financial Booking Log, cuatro puntos de invocacion repartidos en tres procesos. |
+| `PN-04.1` | Recepcion de la orden | `Transact` | `Payment Order Initiation` | **Payment Order Initiation** | `Payment Order Initiation Transaction` | 🟡 Comparte el Control Record Payment Order Initiation Transaction con PN-04.2 y PN-04.6, misma instancia. Ciclo de vida del mismo registro: crear, validar, confirmar. |
+| `PN-04.2` | Validacion de la orden | `Transact` | `Payment Order Initiation` | **Payment Order Initiation** | `Payment Order Initiation Transaction` | 🟡 Misma instancia del Payment Order Initiation Transaction que PN-04.1. No se solapa con PN-04.3, que es Process sobre otro activo y otro Control Record: Payment Confirmation Details. |
+| `PN-04.3` | Verificacion PLAFT de la operacion | `Process` | `Payment Confirmation` | **Payment Confirmation** | `Payment Confirmation Procedure` | ✅ Sin duplicacion. ACOPLAMIENTO POR DISENO: la ficha de Payment Orchestration declara textualmente que invoca a Payment Confirmation para las comprobaciones previas. La evidencia es el rol documentado, no una coincidencia de nombres. |
+| `PN-04.4` | Enrutamiento (interno / interbancario) | `Process` | `Payment Orchestration` | **Payment Orchestration** | `Payment Orchestration Procedure` | ✅ Sin duplicacion. Es el orquestador: su ficha declara que invoca a Payment Confirmation, a Payment Rail y a Payment Settlement. Sus Behavior Qualifiers Initiate Payment Confirmation e Initiate Payment Settlement detallan esa responsabilidad de orquestacion. |
+| `PN-04.5` | Ejecucion del cargo y abono | `Process` | `Payment Settlement` | **Payment Settlement** | `Payment Settlement Procedure` | ✅ Sin duplicacion. ACOPLAMIENTO POR DISENO: la ficha de Payment Orchestration declara que inicia el movimiento final de fondos invocando a Payment Settlement. Acoplamiento arquitectonico documentado, no inferido. |
+| `PN-04.6` | Confirmacion al cliente | `Transact` | `Payment Order Initiation` | **Payment Order Initiation** | `Payment Order Initiation Transaction` | 🟡 Cierra el ciclo de la misma instancia del Payment Order Initiation Transaction que abrio PN-04.1. Confirmar corresponde al dominio que inicio la orden, no al que ejecuto la liquidacion. |
+| `PN-04.7` | Registro contable | `Track` | `Financial Booking` | **Financial Accounting** | `Financial Booking Log` | ✅ Sin duplicacion. Tercera invocacion de Financial Accounting desde un proceso distinto. Un Control Record, varios puntos de uso. |
+| `PN-10.1` | Cierre de operaciones del dia | `Track` | `Financial Booking` | **Financial Accounting** | `Financial Booking Log` | ✅ Sin duplicacion. Financial Accounting llega aqui desde tres procesos. Dentro de PN-10 comparte instancia del Financial Booking Log con PN-10.5, en etapas distintas del cierre. |
+| `PN-10.2` | Extraccion de datos del core y satelites | — | — | *sin dominio* | — | ⚪ ACOPLAMIENTO ENTRE SISTEMAS. No ejerce ningun patron funcional sobre ningun tipo de activo: mueve datos del core y los satelites hacia el proceso de cierre. |
+| `PN-10.3` | Consolidacion manual en hojas de calculo | — | — | *sin dominio* | — | ⚪ ACOPLAMIENTO MANUAL. Sustituye con trabajo humano la consolidacion que deberian resolver Track sobre Financial Booking y Analyze sobre Financial Statements. |
+| `PN-10.4` | Conciliacion entre contabilidad y operaciones | `Process` | `Account Reconciliation` | **Account Reconciliation** | `Account Reconciliation Procedure` | ✅ Sin duplicacion ni acoplamiento. Account Reconciliation tiene Control Record propio, Account Reconciliation Procedure. No se confunde con el Financial Booking Log. |
+| `PN-10.5` | Ajustes manuales y reclasificaciones | `Track` | `Financial Booking` | **Financial Accounting** | `Financial Booking Log` | ✅ Sin duplicacion. Misma instancia del Financial Booking Log que PN-10.1, etapa posterior: un ajuste contable es un asiento mas, no otra responsabilidad. |
+| `PN-10.6` | Generacion de estados financieros | `Analyze` | `Financial Statements` | **Financial Statements** | `Financial Statements Analysis` | ✅ Sin duplicacion ni acoplamiento. Unico Analyze del alcance. Consume el Financial Booking Log que mantiene Financial Accounting; no lo mantiene el mismo. |
+| `PN-10.7` | Elaboracion de reportes regulatorios (SBS) | `Administer` | `Regulatory Compliance` | **Regulatory Reporting** | `Regulatory Compliance Administrative Plan` | 🔴 DUPLICACION con PN-10.8. Mismo Service Domain y mismo Control Record Regulatory Compliance Administrative Plan, misma etapa. Solo cambia la autoridad destinataria: es una responsabilidad parametrizada, no dos. |
+| `PN-10.8` | Elaboracion de reportes PLAFT (UIF) | `Administer` | `Regulatory Compliance` | **Regulatory Reporting** | `Regulatory Compliance Administrative Plan` | 🔴 DUPLICACION con PN-10.7. Compliance Reporting no es la alternativa: ese dominio cubre la consolidacion interna del cumplimiento, con Control Record propio, no el reporte a una autoridad externa. |
+| `PN-10.9` | Envio al regulador | `Administer` | `Regulatory Compliance` | **Regulatory Reporting** | `Regulatory Compliance Administrative Plan` | 🟡 Mismo Control Record Regulatory Compliance Administrative Plan que PN-10.7 y PN-10.8, etapa posterior: la interaccion con la autoridad tras redactar el reporte. |
+| `PN-11.1` | Prospeccion y evaluacion del agente | `Process` | `Leadand Opportunity` | **Lead and Opportunity Management** | `Leadand Opportunity Procedure` | ✅ Sin duplicacion ni acoplamiento. Lead and Opportunity Management tiene Control Record propio y es previo a cualquier pacto de terminos. |
+| `PN-11.2` | Evaluacion de riesgo y cumplimiento del aliado | `Assess` | `Regulatory Compliance` | **Regulatory Compliance** | `Regulatory Compliance Assessment` | ✅ Sin duplicacion. Reutiliza Regulatory Compliance desde PN-01.4, otro proceso. Mismo Control Record, instancia distinta: el tercero en lugar del cliente. |
+| `PN-11.3` | Firma del contrato de corresponsalia | `Agree Terms` | `Partner` | **Partner Agreement** | `Partner Agreement` | ✅ Sin duplicacion ni acoplamiento. Agree Terms sobre Partner. No se solapa con Merchant Relations: ese dominio aplica el mismo patron sobre Merchant Relationship, otro activo y otro Control Record. |
+| `PN-11.4` | Integracion tecnica del punto de atencion | `Operate` | `Pointof Service` | **Point of Service** | `Pointof Service Operating Session` | ✅ Sin duplicacion ni acoplamiento. Operate sobre Point of Service. El activo es la posicion de servicio, con Control Record propio, no la relacion con el socio. |
+| `PN-11.5a` | Habilitacion del agente | `Administer` | `Partner` | **Partner Administration** | `Partner Administrative Plan` | 🟡 Comparte el Control Record Partner Administrative Plan con PN-11.6, misma instancia. Aqui se habilita; alli se activa y se hace seguimiento. Etapas sucesivas del mismo plan. |
+| `PN-11.5b` | Capacitacion del agente | `Process` | `Product Training` | **Product Training** | `Product Training Procedure` | ✅ Sin duplicacion ni acoplamiento entre dominios. Procede de partir PN-11.5, que comprendia Administer sobre Partner y Process sobre Product Training: dos patrones y dos activos. |
+| `PN-11.6` | Activacion y monitoreo | `Administer` | `Partner` | **Partner Administration** | `Partner Administrative Plan` | 🟡 Misma instancia del Partner Administrative Plan que PN-11.5a, etapa posterior. Delimitar si el monitoreo continuo pertenece al plan administrativo o a Partner Management, que es Manage sobre otro activo. |
+
+---
+
+## 10. Oportunidades de Mejora Identificadas
+
+1. **`PN-11` · alcance.** Confirmar que Banco Horizonte incorpora agentes corresponsales (`Partner`). Si además afilia comercios adquirentes (`Merchant`), declararlo como proceso separado con Merchant Relations y Merchant Acquiring Facility.
+
+2. **`PN-02.4` y `PN-02.5`.** Fusionar en una sola actividad sobre Underwriting, o justificar la separación operativa.
+
+3. **Customer Agreement maestro.** Añadir la actividad faltante en `PN-01`, o declarar explícitamente que el acuerdo marco se firma fuera del alcance.
+
+4. **`PN-10.7` / `PN-10.8`.** Confirmar que ambos reportes derivan a Regulatory Reporting y documentar la frontera con Compliance Reporting.
+
+5. **Las cuatro brechas.** Aceptarlas como declaradas del as-is y llevarlas al roadmap: la causa raíz común es el doble sistema de registro de la parte.
+
+6. **Payment Rail.** Anotar el cambio de `Operate` a `Administer` como pendiente de release.
+
+7. **Las dos duplicaciones confirmadas.** Fusionar `PN-02.4`/`PN-02.5` y `PN-10.7`/`PN-10.8`: mismo Service Domain, misma instancia del Control Record, misma etapa.
+
+8. **Las cuatro secuencias intra-proceso.** Decidir si `PN-01.1`/`PN-01.3` y `PN-11.5a`/`PN-11.6` son una o dos actividades. No es una cuestión del estándar: el Service Domain es el mismo y el Behavior Qualifier no las separa.
+
+9. **Anomalía del estándar.** Registrar en el catálogo que `Corporate Trust Services Facility` es Control Record de dos Service Domains en v14, única ruptura del 1:1.
