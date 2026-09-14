@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Agreement"
+    id="id-1a124c8a695c43e7b62a0a250a78e894"
+    documentation="[CONTROL RECORD: Customer Agreement] Service Domain propietario: Customer Agreement  DERIVACION   Functional Pattern : Agree Terms   Asset Type         : Customer   Control Record     : Customer Agreement   (Asset Type + Generic Artifact)   Atributos publicados: 9   Behavior Qualifiers: 3  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : BO-CTR Contrato   Sistemas que lo ejercen hoy : sin sistema (manual)   Copias no gobernadas        : APP-01 SIGEB — Core Bancario, APP-02 Módulo de Créditos   Dueno objetivo              : APP-01 SIGEB — Core Bancario   Veredicto                   : SIN DUENO - Ningún sistema ejerce la responsabilidad: se hace a mano  BRECHA DE DATO   El acuerdo marco no existe como registro: el banco solo guarda contratos de   producto. Sin él, Sales Product Agreement Reference y la referencia al Party   Life-cycle Management quedan sin ancla.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 16   Eventos outbound publicados    : 8   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Agreement"/>
+  <properties
+      key="bianServiceDomain"
+      value="Customer Agreement"/>
+  <properties
+      key="veredictoPropiedad"
+      value="SIN DUENO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-01"/>
+</archimate:BusinessObject>

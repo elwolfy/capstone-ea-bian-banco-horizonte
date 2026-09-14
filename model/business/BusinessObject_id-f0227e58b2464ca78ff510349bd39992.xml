@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Lead and Opportunity Procedure"
+    id="id-f0227e58b2464ca78ff510349bd39992"
+    documentation="[CONTROL RECORD: Lead and Opportunity Procedure] Service Domain propietario: Lead and Opportunity Management  DERIVACION   Functional Pattern : Process   Asset Type         : Lead and Opportunity   Control Record     : Lead and Opportunity Procedure   (Asset Type + Generic Artifact)   Atributos publicados: 9   Behavior Qualifiers: 1  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-04 CRM Comercial   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-04 CRM Comercial   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 10   Eventos outbound publicados    : 4   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Lead and Opportunity Procedure"/>
+  <properties
+      key="bianServiceDomain"
+      value="Lead and Opportunity Management"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-04"/>
+</archimate:BusinessObject>

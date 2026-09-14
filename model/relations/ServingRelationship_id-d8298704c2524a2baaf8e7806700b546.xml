@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-d8298704c2524a2baaf8e7806700b546"
+    documentation="El Service Domain Customer Access Entitlement sirve a la capacidad M1.2 Identidad y Autenticación de Clientes.&#xA;-------------------------------------------------&#xA;La otra mitad de la identidad: qué canales y operaciones tiene pactado usar el cliente. Autenticar no es lo mismo que autorizar.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-0438fd088c33443e938d436ce98ffcba.xml#id-0438fd088c33443e938d436ce98ffcba"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-5756ce7d7ef74eaa9d99b95ee8d4544b.xml#id-5756ce7d7ef74eaa9d99b95ee8d4544b"/>
+</archimate:ServingRelationship>

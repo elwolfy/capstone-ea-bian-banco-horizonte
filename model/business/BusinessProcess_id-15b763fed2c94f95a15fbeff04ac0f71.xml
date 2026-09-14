@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.3  Consulta a central de riesgos"
+    id="id-15b763fed2c94f95a15fbeff04ac0f71"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Monitor&#xA;  Tipo de activo   : Customer Credit Rating&#xA;  Service Domain   : Customer Credit Rating&#xA;  Behavior Qualifier: External Reporting&#xA;  Ubicacion Matrix : Sales and Service > Customer Management&#xA;-------------------------------------------------&#xA;Monitor sobre el estado de la calificacion crediticia, alimentado por fuentes externas.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Credit Rating"/>
+  <properties
+      key="behaviorQualifier"
+      value="External Reporting"/>
+</archimate:BusinessProcess>

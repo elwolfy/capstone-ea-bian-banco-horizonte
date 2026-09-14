@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-252933bf9436496a85dba515a1e7e792"
+    documentation="El Service Domain Customer Credit Rating sirve a la capacidad E2.1 Riesgo de Crédito.&#xA;-------------------------------------------------&#xA;Monitorear la calificación crediticia es capacidad de riesgo, no de originación: alimenta la decisión pero no la toma. Separar E2.1 de M3.2 es lo que evita que el área de riesgos y la comercial se disputen el mismo dominio.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-f3a1c96bea8a4698bcb36df574f2ebd2.xml#id-f3a1c96bea8a4698bcb36df574f2ebd2"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-cc259859dbf74f279b0de305fa9269da.xml#id-cc259859dbf74f279b0de305fa9269da"/>
+</archimate:ServingRelationship>

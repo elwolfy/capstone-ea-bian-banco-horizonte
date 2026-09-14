@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Directory"
+    id="id-754852db955540908794f6d16a65f5d5"
+    documentation="[SERVICE DOMAIN: Document Directory]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Catalog&#xA;  Asset Type         : Document&#xA;  Generic Artifact   : Directory Entry&#xA;  Control Record     : Document Directory Entry&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Business Support&#xA;  Business Domain : Document Management and Archive&#xA;&#xA;BUSINESS DEFINITION&#xA;  This Service Domain provides a directory based categorization and storage mechanism&#xA;  for documents created and referenced by the bank&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (33)&#xA;  Document Name | Location Reference | Business Unit or Employee Reference | Product&#xA;  and Service Reference | Product and Service Action Reference | Document Creation&#xA;  Date | Document Capture Date and Time | Document Type/Description | Document Content&#xA;  | Document Provisioning History | Document Provisioning Request | Document&#xA;  Provisioning Schedule | Document Provisioning Result | Document Version History |&#xA;  Document Version | Document Version Date | Document Verification History | Document&#xA;  Verification Task Description | Document Verification Service Provider Reference |&#xA;  Document Verification Task Result | Document Amendment History | Document Amendment&#xA;  Description | Document Amendment Result | Document Update History | Document Update&#xA;  Description | Document Update Result | Document Archiving History | Document&#xA;  Archiving Action | Document Archive Reference | Document Media/Format | Document&#xA;  Subject Reference | Document Location | Document Status&#xA;&#xA;BEHAVIOR QUALIFIERS (6)&#xA;    Document Update History Properties   (7 atributos)&#xA;    Document Archiving Properties   (7 atributos)&#xA;    Document Version Properties   (7 atributos)&#xA;    Document Reference Properties   (7 atributos)&#xA;    Document Amendment Properties   (7 atributos)&#xA;    Document Verification Properties   (7 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Exchange Request Control Execute Notify Register Retrieve Update&#xA;  Inbound  : 44 operaciones&#xA;  Outbound : 23 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Catalog"/>
+  <properties
+      key="bianAssetType"
+      value="Document"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Directory Entry"/>
+  <properties
+      key="bianControlRecord"
+      value="Document Directory Entry"/>
+</archimate:Capability>

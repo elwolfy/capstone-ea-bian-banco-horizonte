@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-e30fe3ebb64c45538e0e9c13a7bfe8f2"
+    documentation="El Service Domain Customer Product and Service Directory sirve a la capacidad M1.4 Experiencia y Servicio al Cliente.&#xA;-------------------------------------------------&#xA;El catálogo de lo que el cliente tiene contratado es lo que permite atenderlo con contexto. No confundir con el catálogo de productos del banco, que es Product Directory y sirve a M2.1.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-6ad3b23696df46b7a01f4a4671715c2e.xml#id-6ad3b23696df46b7a01f4a4671715c2e"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-39f2057a36fe4c059a2c972efaba7317.xml#id-39f2057a36fe4c059a2c972efaba7317"/>
+</archimate:ServingRelationship>

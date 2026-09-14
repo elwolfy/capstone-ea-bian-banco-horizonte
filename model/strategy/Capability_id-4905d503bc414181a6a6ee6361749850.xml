@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="M6  Gestión de Canales y Distribución"
+    id="id-4905d503bc414181a6a6ee6361749850"
+    documentation="Capacidad de negocio de nivel 1 del mapa de Banco Horizonte.&#xA;Banda BIZBOK: Misional.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L1"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Misional"/>
+</archimate:Capability>

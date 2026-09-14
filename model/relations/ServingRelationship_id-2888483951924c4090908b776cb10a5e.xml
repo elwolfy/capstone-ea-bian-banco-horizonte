@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-2888483951924c4090908b776cb10a5e"
+    documentation="El Service Domain Payment Order Initiation sirve a la capacidad M5.1 Ejecución de Pagos y Desembolso.&#xA;-------------------------------------------------&#xA;Iniciar y confirmar la orden es la capacidad de ejecución de pagos. El SIPOC etiquetó la recepción y la confirmación como M6.1 Canales Digitales: el canal es quien invoca la responsabilidad, no quien la ejerce.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-ad867d0cb6b14b4bbb3829dda479ff1b.xml#id-ad867d0cb6b14b4bbb3829dda479ff1b"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-9c0ddc06e62f4243906da2e1e0883f68.xml#id-9c0ddc06e62f4243906da2e1e0883f68"/>
+</archimate:ServingRelationship>

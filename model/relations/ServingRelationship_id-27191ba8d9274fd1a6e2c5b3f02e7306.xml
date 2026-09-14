@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-27191ba8d9274fd1a6e2c5b3f02e7306"
+    documentation="El Service Domain Customer Offer sirve a la capacidad M3.1 Originación de Crédito.&#xA;-------------------------------------------------&#xA;La oferta al cliente es el procedimiento de originación: se abre con la solicitud y se cierra al pactar monto, plazo y tasa. El SIPOC etiquetó esa última actividad como M2.1 Diseño de Productos; el diseño del producto es otra capacidad y otro dominio —Product Directory—, fuera de este alcance.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-c8067a55fa72440e99f76a1ee3c07dd3.xml#id-c8067a55fa72440e99f76a1ee3c07dd3"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-2725fd67933846958c74b96bbbc57a28.xml#id-2725fd67933846958c74b96bbbc57a28"/>
+</archimate:ServingRelationship>

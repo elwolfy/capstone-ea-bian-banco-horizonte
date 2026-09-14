@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Access Entitlement"
+    id="id-660767528a87470da93ab839289c1581"
+    documentation="[SERVICE DOMAIN: Customer Access Entitlement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Agree Terms&#xA;  Asset Type         : Customer Access Profile&#xA;  Generic Artifact   : Agreement&#xA;  Control Record     : Customer Access Profile Agreement&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Customer Management&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain maintains the details of the allowed channel/device based access&#xA;  to products and services that the customer has in place&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (6)&#xA;  Customer Reference | Customer Access Profile Record | Customer Access Agreement&#xA;  Valid From/To Date | Customer Access Agreement Signatures/Responsible Parties |&#xA;  Document Directory Entry Instance Reference | Customer Access Arrangement&#xA;&#xA;BEHAVIOR QUALIFIERS (2)&#xA;    Restrictions   (6 atributos)&#xA;    Preferences   (7 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Evaluate Update Exchange Request Control Grant Retrieve&#xA;  Inbound  : 13 operaciones&#xA;  Outbound : 6 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Agree Terms"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Access Profile"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Agreement"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Access Profile Agreement"/>
+</archimate:Capability>

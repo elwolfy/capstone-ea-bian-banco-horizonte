@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H1  Gestión Financiera y Contable"
+    id="id-d6cb0ec60f194edb9fe9baf3d333377e"
+    documentation="Capacidad de negocio de nivel 1 del mapa de Banco Horizonte.&#xA;Banda BIZBOK: Habilitadora.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L1"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Habilitadora"/>
+</archimate:Capability>

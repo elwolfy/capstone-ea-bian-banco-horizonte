@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10.2  Extraccion de datos del core y satelites"
+    id="id-387980de0684456bad019cb514c43a7f"
+    documentation="Actividad del proceso PN-10 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;SIN RESPONSABILIDAD FUNCIONAL BIAN&#xA;  Esta actividad no recibe Service Domain.&#xA;-------------------------------------------------&#xA;BRECHA. Extraccion tecnica de datos: mecanismo de integracion, no responsabilidad de negocio.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="brecha"
+      value="si"/>
+</archimate:BusinessProcess>

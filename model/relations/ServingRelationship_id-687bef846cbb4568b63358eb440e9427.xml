@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-687bef846cbb4568b63358eb440e9427"
+    documentation="El Service Domain Party Reference Data Directory sirve a la capacidad M1.1 Registro y Onboarding de Clientes (KYC).&#xA;-------------------------------------------------&#xA;Catalogar los datos de referencia de la parte es el acto fundacional del onboarding: sin ese registro no hay cliente que dar de alta.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-2850040679624b48b2c529379d14f09f.xml#id-2850040679624b48b2c529379d14f09f"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-481906e29b8d437caed1453b757da11b.xml#id-481906e29b8d437caed1453b757da11b"/>
+</archimate:ServingRelationship>

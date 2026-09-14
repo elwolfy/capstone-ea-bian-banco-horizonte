@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Compliance"
+    id="id-2bd4444458aa4cdc9355fd1e57fe2391"
+    documentation="[SERVICE DOMAIN: Regulatory Compliance]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Regulatory Compliance&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Regulatory Compliance Assessment&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Regulations and Compliance&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain provides a service to interpret regulatory requirements, provide&#xA;  guidance and define and implement a portfolio of regulatory compliance tests across&#xA;  all appropriate bank activities&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (22)&#xA;  Regulatory Assessment Type | Business Unit Reference | Product and Service Reference&#xA;  | Customer Reference | Regulatory Authority Reference | Regulation Reference |&#xA;  Regulation Definition | Regulation Compliance and Reporting Requirements |&#xA;  Regulation Accountability | Regulation Penalties | Regulation Guideline | Document&#xA;  Reference | Regulatory Assessment Work Products | Regulatory Assessment Result |&#xA;  Reference | Assessment Requestor | Assessment Start Date | Assessment Completion&#xA;  Date | Regulation Customer Type | Regulation Customer Residence Status | Regulation&#xA;  Valid from Date | Regulation Valid to Date&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Retrieve Evaluate Request Update Capture&#xA;  Inbound  : 5 operaciones&#xA;  Outbound : 2 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Regulatory Compliance"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Regulatory Compliance Assessment"/>
+</archimate:Capability>

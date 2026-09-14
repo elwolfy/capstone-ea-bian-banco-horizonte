@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-12.5  Activacion del comercio y operacion de la cuenta"
+    id="id-64bf57b4225d4ed8b16656248323760d"
+    documentation="Actividad del proceso PN-12 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Fulfill&#xA;  Tipo de activo   : Merchant Acquiring&#xA;  Service Domain   : Merchant Acquiring Facility&#xA;  Behavior Qualifier: Support Facility&#xA;  Ubicacion Matrix : Operations and Execution > Product Specific Fulfillment > Cards&#xA;-------------------------------------------------&#xA;Fulfill sobre el activo Merchant Acquiring: orquesta la cuenta del comercio, su actividad transaccional, la liquidacion y el cobro de comisiones.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Merchant Acquiring Facility"/>
+  <properties
+      key="behaviorQualifier"
+      value="Support Facility"/>
+</archimate:BusinessProcess>

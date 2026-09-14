@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Orchestration"
+    id="id-c7487cf10ef04c159fa312b8cd7c1f06"
+    documentation="[SERVICE DOMAIN: Payment Orchestration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Payment Orchestration&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Payment Orchestration Details&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Payments&#xA;&#xA;BUSINESS DEFINITION&#xA;  Orquesta la ejecucion de la instruccion de pago: invoca las comprobaciones previas,&#xA;  determina y cobra comisiones, enruta de forma inteligente por el esquema de pago&#xA;  adecuado, cursa la instruccion por el rail elegido, sigue la finalizacion del pago,&#xA;  atiende devoluciones y rechazos, e inicia el movimiento final de fondos.&#xA;&#xA;BEHAVIOR QUALIFIERS (6)&#xA;    Initiate Payment Confirmation&#xA;    Fee Transfer&#xA;    Payment Routing&#xA;    Payment Rail Coordination&#xA;    Initiate Payment Settlement&#xA;    Payment Initiation (for RTP)&#xA;">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Payment Orchestration"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Orchestration Procedure"/>
+</archimate:Capability>

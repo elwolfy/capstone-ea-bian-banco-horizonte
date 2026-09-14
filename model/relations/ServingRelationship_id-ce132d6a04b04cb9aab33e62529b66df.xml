@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-ce132d6a04b04cb9aab33e62529b66df"
+    documentation="El Service Domain Document Directory sirve a la capacidad M1.1 Registro y Onboarding de Clientes (KYC).&#xA;-------------------------------------------------&#xA;El expediente es un activo con ciclo propio —verificación y versión— y sirve a dos capacidades: el KYC del onboarding y la conformación del expediente de crédito de M3.1. Un dominio, dos capacidades: eso es reutilización, no duplicación.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-96885fecccd14f7cb037ed3fa0bf24a5.xml#id-96885fecccd14f7cb037ed3fa0bf24a5"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-481906e29b8d437caed1453b757da11b.xml#id-481906e29b8d437caed1453b757da11b"/>
+</archimate:ServingRelationship>

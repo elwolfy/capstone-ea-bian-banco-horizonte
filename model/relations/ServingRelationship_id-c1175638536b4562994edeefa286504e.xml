@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-c1175638536b4562994edeefa286504e"
+    documentation="El Service Domain Sales Product Agreement sirve a la capacidad M2.2 Gestión de Acuerdos y Contratos.&#xA;-------------------------------------------------&#xA;El contrato de producto es el acuerdo específico subordinado al marco. Mismo patrón Agree Terms, activo distinto, y por eso dominio distinto dentro de la misma capacidad.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-a0ab93c9924a4073919d8ffa4f4861c2.xml#id-a0ab93c9924a4073919d8ffa4f4861c2"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-9b0c055e46534bc7955c3739f5d63f5f.xml#id-9b0c055e46534bc7955c3739f5d63f5f"/>
+</archimate:ServingRelationship>

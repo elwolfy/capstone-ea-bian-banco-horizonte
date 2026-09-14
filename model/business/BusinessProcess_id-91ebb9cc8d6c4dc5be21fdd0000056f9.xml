@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01  ·  Vinculacion de clientes(10 responsabilidades, 2 brechas)"
+    id="id-91ebb9cc8d6c4dc5be21fdd0000056f9"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Filas de derivacion: 12&#xA;Responsabilidades funcionales asignadas a un Service Domain: 10&#xA;Brechas sin responsabilidad BIAN: 2">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="responsabilidades"
+      value="10"/>
+  <properties
+      key="brechas"
+      value="2"/>
+</archimate:BusinessProcess>

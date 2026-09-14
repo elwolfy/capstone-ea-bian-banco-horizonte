@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-3a981e541a5f4cdf959ae56b1e57eaea"
+    documentation="El Service Domain Partner Agreement sirve a la capacidad E1.4 Gestión de Alianzas y Ecosistema.&#xA;-------------------------------------------------&#xA;Pactar con el agente corresponsal constituye la alianza. Es el instrumento de la capacidad estratégica, no un contrato comercial más.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-62fefb6cbb0a44d888ecccef97e0cedd.xml#id-62fefb6cbb0a44d888ecccef97e0cedd"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-cf2cf354254e4b4d80c28a4ccaf2c97c.xml#id-cf2cf354254e4b4d80c28a4ccaf2c97c"/>
+</archimate:ServingRelationship>

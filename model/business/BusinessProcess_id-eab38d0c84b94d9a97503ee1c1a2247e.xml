@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.3  Firma del contrato de corresponsalia"
+    id="id-eab38d0c84b94d9a97503ee1c1a2247e"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Agree Terms&#xA;  Tipo de activo   : Partner&#xA;  Service Domain   : Partner Agreement&#xA;  Behavior Qualifier: Legal Term&#xA;  Ubicacion Matrix : Reference Data > External Agency&#xA;-------------------------------------------------&#xA;Agree Terms sobre el activo Partner. Un agente corresponsal es Partner; un comercio adquirente es Merchant, y va en PN-12.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Partner Agreement"/>
+  <properties
+      key="behaviorQualifier"
+      value="Legal Term"/>
+</archimate:BusinessProcess>

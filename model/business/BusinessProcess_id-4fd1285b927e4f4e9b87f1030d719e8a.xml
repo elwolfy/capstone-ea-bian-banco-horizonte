@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.4  Integracion tecnica del punto de atencion"
+    id="id-4fd1285b927e4f4e9b87f1030d719e8a"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Operate&#xA;  Tipo de activo   : Pointof Service&#xA;  Service Domain   : Point of Service&#xA;  Behavior Qualifier: Assisted&#xA;  Ubicacion Matrix : Sales and Service > Cross Channel&#xA;-------------------------------------------------&#xA;Operate sobre la posicion de servicio. Su Control Record contiene Servicing Position Configuration/Set-up.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Point of Service"/>
+  <properties
+      key="behaviorQualifier"
+      value="Assisted"/>
+</archimate:BusinessProcess>

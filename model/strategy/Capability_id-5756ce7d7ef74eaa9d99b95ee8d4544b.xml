@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="M1.2  Identidad y Autenticación de Clientes"
+    id="id-5756ce7d7ef74eaa9d99b95ee8d4544b"
+    documentation="Capacidad de negocio de nivel 2 del mapa de Banco Horizonte.&#xA;Capacidad padre: M1 Gestión de Clientes&#xA;">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L2"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Misional"/>
+</archimate:Capability>

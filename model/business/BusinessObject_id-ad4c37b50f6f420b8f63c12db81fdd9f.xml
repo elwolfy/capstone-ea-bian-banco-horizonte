@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Access Profile Agreement"
+    id="id-ad4c37b50f6f420b8f63c12db81fdd9f"
+    documentation="[CONTROL RECORD: Customer Access Profile Agreement] Service Domain propietario: Customer Access Entitlement  DERIVACION   Functional Pattern : Agree Terms   Asset Type         : Customer Access Profile   Control Record     : Customer Access Profile Agreement   (Asset Type + Generic Artifact)   Atributos publicados: 6   Behavior Qualifiers: 2  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-06 Banca por Internet, APP-07 App Móvil   Copias no gobernadas        : ninguna   Dueno objetivo              : gestor de credenciales   Veredicto                   : DUENO DISPERSO - Más de un sistema ejerce el mismo patrón sobre el mismo activo  BRECHA DE DATO   El perfil de acceso vive por canal. No hay un acuerdo único de qué canales y   operaciones tiene habilitado el cliente.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 13   Eventos outbound publicados    : 6   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Access Profile Agreement"/>
+  <properties
+      key="bianServiceDomain"
+      value="Customer Access Entitlement"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO DISPERSO"/>
+  <properties
+      key="duenoObjetivo"
+      value="gestor de credenciales"/>
+</archimate:BusinessObject>

@@ -1,0 +1,16 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="dueno objetivo"
+    id="id-9aa67e071ad5439da925f97588abbcee"
+    documentation="Aplicacion propuesta como unico sistema de registro del Control Record.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-0f5c48bc98f743919d4666df3d213095.xml#id-0f5c48bc98f743919d4666df3d213095"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c71306f7f9dd42ee866df66f6b36ba47.xml#id-c71306f7f9dd42ee866df66f6b36ba47"/>
+</archimate:AssociationRelationship>

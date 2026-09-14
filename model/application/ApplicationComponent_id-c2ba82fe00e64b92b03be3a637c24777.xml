@@ -1,0 +1,12 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-02  Módulo de Créditos"
+    id="id-c2ba82fe00e64b92b03be3a637c24777"
+    documentation="[APLICACION: APP-02 Módulo de Créditos] Componente del inventario AS-IS de Banco Horizonte (Modulo 2).  En esta vista aparece como sistema que ejerce responsabilidades de negocio o que mantiene copias del dato de otro dominio. La regla de calidad del Service Landscape es que cada Service Domain este soportado por un solo componente de aplicacion, y que los componentes interactuen a traves de servicios correspondientes a Service Operations combinadas limpiamente.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="inventario"
+      value="AS-IS Banco Horizonte"/>
+</archimate:ApplicationComponent>

@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Accounting"
+    id="id-9b77be0c1ecb47dca0c9fff923efadcd"
+    documentation="[SERVICE DOMAIN: Financial Accounting]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Track&#xA;  Asset Type         : Financial Booking&#xA;  Generic Artifact   : Log&#xA;  Control Record     : Financial Booking Log&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Risk and Compliance&#xA;  Business Domain : Regulations and Compliance&#xA;&#xA;BUSINESS DEFINITION&#xA;  The Financial Accounting Service Domain takes in financial facts and based on these,&#xA;  creates accounting instructions that will update the general ledger and sub ledger&#xA;  accounts&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (6)&#xA;  Financial Account Type | Product and Service Reference | Business Unit Reference |&#xA;  Chart of Account/Booking Rules | Base Currency | Status&#xA;&#xA;BEHAVIOR QUALIFIERS (1)&#xA;    Ledger Posting   (4 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Initiate Update Control Retrieve Capture&#xA;  Inbound  : 7 operaciones&#xA;  Outbound : 4 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Track"/>
+  <properties
+      key="bianAssetType"
+      value="Financial Booking"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Log"/>
+  <properties
+      key="bianControlRecord"
+      value="Financial Booking Log"/>
+</archimate:Capability>

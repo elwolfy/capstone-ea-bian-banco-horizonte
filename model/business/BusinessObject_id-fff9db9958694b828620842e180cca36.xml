@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sales Product Agreement"
+    id="id-fff9db9958694b828620842e180cca36"
+    documentation="[CONTROL RECORD: Sales Product Agreement] Service Domain propietario: Sales Product Agreement  DERIVACION   Functional Pattern : Agree Terms   Asset Type         : Sales Product Agreement   Control Record     : Sales Product Agreement   (Asset Type + Generic Artifact)   Atributos publicados: 11   Behavior Qualifiers: 3  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : BO-CTR Contrato   Sistemas que lo ejercen hoy : APP-02 Módulo de Créditos   Copias no gobernadas        : APP-01 SIGEB — Core Bancario   Dueno objetivo              : APP-02 Módulo de Créditos   Veredicto                   : CON REPLICAS - Un ejecutor único, pero otros sistemas mantienen copia propia  BRECHA DE DATO   El contrato se formaliza en el módulo de créditos y se replica al core. Dos   registros del mismo acuerdo.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 16   Eventos outbound publicados    : 8   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Sales Product Agreement"/>
+  <properties
+      key="bianServiceDomain"
+      value="Sales Product Agreement"/>
+  <properties
+      key="veredictoPropiedad"
+      value="CON REPLICAS"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-02"/>
+</archimate:BusinessObject>

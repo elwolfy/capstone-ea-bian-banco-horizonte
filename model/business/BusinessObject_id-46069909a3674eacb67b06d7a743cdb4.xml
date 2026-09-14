@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Party Relationship Administrative Plan"
+    id="id-46069909a3674eacb67b06d7a743cdb4"
+    documentation="[CONTROL RECORD: Party Relationship Administrative Plan] Service Domain propietario: Party Lifecycle Management  DERIVACION   Functional Pattern : Administer   Asset Type         : Party Relationship   Control Record     : Party Relationship Administrative Plan   (Asset Type + Generic Artifact)   Atributos publicados: 11   Behavior Qualifiers: 4  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-05 Portal de Vinculación   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-05 Portal de Vinculación   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  BRECHA DE DATO   No se registran Party Life-cycle Maintenance Task, Lifecycle Status ni Lifecycle   Phase. El portal guarda el expediente, no el estado del vínculo.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 15   Eventos outbound publicados    : 10   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Party Relationship Administrative Plan"/>
+  <properties
+      key="bianServiceDomain"
+      value="Party Lifecycle Management"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-05"/>
+</archimate:BusinessObject>

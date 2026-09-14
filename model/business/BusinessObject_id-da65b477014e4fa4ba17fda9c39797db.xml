@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Compliance Assessment"
+    id="id-da65b477014e4fa4ba17fda9c39797db"
+    documentation="[CONTROL RECORD: Regulatory Compliance Assessment] Service Domain propietario: Regulatory Compliance  DERIVACION   Functional Pattern : Assess   Asset Type         : Regulatory Compliance   Control Record     : Regulatory Compliance Assessment   (Asset Type + Generic Artifact)   Atributos publicados: 22   Behavior Qualifiers: en elaboracion  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-13 Monitoreo PLAFT   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-13 Monitoreo PLAFT   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 5   Eventos outbound publicados    : 2   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Regulatory Compliance Assessment"/>
+  <properties
+      key="bianServiceDomain"
+      value="Regulatory Compliance"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-13"/>
+</archimate:BusinessObject>

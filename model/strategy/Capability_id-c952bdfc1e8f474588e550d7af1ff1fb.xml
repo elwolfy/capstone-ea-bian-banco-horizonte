@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Account Reconciliation"
+    id="id-c952bdfc1e8f474588e550d7af1ff1fb"
+    documentation="[SERVICE DOMAIN: Account Reconciliation]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Account Reconciliation&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Account Reconciliation Procedure&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Account Management&#xA;&#xA;BUSINESS DEFINITION&#xA;  This Service Domain handles account reconciliation tasks&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (27)&#xA;  Parameter Type | Selected Option | Request | Schedule | Status | Associated Party&#xA;  Reference | Business Unit Reference | Service Provider Reference | Financial&#xA;  Facility Reference | Employee Reference | Customer Reference | Type | Service&#xA;  Provider Schedule | Service Type | Product and Service Type | Product and Service&#xA;  Instance | Transaction Type | Transaction | Financial Transaction Arrangement |&#xA;  Customer Agreement Reference | Reference | Account Reference | Document Reference |&#xA;  Reconciliation Transaction Reference | Reconciliation Arrangement Reference |&#xA;  Reconciliation Request Reference | System Reference&#xA;&#xA;BEHAVIOR QUALIFIERS (2)&#xA;    Account Assessment   (8 atributos)&#xA;    Account Resolution   (8 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Control Exchange Initiate Retrieve Notify Request Update Execute&#xA;  Inbound  : 22 operaciones&#xA;  Outbound : 15 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Account Reconciliation"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Account Reconciliation Procedure"/>
+</archimate:Capability>

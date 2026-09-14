@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-c1ec2278c0184b76ba7f5533f61aa7d2"
+    documentation="El Service Domain Card Terminal Administration sirve a la capacidad M7.1 Afiliación y Operación de Comercios Adquirentes.&#xA;-------------------------------------------------&#xA;BRECHA DE CAPACIDAD. Asignar terminales POS no encaja en M5.4 Gestión de Tarjetas, que cubre la emisión, ni en M6.2 Red de Corresponsalía, que cubre agentes y no comercios. El mapa del Módulo 2 no declaró la adquirencia.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-eeb073c0736a4dda87201d89c9e02b01.xml#id-eeb073c0736a4dda87201d89c9e02b01"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-3d4c2e5406e24eb3bcea8c8662b92657.xml#id-3d4c2e5406e24eb3bcea8c8662b92657"/>
+</archimate:ServingRelationship>

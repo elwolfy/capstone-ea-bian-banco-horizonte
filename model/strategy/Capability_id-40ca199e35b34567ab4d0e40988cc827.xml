@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="E2  Gestión de Riesgos"
+    id="id-40ca199e35b34567ab4d0e40988cc827"
+    documentation="Capacidad de negocio de nivel 1 del mapa de Banco Horizonte.&#xA;Banda BIZBOK: Estratégica.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L1"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Estratégica"/>
+</archimate:Capability>

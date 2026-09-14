@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="M5.1  Ejecución de Pagos y Desembolso"
+    id="id-9c0ddc06e62f4243906da2e1e0883f68"
+    documentation="Capacidad de negocio de nivel 2 del mapa de Banco Horizonte.&#xA;Capacidad padre: M5 Gestión de Pagos y Transferencias&#xA;">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L2"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Misional"/>
+</archimate:Capability>

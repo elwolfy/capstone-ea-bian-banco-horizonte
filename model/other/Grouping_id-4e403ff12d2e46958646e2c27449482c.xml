@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Management and Archive"
+    id="id-4e403ff12d2e46958646e2c27449482c"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Business Domain de primer nivel.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

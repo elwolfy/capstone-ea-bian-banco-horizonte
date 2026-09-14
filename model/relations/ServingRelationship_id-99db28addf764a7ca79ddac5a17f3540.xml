@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-99db28addf764a7ca79ddac5a17f3540"
+    documentation="El Service Domain Financial Statements sirve a la capacidad H1.2 Reportería Regulatoria y Financiera.&#xA;-------------------------------------------------&#xA;Analizar y presentar los estados financieros es la capacidad de reportería: consume el log de asientos, no lo mantiene.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-87e613c1cf004013ad726f0a0dc2c974.xml#id-87e613c1cf004013ad726f0a0dc2c974"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-612a54f145a5423ba990e2d03bb1db51.xml#id-612a54f145a5423ba990e2d03bb1db51"/>
+</archimate:ServingRelationship>

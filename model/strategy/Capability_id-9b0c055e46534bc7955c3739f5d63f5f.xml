@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="M2.2  Gestión de Acuerdos y Contratos"
+    id="id-9b0c055e46534bc7955c3739f5d63f5f"
+    documentation="Capacidad de negocio de nivel 2 del mapa de Banco Horizonte.&#xA;Capacidad padre: M2 Gestión de Productos y Acuerdos&#xA;">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L2"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Misional"/>
+</archimate:Capability>

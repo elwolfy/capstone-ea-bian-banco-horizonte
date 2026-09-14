@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-b2773cc3532046ab8ca956cce00c8072"
+    documentation="El Service Domain Point of Service sirve a la capacidad M6.2 Red de Corresponsalía / Agentes.&#xA;-------------------------------------------------&#xA;Operar la posición de servicio es capacidad de canal, no de tecnología. El SIPOC etiquetó la integración del punto como H2.3 Integración y APIs: la integración es el medio, la operación del punto es la responsabilidad.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-b2abddb986284f418954bdd74670aff6.xml#id-b2abddb986284f418954bdd74670aff6"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-281ce8abdeff4dd7b188a14d17b066cf.xml#id-281ce8abdeff4dd7b188a14d17b066cf"/>
+</archimate:ServingRelationship>

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BIAN v14 · Service Landscape (vista Matrix) · 341 Service Domains"
+    name="M4 - BIAN v14 · Service Landscape (vista Matrix) · 341 Service Domains"
     id="id-50c6b3406ca64e7687b18c5c297c1566"
     documentation="El BIAN Service Landscape V14.0 completo, en su presentacion MATRIX.&#xA;&#xA;341 Service Domains, MECE entre si, distribuidos en 5 Business Areas y 26&#xA;Business Domains de primer nivel. Los Business Domains anidados se modelan&#xA;como capacidades de negocio agrupadoras: no son un nivel del metamodelo&#xA;BIAN, el nivel donde se cumple el MECE son los 341 dominios.&#xA;&#xA;La Matrix y la Value Chain son dos particiones distintas de los mismos 341&#xA;dominios: la Value Chain usa 8 Business Areas y 43 Business Domains, y&#xA;ninguna Business Area coincide en nombre con las de la Matrix. Esta vista&#xA;declara la Matrix como taxonomia base del curso.&#xA;&#xA;Cada dominio lleva en su documentacion la ficha completa: Business&#xA;Definition, el metamodelo (Control Record = Asset Type + Generic Artifact),&#xA;los atributos del Control Record, los Behavior Qualifiers, los Action Terms&#xA;con el mapa de que termino activa que qualifier, y el alineamiento BOM e&#xA;ISO 20022.&#xA;&#xA;Cobertura de la ficha: el metamodelo esta al 100% (341/341), tomado de las&#xA;vistas SD Overview publicadas. Las columnas derivadas de las APIs semanticas&#xA;cubren 258 de 341, que son los dominios con API publicada en el repositorio&#xA;oficial; los 83 restantes no tienen API publicada en la release 14.0.0.&#xA;&#xA;Sin relaciones dibujadas: el anidamiento ES la taxonomia.">
   <children

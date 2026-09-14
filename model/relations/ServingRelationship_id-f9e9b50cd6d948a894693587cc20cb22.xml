@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-f9e9b50cd6d948a894693587cc20cb22"
+    documentation="El Service Domain Party Lifecycle Management sirve a la capacidad M1.1 Registro y Onboarding de Clientes (KYC).&#xA;-------------------------------------------------&#xA;El onboarding no termina cuando se capturan los datos: administra el vínculo desde el alta hasta su cierre, y la validación de identidad es una faceta de ese plan.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-a7ab118a18fd4ca596d63aec2c964143.xml#id-a7ab118a18fd4ca596d63aec2c964143"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-481906e29b8d437caed1453b757da11b.xml#id-481906e29b8d437caed1453b757da11b"/>
+</archimate:ServingRelationship>

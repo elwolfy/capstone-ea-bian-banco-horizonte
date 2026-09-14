@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.8a  Entrega de bienvenida"
+    id="id-d55f1deac68a400aacaddba667b5077f"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Operate&#xA;  Tipo de activo   : Correspondence&#xA;  Service Domain   : Correspondence&#xA;  Behavior Qualifier: Outbound&#xA;  Ubicacion Matrix : Business Support > Document Management and Archive&#xA;-------------------------------------------------&#xA;Operate sobre la sesion de correspondencia.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Correspondence"/>
+  <properties
+      key="behaviorQualifier"
+      value="Outbound"/>
+</archimate:BusinessProcess>

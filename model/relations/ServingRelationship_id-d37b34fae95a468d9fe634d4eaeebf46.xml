@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-d37b34fae95a468d9fe634d4eaeebf46"
+    documentation="El Service Domain Merchant Acquiring Facility sirve a la capacidad M7.1 Afiliación y Operación de Comercios Adquirentes.&#xA;-------------------------------------------------&#xA;BRECHA DE CAPACIDAD. Operar la cuenta del comercio —clearing, chargeback, liquidación y comisiones— no tiene capacidad declarada en el mapa. El dominio revela la capacidad que falta: ése es el metamodelo funcionando en sentido inverso.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-e5ece308ef2f4d8fa3d927da32993899.xml#id-e5ece308ef2f4d8fa3d927da32993899"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-3d4c2e5406e24eb3bcea8c8662b92657.xml#id-3d4c2e5406e24eb3bcea8c8662b92657"/>
+</archimate:ServingRelationship>

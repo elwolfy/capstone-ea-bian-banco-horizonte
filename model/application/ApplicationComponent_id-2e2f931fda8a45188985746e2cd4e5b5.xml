@@ -1,0 +1,12 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-10  Pasarela de Pagos Inmediatos"
+    id="id-2e2f931fda8a45188985746e2cd4e5b5"
+    documentation="[APLICACION: APP-10 Pasarela de Pagos Inmediatos] Componente del inventario AS-IS de Banco Horizonte (Modulo 2).  En esta vista aparece como sistema que ejerce responsabilidades de negocio o que mantiene copias del dato de otro dominio. La regla de calidad del Service Landscape es que cada Service Domain este soportado por un solo componente de aplicacion, y que los componentes interactuen a traves de servicios correspondientes a Service Operations combinadas limpiamente.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="inventario"
+      value="AS-IS Banco Horizonte"/>
+</archimate:ApplicationComponent>

@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-d31703c6bb6344008db68ff13dc13d10"
+    documentation="El Service Domain Account Reconciliation sirve a la capacidad H1.1 Contabilidad y Registro Financiero (Ledger).&#xA;-------------------------------------------------&#xA;Conciliar cuentas es parte de la contabilidad y tiene registro propio —Account Reconciliation Procedure—, distinto del log de asientos.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-1aa88c8f8b254ad9af7d2a193301ab2d.xml#id-1aa88c8f8b254ad9af7d2a193301ab2d"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-f4f196ace955432cbe02cfaa76f3a74a.xml#id-f4f196ace955432cbe02cfaa76f3a74a"/>
+</archimate:ServingRelationship>

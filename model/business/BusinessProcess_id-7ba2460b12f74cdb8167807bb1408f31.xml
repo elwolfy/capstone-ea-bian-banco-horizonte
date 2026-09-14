@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.5a  Habilitacion y activacion del agente"
+    id="id-7ba2460b12f74cdb8167807bb1408f31"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Administer&#xA;  Tipo de activo   : Partner&#xA;  Service Domain   : Partner Administration&#xA;  Ubicacion Matrix : Reference Data > External Agency&#xA;-------------------------------------------------&#xA;Administer sobre el activo Partner. Habilitar y activar son etapas del mismo plan administrativo, que no modela fases.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Partner Administration"/>
+</archimate:BusinessProcess>

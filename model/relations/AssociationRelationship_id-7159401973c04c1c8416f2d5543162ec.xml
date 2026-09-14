@@ -1,0 +1,16 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="gobierna"
+    id="id-7159401973c04c1c8416f2d5543162ec"
+    documentation="Relacion 1:1 entre el Service Domain y su Control Record.&#xA;Es el nivel donde el catalogo BIAN cumple MECE.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-9e4024d9a797480f9e94b694a181a7fc.xml#id-9e4024d9a797480f9e94b694a181a7fc"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4c15107f60a345a5a6fa853f6ac0921c.xml#id-4c15107f60a345a5a6fa853f6ac0921c"/>
+</archimate:AssociationRelationship>

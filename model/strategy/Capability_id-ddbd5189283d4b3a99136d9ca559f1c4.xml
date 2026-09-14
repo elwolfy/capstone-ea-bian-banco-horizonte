@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Settlement"
+    id="id-ddbd5189283d4b3a99136d9ca559f1c4"
+    documentation="[SERVICE DOMAIN: Payment Settlement]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Payment Settlement&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Payment Settlement Details&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Operations and Execution&#xA;  Business Domain : Cross Product Operations&#xA;  Anidado         : Payments&#xA;&#xA;BUSINESS DEFINITION&#xA;  Ejecuta los movimientos de fondos entre la cuenta del cliente y una cuenta interna o&#xA;  de holding para asegurar la disponibilidad de fondos en la liquidacion interbancaria&#xA;  a traves del rail. Cubre la transferencia principal y la de comisiones, y la&#xA;  reversion de fondos bloqueados.&#xA;&#xA;BEHAVIOR QUALIFIERS (1)&#xA;    Funds Transfer&#xA;">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Payment Settlement"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Settlement Procedure"/>
+</archimate:Capability>

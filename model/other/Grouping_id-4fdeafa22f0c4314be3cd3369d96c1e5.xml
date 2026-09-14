@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Misional"
+    id="id-4fdeafa22f0c4314be3cd3369d96c1e5"
+    documentation="Banda del mapa de capacidades de Banco Horizonte.&#xA;BIZBOK · Core / Customer-facing">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="marco"
+      value="BIZBOK"/>
+</archimate:Grouping>

@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cross Product Operations > Account Management"
+    id="id-24edacaf89c14d8aa32241010b259c57"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Incluye el nivel anidado, que se trata como capacidad de negocio&#xA;agrupadora y no como un nivel del metamodelo BIAN.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-12.4  Instalacion y administracion de terminales POS"
+    id="id-d0b89c42a1d24054b2680f0785855f4a"
+    documentation="Actividad del proceso PN-12 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Allocate&#xA;  Tipo de activo   : Card POS Device&#xA;  Service Domain   : Card Terminal Administration&#xA;  Behavior Qualifier: Allocation&#xA;  Ubicacion Matrix : Sales and Service > Channel Specific&#xA;-------------------------------------------------&#xA;Allocate sobre el activo Card POS Device. Administra inventario, caracteristicas, despliegue y estado de los terminales.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Card Terminal Administration"/>
+  <properties
+      key="behaviorQualifier"
+      value="Allocation"/>
+</archimate:BusinessProcess>

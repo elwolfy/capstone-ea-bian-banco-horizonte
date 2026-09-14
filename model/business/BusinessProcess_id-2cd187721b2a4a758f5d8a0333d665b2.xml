@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10.3  Consolidacion manual en hojas de calculo"
+    id="id-2cd187721b2a4a758f5d8a0333d665b2"
+    documentation="Actividad del proceso PN-10 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;SIN RESPONSABILIDAD FUNCIONAL BIAN&#xA;  Esta actividad no recibe Service Domain.&#xA;-------------------------------------------------&#xA;BRECHA. Es el defecto que la arquitectura objetivo elimina. Asignarle un dominio estandar lo legitimaria.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="brecha"
+      value="si"/>
+</archimate:BusinessProcess>

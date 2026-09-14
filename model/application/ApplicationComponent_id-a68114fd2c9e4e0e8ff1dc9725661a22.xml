@@ -1,0 +1,12 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="APP-01  SIGEB — Core Bancario"
+    id="id-a68114fd2c9e4e0e8ff1dc9725661a22"
+    documentation="[APLICACION: APP-01 SIGEB — Core Bancario] Componente del inventario AS-IS de Banco Horizonte (Modulo 2).  En esta vista aparece como sistema que ejerce responsabilidades de negocio o que mantiene copias del dato de otro dominio. La regla de calidad del Service Landscape es que cada Service Domain este soportado por un solo componente de aplicacion, y que los componentes interactuen a traves de servicios correspondientes a Service Operations combinadas limpiamente.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="inventario"
+      value="AS-IS Banco Horizonte"/>
+</archimate:ApplicationComponent>

@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="H1.2  Reportería Regulatoria y Financiera"
+    id="id-612a54f145a5423ba990e2d03bb1db51"
+    documentation="Capacidad de negocio de nivel 2 del mapa de Banco Horizonte.&#xA;Capacidad padre: H1 Gestión Financiera y Contable&#xA;">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L2"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Habilitadora"/>
+</archimate:Capability>

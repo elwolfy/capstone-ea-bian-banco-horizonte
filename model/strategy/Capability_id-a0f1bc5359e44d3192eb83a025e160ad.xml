@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="M1  Gestión de Clientes"
+    id="id-a0f1bc5359e44d3192eb83a025e160ad"
+    documentation="Capacidad de negocio de nivel 1 del mapa de Banco Horizonte.&#xA;Banda BIZBOK: Misional.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L1"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Misional"/>
+</archimate:Capability>

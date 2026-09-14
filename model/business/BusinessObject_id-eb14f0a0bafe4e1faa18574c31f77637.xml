@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Training Procedure"
+    id="id-eb14f0a0bafe4e1faa18574c31f77637"
+    documentation="[CONTROL RECORD: Product Training Procedure] Service Domain propietario: Product Training  DERIVACION   Functional Pattern : Process   Asset Type         : Product Training   Control Record     : Product Training Procedure   (Asset Type + Generic Artifact)   Atributos publicados: 20   Behavior Qualifiers: 4  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : sin sistema (manual)   Copias no gobernadas        : ninguna   Dueno objetivo              : gestor de alianzas   Veredicto                   : SIN DUENO - Ningún sistema ejerce la responsabilidad: se hace a mano  BRECHA DE DATO   La capacitación no se registra. No hay evidencia de qué agente fue capacitado en qué   producto ni cuándo.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 28   Eventos outbound publicados    : 12   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Product Training Procedure"/>
+  <properties
+      key="bianServiceDomain"
+      value="Product Training"/>
+  <properties
+      key="veredictoPropiedad"
+      value="SIN DUENO"/>
+  <properties
+      key="duenoObjetivo"
+      value="gestor de alianzas"/>
+</archimate:BusinessObject>

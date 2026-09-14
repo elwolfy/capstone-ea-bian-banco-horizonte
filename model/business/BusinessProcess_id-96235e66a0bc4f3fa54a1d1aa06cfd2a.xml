@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-10  ·  Cierre contable y reporteria(6 responsabilidades, 2 brechas)"
+    id="id-96235e66a0bc4f3fa54a1d1aa06cfd2a"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Filas de derivacion: 8&#xA;Responsabilidades funcionales asignadas a un Service Domain: 6&#xA;Brechas sin responsabilidad BIAN: 2">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="responsabilidades"
+      value="6"/>
+  <properties
+      key="brechas"
+      value="2"/>
+</archimate:BusinessProcess>

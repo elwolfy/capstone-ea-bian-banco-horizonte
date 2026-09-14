@@ -1,0 +1,15 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="E3.2  Prevención de Lavado de Activos (PLAFT)"
+    id="id-dfc7d5497d9e4d1890db05496c8c6ed2"
+    documentation="Capacidad de negocio de nivel 2 del mapa de Banco Horizonte.&#xA;Capacidad padre: E3 Gobierno, Riesgo y Cumplimiento&#xA;">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L2"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Estratégica"/>
+</archimate:Capability>

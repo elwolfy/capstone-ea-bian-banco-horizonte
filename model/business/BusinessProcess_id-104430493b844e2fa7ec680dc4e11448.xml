@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-12.1  Prospeccion y evaluacion del comercio"
+    id="id-104430493b844e2fa7ec680dc4e11448"
+    documentation="Actividad del proceso PN-12 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Process&#xA;  Tipo de activo   : Leadand Opportunity&#xA;  Service Domain   : Lead and Opportunity Management&#xA;  Behavior Qualifier: Development&#xA;  Ubicacion Matrix : Sales and Service > Sales&#xA;-------------------------------------------------&#xA;Process sobre la oportunidad comercial. Mismo dominio que PN-11.1 en otro proceso: reutilizacion.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Lead and Opportunity Management"/>
+  <properties
+      key="behaviorQualifier"
+      value="Development"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-ea4b4a67317547b9888bccff10747f45"
+    documentation="El Service Domain Regulatory Compliance sirve a la capacidad E3.2 Prevención de Lavado de Activos (PLAFT).&#xA;-------------------------------------------------&#xA;Evaluar el cumplimiento regulatorio de la parte es la capacidad PLAFT. Un solo dominio atiende cliente, agente y comercio: la capacidad no se duplica por sujeto.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-61eababc1415429880e8304a03790666.xml#id-61eababc1415429880e8304a03790666"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-dfc7d5497d9e4d1890db05496c8c6ed2.xml#id-dfc7d5497d9e4d1890db05496c8c6ed2"/>
+</archimate:ServingRelationship>

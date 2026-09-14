@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.2a  Captura de datos de la parte"
+    id="id-dde6a796aa34446aad5661961f1e3d7d"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Catalog&#xA;  Tipo de activo   : Party Reference Data&#xA;  Service Domain   : Party Reference Data Directory&#xA;  Behavior Qualifier: Reference&#xA;  Ubicacion Matrix : Sales and Service > Customer Management&#xA;-------------------------------------------------&#xA;Cataloga los datos de referencia de la parte.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Party Reference Data Directory"/>
+  <properties
+      key="behaviorQualifier"
+      value="Reference"/>
+</archimate:BusinessProcess>

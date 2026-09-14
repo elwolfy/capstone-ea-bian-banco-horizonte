@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-0a2b4f40722d46bdb901510bb07d997a"
+    documentation="El Service Domain Issued Device Administration sirve a la capacidad M1.2 Identidad y Autenticación de Clientes.&#xA;-------------------------------------------------&#xA;Asignar la credencial emitida es la mitad de la identidad: el dispositivo o la clave con que el cliente se autentica.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-32f140068d5f4fdca74f8d547fdd5e0b.xml#id-32f140068d5f4fdca74f8d547fdd5e0b"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-5756ce7d7ef74eaa9d99b95ee8d4544b.xml#id-5756ce7d7ef74eaa9d99b95ee8d4544b"/>
+</archimate:ServingRelationship>

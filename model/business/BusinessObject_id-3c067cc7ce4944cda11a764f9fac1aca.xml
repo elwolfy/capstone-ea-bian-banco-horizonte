@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Booking Log"
+    id="id-3c067cc7ce4944cda11a764f9fac1aca"
+    documentation="[CONTROL RECORD: Financial Booking Log] Service Domain propietario: Financial Accounting  DERIVACION   Functional Pattern : Track   Asset Type         : Financial Booking   Control Record     : Financial Booking Log   (Asset Type + Generic Artifact)   Atributos publicados: 6   Behavior Qualifiers: 1  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : BO-ASI Asiento contable   Sistemas que lo ejercen hoy : APP-11 Contabilidad / ERP, APP-01 SIGEB — Core Bancario   Copias no gobernadas        : APP-12 Reportería Regulatoria (Access+Excel), APP-14 Datawarehouse   Dueno objetivo              : APP-11 Contabilidad / ERP   Veredicto                   : DUENO DISPERSO - Más de un sistema ejerce el mismo patrón sobre el mismo activo  BRECHA DE DATO   El log de asientos se mantiene en el core y en el ERP, y se vuelve a armar en Excel.   Es la causa raíz de las brechas PN-10.2 y PN-10.3.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 7   Eventos outbound publicados    : 4   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Financial Booking Log"/>
+  <properties
+      key="bianServiceDomain"
+      value="Financial Accounting"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO DISPERSO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-11"/>
+</archimate:BusinessObject>

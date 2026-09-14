@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Product Specific Fulfillment > Cards"
+    id="id-3f35a27dd54a49a1a91c46f4d6b2e9f0"
+    documentation="Business Domain de la vista Matrix del Service Landscape V14.0.&#xA;Incluye el nivel anidado, que se trata como capacidad de negocio&#xA;agrupadora y no como un nivel del metamodelo BIAN.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+</archimate:Grouping>

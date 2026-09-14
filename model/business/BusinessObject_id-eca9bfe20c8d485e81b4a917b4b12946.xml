@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Settlement Details"
+    id="id-eca9bfe20c8d485e81b4a917b4b12946"
+    documentation="[CONTROL RECORD: Payment Settlement Details] Service Domain propietario: Payment Settlement  DERIVACION   Functional Pattern : Process   Asset Type         : Payment Settlement   Control Record     : Payment Settlement Details   (Asset Type + Generic Artifact)   Atributos publicados: en elaboracion   Behavior Qualifiers: en elaboracion  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : BO-TRX Transacción   Sistemas que lo ejercen hoy : APP-01 SIGEB — Core Bancario   Copias no gobernadas        : APP-09 Plataforma de Agentes, APP-11 Contabilidad / ERP, APP-12 Reportería Regulatoria (Access+Excel), APP-14 Datawarehouse   Dueno objetivo              : APP-01 SIGEB — Core Bancario   Veredicto                   : CON REPLICAS - Un ejecutor único, pero otros sistemas mantienen copia propia  BRECHA DE DATO   Cuatro sistemas mantienen su propia copia del movimiento liquidado. Es H-07 en   estado puro: la contabilidad se reconstruye desde fuentes que no cuadran.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 0   Eventos outbound publicados    : 0   BOM mapping                    : en elaboracion   ISO 20022 / Semantics Alignment: en elaboracion  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Settlement Details"/>
+  <properties
+      key="bianServiceDomain"
+      value="Payment Settlement"/>
+  <properties
+      key="veredictoPropiedad"
+      value="CON REPLICAS"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-01"/>
+</archimate:BusinessObject>

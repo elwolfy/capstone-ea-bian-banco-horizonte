@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-8f07cd01e5254b27b73e5e4bcd2c4fc2"
+    documentation="El Service Domain Disbursement sirve a la capacidad M5.1 Ejecución de Pagos y Desembolso.&#xA;-------------------------------------------------&#xA;El desembolso es un pago con origen en una facilidad recién constituida. Comparte capacidad con el resto de los pagos y tiene Control Record propio.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-9e4024d9a797480f9e94b694a181a7fc.xml#id-9e4024d9a797480f9e94b694a181a7fc"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-9c0ddc06e62f4243906da2e1e0883f68.xml#id-9c0ddc06e62f4243906da2e1e0883f68"/>
+</archimate:ServingRelationship>

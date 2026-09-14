@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.9  Registro contable del desembolso"
+    id="id-346bbf772f9a4e24981227f2c94433f9"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Track&#xA;  Tipo de activo   : Financial Booking&#xA;  Service Domain   : Financial Accounting&#xA;  Behavior Qualifier: Ledger Posting&#xA;  Ubicacion Matrix : Risk and Compliance > Regulations and Compliance&#xA;-------------------------------------------------&#xA;Track sobre el asiento contable.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Financial Accounting"/>
+  <properties
+      key="behaviorQualifier"
+      value="Ledger Posting"/>
+</archimate:BusinessProcess>

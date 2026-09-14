@@ -1,0 +1,12 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Habilitadora"
+    id="id-7a4707bab39440c6bedb8fe0a7307578"
+    documentation="Banda del mapa de capacidades de Banco Horizonte.&#xA;BIZBOK · Supporting / Enabling">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="marco"
+      value="BIZBOK"/>
+</archimate:Grouping>

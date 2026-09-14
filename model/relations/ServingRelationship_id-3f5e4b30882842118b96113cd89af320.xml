@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-3f5e4b30882842118b96113cd89af320"
+    documentation="El Service Domain Payment Confirmation sirve a la capacidad M5.1 Ejecución de Pagos y Desembolso.&#xA;-------------------------------------------------&#xA;Las comprobaciones previas a la liquidación pertenecen a la capacidad de pagos. Hoy el banco solo ejecuta la verificación PLAFT y por eso el SIPOC la ubicó en E3.2; ese encuadre es la razón de que las otras cinco facetas —pricing, FX, riesgo, fondeo y bloqueo de fondos— no tengan dueño.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-4c44c97ffd6e453894b1300e96ad6f42.xml#id-4c44c97ffd6e453894b1300e96ad6f42"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-9c0ddc06e62f4243906da2e1e0883f68.xml#id-9c0ddc06e62f4243906da2e1e0883f68"/>
+</archimate:ServingRelationship>

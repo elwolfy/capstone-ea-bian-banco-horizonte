@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Merchant Acquiring Facility"
+    id="id-48db9918899f40bfabf9ad2341a93683"
+    documentation="[CONTROL RECORD: Merchant Acquiring Facility] Service Domain propietario: Merchant Acquiring Facility  DERIVACION   Functional Pattern : Fulfill   Asset Type         : Merchant Acquiring   Control Record     : Merchant Acquiring Facility   (Asset Type + Generic Artifact)   Atributos publicados: 10   Behavior Qualifiers: 5  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-09 Plataforma de Agentes   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-09 Plataforma de Agentes   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  BRECHA DE DATO   La cuenta del comercio no existe como facilidad: clearing, chargeback, liquidación y   comisiones se resuelven dentro del core sin registro propio.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 19   Eventos outbound publicados    : 12   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Merchant Acquiring Facility"/>
+  <properties
+      key="bianServiceDomain"
+      value="Merchant Acquiring Facility"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-09"/>
+</archimate:BusinessObject>

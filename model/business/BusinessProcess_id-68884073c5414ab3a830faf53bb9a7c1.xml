@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.6  Replicacion del cliente al CRM"
+    id="id-68884073c5414ab3a830faf53bb9a7c1"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;SIN RESPONSABILIDAD FUNCIONAL BIAN&#xA;  Esta actividad no recibe Service Domain.&#xA;-------------------------------------------------&#xA;BRECHA. Movimiento de datos entre sistemas: mecanismo de integracion, no responsabilidad de negocio. Desaparece con un unico system of record.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="brecha"
+      value="si"/>
+</archimate:BusinessProcess>

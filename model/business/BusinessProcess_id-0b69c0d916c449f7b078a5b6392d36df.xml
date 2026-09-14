@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.6  Definicion de condiciones (monto, plazo, tasa)"
+    id="id-0b69c0d916c449f7b078a5b6392d36df"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Process&#xA;  Tipo de activo   : Customer Offer&#xA;  Service Domain   : Customer Offer&#xA;  Behavior Qualifier: Credit&#xA;  Ubicacion Matrix : Sales and Service > Sales&#xA;-------------------------------------------------&#xA;Process sobre la oferta: las condiciones se pactan antes de que exista la facilidad. Al aprobarse instancian los atributos del Corporate Loan Facility.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Customer Offer"/>
+  <properties
+      key="behaviorQualifier"
+      value="Credit"/>
+</archimate:BusinessProcess>

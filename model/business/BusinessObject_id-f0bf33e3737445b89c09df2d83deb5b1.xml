@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulatory Compliance Administrative Plan"
+    id="id-f0bf33e3737445b89c09df2d83deb5b1"
+    documentation="[CONTROL RECORD: Regulatory Compliance Administrative Plan] Service Domain propietario: Regulatory Reporting  DERIVACION   Functional Pattern : Administer   Asset Type         : Regulatory Compliance   Control Record     : Regulatory Compliance Administrative Plan   (Asset Type + Generic Artifact)   Atributos publicados: 4   Behavior Qualifiers: 3  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : BO-REP Reporte regulatorio   Sistemas que lo ejercen hoy : APP-12 Reportería Regulatoria (Access+Excel), APP-13 Monitoreo PLAFT   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-12 Reportería Regulatoria (Access+Excel)   Veredicto                   : DUENO DISPERSO - Más de un sistema ejerce el mismo patrón sobre el mismo activo  BRECHA DE DATO   El plan de cumplimiento se administra en Excel para SBS y en el motor PLAFT para   UIF. El envío al regulador (PN-10.9) es manual y no deja acuse en sistema.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 13   Eventos outbound publicados    : 8   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Regulatory Compliance Administrative Plan"/>
+  <properties
+      key="bianServiceDomain"
+      value="Regulatory Reporting"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO DISPERSO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-12"/>
+</archimate:BusinessObject>

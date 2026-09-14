@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11  ·  Incorporacion de comercios y agentes&#xA;(7 responsabilidades, 0 brechas)"
+    id="id-72d6321cfb924657a8f357f185745a4a"
+    documentation="Proceso de negocio declarado en el alcance del capstone.&#xA;Filas de derivacion: 7&#xA;Responsabilidades funcionales asignadas a un Service Domain: 7&#xA;Brechas sin responsabilidad BIAN: 0">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="responsabilidades"
+      value="7"/>
+  <properties
+      key="brechas"
+      value="0"/>
+</archimate:BusinessProcess>

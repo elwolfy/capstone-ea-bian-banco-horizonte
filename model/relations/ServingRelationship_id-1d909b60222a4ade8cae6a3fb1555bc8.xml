@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-1d909b60222a4ade8cae6a3fb1555bc8"
+    documentation="El Service Domain Lead and Opportunity Management sirve a la capacidad E1.4 Gestión de Alianzas y Ecosistema.&#xA;-------------------------------------------------&#xA;Procesar la oportunidad es la capacidad de alianzas cuando el prospecto es un socio o un comercio. El mismo dominio sirve a M1.3 CRM cuando el prospecto es un cliente: la capacidad depende del sujeto captado, no del dominio.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-7d64b4851d3c4eb1a0be403a2a3110cb.xml#id-7d64b4851d3c4eb1a0be403a2a3110cb"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-cf2cf354254e4b4d80c28a4ccaf2c97c.xml#id-cf2cf354254e4b4d80c28a4ccaf2c97c"/>
+</archimate:ServingRelationship>

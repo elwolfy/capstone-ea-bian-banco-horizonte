@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-12.3  Firma del contrato de afiliacion"
+    id="id-21484649dff74f57a1af545141a7acb0"
+    documentation="Actividad del proceso PN-12 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Agree Terms&#xA;  Tipo de activo   : Merchant Relationship&#xA;  Service Domain   : Merchant Relations&#xA;  Behavior Qualifier: Operational Term&#xA;  Ubicacion Matrix : Operations and Execution > Product Specific Fulfillment > Cards&#xA;-------------------------------------------------&#xA;Agree Terms sobre el activo Merchant Relationship. Mismo patron que PN-11.3, activo distinto: por eso son dos dominios y dos procesos.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Merchant Relations"/>
+  <properties
+      key="behaviorQualifier"
+      value="Operational Term"/>
+</archimate:BusinessProcess>

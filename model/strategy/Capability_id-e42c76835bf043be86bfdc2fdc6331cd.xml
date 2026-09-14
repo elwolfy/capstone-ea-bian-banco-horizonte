@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Point of Service"
+    id="id-e42c76835bf043be86bfdc2fdc6331cd"
+    documentation="[SERVICE DOMAIN: Point of Service]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Operate&#xA;  Asset Type         : Pointof Service&#xA;  Generic Artifact   : Operating Session&#xA;  Control Record     : Pointof Service Operating Session&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Cross Channel&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain operates servicing positions within the bank. It administers all&#xA;  media connections, inventory holdings (e.g. cash), provides access to support&#xA;  utilities and tracks servicing activity -e.g. time spent, activity logs, capturing&#xA;  servicing events including commission and training related actions. In cases&#xA;  servicing positions can be automated&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (11)&#xA;  Servicing Position Configuration/Set-up | Servicing Position Reference | Servicing&#xA;  Position Type | Servicing Position Location | Servicing Position Facility Type |&#xA;  Servicing Position Facility Reference | Servicing Position Schedule | Servicing&#xA;  Position Activity Report | Servicing Position Operating Session Statistics |&#xA;  Servicing Position Operating Session Report Type | Servicing Position Operating&#xA;  Session Report&#xA;&#xA;BEHAVIOR QUALIFIERS (5)&#xA;    Assisted   (2 atributos)&#xA;    Automated   (1 atributos)&#xA;    Interaction   (1 atributos)&#xA;    Inventory   (3 atributos)&#xA;    Cash Position   (5 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Update Initiate Control Execute Request Retrieve&#xA;  Inbound  : 23 operaciones&#xA;  Outbound : 12 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Operate"/>
+  <properties
+      key="bianAssetType"
+      value="Pointof Service"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Operating Session"/>
+  <properties
+      key="bianControlRecord"
+      value="Pointof Service Operating Session"/>
+</archimate:Capability>

@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Disbursement Transaction"
+    id="id-4c15107f60a345a5a6fa853f6ac0921c"
+    documentation="[CONTROL RECORD: Disbursement Transaction] Service Domain propietario: Disbursement  DERIVACION   Functional Pattern : Transact   Asset Type         : Disbursement   Control Record     : Disbursement Transaction   (Asset Type + Generic Artifact)   Atributos publicados: 27   Behavior Qualifiers: en elaboracion  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : BO-TRX Transacción   Sistemas que lo ejercen hoy : APP-01 SIGEB — Core Bancario   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-01 SIGEB — Core Bancario   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 7   Eventos outbound publicados    : 2   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Disbursement Transaction"/>
+  <properties
+      key="bianServiceDomain"
+      value="Disbursement"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-01"/>
+</archimate:BusinessObject>

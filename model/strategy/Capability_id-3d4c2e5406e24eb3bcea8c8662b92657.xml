@@ -1,0 +1,18 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="M7.1  Afiliación y Operación de Comercios Adquirentes"
+    id="id-3d4c2e5406e24eb3bcea8c8662b92657"
+    documentation="Capacidad de negocio de nivel 2 del mapa de Banco Horizonte.&#xA;Capacidad padre: M7 Adquirencia y Aceptación de Pagos&#xA;&#xA;CAPACIDAD POR DECLARAR. No existe en el mapa del Modulo 2. La revelo la&#xA;derivacion de responsabilidades: hay Service Domains que el banco ejerce y&#xA;que ninguna capacidad declarada recoge. El metamodelo funciona en los dos&#xA;sentidos: la capacidad ordena los dominios, y los dominios descubren&#xA;capacidades que faltan.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <properties
+      key="nivel"
+      value="L2"/>
+  <properties
+      key="bandaBIZBOK"
+      value="Misional"/>
+  <properties
+      key="estado"
+      value="por declarar en el mapa"/>
+</archimate:Capability>

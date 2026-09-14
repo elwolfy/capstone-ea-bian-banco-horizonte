@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-3dfdd2f997b04bddad7de65d23ebea41"
+    documentation="El Service Domain Operations Log sirve a la capacidad M6.2 Red de Corresponsalía / Agentes.&#xA;-------------------------------------------------&#xA;Registrar los eventos del socio es lo que hace gobernable la red: sin log no hay seguimiento, y sin seguimiento la red opera a ciegas.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-93dc5f0349f748f59c2b53c9029ab5e1.xml#id-93dc5f0349f748f59c2b53c9029ab5e1"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-281ce8abdeff4dd7b188a14d17b066cf.xml#id-281ce8abdeff4dd7b188a14d17b066cf"/>
+</archimate:ServingRelationship>

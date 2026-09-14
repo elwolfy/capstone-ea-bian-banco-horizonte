@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-11.5a  Habilitacion del agente"
+    id="id-17f2dfa46c9d4a469adaf02a599bb6b9"
+    documentation="Actividad del proceso PN-11 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Administer&#xA;  Tipo de activo   : Partner&#xA;  Service Domain   : Partner Administration&#xA;  Ubicacion Matrix : Reference Data > External Agency&#xA;-------------------------------------------------&#xA;Administer sobre el activo Partner.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Partner Administration"/>
+</archimate:BusinessProcess>

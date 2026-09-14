@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Order Initiation Transaction"
+    id="id-b846c3befd9a45b296f4720169b61b61"
+    documentation="[CONTROL RECORD: Payment Order Initiation Transaction] Service Domain propietario: Payment Order Initiation  DERIVACION   Functional Pattern : Transact   Asset Type         : Payment Order Initiation   Control Record     : Payment Order Initiation Transaction   (Asset Type + Generic Artifact)   Atributos publicados: 21   Behavior Qualifiers: 3  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : BO-ORD Orden de pago   Sistemas que lo ejercen hoy : APP-06 Banca por Internet, APP-07 App Móvil, APP-01 SIGEB — Core Bancario   Copias no gobernadas        : APP-09 Plataforma de Agentes   Dueno objetivo              : APP-01 SIGEB — Core Bancario   Veredicto                   : DUENO DISPERSO - Más de un sistema ejerce el mismo patrón sobre el mismo activo  BRECHA DE DATO   Cada canal mantiene su propio registro de la orden antes de que llegue al core:   cuatro dueños de BO-ORD.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 7   Eventos outbound publicados    : 8   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Order Initiation Transaction"/>
+  <properties
+      key="bianServiceDomain"
+      value="Payment Order Initiation"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO DISPERSO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-01"/>
+</archimate:BusinessObject>

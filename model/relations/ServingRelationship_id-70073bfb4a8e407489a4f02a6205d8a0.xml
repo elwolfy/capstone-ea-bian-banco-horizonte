@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-70073bfb4a8e407489a4f02a6205d8a0"
+    documentation="El Service Domain Payment Settlement sirve a la capacidad M5.1 Ejecución de Pagos y Desembolso.&#xA;-------------------------------------------------&#xA;Mover los fondos es el núcleo de la capacidad. Es el único dominio de la cadena que toca las cuentas.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-8a00a34e3dac4cbbbe6243331ea17973.xml#id-8a00a34e3dac4cbbbe6243331ea17973"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-9c0ddc06e62f4243906da2e1e0883f68.xml#id-9c0ddc06e62f4243906da2e1e0883f68"/>
+</archimate:ServingRelationship>

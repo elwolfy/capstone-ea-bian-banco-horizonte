@@ -1,0 +1,12 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="manual  Sin sistema — trabajo manual"
+    id="id-525c8b1922114b5d83ccaba9d393ce11"
+    documentation="[APLICACION: manual Sin sistema — trabajo manual] Componente del inventario AS-IS de Banco Horizonte (Modulo 2).  En esta vista aparece como sistema que ejerce responsabilidades de negocio o que mantiene copias del dato de otro dominio. La regla de calidad del Service Landscape es que cada Service Domain este soportado por un solo componente de aplicacion, y que los componentes interactuen a traves de servicios correspondientes a Service Operations combinadas limpiamente.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="inventario"
+      value="AS-IS Banco Horizonte"/>
+</archimate:ApplicationComponent>

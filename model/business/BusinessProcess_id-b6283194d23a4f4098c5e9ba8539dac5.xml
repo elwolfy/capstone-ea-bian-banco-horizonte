@@ -1,0 +1,15 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-01.7a  Habilitacion de credenciales"
+    id="id-b6283194d23a4f4098c5e9ba8539dac5"
+    documentation="Actividad del proceso PN-01 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Allocate&#xA;  Tipo de activo   : Issued Device&#xA;  Service Domain   : Issued Device Administration&#xA;  Behavior Qualifier: Password Assignment&#xA;  Ubicacion Matrix : Operations and Execution > Cross Product Operations > Operational Services&#xA;-------------------------------------------------&#xA;Administer sobre la asignacion de dispositivos y credenciales emitidas.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Issued Device Administration"/>
+  <properties
+      key="behaviorQualifier"
+      value="Password Assignment"/>
+</archimate:BusinessProcess>

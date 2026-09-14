@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-e25a0ef92eea4d0fbc5f7143fb627164"
+    documentation="El Service Domain Regulatory Reporting sirve a la capacidad E3.1 Cumplimiento y Reporte Regulatorio.&#xA;-------------------------------------------------&#xA;Administrar el plan de cumplimiento —elaborar, presentar y atender consultas del regulador— es la capacidad de reporte. La autoridad destinataria es atributo del registro, no otra capacidad.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-2290334f3aed4de9971c22535d15c72a.xml#id-2290334f3aed4de9971c22535d15c72a"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-aeb103c25dd04cd791f2807bc6893952.xml#id-aeb103c25dd04cd791f2807bc6893952"/>
+</archimate:ServingRelationship>

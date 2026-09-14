@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Offer"
+    id="id-5b38e151652a45ceb57454257b23f498"
+    documentation="[SERVICE DOMAIN: Customer Offer]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Process&#xA;  Asset Type         : Customer Offer&#xA;  Generic Artifact   : Procedure&#xA;  Control Record     : Customer Offer Procedure&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Sales&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain orchestrates the processing of a product offer for a new or&#xA;  established customer&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (13)&#xA;  Customer Reference | Party Reference | Product and Service Type | Customer Offer&#xA;  Processing Schedule | Customer Offer Processing Task | Customer Offer Processing&#xA;  Task Type | Employee/Business Unit Reference | Customer Offer Processing Task Work&#xA;  Products | Customer Offer Processing Task Result | Customer Offer Involved Party |&#xA;  Customer Offer Reference | Product Agreement Reference | Product and Service&#xA;  Reference&#xA;&#xA;BEHAVIOR QUALIFIERS (10)&#xA;    Facility Application   (8 atributos)&#xA;    Disclosures   (4 atributos)&#xA;    Credit   (3 atributos)&#xA;    Underwriting   (4 atributos)&#xA;    Compliance   (5 atributos)&#xA;    Audit   (5 atributos)&#xA;    Collateral Allocation   (4 atributos)&#xA;    Booking   (3 atributos)&#xA;    Agreement   (2 atributos)&#xA;    Product Initialization   (1 atributos)&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Update Control Exchange Retrieve Execute Request Initiate&#xA;  Inbound  : 34 operaciones&#xA;  Outbound : 24 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Process"/>
+  <properties
+      key="bianAssetType"
+      value="Customer Offer"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Procedure"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Offer Procedure"/>
+</archimate:Capability>

@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-1920d0db99c548fb96cf1d3eba8e21b8"
+    documentation="El Service Domain Product Training sirve a la capacidad M6.2 Red de Corresponsalía / Agentes.&#xA;-------------------------------------------------&#xA;Capacitar al agente es condición de operación de la red: un punto de atención sin capacitación no puede atender.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-2a77cef813f345aa8982ff707c415608.xml#id-2a77cef813f345aa8982ff707c415608"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-281ce8abdeff4dd7b188a14d17b066cf.xml#id-281ce8abdeff4dd7b188a14d17b066cf"/>
+</archimate:ServingRelationship>

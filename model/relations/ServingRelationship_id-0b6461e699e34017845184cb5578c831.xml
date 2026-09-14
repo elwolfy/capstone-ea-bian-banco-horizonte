@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-0b6461e699e34017845184cb5578c831"
+    documentation="El Service Domain Correspondence sirve a la capacidad M1.4 Experiencia y Servicio al Cliente.&#xA;-------------------------------------------------&#xA;Operar la sesión de correspondencia es la capacidad de servicio en su forma más básica: comunicar al cliente y dejar registro de haberlo hecho.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-568a4b63d41447af9e2c51e7e67ea6f3.xml#id-568a4b63d41447af9e2c51e7e67ea6f3"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-39f2057a36fe4c059a2c972efaba7317.xml#id-39f2057a36fe4c059a2c972efaba7317"/>
+</archimate:ServingRelationship>

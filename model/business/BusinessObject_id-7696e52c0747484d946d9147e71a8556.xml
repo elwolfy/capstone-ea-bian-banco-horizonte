@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Customer Credit Rating State"
+    id="id-7696e52c0747484d946d9147e71a8556"
+    documentation="[CONTROL RECORD: Customer Credit Rating State] Service Domain propietario: Customer Credit Rating  DERIVACION   Functional Pattern : Monitor   Asset Type         : Customer Credit Rating   Control Record     : Customer Credit Rating State   (Asset Type + Generic Artifact)   Atributos publicados: 14   Behavior Qualifiers: 3  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-03 Motor de Scoring Crediticio   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-03 Motor de Scoring Crediticio   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 12   Eventos outbound publicados    : 8   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Customer Credit Rating State"/>
+  <properties
+      key="bianServiceDomain"
+      value="Customer Credit Rating"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-03"/>
+</archimate:BusinessObject>

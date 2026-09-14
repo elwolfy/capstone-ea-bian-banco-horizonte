@@ -1,0 +1,12 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PN-02.8  Desembolso"
+    id="id-b11f37b24d3946f9ac886471ff989da3"
+    documentation="Actividad del proceso PN-02 de Banco Horizonte.&#xA;-------------------------------------------------&#xA;DERIVACION&#xA;  Patron funcional : Transact&#xA;  Tipo de activo   : Disbursement&#xA;  Service Domain   : Disbursement&#xA;  Ubicacion Matrix : Operations and Execution > Cross Product Operations > Operational Services&#xA;-------------------------------------------------&#xA;Transact sobre el desembolso, con Control Record propio. Se invoca desde la facilidad de producto.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_Consolidado_v14"/>
+  <properties
+      key="serviceDomain"
+      value="Disbursement"/>
+</archimate:BusinessProcess>

@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-34b9adfa0c5e4769a2b96380e8c44374"
+    documentation="El Service Domain Financial Accounting sirve a la capacidad H1.1 Contabilidad y Registro Financiero (Ledger).&#xA;-------------------------------------------------&#xA;Llevar el log de asientos es la contabilidad en su definición literal. Cuatro invocaciones desde tres procesos, una sola capacidad.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-19a79086c4c74c4e97638bc631928fd6.xml#id-19a79086c4c74c4e97638bc631928fd6"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-f4f196ace955432cbe02cfaa76f3a74a.xml#id-f4f196ace955432cbe02cfaa76f3a74a"/>
+</archimate:ServingRelationship>

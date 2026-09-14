@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Administration"
+    id="id-88be11c028cf40cda5ebbd54fe6a4bb2"
+    documentation="[SERVICE DOMAIN: Partner Administration]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Administer&#xA;  Asset Type         : Partner&#xA;  Generic Artifact   : Administrative Plan&#xA;  Control Record     : Partner Administrative Plan&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Reference Data&#xA;  Business Domain : External Agency&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain handle the day-to-day operations of a collaborative partner&#xA;  related services.&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (10)&#xA;  Budget Type | Budget | Assignment | Duty | Associated Party | Budget Balance |&#xA;  Subject Matter | Type | Reference | Description&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Administer"/>
+  <properties
+      key="bianAssetType"
+      value="Partner"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Administrative Plan"/>
+  <properties
+      key="bianControlRecord"
+      value="Partner Administrative Plan"/>
+</archimate:Capability>

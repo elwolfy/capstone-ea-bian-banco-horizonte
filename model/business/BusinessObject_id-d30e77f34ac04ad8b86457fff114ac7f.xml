@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Financial Statements Analysis"
+    id="id-d30e77f34ac04ad8b86457fff114ac7f"
+    documentation="[CONTROL RECORD: Financial Statements Analysis] Service Domain propietario: Financial Statements  DERIVACION   Functional Pattern : Analyze   Asset Type         : Financial Statements   Control Record     : Financial Statements Analysis   (Asset Type + Generic Artifact)   Atributos publicados: en elaboracion   Behavior Qualifiers: en elaboracion  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-11 Contabilidad / ERP   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-11 Contabilidad / ERP   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  BRECHA DE DATO   Los estados se generan sobre un ledger que se reconstruye a mano. El dominio es   correcto; su insumo no.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 0   Eventos outbound publicados    : 0   BOM mapping                    : en elaboracion   ISO 20022 / Semantics Alignment: en elaboracion  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Financial Statements Analysis"/>
+  <properties
+      key="bianServiceDomain"
+      value="Financial Statements"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-11"/>
+</archimate:BusinessObject>

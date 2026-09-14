@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-aa62c22d6ce641919ce6ce565598b711"
+    documentation="El Service Domain Partner Administration sirve a la capacidad M6.2 Red de Corresponsalía / Agentes.&#xA;-------------------------------------------------&#xA;Administrar el plan del socio —habilitarlo, activarlo, mantenerlo operativo— es la administración de la red, distinta de pactar la relación, que es E1.4.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-5dceb0b7817444f78a778c7883103c49.xml#id-5dceb0b7817444f78a778c7883103c49"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-281ce8abdeff4dd7b188a14d17b066cf.xml#id-281ce8abdeff4dd7b188a14d17b066cf"/>
+</archimate:ServingRelationship>

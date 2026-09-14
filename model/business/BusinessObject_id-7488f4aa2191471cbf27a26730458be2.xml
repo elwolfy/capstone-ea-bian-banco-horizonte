@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Document Directory Entry"
+    id="id-7488f4aa2191471cbf27a26730458be2"
+    documentation="[CONTROL RECORD: Document Directory Entry] Service Domain propietario: Document Directory  DERIVACION   Functional Pattern : Catalog   Asset Type         : Document   Control Record     : Document Directory Entry   (Asset Type + Generic Artifact)   Atributos publicados: 33   Behavior Qualifiers: 6  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-05 Portal de Vinculación, sin sistema (manual)   Copias no gobernadas        : ninguna   Dueno objetivo              : gestor documental   Veredicto                   : DUENO DISPERSO - Más de un sistema ejerce el mismo patrón sobre el mismo activo  BRECHA DE DATO   El expediente de crédito (PN-02 act.2) se arma a mano. Sin Document Verification   Properties ni control de versión.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 44   Eventos outbound publicados    : 23   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Document Directory Entry"/>
+  <properties
+      key="bianServiceDomain"
+      value="Document Directory"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO DISPERSO"/>
+  <properties
+      key="duenoObjetivo"
+      value="gestor documental"/>
+</archimate:BusinessObject>

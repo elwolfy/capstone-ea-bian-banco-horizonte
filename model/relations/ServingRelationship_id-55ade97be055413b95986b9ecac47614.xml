@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-55ade97be055413b95986b9ecac47614"
+    documentation="El Service Domain Payment Orchestration sirve a la capacidad M5.2 Pagos Inmediatos Interbancarios.&#xA;-------------------------------------------------&#xA;Enrutar y coordinar la instrucción por el rail adecuado es la capacidad de pagos inmediatos interbancarios: es donde el banco decide por dónde sale el dinero.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-58d47aa3cb9e4d61b8ca81d4422c5753.xml#id-58d47aa3cb9e4d61b8ca81d4422c5753"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-908daa756efa4960af64544357f38117.xml#id-908daa756efa4960af64544357f38117"/>
+</archimate:ServingRelationship>

@@ -1,0 +1,16 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sirve a"
+    id="id-1b464db926aa47b1a9e771c616b3b228"
+    documentation="El Service Domain Customer Agreement sirve a la capacidad M2.2 Gestión de Acuerdos y Contratos.&#xA;-------------------------------------------------&#xA;El acuerdo marco es el contrato raíz de la relación. De él cuelgan los contratos de producto, y por eso encabeza la capacidad de acuerdos.">
+  <properties
+      key="generadoPor"
+      value="Horizonte_CapacidadesL2_v14"/>
+  <source
+      xsi:type="archimate:Capability"
+      href="Capability_id-7f371ecc006946e8bc34b3aa8544fc22.xml#id-7f371ecc006946e8bc34b3aa8544fc22"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-9b0c055e46534bc7955c3739f5d63f5f.xml#id-9b0c055e46534bc7955c3739f5d63f5f"/>
+</archimate:ServingRelationship>

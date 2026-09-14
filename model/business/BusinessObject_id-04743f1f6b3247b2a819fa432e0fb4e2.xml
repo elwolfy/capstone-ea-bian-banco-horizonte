@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Partner Event Log"
+    id="id-04743f1f6b3247b2a819fa432e0fb4e2"
+    documentation="[CONTROL RECORD: Partner Event Log] Service Domain propietario: Operations Log  DERIVACION   Functional Pattern : Track   Asset Type         : Partner Event   Control Record     : Partner Event Log   (Asset Type + Generic Artifact)   Atributos publicados: 14   Behavior Qualifiers: en elaboracion  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-09 Plataforma de Agentes   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-09 Plataforma de Agentes   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  BRECHA DE DATO   El log de eventos del socio se alimenta por lote nocturno. No hay seguimiento en   línea.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 0   Eventos outbound publicados    : 2   BOM mapping                    : publicado   ISO 20022 / Semantics Alignment: publicado  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Partner Event Log"/>
+  <properties
+      key="bianServiceDomain"
+      value="Operations Log"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-09"/>
+</archimate:BusinessObject>

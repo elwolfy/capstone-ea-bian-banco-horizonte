@@ -1,0 +1,27 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Underwriting"
+    id="id-fe484490dc7844e6957d7b09d111384b"
+    documentation="[SERVICE DOMAIN: Underwriting]&#xA;BIAN Service Landscape V14.0 - vista MATRIX&#xA;&#xA;DERIVACION&#xA;  Functional Pattern : Assess&#xA;  Asset Type         : Underwriting&#xA;  Generic Artifact   : Assessment&#xA;  Control Record     : Underwriting Assessment&#xA;                       (Asset Type + Generic Artifact)&#xA;&#xA;UBICACION MATRIX&#xA;  Business Area   : Sales and Service&#xA;  Business Domain : Sales&#xA;&#xA;BUSINESS DEFINITION&#xA;  This service domain manages the underwriting decision process for products as&#xA;  appropriate (including many loan types and some insurance products)&#xA;&#xA;ATRIBUTOS DEL CONTROL RECORD (27)&#xA;  Underwriting Guidelines | Required Customer Employment History Details | Required&#xA;  Customer Debt/Asset Statement | Required Customer Credit Assessment | Required&#xA;  Collateral Coverage | Required Customer Product and Service Payment History |&#xA;  Required Customer Documents | Proposed Transaction Details | Product Instance&#xA;  Reference | Proposed Loan Terms | Proposed Loan Amount | Loan Purpose | Customer&#xA;  Reference | Customer Reference Details | Customer Product Eligibility Terms |&#xA;  Customer Employment History | Customer Income Statement | Customer Debt Statement |&#xA;  Customer Asset Statement | Customer Credit Assessment | Customer Product and Service&#xA;  Payment History | Collateral Item Reference | Collateral Item Type | Collateral Item&#xA;  Valuation | Document Reference | Decision | Work Product&#xA;&#xA;INTERFAZ&#xA;  Action Terms : Evaluate Update Execute Request Exchange Grant Retrieve&#xA;  Inbound  : 7 operaciones&#xA;  Outbound : 2 eventos&#xA;&#xA;SEMANTICA&#xA;  BOM mapping : Si&#xA;  ISO 20022   : Si">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ServiceDomains_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianVista"
+      value="Matrix"/>
+  <properties
+      key="bianFunctionalPattern"
+      value="Assess"/>
+  <properties
+      key="bianAssetType"
+      value="Underwriting"/>
+  <properties
+      key="bianGenericArtifact"
+      value="Assessment"/>
+  <properties
+      key="bianControlRecord"
+      value="Underwriting Assessment"/>
+</archimate:Capability>

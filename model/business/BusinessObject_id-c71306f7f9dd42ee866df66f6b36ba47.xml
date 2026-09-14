@@ -1,0 +1,24 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Payment Confirmation Details"
+    id="id-c71306f7f9dd42ee866df66f6b36ba47"
+    documentation="[CONTROL RECORD: Payment Confirmation Details] Service Domain propietario: Payment Confirmation  DERIVACION   Functional Pattern : Process   Asset Type         : Payment Confirmation   Control Record     : Payment Confirmation Details   (Asset Type + Generic Artifact)   Atributos publicados: en elaboracion   Behavior Qualifiers: en elaboracion  PROPIEDAD DEL DATO EN EL AS-IS   Objeto de negocio del banco : no modelado como objeto   Sistemas que lo ejercen hoy : APP-13 Monitoreo PLAFT   Copias no gobernadas        : ninguna   Dueno objetivo              : APP-13 Monitoreo PLAFT   Veredicto                   : DUENO UNICO - Un solo sistema ejerce y mantiene el Control Record  BRECHA DE DATO   Solo se ejecuta la comprobación PLAFT. Pricing, FX Conversion, Risk Checks, Funding   Source/Authorization y Funds earmarking no tienen registro.  INTERFAZ Y SEMANTICA   Operaciones inbound publicadas : 0   Eventos outbound publicados    : 0   BOM mapping                    : en elaboracion   ISO 20022 / Semantics Alignment: en elaboracion  Fuente: bian.org/servicelandscape-14-0-0 (vista Matrix, SD Overview y Control Record Diagram) e inventario de aplicaciones AS-IS de Banco Horizonte (M2).">
+  <properties
+      key="generadoPor"
+      value="Horizonte_ArquitecturaDatos_v14"/>
+  <properties
+      key="bianVersion"
+      value="14.0.0"/>
+  <properties
+      key="bianControlRecord"
+      value="Payment Confirmation Details"/>
+  <properties
+      key="bianServiceDomain"
+      value="Payment Confirmation"/>
+  <properties
+      key="veredictoPropiedad"
+      value="DUENO UNICO"/>
+  <properties
+      key="duenoObjetivo"
+      value="APP-13"/>
+</archimate:BusinessObject>
